@@ -1,2 +1,2 @@
-# server-application
+# 服务器应用漏洞
 
