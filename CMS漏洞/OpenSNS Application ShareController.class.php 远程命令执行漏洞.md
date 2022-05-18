@@ -1,4 +1,4 @@
-# OpenSNS shareBox 远程命令执行漏洞
+# OpenSNS Application ShareController.class.php 远程命令执行漏洞
 
 ## 漏洞描述
 
@@ -21,6 +21,10 @@ icon_hash="1167011145"
 登录页面如下
 
 ![](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202170923817.png)
+
+存在漏洞的文件 `Application/Weibo/Controller/ShareController.class.php`
+
+![image-20220518154015894](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202205181540972.png)
 
 发送Payload
 
