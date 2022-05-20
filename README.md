@@ -68,7 +68,14 @@
   * 齐博CMS V7 job.php 任意文件读取漏洞
 - OA产品漏洞
 
+  * 一米OA getfile.jsp 任意文件读取漏洞
+  * 万户OA download_ftp.jsp 任意文件下载漏洞
+  * 万户OA download_old.jsp 任意文件下载漏洞
+  * 万户OA downloadhttp.jsp 任意文件下载漏洞
   * 万户OA fileUpload.controller 任意文件上传漏洞
+  * 万户OA showResult.action 后台SQL注入漏洞
+  * 万户OA smartUpload.jsp 任意文件上传漏洞
+  * 信呼OA beifenAction.php 后台目录遍历漏洞
   * 华天动力OA 8000版 workFlowService SQL注入漏洞
   * 启莱OA CloseMsg.aspx SQL注入漏洞
   * 启莱OA messageurl.aspx SQL注入漏洞
@@ -78,40 +85,72 @@
   * 帆软报表 V8 任意文件读取漏洞 CNVD-2018-04757
   * 帆软报表 V9 任意文件覆盖文件上传
   * 新点OA ExcelExport 敏感信息泄露漏洞
+  * 智明 SmartOA EmailDownload.ashx 任意文件下载漏洞
   * 泛微OA DBconfigReader.jsp 数据库配置信息泄漏漏洞
   * 泛微OA E-Bridge saveYZJFile 任意文件读取漏洞
   * 泛微OA E-Cology BshServlet 远程代码执行漏洞 CNVD-2019-32204
+  * 泛微OA E-Cology getSqlData SQL注入漏洞
+  * 泛微OA E-Cology LoginSSO.jsp SQL注入漏洞 CNVD-2021-33202
+  * 泛微OA E-Cology users.data 敏感信息泄漏
+  * 泛微OA E-Office group_xml.php SQL注入漏洞
   * 泛微OA E-Office mysql_config.ini 数据库信息泄漏漏洞
+  * 泛微OA E-Office officeserver.php 任意文件读取漏洞
+  * 泛微OA E-Office UploadFile.php 任意文件上传漏洞 CNVD-2021-49104
+  * 泛微OA E-Office UserSelect 未授权访问漏洞
   * 泛微OA getdata.jsp SQL注入漏洞
+  * 泛微OA ln.FileDownload 任意文件读取漏洞
   * 泛微OA sysinterfacecodeEdit.jsp 任意文件上传漏洞
   * 泛微OA uploadOperation.jsp 任意文件上传
   * 泛微OA weaver.common.Ctrl 任意文件上传漏洞
   * 泛微OA WorkflowCenterTreeData SQL注入漏洞
   * 泛微OA WorkflowServiceXml RCE
   * 用友 ERP-NC NCFindWeb 目录遍历漏洞
+  * 用友 FE协作办公平台 templateOfTaohong_manager.jsp 目录遍历漏洞
   * 用友 GRP-U8 Proxy SQL注入 CNNVD-201610-923
   * 用友 NC bsh.servlet.BshServlet 远程命令执行漏洞
   * 用友 NC NCFindWeb 任意文件读取漏洞
   * 用友 NC XbrlPersistenceServlet反序列化
   * 用友 NC 反序列化RCE漏洞
   * 用友 NCCloud FS文件管理SQL注入
+  * 用友 U8 OA getSessionList.jsp 敏感信息泄漏漏洞
   * 用友 U8 OA test.jsp SQL注入漏洞
+  * 红帆OA ioFileExport.aspx 任意文件读取漏洞
+  * 致翔OA msglog.aspx SQL注入漏洞
+  * 致远OA A6 config.jsp 敏感信息泄漏漏洞
+  * 致远OA A6 createMysql.jsp 数据库敏感信息泄露
+  * 致远OA A6 DownExcelBeanServlet 用户敏感信息泄露
+  * 致远OA A6 initDataAssess.jsp 用户敏感信息泄露
+  * 致远OA A6 setextno.jsp SQL注入漏洞
+  * 致远OA A6 test.jsp SQL注入漏洞
+  * 致远OA A8 htmlofficeservlet 任意文件上传漏洞
+  * 致远OA A8 status.jsp 信息泄露漏洞
+  * 致远OA ajax.do 任意文件上传 CNVD-2021-01627
+  * 致远OA getSessionList.jsp Session泄漏漏洞
+  * 致远OA webmail.do 任意文件下载 CNVD-2020-62422
   * 蓝凌OA admin.do JNDI远程命令执行
   * 蓝凌OA custom.jsp 任意文件读取漏洞
   * 蓝凌OA kmImeetingRes.do 后台SQL注入漏洞 CNVD-2021-01363
+  * 蓝凌OA sysSearchMain.do 远程命令执行漏洞
   * 通达OA v11.2 upload.php 后台任意文件上传漏洞
   * 通达OA v11.5 login_code.php 任意用户登录
+  * 通达OA v11.5 logincheck_code.php 登陆绕过漏洞
+  * 通达OA v11.5 swfupload_new.php SQL注入漏洞
   * 通达OA v11.6 print.php 任意文件删除&RCE
+  * 通达OA v11.6 report_bi.func.php SQL注入漏洞
   * 通达OA v11.7 auth_mobi.php 在线用户登录漏洞
   * 通达OA v11.7 delete_cascade.php 后台SQL注入
+  * 通达OA v11.8 api.ali.php 任意文件上传漏洞
+  * 通达OA v11.8 getway.php 远程文件包含漏洞
   * 通达OA v11.8 update.php 后台文件包含XSS漏洞
   * 通达OA v11.8 update.php 后台文件包含命令执行漏洞
   * 通达OA v11.9 upsharestatus 后台SQL注入漏洞
+  * 通达OA v2014 get_contactlist.php 敏感信息泄漏漏洞
   * 通达OA v2017 action_upload.php 任意文件上传漏洞
   * 通达OA 部分漏洞信息整合
   * 金和OA C6 DossierBaseInfoView.aspx 后台越权信息泄露漏洞
   * 金和OA C6 download.jsp 任意文件读取漏洞
   * 金和OA C6 OpenFile.aspx 后台越权敏感文件遍历漏洞
+  * 金蝶OA Apusic应用服务器(中间件) server_file 目录遍历漏洞
   * 金蝶OA server_file 目录遍历漏洞
 - Web应用漏洞
 
@@ -265,6 +304,7 @@
   * Spring Cloud Function SPEL 远程命令执行漏洞
 - 开发语言漏洞
 
+  * GO TLS握手 崩溃漏洞 CVE-2021-34558
   * PHP zerodium后门漏洞
 - 操作系统漏洞
 
