@@ -163,16 +163,39 @@
   * Alibaba AnyProxy fetchBody 任意文件读取漏洞
   * Alibaba Canal config 云密钥信息泄露漏洞
   * Alibaba Nacos 未授权访问漏洞
-  * Atlassian Jira 信息泄露漏洞 CVE-2020-14181
+  * Appspace jsonprequest SSRF漏洞 CVE-2021-27670
+  * Atlassian Bitbucket 登录绕过漏洞
+  * Atlassian Confluence doenterpagevariables.action 远程命令执行漏洞 CVE-2021-26084
+  * Atlassian Confluence preview SSTI模版注入漏洞 CVE-2019-3396
+  * Atlassian Jira cfx 任意文件读取漏洞 CVE-2021-26086
+  * Atlassian Jira com.atlassian.jira 敏感信息泄漏 CVE-2019-8442
+  * Atlassian Jira groupuserpicker 用户信息枚举漏洞 CVE-2019-8449
+  * Atlassian Jira makeRequest SSRF漏洞 CVE-2019-8451
+  * Atlassian Jira ViewUserHover.jspa 用户信息泄露漏洞 CVE-2020-14181
   * AVCON6 系统管理平台 download.action 任意文件下载漏洞
   * AVCON6 系统管理平台 org_execl_download.action 任意文件下载漏洞
+  * Casbin get-users 账号密码泄漏漏洞
+  * Cerebro request SSRF漏洞
   * Citrix XenMobile 任意文件读取 CVE-2020-8209
+  * CMA客诉管理系统 upFile.ashx 任意文件上传漏洞
   * Coremail 配置信息泄露漏洞
+  * Crawlab file 任意文件读取漏洞
+  * Crawlab users 任意用户添加漏洞
   * E-message 越权访问漏洞
+  * eGroupWare spellchecker.php 远程命令执行漏洞
+  * Evolucare Ecsimaging download_stats_dicom.php 任意文件读取漏洞
+  * Evolucare Ecsimaging new_movie.php 远程命令执行漏洞
+  * F5 BIG-IP iControl REST身份认证绕过漏洞 CVE-2022-1388
   * F5 BIG-IP 远程代码执行漏洞 CVE-2020-5902
   * F5 BIG-IP 远程代码执行漏洞 CVE-2021-22986
+  * Fhem FileLog_logWrapper 任意文件读取漏洞 CVE-2020-19360
+  * Gerapy clone 后台远程命令执行漏洞 CVE-2021-32849
+  * Gerapy parse 后台远程命令执行漏洞
+  * Gerapy read 后台任意文件读取漏洞
   * GitLab Graphql邮箱信息泄露漏洞 CVE-2020-26413
   * GitLab SSRF漏洞 CVE-2021-22214
+  * Grafana mysql 后台任意文件读取漏洞 CVE-2019-19499
+  * Grafana plugins 任意文件读取漏洞 CVE-2021-43798
   * H3C IMC dynamiccontent.properties.xhtm 远程命令执行
   * H3C SecParh堡垒机 data_provider.php 远程命令执行漏洞
   * H3C SecParh堡垒机 get_detail_view.php 任意用户登录漏洞
@@ -181,14 +204,21 @@
   * IBOS 数据库模块 后台任意文件上传漏洞
   * ICEFlow VPN 信息泄露漏洞
   * IceWarp WebClient basic 远程命令执行漏洞
+  * imo 云办公室 corpfile.php 远程命令执行漏洞
+  * imo 云办公室 get_file.php 远程命令执行漏洞
+  * imo 云办公室 Imo_DownLoadUI.php 任意文件下载漏洞
   * JD-FreeFuck 后台命令执行漏洞
+  * Jellyfin RemoteImageController.cs SSRF漏洞 CVE-2021-29490
   * Jellyfin 任意文件读取漏洞 CVE-2021-21402
   * JumpServer 未授权接口 远程命令执行漏洞
   * Jupyter Notebook 未授权访问远程命令执行漏洞
   * kkFileView getCorsFile 任意文件读取漏洞 CVE-2021-43734
   * Konga 普通用户越权获取管理员权限漏洞
   * Lanproxy 目录遍历漏洞 CVE-2021-3019
+  * LimeSurvey LimeSurveyFileManager.php 后台任意文件读取漏洞 CVE-2020-11455
   * MessageSolution 邮件归档系统EEA 信息泄露漏洞 CNVD-2021-10543
+  * Metabase geojson 任意文件读取漏洞 CVE-2021-41277
+  * MKdocs 任意文件读取漏洞 CVE-2021-40978
   * Nexus Repository Manger change-password 低权限修改管理员密码漏洞 CVE-2020-11444
   * Nexus Repository Manger extdirect 后台远程命令执行 CVE-2020-10204
   * Nexus Repository Manger extdirect 远程命令执行 CVE-2019-7238
@@ -197,16 +227,23 @@
   * OneBlog 小于v2.2.1 远程命令执行漏洞
   * Riskscanner list SQL注入漏洞
   * Seo-Panel 4.8.0 反射型XSS漏洞 CVE-2021-3002
-  * ShowDoc 任意文件上传漏洞
+  * ShowDoc AdminUpdateController.class.php 任意文件上传漏洞 CVE-2021-36440
+  * ShowDoc PageController.class.php 任意文件上传漏洞
   * SonarQube search_projects 项目信息泄露漏洞
   * SonarQube values 信息泄露漏洞 CVE-2020-27986
+  * SpiderFlow save 远程命令执行漏洞
   * TamronOS IPTV系统 ping 任意命令执行漏洞
   * TamronOS IPTV系统 submit 任意用户创建漏洞
+  * TerraMaster TOS createRaid 远程命令执行漏洞 CVE-2022-24989
   * TerraMaster TOS exportUser.php 远程命令执行
+  * TerraMaster TOS makecvs.php 远程命令执行漏洞 CVE-2020-28188
   * Terra Master TOS RCE CVE 2020 28188
   * TerraMaster TOS 任意账号密码修改漏洞 CVE-2020-28186
+  * TerraMaster TOS 信息泄漏漏洞 CVE-2022-24990
   * TerraMaster TOS 后台任意文件读取漏洞 CVE-2020-28187
   * TerraMaster TOS 用户枚举漏洞 CVE-2020-28185
+  * WSO2 fileupload 任意文件上传漏洞 CVE-2022-29464
+  * WSO2 proxy SSRF漏洞 WSO2-2019-0598
   * XXL-JOB 任务调度中心 后台任意命令执行漏洞
   * YApi 接口管理平台 后台命令执行漏洞
   * 三汇SMG 网关管理软件 down.php 任意文件读取漏洞
@@ -308,10 +345,13 @@
   * PHP zerodium后门漏洞
 - 操作系统漏洞
 
+  * Linux DirtyPipe权限提升漏洞 CVE-2022-0847
   * Linux kernel权限提升漏洞 CVE-2021-3493
+  * Linux Polkit权限提升漏洞 CVE-2021-4034
   * Linux sudo权限提升漏洞 CVE-2021-3156
   * Windows CryptoAPI欺骗漏洞 CVE-2020-0601
   * Windows SMB远程代码执行漏洞 CVE-2020-0796
+  * Windows Win32k 内核提权漏洞 CVE-2022-21882
   * Windows Win32k 本地提权漏洞 CVE-2021-1732
 - 服务器应用漏洞
 
@@ -326,13 +366,19 @@
   * OpenSSH 命令注入漏洞 CVE-2020-15778
   * OpenSSL 心脏滴血漏洞 CVE-2014-0160
   * QEMU 虚拟机逃逸漏洞 CVE-2020-14364
+  * Redis Lua 沙箱绕过 远程命令执行 CVE-2022-0543
   * Redis 小于5.0.5 主从复制 RCE
   * SaltStack 未授权访问命令执行漏洞 CVE-2020-16846 25592
   * Saltstack 远程命令执行漏洞 CVE-2020-11651 11652
   * VMware vCenter 任意文件读取漏洞
   * VMware vRealize Operations Manager SSRF漏洞 CVE-2021-21975
+  * VMware Workspace ONE Access SSTI漏洞 CVE-2022-22954
   * VoIPmonitor 远程命令执行漏洞 CVE-2021-30461
   * Windows Chrome 远程命令执行漏洞
+  * WordPress 3DPrint Lite 3dprint-lite-functions.php 任意文件上传漏洞
+  * WordPress Duplicator duplicator.php 任意文件读取漏洞 CVE-2020-11738
+  * WordPress Redux Framework class-redux-helpers.php 敏感信息泄漏漏洞 CVE-2021-38314
+  * 向日葵 check 远程命令执行漏洞 CNVD-2022-10270
 - 网络设备漏洞
 
   * ACTI 视频监控 images 任意文件读取漏洞
