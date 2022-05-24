@@ -1,4 +1,4 @@
-# 泛微OA getdata.jsp SQL注入漏洞
+# 泛微OA V8 getdata.jsp SQL注入漏洞
 
 ## 漏洞描述
 
