@@ -38,7 +38,7 @@
   * PbootCMS domain SQL注入漏洞
   * PbootCMS ext_price SQL注入漏洞
   * PbootCMS search SQL注入漏洞
-  * Pd-CMS Shiro默认密钥 远程命令执行漏洞
+  * Pb-CMS Shiro默认密钥 远程命令执行漏洞
   * ShopXO download 任意文件读取漏洞 CNVD-2021-15822
   * TypesetterCMS 后台任意文件上传
   * WeiPHP3.0 session_id 任意文件上传漏洞
