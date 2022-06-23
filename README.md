@@ -35,10 +35,10 @@
   * OpenSNS CurlModel.class.php SSRF漏洞
   * OpenSNS ThemeController.class.php 后台任意文件上传漏洞
   * OpenSNS ThemeController.class.php 后台任意文件下载漏洞
+  * Pb-CMS Shiro默认密钥 远程命令执行漏洞
   * PbootCMS domain SQL注入漏洞
   * PbootCMS ext_price SQL注入漏洞
   * PbootCMS search SQL注入漏洞
-  * Pb-CMS Shiro默认密钥 远程命令执行漏洞
   * ShopXO download 任意文件读取漏洞 CNVD-2021-15822
   * TypesetterCMS 后台任意文件上传
   * WeiPHP3.0 session_id 任意文件上传漏洞
@@ -388,6 +388,7 @@
 - 操作系统漏洞
 
   * Linux DirtyPipe权限提升漏洞 CVE-2022-0847
+  * Linux eBPF权限提升漏洞 CVE-2022-23222
   * Linux kernel权限提升漏洞 CVE-2021-3493
   * Linux Polkit权限提升漏洞 CVE-2021-4034
   * Linux sudo权限提升漏洞 CVE-2021-3156
@@ -420,6 +421,7 @@
   * WordPress 3DPrint Lite 3dprint-lite-functions.php 任意文件上传漏洞
   * WordPress Duplicator duplicator.php 任意文件读取漏洞 CVE-2020-11738
   * WordPress Redux Framework class-redux-helpers.php 敏感信息泄漏漏洞 CVE-2021-38314
+  * WordPress WP_Query SQL 注入漏洞 CVE-2022-21661
   * 向日葵 check 远程命令执行漏洞 CNVD-2022-10270
 - 网络设备漏洞
 
