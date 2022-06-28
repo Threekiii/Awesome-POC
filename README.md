@@ -223,6 +223,7 @@
   * Nexus Repository Manger extdirect 后台远程命令执行 CVE-2020-10204
   * Nexus Repository Manger extdirect 远程命令执行 CVE-2019-7238
   * Nexus Repository Manger group 后台远程命令执行 CVE-2020-10199
+  * nginxWebUI cmdOver 后台命令执行漏洞
   * Node-RED ui_base 任意文件读取漏洞
   * OneBlog 小于v2.2.1 远程命令执行漏洞
   * Riskscanner list SQL注入漏洞
@@ -242,10 +243,13 @@
   * TerraMaster TOS 信息泄漏漏洞 CVE-2022-24990
   * TerraMaster TOS 后台任意文件读取漏洞 CVE-2020-28187
   * TerraMaster TOS 用户枚举漏洞 CVE-2020-28185
+  * WiseGiga NAS down_data.php 任意文件下载漏洞
+  * WiseGiga NAS group.php 远程命令执行漏洞
   * WSO2 fileupload 任意文件上传漏洞 CVE-2022-29464
   * WSO2 proxy SSRF漏洞 WSO2-2019-0598
   * XXL-JOB 任务调度中心 后台任意命令执行漏洞
   * YApi 接口管理平台 后台命令执行漏洞
+  * 七牛云 logkit log_path 任意文件读取漏洞
   * 三汇SMG 网关管理软件 down.php 任意文件读取漏洞
   * 中新金盾信息安全管理系统 默认超级管理员密码漏洞
   * 中科网威 NPFW防火墙 CommandsPolling.php 任意文件读取漏洞
@@ -380,6 +384,8 @@
   * Laravel 小于 8.4.2 Debug模式 _ignition 远程代码执行漏洞 CVE-2021-3129
   * MotionEye 视频监控组件 list 信息泄漏洞 CVE-2022-25568
   * PHPUnit eval-stdin.php 远程命令执行漏洞 CVE-2017-9841
+  * Rails Accept 任意文件读取漏洞 CVE-2019-5418
+  * Rails sprockets 任意文件读取漏洞 CVE-2018-3760
   * Spring Cloud Function SPEL 远程命令执行漏洞
 - 开发语言漏洞
 
