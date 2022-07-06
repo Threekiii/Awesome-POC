@@ -90,6 +90,7 @@
   * 泛微OA E-Bridge saveYZJFile 任意文件读取漏洞
   * 泛微OA E-Cology BshServlet 远程代码执行漏洞 CNVD-2019-32204
   * 泛微OA E-Cology getSqlData SQL注入漏洞
+  * 泛微OA E-Cology HrmCareerApplyPerView.jsp SQL注入漏洞
   * 泛微OA E-Cology LoginSSO.jsp SQL注入漏洞 CNVD-2021-33202
   * 泛微OA E-Cology users.data 敏感信息泄漏
   * 泛微OA E-Office group_xml.php SQL注入漏洞
@@ -97,6 +98,7 @@
   * 泛微OA E-Office officeserver.php 任意文件读取漏洞
   * 泛微OA E-Office UploadFile.php 任意文件上传漏洞 CNVD-2021-49104
   * 泛微OA E-Office UserSelect 未授权访问漏洞
+  * 泛微OA E-Weaver SignatureDownLoad 任意文件读取漏洞
   * 泛微OA getdata.jsp SQL注入漏洞
   * 泛微OA ln.FileDownload 任意文件读取漏洞
   * 泛微OA sysinterfacecodeEdit.jsp 任意文件上传漏洞
