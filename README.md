@@ -86,6 +86,7 @@
   * 帆软报表 V9 任意文件覆盖文件上传
   * 新点OA ExcelExport 敏感信息泄露漏洞
   * 智明 SmartOA EmailDownload.ashx 任意文件下载漏洞
+  * 极限OA video_file.php 任意文件读取漏洞
   * 泛微OA DBconfigReader.jsp 数据库配置信息泄漏漏洞
   * 泛微OA E-Bridge saveYZJFile 任意文件读取漏洞
   * 泛微OA E-Cology BshServlet 远程代码执行漏洞 CNVD-2019-32204
@@ -148,6 +149,7 @@
   * 通达OA v11.9 upsharestatus 后台SQL注入漏洞
   * 通达OA v2014 get_contactlist.php 敏感信息泄漏漏洞
   * 通达OA v2017 action_upload.php 任意文件上传漏洞
+  * 通达OA v2017 video_file.php 任意文件下载漏洞
   * 通达OA 部分漏洞信息整合
   * 金和OA C6 DossierBaseInfoView.aspx 后台越权信息泄露漏洞
   * 金和OA C6 download.jsp 任意文件读取漏洞
@@ -408,6 +410,7 @@
 
   * ClickHouse API 数据库接口未授权访问漏洞
   * Elasticsearch 未授权访问
+  * Franklin Fueling Systems tsaupload.cgi 任意文件读取漏洞 CVE-2021-46417
   * Git for Visual Studio远程执行代码漏洞 CVE-2021-21300
   * Git-LFS 远程命令执行漏洞 CVE-2020-27955
   * Microsoft Exchange SSRF漏洞 CVE-2021-26885
@@ -429,6 +432,7 @@
   * WordPress 3DPrint Lite 3dprint-lite-functions.php 任意文件上传漏洞
   * WordPress Duplicator duplicator.php 任意文件读取漏洞 CVE-2020-11738
   * WordPress Redux Framework class-redux-helpers.php 敏感信息泄漏漏洞 CVE-2021-38314
+  * WordPress Simple File List ee-downloader.php 任意文件读取漏洞 CVE-2022-1119
   * WordPress WP_Query SQL 注入漏洞 CVE-2022-21661
   * 向日葵 check 远程命令执行漏洞 CNVD-2022-10270
 - 网络设备漏洞
@@ -443,6 +447,7 @@
   * Cisco HyperFlex HX upload 任意文件上传漏洞 CVE-2021-1499
   * Crestron aj.html 账号密码泄漏漏洞 CVE-2022-23178
   * D-Link AC管理系统 默认账号密码
+  * D-LINK DAP-2020 webproc 任意文件读取漏洞 CVE-2021-27250
   * D-Link DAR-8000 importhtml.php 远程命令执行漏洞
   * D-Link DCS系列监控 账号密码信息泄露漏洞 CVE-2020-25078
   * D-Link Dir-645 getcfg.php 账号密码泄露漏洞 CVE-2019-17506
@@ -521,6 +526,8 @@
   * 宏电 H8922 后台任意文件读取漏洞 CVE-2021-28152
   * 宏电 H8922 后台命令执行漏洞 CVE-2021-28150
   * 宏电 H8922 后台管理员信息泄露漏洞 CVE-2021-28151
+  * 小米 路由器 c_upload 远程命令执行漏洞 CVE-2019-18370
+  * 小米 路由器 extdisks 任意文件读取漏洞 CVE-2019-18371
   * 悦泰节能 智能数据网关 resources 任意文件读取漏洞
   * 惠尔顿 e地通 config.xml 信息泄漏漏洞
   * 朗视 TG400 GSM 网关目录遍历 CVE-2021-27328
