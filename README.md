@@ -130,6 +130,7 @@
   * 蓝凌OA custom.jsp 任意文件读取漏洞
   * 蓝凌OA kmImeetingRes.do 后台SQL注入漏洞 CNVD-2021-01363
   * 蓝凌OA sysSearchMain.do 远程命令执行漏洞
+  * 蓝凌OA treexml.tmpl 远程命令执行漏洞
   * 通达OA v11.2 upload.php 后台任意文件上传漏洞
   * 通达OA v11.5 login_code.php 任意用户登录
   * 通达OA v11.5 logincheck_code.php 登陆绕过漏洞
