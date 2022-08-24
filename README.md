@@ -69,6 +69,7 @@
   * 万户OA download_old.jsp 任意文件下载漏洞
   * 万户OA downloadhttp.jsp 任意文件下载漏洞
   * 万户OA fileUpload.controller 任意文件上传漏洞
+  * 万户OA OfficeServer.jsp 任意文件上传漏洞
   * 万户OA showResult.action 后台SQL注入漏洞
   * 万户OA smartUpload.jsp 任意文件上传漏洞
   * 信呼OA beifenAction.php 后台目录遍历漏洞
@@ -90,6 +91,7 @@
   * 泛微OA E-Cology HrmCareerApplyPerView.jsp SQL注入漏洞
   * 泛微OA E-Cology LoginSSO.jsp SQL注入漏洞 CNVD-2021-33202
   * 泛微OA E-Cology users.data 敏感信息泄漏
+  * 泛微OA E-Cology VerifyQuickLogin.jsp 任意管理员登录漏洞
   * 泛微OA E-Office group_xml.php SQL注入漏洞
   * 泛微OA E-Office mysql_config.ini 数据库信息泄漏漏洞
   * 泛微OA E-Office officeserver.php 任意文件读取漏洞
@@ -106,6 +108,7 @@
   * 用友 ERP-NC NCFindWeb 目录遍历漏洞
   * 用友 FE协作办公平台 templateOfTaohong_manager.jsp 目录遍历漏洞
   * 用友 GRP-U8 Proxy SQL注入 CNNVD-201610-923
+  * 用友 GRP-U8 UploadFileData 任意文件上传漏洞
   * 用友 NC bsh.servlet.BshServlet 远程命令执行漏洞
   * 用友 NC NCFindWeb 任意文件读取漏洞
   * 用友 NC XbrlPersistenceServlet反序列化
@@ -126,6 +129,8 @@
   * 致远OA ajax.do 任意文件上传 CNVD-2021-01627
   * 致远OA getSessionList.jsp Session泄漏漏洞
   * 致远OA webmail.do 任意文件下载 CNVD-2020-62422
+  * 致远OA wpsAssistServlet 任意文件上传漏洞
+  * 致远OA 帆软组件 ReportServer 目录遍历漏洞
   * 蓝凌OA admin.do JNDI远程命令执行
   * 蓝凌OA custom.jsp 任意文件读取漏洞
   * 蓝凌OA kmImeetingRes.do 后台SQL注入漏洞 CNVD-2021-01363
@@ -226,8 +231,10 @@
   * Nexus Repository Manger group 后台远程命令执行 CVE-2020-10199
   * nginxWebUI cmdOver 后台命令执行漏洞
   * Node-RED ui_base 任意文件读取漏洞
+  * NPS auth_key 未授权访问漏洞
   * OneBlog 小于v2.2.1 远程命令执行漏洞
   * Riskscanner list SQL注入漏洞
+  * Roxy-Wi options.py 远程命令执行漏洞 CVE-2022-31137
   * Seo-Panel 4.8.0 反射型XSS漏洞 CVE-2021-3002
   * ShowDoc AdminUpdateController.class.php 任意文件上传漏洞 CVE-2021-36440
   * ShowDoc PageController.class.php 任意文件上传漏洞
@@ -465,6 +472,7 @@
   * HIKVISION 流媒体管理服务器 后台任意文件读取漏洞 CNVD-2021-14544
   * HIKVISION 视频编码设备接入网关 $DATA 任意文件读取
   * HIKVISION 视频编码设备接入网关 showFile.php 任意文件下载漏洞
+  * HIKVISION 综合安防管理平台 applyCT Fastjson远程命令执行漏洞
   * HIKVISION 联网网关 downdb.php 任意文件读取漏洞
   * Huawei DG8045 deviceinfo 信息泄漏漏洞
   * Huawei HG659 lib 任意文件读取漏洞
@@ -491,6 +499,8 @@
   * Selea OCR-ANPR摄像机 get_file.php 任意文件读取漏洞
   * Selea OCR-ANPR摄像机 SeleaCamera 任意文件读取漏洞
   * SonicWall SSL-VPN 远程命令执行漏洞
+  * Teleport堡垒机 do-login 任意用户登录漏洞
+  * Teleport堡垒机 get-file 后台任意文件读取漏洞
   * Tenda 11N无线路由器 Cookie 越权访问漏洞
   * Tenda W15E企业级路由器 RouterCfm.cfg 配置文件泄漏漏洞
   * TOTOLink 多个设备 download.cgi 远程命令执行漏洞 CVE-2022-25084
@@ -519,6 +529,7 @@
   * 大华 城市安防监控系统平台管理 attachment_downloadByUrlAtt.action 任意文件下载漏洞
   * 奇安信 网康 NS-ASG安全网关 cert_download.php 任意文件读取漏洞
   * 奇安信 网康 下一代防火墙 router 远程命令执行漏洞
+  * 安恒 明御WEB应用防火墙 report.php 任意用户登录漏洞
   * 宏电 H8922 Telnet后门漏洞 CVE-2021-28149
   * 宏电 H8922 后台任意文件读取漏洞 CVE-2021-28152
   * 宏电 H8922 后台命令执行漏洞 CVE-2021-28150
