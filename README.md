@@ -64,6 +64,7 @@
   * 齐博CMS V7 job.php 任意文件读取漏洞
 - OA产品漏洞
 
+  * O2OA invoke 后台远程命令执行漏洞 CNVD-2020-18740
   * 一米OA getfile.jsp 任意文件读取漏洞
   * 万户OA download_ftp.jsp 任意文件下载漏洞
   * 万户OA download_old.jsp 任意文件下载漏洞
@@ -251,6 +252,10 @@
   * TerraMaster TOS 信息泄漏漏洞 CVE-2022-24990
   * TerraMaster TOS 后台任意文件读取漏洞 CVE-2020-28187
   * TerraMaster TOS 用户枚举漏洞 CVE-2020-28185
+  * Webgrind fileviewer.phtml 任意文件读取漏洞 CVE-2018-12909
+  * Webmin password_change.cgi 远程命令执行漏洞 CVE-2019-15107
+  * Webmin rpc.cgi 后台远程命令执行漏洞 CVE-2019-15642
+  * Webmin update.cgi 后台远程命令执行漏洞 CVE-2022-0824
   * WiseGiga NAS down_data.php 任意文件下载漏洞
   * WiseGiga NAS group.php 远程命令执行漏洞
   * WSO2 fileupload 任意文件上传漏洞 CVE-2022-29464
