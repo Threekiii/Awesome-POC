@@ -310,6 +310,8 @@
   * 深信服 应用交付管理系统 sys_user.conf 账号密码泄漏漏洞
   * 深信服 日志中心 c.php 远程命令执行漏洞
   * 深信服 行为感知系统 c.php 远程命令执行漏洞
+  * 用友 畅捷通T+ DownloadProxy.aspx 任意文件读取漏洞
+  * 用友 畅捷通T+ RecoverPassword.aspx 管理员密码修改漏洞
   * 畅捷CRM get_usedspace.php SQL注入漏洞
   * 畅捷CRM 后台附件任意文件上传漏洞
   * 科达 MTS转码服务器 任意文件读取漏洞
@@ -369,6 +371,7 @@
   * Apache Solr 任意文件读取漏洞
   * Apache Solr 远程执行漏洞 CVE-2019-0193
   * Apache Spark create 未授权访问漏洞
+  * Apache Spark doAs 远程命令执行漏洞 CVE-2022-33891
   * Apache Spark unTarUsingTar 命令注入漏洞 SPARK-38631
   * Apache Struts2 S2-062 远程代码执行漏洞 CVE-2021-31805
   * Apache Tomcat AJP 文件包含漏洞 CVE-2020-1938
