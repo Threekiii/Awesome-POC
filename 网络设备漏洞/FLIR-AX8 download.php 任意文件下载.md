@@ -18,6 +18,10 @@ app="FLIR-FLIR-AX8"
 
 ## 漏洞复现
 
+登录页面
+
+![image-20220913103521047](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202209131035126.png)
+
 出现漏洞的文件为 **download.php**
 
 ```php
@@ -174,4 +178,4 @@ else
 /download.php?file=/etc/passwd
 ```
 
-![](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202162235377.png)
+![1662985662585-c79e5e7d-48c8-4c62-8108-0a29c34c8cac](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202209131035895.png)

@@ -66,13 +66,16 @@
 
   * O2OA invoke 后台远程命令执行漏洞 CNVD-2020-18740
   * 一米OA getfile.jsp 任意文件读取漏洞
+  * 万户OA DocumentEdit.jsp SQL注入漏洞
   * 万户OA download_ftp.jsp 任意文件下载漏洞
   * 万户OA download_old.jsp 任意文件下载漏洞
   * 万户OA downloadhttp.jsp 任意文件下载漏洞
+  * 万户OA DownloadServlet 任意文件读取漏洞
   * 万户OA fileUpload.controller 任意文件上传漏洞
   * 万户OA OfficeServer.jsp 任意文件上传漏洞
   * 万户OA showResult.action 后台SQL注入漏洞
   * 万户OA smartUpload.jsp 任意文件上传漏洞
+  * 万户OA TeleConferenceService XXE注入漏洞
   * 信呼OA beifenAction.php 后台目录遍历漏洞
   * 华天动力OA 8000版 workFlowService SQL注入漏洞
   * 启莱OA CloseMsg.aspx SQL注入漏洞
@@ -90,6 +93,7 @@
   * 泛微OA E-Cology BshServlet 远程代码执行漏洞 CNVD-2019-32204
   * 泛微OA E-Cology getSqlData SQL注入漏洞
   * 泛微OA E-Cology HrmCareerApplyPerView.jsp SQL注入漏洞
+  * 泛微OA E-Cology jqueryFileTree.jsp 目录遍历漏洞
   * 泛微OA E-Cology LoginSSO.jsp SQL注入漏洞 CNVD-2021-33202
   * 泛微OA E-Cology users.data 敏感信息泄漏
   * 泛微OA E-Cology VerifyQuickLogin.jsp 任意管理员登录漏洞
@@ -312,6 +316,7 @@
   * 深信服 行为感知系统 c.php 远程命令执行漏洞
   * 用友 畅捷通T+ DownloadProxy.aspx 任意文件读取漏洞
   * 用友 畅捷通T+ RecoverPassword.aspx 管理员密码修改漏洞
+  * 用友 畅捷通T+ Upload.aspx 任意文件上传漏洞
   * 畅捷CRM get_usedspace.php SQL注入漏洞
   * 畅捷CRM 后台附件任意文件上传漏洞
   * 科达 MTS转码服务器 任意文件读取漏洞
@@ -385,6 +390,7 @@
   * Jenkins checkScript 远程命令执行漏洞 CVE-2018-1000861
   * Jenkins CI 远程代码执行漏洞 CVE-2017-1000353
   * Jenkins script 远程命令执行漏洞
+  * muhttpd 任意文件读取漏洞 CVE-2022-31793
   * Nginx越界读取缓存漏洞 CVE-2017-7529
   * PayaraMicro microprofile-config.properties 信息泄漏漏洞 CVE-2021-41381
   * Weblogic LDAP 远程代码执行漏洞 CVE-2021-2109
@@ -412,6 +418,7 @@
   * Linux DirtyPipe权限提升漏洞 CVE-2022-0847
   * Linux eBPF权限提升漏洞 CVE-2022-23222
   * Linux kernel权限提升漏洞 CVE-2021-3493
+  * Linux openvswitch权限提升漏洞 CVE-2022-2639
   * Linux Polkit权限提升漏洞 CVE-2021-4034
   * Linux sudo权限提升漏洞 CVE-2021-3156
   * Windows CryptoAPI欺骗漏洞 CVE-2020-0601
@@ -474,6 +481,7 @@
   * DVR 登录绕过漏洞 CVE-2018-9995
   * Finetree 5MP 摄像机 user_pop.php 任意用户添加漏洞 CNVD-2021-42372
   * FLIR-AX8 download.php 任意文件下载
+  * FLIR-AX8 res.php 后台命令执行漏洞
   * H3C SecPath下一代防火墙 任意文件下载漏洞
   * HIKVISION DSIDSIPC 等设备 远程命令执行漏洞 CVE-2021-36260
   * HIKVISION 流媒体管理服务器 user.xml 账号密码泄漏漏洞
@@ -514,6 +522,7 @@
   * TOTOLink 多个设备 download.cgi 远程命令执行漏洞 CVE-2022-25084
   * TP-Link SR20 远程命令执行
   * TVT数码科技 NVMS-1000 路径遍历漏洞
+  * Untitled
   * Wayos AC集中管理系统默认弱口令 CNVD-2021-00876
   * Wayos 防火墙 后台命令执行漏洞
   * Wayos 防火墙 账号密码泄露漏洞
