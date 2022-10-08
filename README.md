@@ -64,7 +64,6 @@
   * 齐博CMS V7 job.php 任意文件读取漏洞
 - OA产品漏洞
 
-  * GLPI htmLawedTest.php 远程命令执行漏洞 CVE-2022-35914
   * O2OA invoke 后台远程命令执行漏洞 CNVD-2020-18740
   * 一米OA getfile.jsp 任意文件读取漏洞
   * 万户OA DocumentEdit.jsp SQL注入漏洞
@@ -209,6 +208,7 @@
   * Gerapy read 后台任意文件读取漏洞
   * GitLab Graphql邮箱信息泄露漏洞 CVE-2020-26413
   * GitLab SSRF漏洞 CVE-2021-22214
+  * GLPI htmLawedTest.php 远程命令执行漏洞 CVE-2022-35914
   * Grafana mysql 后台任意文件读取漏洞 CVE-2019-19499
   * Grafana plugins 任意文件读取漏洞 CVE-2021-43798
   * H3C IMC dynamiccontent.properties.xhtm 远程命令执行
