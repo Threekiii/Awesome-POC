@@ -64,6 +64,7 @@
   * 齐博CMS V7 job.php 任意文件读取漏洞
 - OA产品漏洞
 
+  * GLPI htmLawedTest.php 远程命令执行漏洞 CVE-2022-35914
   * O2OA invoke 后台远程命令执行漏洞 CNVD-2020-18740
   * 一米OA getfile.jsp 任意文件读取漏洞
   * 万户OA DocumentEdit.jsp SQL注入漏洞
@@ -99,6 +100,7 @@
   * 泛微OA E-Cology VerifyQuickLogin.jsp 任意管理员登录漏洞
   * 泛微OA E-Office group_xml.php SQL注入漏洞
   * 泛微OA E-Office mysql_config.ini 数据库信息泄漏漏洞
+  * 泛微OA E-Office OfficeServer.php 任意文件上传漏洞
   * 泛微OA E-Office officeserver.php 任意文件读取漏洞
   * 泛微OA E-Office UploadFile.php 任意文件上传漏洞 CNVD-2021-49104
   * 泛微OA E-Office UserSelect 未授权访问漏洞
@@ -153,6 +155,7 @@
   * 通达OA v11.8 getway.php 远程文件包含漏洞
   * 通达OA v11.8 update.php 后台文件包含XSS漏洞
   * 通达OA v11.8 update.php 后台文件包含命令执行漏洞
+  * 通达OA v11.9 getdata 任意命令执行漏洞
   * 通达OA v11.9 upsharestatus 后台SQL注入漏洞
   * 通达OA v2014 get_contactlist.php 敏感信息泄漏漏洞
   * 通达OA v2017 action_upload.php 任意文件上传漏洞
@@ -175,6 +178,7 @@
   * Alibaba Canal config 云密钥信息泄露漏洞
   * Alibaba Nacos 未授权访问漏洞
   * Appspace jsonprequest SSRF漏洞 CVE-2021-27670
+  * Atlassian Bitbucket archive 远程命令执行漏洞 CVE-2022-36804
   * Atlassian Bitbucket 登录绕过漏洞
   * Atlassian Confluence doenterpagevariables.action 远程命令执行漏洞 CVE-2021-26084
   * Atlassian Confluence preview SSTI模版注入漏洞 CVE-2019-3396
@@ -403,6 +407,7 @@
 
   * jQuery XSS漏洞 CVE-2020-11022 11023
   * Laravel .env 配置文件泄露 CVE-2017-16894
+  * Laravel Filemanager插件 download 任意文件读取漏洞 CVE-2022-40734
   * Laravel 小于 8.4.2 Debug模式 _ignition 远程代码执行漏洞 CVE-2021-3129
   * MotionEye 视频监控组件 list 信息泄漏洞 CVE-2022-25568
   * PHPUnit eval-stdin.php 远程命令执行漏洞 CVE-2017-9841
