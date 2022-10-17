@@ -188,6 +188,7 @@
   * Atlassian Jira ViewUserHover.jspa 用户信息泄露漏洞 CVE-2020-14181
   * AVCON6 系统管理平台 download.action 任意文件下载漏洞
   * AVCON6 系统管理平台 org_execl_download.action 任意文件下载漏洞
+  * AVEVA InTouch安全网关 AccessAnywhere 任意文件读取漏洞 CVE-2022-23854
   * Casbin get-users 账号密码泄漏漏洞
   * Cerebro request SSRF漏洞
   * Citrix XenMobile 任意文件读取 CVE-2020-8209
@@ -195,6 +196,7 @@
   * Coremail 配置信息泄露漏洞
   * Crawlab file 任意文件读取漏洞
   * Crawlab users 任意用户添加漏洞
+  * Dapr Dashboard configurations 未授权访问漏洞 CVE-2022-38817
   * E-message 越权访问漏洞
   * eGroupWare spellchecker.php 远程命令执行漏洞
   * Evolucare Ecsimaging download_stats_dicom.php 任意文件读取漏洞
@@ -321,6 +323,7 @@
   * 用友 畅捷通T+ DownloadProxy.aspx 任意文件读取漏洞
   * 用友 畅捷通T+ RecoverPassword.aspx 管理员密码修改漏洞
   * 用友 畅捷通T+ Upload.aspx 任意文件上传漏洞
+  * 用友 畅捷通远程通 GNRemote.dll SQL注入漏洞
   * 畅捷CRM get_usedspace.php SQL注入漏洞
   * 畅捷CRM 后台附件任意文件上传漏洞
   * 科达 MTS转码服务器 任意文件读取漏洞
@@ -454,6 +457,7 @@
   * VoIPmonitor 远程命令执行漏洞 CVE-2021-30461
   * Windows Chrome 远程命令执行漏洞
   * WordPress 3DPrint Lite 3dprint-lite-functions.php 任意文件上传漏洞
+  * WordPress All-in-One Video Gallery video.php 任意文件读取漏洞 CVE-2022-2633
   * WordPress Duplicator duplicator.php 任意文件读取漏洞 CVE-2020-11738
   * WordPress Redux Framework class-redux-helpers.php 敏感信息泄漏漏洞 CVE-2021-38314
   * WordPress Simple File List ee-downloader.php 任意文件读取漏洞 CVE-2022-1119
