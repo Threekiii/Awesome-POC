@@ -197,6 +197,8 @@
   * Crawlab file 任意文件读取漏洞
   * Crawlab users 任意用户添加漏洞
   * Dapr Dashboard configurations 未授权访问漏洞 CVE-2022-38817
+  * Dogtag PKI XML实体注入漏洞 CVE-2022-2414
+  * Dolibarr edit.php 远程命令执行漏洞 CVE-2022-40871
   * E-message 越权访问漏洞
   * eGroupWare spellchecker.php 远程命令执行漏洞
   * Evolucare Ecsimaging download_stats_dicom.php 任意文件读取漏洞
@@ -491,6 +493,7 @@
   * Finetree 5MP 摄像机 user_pop.php 任意用户添加漏洞 CNVD-2021-42372
   * FLIR-AX8 download.php 任意文件下载
   * FLIR-AX8 res.php 后台命令执行漏洞
+  * Fortinet FortiOS admin 远程命令执行漏洞 CVE-2022-40684
   * H3C SecPath下一代防火墙 任意文件下载漏洞
   * HIKVISION DSIDSIPC 等设备 远程命令执行漏洞 CVE-2021-36260
   * HIKVISION 流媒体管理服务器 user.xml 账号密码泄漏漏洞
