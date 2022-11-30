@@ -389,6 +389,7 @@
   * Apache Spark unTarUsingTar 命令注入漏洞 SPARK-38631
   * Apache Struts2 S2-062 远程代码执行漏洞 CVE-2021-31805
   * Apache Tomcat AJP 文件包含漏洞 CVE-2020-1938
+  * Apache Tomcat RCE Via JSP Upload Bypass
   * Apache Tomcat WebSocket 拒绝服务漏洞 CVE-2020-13935
   * Apache Tomcat 信息泄露漏洞 CVE-2021-24122
   * Apache Tomcat 远程代码执行漏洞 CVE-2017-12615
@@ -399,12 +400,15 @@
   * Jenkins checkScript 远程命令执行漏洞 CVE-2018-1000861
   * Jenkins CI 远程代码执行漏洞 CVE-2017-1000353
   * Jenkins script 远程命令执行漏洞
+  * Jenkins XStream 反序列化漏洞 CVE-2016-0792
+  * Jenkins 远程代码执行漏洞 CVE-2015-8103
   * muhttpd 任意文件读取漏洞 CVE-2022-31793
   * Nginx越界读取缓存漏洞 CVE-2017-7529
   * PayaraMicro microprofile-config.properties 信息泄漏漏洞 CVE-2021-41381
   * Weblogic LDAP 远程代码执行漏洞 CVE-2021-2109
   * WebLogic Local File Inclusion 本地文件包含漏洞 CVE-2022-21371
   * Weblogic SSRF漏洞 CVE-2014-4210
+  * WebLogic T3 反序列化漏洞 CVE-2016-3510
   * Weblogic XMLDecoder 远程代码执行漏洞 CVE-2017-10271
   * Weblogic 反序列化远程代码执行漏洞 CVE-2019-2725
   * Zabbix SAML身份绕过漏洞 CVE-2022-23131
@@ -475,6 +479,7 @@
   * Cisco ASA设备任意文件删除漏洞 CVE-2020-3187
   * Cisco HyperFlex HX storfs-asup 远程命令执行漏洞 CVE-2021-1497
   * Cisco HyperFlex HX upload 任意文件上传漏洞 CVE-2021-1499
+  * Citrix 远程命令执行漏洞 CVE-2019-19781
   * Crestron aj.html 账号密码泄漏漏洞 CVE-2022-23178
   * D-Link AC管理系统 默认账号密码
   * D-LINK DAP-2020 webproc 任意文件读取漏洞 CVE-2021-27250
@@ -534,7 +539,6 @@
   * TOTOLink 多个设备 download.cgi 远程命令执行漏洞 CVE-2022-25084
   * TP-Link SR20 远程命令执行
   * TVT数码科技 NVMS-1000 路径遍历漏洞
-  * Untitled
   * Wayos AC集中管理系统默认弱口令 CNVD-2021-00876
   * Wayos 防火墙 后台命令执行漏洞
   * Wayos 防火墙 账号密码泄露漏洞
