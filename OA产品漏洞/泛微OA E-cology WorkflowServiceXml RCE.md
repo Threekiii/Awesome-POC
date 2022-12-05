@@ -1,4 +1,4 @@
-# 泛微OA WorkflowServiceXml RCE
+# 泛微OA E-cology WorkflowServiceXml RCE
 
 ## 漏洞描述
 
