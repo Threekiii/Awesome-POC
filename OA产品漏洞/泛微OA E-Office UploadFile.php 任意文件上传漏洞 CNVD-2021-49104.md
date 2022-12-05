@@ -20,7 +20,7 @@ app="泛微-EOffice"
 
 登录页面
 
-![image-20220520134325360](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202205201343420.png)
+![image-20220520134325360](./images/202205201343420.png)
 
 发送请求包
 
@@ -45,7 +45,7 @@ Content-Type: image/jpeg
 --e64bdf16c554bbc109cecef6451c26a4--
 ```
 
-![image-20220520134342019](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202205201343075.png)
+![image-20220520134342019](./images/202205201343075.png)
 
 再访问
 
@@ -53,4 +53,4 @@ Content-Type: image/jpeg
 /images/logo/logo-eoffice.php
 ```
 
-![image-20220520134356648](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202205201343715.png)
+![image-20220520134356648](./images/202205201343715.png)

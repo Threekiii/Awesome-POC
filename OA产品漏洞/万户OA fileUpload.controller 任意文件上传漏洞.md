@@ -20,7 +20,7 @@ app="万户网络-ezOFFICE"
 
 产品页面
 
-![img](https://typora-1308934770.cos.ap-beijing.myqcloud.com/1628348571931-52bde954-fcd0-485f-bc17-1494f5eb53f4.png)
+![img](./images/1628348571931-52bde954-fcd0-485f-bc17-1494f5eb53f4.png)
 
 发送请求包上传文件
 
@@ -43,8 +43,8 @@ Content-Transfer-Encoding: binary
 --KPmtcldVGtT3s8kux_aHDDZ4-A7wRsken5v0--
 ```
 
-![img](https://typora-1308934770.cos.ap-beijing.myqcloud.com/1628348700247-9ac78c6c-b56f-4137-a0b3-ba3b13733c19.png)
+![img](./images/1628348700247-9ac78c6c-b56f-4137-a0b3-ba3b13733c19.png)
 
 使用冰蝎连接木马 **/defaultroot/upload/html/xxxxxxxxxx.jsp**
 
-![img](https://typora-1308934770.cos.ap-beijing.myqcloud.com/1628349045223-89889c4f-c7e6-4a31-af77-5c58fa8749b4.png)
+![img](./images/1628349045223-89889c4f-c7e6-4a31-af77-5c58fa8749b4.png)

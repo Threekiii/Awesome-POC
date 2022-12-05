@@ -22,7 +22,7 @@ icon_hash="884334722" || title="Ruijie SSL VPN"
 
 
 
-![](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202110919224.png)
+![](./images/202202110919224.png)
 
 POC请求包如下
 
@@ -54,21 +54,21 @@ UserName 参数为已知用户名
 
 在未知登录用户名的情况下 漏洞无法利用(根据请求包使用Burp进行用户名爆破)
 
-![](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202110920240.png)
+![](./images/202202110920240.png)
 
 用户名正确时会返回敏感信息
 
-![](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202110920291.png)
+![](./images/202202110920291.png)
 
 通过此方法知道用户名后可以通过漏洞修改账号参数
 
 访问 http://xxx.xxx.xxx.xxx/cgi-bin/main.cgi?oper=showsvr&encode=GBK&username=liuw&sid=1&oper=showres
 
-![](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202110920639.png)
+![](./images/202202110920639.png)
 
 点击个人设置跳转页面即可修改账号信息
 
-![](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202110920944.png)
+![](./images/202202110920944.png)
 
 ## 参考文章
 

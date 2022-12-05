@@ -41,5 +41,5 @@ sqlmap -u https://xxx.xxx.xxx.xxx:8443/api/dp/rptsvcsyncpoint?ccid=1 --dbms Post
 
 
 
-![image-20220209200650958](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202092006296.png)
+![image-20220209200650958](./images/202202092006296.png)
 

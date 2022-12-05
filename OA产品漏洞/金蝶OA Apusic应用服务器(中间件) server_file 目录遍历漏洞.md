@@ -20,7 +20,7 @@ app="Apusic-公司产品" && title=="欢迎使用Apusic应用服务器"
 
 登录页面
 
-![image-20220520142557418](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202205201425611.png)
+![image-20220520142557418](./images/202205201425611.png)
 
 验证POC
 
@@ -28,4 +28,4 @@ app="Apusic-公司产品" && title=="欢迎使用Apusic应用服务器"
 /admin/protected/selector/server_file/files?folder=/
 ```
 
-![image-20220520142704544](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202205201427636.png)
+![image-20220520142704544](./images/202205201427636.png)

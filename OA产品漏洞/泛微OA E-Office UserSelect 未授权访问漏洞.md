@@ -20,7 +20,7 @@ app="泛微-EOffice"
 
 登录页面
 
-![image-20220520134445854](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202205201344907.png)
+![image-20220520134445854](./images/202205201344907.png)
 
 验证POC
 
@@ -28,4 +28,4 @@ app="泛微-EOffice"
 /UserSelect/
 ```
 
-![image-20220520140409297](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202205201404369.png)
+![image-20220520140409297](./images/202205201404369.png)

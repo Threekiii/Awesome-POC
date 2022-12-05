@@ -22,7 +22,7 @@ app="新软科技-极通EWEBS"
 
 
 
-![](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202101939828.png)
+![](./images/202202101939828.png)
 
 
 
@@ -44,7 +44,7 @@ Language_S=../../../../windows/system32/drivers/etc/hosts
 
 
 
-![](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202101939430.png)
+![](./images/202202101939430.png)
 
 
 

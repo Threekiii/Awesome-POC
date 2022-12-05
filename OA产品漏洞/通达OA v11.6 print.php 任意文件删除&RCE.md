@@ -162,13 +162,13 @@ echo "<body>\r\n</body>\r\n</html>";
 include_once "inc/auth.inc.php";
 ```
 
-![image-20220209105907490](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202091059689.png)
+![image-20220209105907490](./images/202202091059689.png)
 
 可以看到这个文件用于检验是否登录，未登录的情况无法利用这个漏洞
 
 查看 **\webroot\module\appbuilder\assets\print.php**文件
 
-![image-20220209105939041](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202091059191.png)
+![image-20220209105939041](./images/202202091059191.png)
 
 ```php
 <?php
@@ -276,11 +276,11 @@ else {
 
 使用POC来利用漏洞
 
-![image-20220209110025711](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202091100958.png)
+![image-20220209110025711](./images/202202091100958.png)
 
 注意在删除验证身份的文件后，会造成后台页面出现如下图，使用前备份文件
 
-![image-20220209110050983](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202091100063.png)
+![image-20220209110050983](./images/202202091100063.png)
 
 ## 漏洞POC
 
@@ -389,4 +389,4 @@ if __name__ == '__main__':
             POC_4(target_url, cmd)
 ```
 
-![image-20220209110115108](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202091101200.png)
+![image-20220209110115108](./images/202202091101200.png)

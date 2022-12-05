@@ -20,7 +20,7 @@ HIKVISION 流媒体管理服务器
 
 登录页面如下， 默认账号密码为 `admin/12345`
 
-![image-20220519172955875](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202205191729966.png)
+![image-20220519172955875](./images/202205191729966.png)
 
 访问如下URL下载`C:/windows/system.ini`文件
 

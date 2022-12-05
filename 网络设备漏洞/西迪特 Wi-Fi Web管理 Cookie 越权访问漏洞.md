@@ -20,7 +20,7 @@ title=="Wi-Fi Web管理"
 
 登录页面
 
-![image-20220519183944313](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202205191839372.png)
+![image-20220519183944313](./images/202205191839372.png)
 
 添加Cookie，即可登录后台
 
@@ -28,4 +28,4 @@ title=="Wi-Fi Web管理"
 Cookie: timestamp=0; cooLogin=1; cooUser=admin
 ```
 
-![image-20220519184113756](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202205191841849.png)
+![image-20220519184113756](./images/202205191841849.png)

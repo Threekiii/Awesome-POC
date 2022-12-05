@@ -22,7 +22,7 @@ app="OneBlog开源博客后台管理系统"
 
 
 
-![](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202101909905.png)
+![](./images/202202101909905.png)
 
 
 
@@ -30,4 +30,4 @@ app="OneBlog开源博客后台管理系统"
 
 
 
-![](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202101909954.png)
+![](./images/202202101909954.png)

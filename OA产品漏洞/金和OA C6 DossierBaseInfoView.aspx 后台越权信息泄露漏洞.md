@@ -28,7 +28,7 @@ http://xxx.xxx.xxx.xxx/C6/JHSoft.Web.Dossier/DossierBaseInfoView.aspx?CollID=1&U
 
 - 注意 RY120330 需要为确定的其他的用户编号
 
-![1](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202090135010.png)
+![1](./images/202202090135010.png)
 
 泄露了部分的敏感信息
 

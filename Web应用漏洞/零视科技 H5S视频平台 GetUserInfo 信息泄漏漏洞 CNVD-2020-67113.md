@@ -20,7 +20,7 @@ title="H5S视频平台|WEB"
 
 登录页面
 
-![image-20220525151716667](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202205251517010.png)
+![image-20220525151716667](./images/202205251517010.png)
 
 API文档可以未授权访问
 
@@ -28,7 +28,7 @@ API文档可以未授权访问
 /doc/api.html
 ```
 
-![image-20220525151757329](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202205251517406.png)
+![image-20220525151757329](./images/202205251517406.png)
 
 存在用户账号密码泄漏的接口
 
@@ -36,7 +36,7 @@ API文档可以未授权访问
 /api/v1/GetUserInfo?user=admin&session=
 ```
 
-![image-20220525151838220](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202205251518256.png)
+![image-20220525151838220](./images/202205251518256.png)
 
 其中登录接口中 Password为接口中存在的账号密码，可以直接发送请求获取Cookie
 
@@ -44,8 +44,8 @@ API文档可以未授权访问
 /api/v1/Login?user=admin&password=827ccb0eea8a706c4c34a16891f84e7b
 ```
 
-![image-20220525151916076](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202205251519118.png)
+![image-20220525151916076](./images/202205251519118.png)
 
 请求成功后访问主页面
 
-![image-20220525152043207](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202205251520302.png)
+![image-20220525152043207](./images/202205251520302.png)

@@ -16,5 +16,5 @@ https://xxx.xxx.xxx.xxx/ui/login.php?user=admin
 
 注意最后的admin需要为存在的用户名
 
-![img](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202091912509.png)
+![img](./images/202202091912509.png)
 

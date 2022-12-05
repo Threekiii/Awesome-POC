@@ -20,7 +20,7 @@
 
 登录页面如下
 
-![yongyou-6-1](https://typora-1308934770.cos.ap-beijing.myqcloud.com/yongyou-6-1.png)
+![yongyou-6-1](./images/yongyou-6-1.png)
 
 在应用中存在文件服务器管理登录页面
 
@@ -28,7 +28,7 @@
 http://xxx.xxx.xxx.xxx/fs/
 ```
 
-![yongyou6-2](https://typora-1308934770.cos.ap-beijing.myqcloud.com/yongyou6-2.png)
+![yongyou6-2](./images/yongyou6-2.png)
 
 登录请求包如下
 
@@ -50,4 +50,4 @@ Connection: close
 sqlmap -r sql.txt -p username
 ```
 
-![yongyou-6-3](https://typora-1308934770.cos.ap-beijing.myqcloud.com/yongyou-6-3.png)
+![yongyou-6-3](./images/yongyou-6-3.png)

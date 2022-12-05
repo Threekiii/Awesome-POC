@@ -20,7 +20,7 @@ title="LotWan 广域网优化系统"
 
 登录页面
 
-![image-20220519182517187](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202205191825272.png)
+![image-20220519182517187](./images/202205191825272.png)
 
 存在漏洞的文件为
 
@@ -30,4 +30,4 @@ title="LotWan 广域网优化系统"
 
 再访问 `/acc/cmd.txt`
 
-![image-20220519182529097](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202205191825165.png)
+![image-20220519182529097](./images/202205191825165.png)

@@ -69,4 +69,4 @@ if( eregi(".php",$fileurl) && is_file(ROOT_PATH."$fileurl") ){
 /do/job.php?job=download&url=ZGF0YS9jb25maWcucGg8
 ```
 
-![image-20220518160941881](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202205181609962.png)
+![image-20220518160941881](./images/202205181609962.png)

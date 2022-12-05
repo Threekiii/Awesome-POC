@@ -20,7 +20,7 @@ title="畅捷CRM"
 
 登录页面
 
-![](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202101912910.png)
+![](./images/202202101912910.png)
 
 
 
@@ -36,7 +36,7 @@ xxx.xxx.php格式，越过系统中的后缀更改
 
 
 
-![](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202101912584.png)
+![](./images/202202101912584.png)
 
 
 
@@ -44,4 +44,4 @@ xxx.xxx.php格式，越过系统中的后缀更改
 
 
 
-![](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202101912465.png)
+![](./images/202202101912465.png)

@@ -20,7 +20,7 @@
 
 登录页面
 
-![image-20221008102546649](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202210081025897.png)
+![image-20221008102546649](./images/202210081025897.png)
 
 验证POC
 
@@ -53,7 +53,7 @@ Content-Disposition: form-data;name="FormData"
 ------WebKitFormBoundaryLpoiBFy4ANA8daew--
 ```
 
-![image-20221008102607520](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202210081026579.png)
+![image-20221008102607520](./images/202210081026579.png)
 
 文件上传位置
 
@@ -61,4 +61,4 @@ Content-Disposition: form-data;name="FormData"
 /eoffice10/server/public/iWebOffice2015/Document/test.php
 ```
 
-![image-20221008102621829](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202210081026917.png)
+![image-20221008102621829](./images/202210081026917.png)

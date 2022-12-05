@@ -20,7 +20,7 @@ title="云时空社会化商业ERP"
 
 登录页面
 
-![image-20220525102459840](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202205251026873.png)
+![image-20220525102459840](./images/202205251026873.png)
 
 使用SQLmap验证漏洞
 
@@ -28,4 +28,4 @@ title="云时空社会化商业ERP"
 sqlmap -u "http://xxx.xxx.xxx.xxx/sys/user/validateLoginName?loginName=admin"
 ```
 
-![image-20220525103355733](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202205251033940.png)
+![image-20220525103355733](./images/202205251033940.png)

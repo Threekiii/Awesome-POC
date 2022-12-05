@@ -24,7 +24,7 @@ title="emessage 设置: 数据库设置 - 标准连接"
 http://xxx.xxx.xxx.xxx/setup/setup-datasource-standard.jsp
 ```
 
-![](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202101934751.png)
+![](./images/202202101934751.png)
 
 
 
@@ -32,4 +32,4 @@ http://xxx.xxx.xxx.xxx/setup/setup-datasource-standard.jsp
 
 
 
-![](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202101934975.png)
+![](./images/202202101934975.png)

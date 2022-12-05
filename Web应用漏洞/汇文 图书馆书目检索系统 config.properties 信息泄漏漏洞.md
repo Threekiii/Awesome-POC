@@ -20,7 +20,7 @@ app="汇文软件-书目检索系统"
 
 主页面
 
-![image-20220525144642895](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202205251446991.png)
+![image-20220525144642895](./images/202205251446991.png)
 
 验证POC
 
@@ -28,4 +28,4 @@ app="汇文软件-书目检索系统"
 /include/config.properties
 ```
 
-![image-20220525144530183](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202205251445229.png)
+![image-20220525144530183](./images/202205251445229.png)

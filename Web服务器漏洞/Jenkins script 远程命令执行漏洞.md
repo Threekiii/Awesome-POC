@@ -37,4 +37,4 @@ http://xxx.xxx.xxx.xxx/script
 println 'cat /etc/passwd'.execute().text
 ```
 
-![image-20220525163148014](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202205251631073.png)
+![image-20220525163148014](./images/202205251631073.png)

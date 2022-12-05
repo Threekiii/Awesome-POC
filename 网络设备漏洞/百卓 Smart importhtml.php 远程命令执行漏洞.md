@@ -20,7 +20,7 @@ title="Smart管理平台"
 
 登录页面
 
-![](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202140918333.png)
+![](./images/202202140918333.png)
 
 出现漏洞的文件 **importhtml.php**
 
@@ -158,4 +158,4 @@ https://xxx.xxx.xxx.xxx/importhtml.php?type=exporthtmlmail&tab=tb_RCtrlLog&sql=c
 
 访问成功后会触发下载日志文件，再访问 sys1.php
 
-![](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202140919705.png)
+![](./images/202202140919705.png)

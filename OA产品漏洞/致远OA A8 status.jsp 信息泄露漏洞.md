@@ -24,7 +24,7 @@ title="A8-m"
 /seeyon/management/status.jsp
 ```
 
-![image-20220520153340922](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202205201533962.png)
+![image-20220520153340922](./images/202205201533962.png)
 
 后台密码为 WLCCYBD@SEEYON
 
@@ -36,8 +36,8 @@ title="A8-m"
 /seeyon/logs/v3x.log
 ```
 
-![image-20220520153355298](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202205201533377.png)
+![image-20220520153355298](./images/202205201533377.png)
 
-![image-20220520153408356](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202205201534420.png)
+![image-20220520153408356](./images/202205201534420.png)
 
-![image-20220520153422315](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202205201534381.png)
+![image-20220520153422315](./images/202205201534381.png)

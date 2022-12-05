@@ -20,11 +20,11 @@ title="Crawlab"
 
 登录页面
 
-![](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202205241440512.png)
+![](./images/202205241440512.png)
 
 首先查看路由位置 main.go 文件 中的 file 接口对应的函数
 
-![](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202205241440175.png)
+![](./images/202205241440175.png)
 
 ```
 package routes
@@ -58,7 +58,7 @@ func GetFile(c *gin.Context) {
 }
 ```
 
-![](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202205241440403.png)
+![](./images/202205241440403.png)
 
 接口调用为后台才可调用，通过任意用户添加可以完成绕过
 
@@ -82,4 +82,4 @@ x-remote-addr: 127.0.0.1
 Connection: close
 ```
 
-![](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202205241441701.png)
+![](./images/202205241441701.png)

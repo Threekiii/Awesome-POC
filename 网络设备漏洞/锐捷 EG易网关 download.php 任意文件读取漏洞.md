@@ -224,7 +224,7 @@ include_once AROOT.'init.php';    //mvc初始化入口，放在底部
 /download.php?a=read_txt&file=../../../../etc/passwd
 ```
 
-![](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202110928854.png)
+![](./images/202202110928854.png)
 
 ## 漏洞POC
 
@@ -312,4 +312,4 @@ if __name__ == '__main__':
     POC_1(target_url)
 ```
 
-![](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202110929078.png)
+![](./images/202202110929078.png)

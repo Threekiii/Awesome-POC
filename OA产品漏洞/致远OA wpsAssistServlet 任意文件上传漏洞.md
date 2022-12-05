@@ -21,11 +21,11 @@ app="致远互联-OA" && title="V8.0SP2"
 
 产品主页
 
-![image-20220824142723820](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202208241427877.png)
+![image-20220824142723820](./images/202208241427877.png)
 
 下载补丁220706-S004 ，对比修改的文件
 
-![image-20220824142736294](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202208241427361.png)
+![image-20220824142736294](./images/202208241427361.png)
 
 主要修改的是 `com.seeyon.ctp.common.wpsassist.manager.WpsAssistManagerImpl.oaSaveFile` 这个方法
 
@@ -53,13 +53,13 @@ private Map<String, Object> oaSaveFile(HttpServletRequest request, Map<String, O
 
 向上追溯调用的 oaSaveFile方法的代码
 
-![image-20220824142757449](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202208241427516.png)
+![image-20220824142757449](./images/202208241427516.png)
 
-![image-20220824142808032](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202208241428101.png)
+![image-20220824142808032](./images/202208241428101.png)
 
 在 `com.seeyon.ctp.common.wpsassist.WpsAssistServlet.doPost` 中，flag参数为save时，可以调用文件上传接口
 
-![image-20220824142821539](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202208241428602.png)
+![image-20220824142821539](./images/202208241428602.png)
 
 `C://Seeyon/A6/base/temporary` 为默认上传的位置，但 `realFileType, fileId` 参数可控，可以通过 ../ 遍历上传到任意目录下，验证POC
 
@@ -78,6 +78,6 @@ Content-Type: application/vnd.ms-excel
 --59229605f98b8cf290a7b8908b34616b--
 ```
 
-![image-20220824142837723](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202208241428763.png)
+![image-20220824142837723](./images/202208241428763.png)
 
-![image-20220824142846959](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202208241428999.png)
+![image-20220824142846959](./images/202208241428999.png)

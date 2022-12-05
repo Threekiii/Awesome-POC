@@ -16,7 +16,7 @@ OKLite 1.2.25
 
 出现漏洞的位置在于**framework/admin/plugin_control.php**
 
-![](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202162317826.png)
+![](./images/202202162317826.png)
 
 ```php
 public function unzip_f()
@@ -56,7 +56,7 @@ public function unzip_f()
 
 函数位置 **framework/libs/phpzip.php**
 
-![](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202162317758.png)
+![](./images/202202162317758.png)
 
 这里会返回关于ZIP压缩包的一些信息
 
@@ -79,7 +79,7 @@ $info = explode('/',$info['filename']);
 
 这里用 explode函数以 **/** 分隔返回两个值，也就是说格式应为 **AAA/BBB**这样的目录格式，直接上传ZIP文件则会报错 **插件打包模式有问题**
 
-![](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202162317579.png)
+![](./images/202202162317579.png)
 
 在这里上传一个ZIP文件，格式要是解压出来为目录，目录中含PHP文件就行了
 

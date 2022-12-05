@@ -188,13 +188,13 @@ function exploit(){
 
 简单寻找下其实这样的地方挺多的，拿一个位置举例子
 
-![](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202170918836.jpg)
+![](./images/202202170918836.jpg)
 
 这里是一个支付插件的位置，蓝色方块1增加代码模拟开通支付宝功能通过验证
 
 可以看到这个函数只使用[htmlspecialchars]来过滤了xss，sql语句没有过滤，用刚刚的方法来注入
 
-![](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202170919997.jpg)
+![](./images/202202170919997.jpg)
 
 可以看到的确出现了sql语句和数据库错误
 
@@ -204,7 +204,7 @@ function exploit(){
 
 
 
-![](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202170919441.jpg)
+![](./images/202202170919441.jpg)
 
 ```python
 import requests
@@ -417,4 +417,4 @@ if __name__ == '__main__':
     main()
 ```
 
-![](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202170919669.jpg)
+![](./images/202202170919669.jpg)

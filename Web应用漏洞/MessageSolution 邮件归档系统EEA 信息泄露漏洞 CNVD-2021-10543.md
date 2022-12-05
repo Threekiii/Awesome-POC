@@ -22,7 +22,7 @@ title="MessageSolution Enterprise Email Archiving (EEA)"
 
 
 
-![](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202102006003.png)
+![](./images/202202102006003.png)
 
 访问如下Url
 
@@ -34,7 +34,7 @@ http://xxx.xxx.xxx.xxx/authenticationserverservlet/
 
 
 
-![](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202102006561.png)
+![](./images/202202102006561.png)
 
 
 
@@ -42,7 +42,7 @@ http://xxx.xxx.xxx.xxx/authenticationserverservlet/
 
 
 
-![](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202102006711.png)
+![](./images/202202102006711.png)
 
 
 

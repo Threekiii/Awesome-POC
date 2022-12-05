@@ -18,11 +18,11 @@ body="cmseasyedit"
 
 ## 漏洞复现
 
-![image-20220518143113914](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202205181433140.png)
+![image-20220518143113914](./images/202205181433140.png)
 
 存在漏洞的文件为 `lib/admin/language_admin.php`
 
-![image-20220518143419336](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202205181434423.png)
+![image-20220518143419336](./images/202205181434423.png)
 
 ```
 function add_action() {
@@ -80,11 +80,11 @@ function add_action() {
 
 访问这个页面
 
-![image-20220518143447023](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202205181434089.png)
+![image-20220518143447023](./images/202205181434089.png)
 
 其中参数有三个，分别为 `key , cnnote, val`
 
-![image-20220518143502867](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202205181435903.png)
+![image-20220518143502867](./images/202205181435903.png)
 
 传入参数后,查看 `lang/cn/system_custom.php` 文件中
 
@@ -133,12 +133,12 @@ array(
 test4  ,test5, 	,phpinfo());/*
 ```
 
-![image-20220518143515689](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202205181435729.png)
+![image-20220518143515689](./images/202205181435729.png)
 
 写入后文件内容
 
-![image-20220518143533909](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202205181435970.png)
+![image-20220518143533909](./images/202205181435970.png)
 
 访问文件 `/lang/cn/system_custom.php`
 
-![image-20220518143552076](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202205181435144.png)
+![image-20220518143552076](./images/202205181435144.png)

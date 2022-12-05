@@ -20,11 +20,11 @@ app="畅捷通-TPlus"
 
 登录页面
 
-![1](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202209131041324.png)
+![1](./images/202209131041324.png)
 
 存在漏洞的接口为`/tplus/SM/SetupAccount/Upload.aspx`, 对应文件 `App_Web_upload.aspx.9475d17f.dll`
 
-![2](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202209131041333.png)
+![2](./images/202209131041333.png)
 
 上传文件类型验证不完善，可上传任意文件到服务器中的任意位置，验证POC
 
@@ -48,15 +48,15 @@ Content-Type: image/jpeg
 
 由于应用为预编译的，直接上传的 `aspx木马`无法直接利用，需要通过上传 `dll 与 compiled `文件后利用Webshell
 
-![3](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202209131041137.png)
+![3](./images/202209131041137.png)
 
 将 `dll 与 compiled` 文件上传至 Web应用的 bin目录上，aspx上传至 Web根目录下
 
-![6](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202209131042534.png)
+![6](./images/202209131042534.png)
 
-![4](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202209131042543.png)
+![4](./images/202209131042543.png)
 
-![5](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202209131042554.png)
+![5](./images/202209131042554.png)
 
 再访问写入的Webshell进行连接
 

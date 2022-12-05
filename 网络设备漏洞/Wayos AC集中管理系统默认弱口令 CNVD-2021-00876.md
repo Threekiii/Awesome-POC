@@ -22,6 +22,6 @@ title="AC集中管理系统"
 
 默认弱口令为 admin:admin
 
-![](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202162240238.png)
+![](./images/202202162240238.png)
 
-![](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202162240645.png)
+![](./images/202202162240645.png)

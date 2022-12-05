@@ -22,7 +22,7 @@ title=="蓝海卓越计费管理系统"
 
 
 
-![](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202101853490.png)
+![](./images/202202101853490.png)
 
 
 
@@ -30,7 +30,7 @@ title=="蓝海卓越计费管理系统"
 
 
 
-![](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202101853603.png)
+![](./images/202202101853603.png)
 
 
 
@@ -38,4 +38,4 @@ title=="蓝海卓越计费管理系统"
 
 
 
-![](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202101853251.png)
+![](./images/202202101853251.png)

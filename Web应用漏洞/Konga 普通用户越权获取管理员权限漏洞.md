@@ -22,13 +22,13 @@ Konga
 
 
 
-![image-20220210184626593](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202101846658.png)
+![image-20220210184626593](./images/202202101846658.png)
 
 创建非管理员用户后登录并获取token
 
 
 
-![](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202101847245.png)
+![](./images/202202101847245.png)
 
 
 
@@ -59,7 +59,7 @@ Content-Length: 241
 
 
 
-![](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202101847809.png)
+![](./images/202202101847809.png)
 
 
 
@@ -67,4 +67,4 @@ Content-Length: 241
 
 
 
-![](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202101847129.png)
+![](./images/202202101847129.png)

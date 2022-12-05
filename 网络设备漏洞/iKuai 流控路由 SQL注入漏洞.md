@@ -20,7 +20,7 @@ title="登录爱快流控路由"
 
 登录页面如下
 
-![](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202140931704.png)
+![](./images/202202140931704.png)
 
 使用万能密码登录后台
 
@@ -29,4 +29,4 @@ user: "or""=""or""="
 pass: 空
 ```
 
-![](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202140931830.png)
+![](./images/202202140931830.png)

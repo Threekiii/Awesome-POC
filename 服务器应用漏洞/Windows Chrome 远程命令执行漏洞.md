@@ -157,7 +157,7 @@ copy_shellcode(rwx_page_addr, shellcode);
 f();
 ```
 
-![image-20220209123907689](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202091239826.png)
+![image-20220209123907689](./images/202202091239826.png)
 
 
 

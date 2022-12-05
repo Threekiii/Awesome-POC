@@ -20,7 +20,7 @@ title="LotWan 广域网优化系统"
 
 登录页面
 
-![image-20220519182931309](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202205191829394.png)
+![image-20220519182931309](./images/202205191829394.png)
 
 存在漏洞的文件为 static_arp_del.php, 通过union注入写入文件
 
@@ -30,4 +30,4 @@ title="LotWan 广域网优化系统"
 
 再访问 `/acc/bindipmac/cmd.txt`
 
-![image-20220519182946695](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202205191829769.png)
+![image-20220519182946695](./images/202205191829769.png)

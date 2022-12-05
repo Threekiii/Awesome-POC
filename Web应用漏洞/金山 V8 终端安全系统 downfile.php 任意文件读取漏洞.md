@@ -56,7 +56,7 @@ http://xxx.xxx.xxx.xxx/htmltopdf/downfile.php?filename=downfile.php
 
 
 
-![](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202091833924.png)
+![](./images/202202091833924.png)
 
 
 
@@ -105,5 +105,5 @@ if __name__ == '__main__':
 
 
 
-![](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202091833854.png)
+![](./images/202202091833854.png)
 

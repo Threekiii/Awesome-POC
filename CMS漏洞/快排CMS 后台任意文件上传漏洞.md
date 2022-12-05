@@ -24,7 +24,7 @@ http://xxx.xxx.xxx.xxx/admin.php/index/login.html
 
 
 
-![](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202170921790.png)
+![](./images/202202170921790.png)
 
 源码中没有对上传文件的后缀检测
 
@@ -32,15 +32,15 @@ http://xxx.xxx.xxx.xxx/admin.php/index/login.html
 thinkphp/library/think/File.php
 ```
 
-![](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202170922307.png)
+![](./images/202202170922307.png)
 
 任意找一处文件上传点
 
-![](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202170922296.png)
+![](./images/202202170922296.png)
 
 上传抓包获取文件地址
 
-![](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202170922533.png)
+![](./images/202202170922533.png)
 
 ```plain
 POST /admin.php/index/upload.html?dir=image HTTP/1.1
@@ -101,4 +101,4 @@ session_start();
 
 连接冰蝎木马即可
 
-![](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202170922800.png)
+![](./images/202202170922800.png)

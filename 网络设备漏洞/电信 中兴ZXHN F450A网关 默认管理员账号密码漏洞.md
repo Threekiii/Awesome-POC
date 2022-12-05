@@ -22,7 +22,7 @@ ZXHN F450A
 
 
 
-![](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202140923388.png)
+![](./images/202202140923388.png)
 
 ```plain
 user/pass
@@ -31,4 +31,4 @@ useradmin/nE7jA%5m 普通管理员
 telecomadmin/nE7jA%5m 超级管理员
 ```
 
-![](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202140923517.png)
+![](./images/202202140923517.png)

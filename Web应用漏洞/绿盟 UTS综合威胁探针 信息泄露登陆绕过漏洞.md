@@ -27,7 +27,7 @@ auditor/auditor
 
 登陆页面
 
-![image-20220525150142447](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202205251501583.png)
+![image-20220525150142447](./images/202205251501583.png)
 
 验证POC
 
@@ -35,12 +35,12 @@ auditor/auditor
 /webapi/v1/system/accountmanage/account
 ```
 
-![image-20220525150243440](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202205251502510.png)
+![image-20220525150243440](./images/202205251502510.png)
 
 这里出现了登录的账号以及加密的 PASS
 
 登陆时的加密字段抓包修改为获取的就可以登陆系统
 
-![](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202205251503644.png)
+![](./images/202205251503644.png)
 
-![](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202205251503926.png)
+![](./images/202205251503926.png)

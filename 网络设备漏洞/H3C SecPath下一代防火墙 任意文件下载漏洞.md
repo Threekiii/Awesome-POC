@@ -20,15 +20,15 @@ title="Web user login"
 
 登录页面如下
 
-![](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202110914717.png)
+![](./images/202202110914717.png)
 
 存在漏洞点的功能有两个
 
-![](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202110914728.png)
+![](./images/202202110914728.png)
 
 点击下载抓包更改请求
 
-![](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202110914422.png)
+![](./images/202202110914422.png)
 
 并且在未身份验证的情况中，也可以请求下载敏感文件
 

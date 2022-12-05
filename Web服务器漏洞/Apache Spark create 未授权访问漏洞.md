@@ -20,7 +20,7 @@ app="APACHE-Spark-Jobs"
 
 主页面
 
-![](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202205251623547.png)
+![](./images/202205251623547.png)
 
 发送请求包
 
@@ -93,7 +93,7 @@ public class Exploit {
 }
 ```
 
-![](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202205251623026.png)
+![](./images/202205251623026.png)
 
 再访问获得的 submissionId Url查看结果
 
@@ -101,4 +101,4 @@ public class Exploit {
 /logPage/?driverId={submissionId}&logType=stdout
 ```
 
-![](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202205251623603.png)
+![](./images/202205251623603.png)

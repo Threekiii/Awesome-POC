@@ -25,6 +25,6 @@ title="致远A8+协同管理软件.A6"
 /yyoa/ext/createMysql.jsp
 ```
 
-![image-20220520152725777](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202205201527828.png)
+![image-20220520152725777](./images/202205201527828.png)
 
-![image-20220520152737237](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202205201527304.png)
+![image-20220520152737237](./images/202205201527304.png)

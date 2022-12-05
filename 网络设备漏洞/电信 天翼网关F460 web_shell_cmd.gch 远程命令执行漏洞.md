@@ -20,8 +20,8 @@ title="F460"
 
 出现漏洞的文件为 web_shell_cmd.gch
 
-![](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202140925583.png)
+![](./images/202202140925583.png)
 
 直接输入命令就可以执行 **cat /etc/passwd**
 
-![](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202140925693.png)
+![](./images/202202140925693.png)

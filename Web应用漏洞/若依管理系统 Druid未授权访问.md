@@ -20,7 +20,7 @@ app="若依-管理系统"
 
 源码中看到 pom.xml 文件中查看到引用了 阿里Druid
 
-![](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202101956128.png)
+![](./images/202202101956128.png)
 
 
 
@@ -28,7 +28,7 @@ app="若依-管理系统"
 
 
 
-![](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202101957569.png)
+![](./images/202202101957569.png)
 
 
 
@@ -42,6 +42,6 @@ http://xxx.xxx.xxx.xxx/prod-api/druid/index.html
 
 
 
-![](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202101957317.png)
+![](./images/202202101957317.png)
 
 ## 

@@ -20,7 +20,7 @@ title="Solr Admin"
 
 访问 Solr Admin 管理员页面
 
-![image-20220209120847764](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202091208853.png)
+![image-20220209120847764](./images/202202091208853.png)
 
 获取core的信息
 
@@ -28,11 +28,11 @@ title="Solr Admin"
 http://xxx.xxx.xxx.xxx/solr/admin/cores?indexInfo=false&wt=json
 ```
 
-![image-20220209120905965](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202091209053.png)
+![image-20220209120905965](./images/202202091209053.png)
 
 发送请求
 
-![image-20220209120921295](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202091209396.png)
+![image-20220209120921295](./images/202202091209396.png)
 
 请求包如下
 
@@ -56,7 +56,7 @@ Connection: close
 
 再进行文件读取
 
-![image-20220209120956306](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202091209408.png)
+![image-20220209120956306](./images/202202091209408.png)
 
 请求包如下
 
@@ -80,7 +80,7 @@ stream.url=file:///etc/passwd
 
 
 
-![image-20220209121017516](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202091210638.png)
+![image-20220209121017516](./images/202202091210638.png)
 
 Curl请求为
 
@@ -174,7 +174,7 @@ if __name__ == '__main__':
         POC_3(target_url, core_name, File_name)
 ```
 
-![image-20220209121044117](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202091210263.png)
+![image-20220209121044117](./images/202202091210263.png)
 
 ## 参考文章
 

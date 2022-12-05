@@ -26,7 +26,7 @@ https://www.anquanke.com/post/id/239865
 
 
 
-![1](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202090148152.png)
+![1](./images/202202090148152.png)
 
 
 
@@ -35,20 +35,20 @@ https://www.anquanke.com/post/id/239865
 
 
 
-![2](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202090148872.png)
+![2](./images/202202090148872.png)
 
 
 
-![3](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202090148260.png)
+![3](./images/202202090148260.png)
 
 带上`%20`试试
 
-![4](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202090149990.png)
+![4](./images/202202090149990.png)
 
 根据这个response可以看出这应该是一个soap xml注入，具体是XMLDecoder、XStream或者其他什么，还得看`weaver.workflow.webservices.WorkflowServiceXml`、`weaver.workflow.webservices.WorkflowServiceImplXml`.
 首先，先看看`weaver.workflow.webservices.WorkflowServiceXml`
 
-![5](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202090149467.png)
+![5](./images/202202090149467.png)
 
 
 
@@ -56,15 +56,15 @@ https://www.anquanke.com/post/id/239865
 
 去`weaver.workflow.webservices.WorkflowServiceImplXml`看看这个方法的实现。
 
-![6](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202090149708.png)
+![6](./images/202202090149708.png)
 
 继续跟踪看看
 
-![7](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202090149836.png)
+![7](./images/202202090149836.png)
 
 这个xs咋看起来这么眼熟？看看xs是个啥，一般Java可能会定义在代码文件最上方。
 
-![8](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202090149829.png)
+![8](./images/202202090149829.png)
 
 原来xs是`XStream`的对象
 
@@ -83,7 +83,7 @@ https://www.anquanke.com/post/id/239865
 </soapenv:Envelope>
 ```
 
-![9](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202090150166.png)
+![9](./images/202202090150166.png)
 
 验证成功。
 接下来就是寻找gadget了。
@@ -103,11 +103,11 @@ https://www.anquanke.com/post/id/239865
 
 
 
-![10](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202090150837.png)
+![10](./images/202202090150837.png)
 
 随后dnslog成功收到请求。
 
-![11](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202090150361.png)
+![11](./images/202202090150361.png)
 
 ## 漏洞POC
 

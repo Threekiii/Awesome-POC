@@ -20,10 +20,10 @@ body="text ml10 mr20" && title="网关管理软件"
 
 登录页面
 
-![img](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202203180949105.png)
+![img](./images/202203180949105.png)
 
 存在漏洞的页面为 **down.php**
 
-![img](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202203180949106.png)
+![img](./images/202203180949106.png)
 
-![img](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202203180949107.png)
+![img](./images/202203180949107.png)

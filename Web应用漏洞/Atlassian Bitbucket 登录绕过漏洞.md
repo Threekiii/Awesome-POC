@@ -20,7 +20,7 @@ title="Log in - Bitbucket"
 
 登录页面
 
-![](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202205241429046.png)
+![](./images/202205241429046.png)
 
 验证POC
 
@@ -35,4 +35,4 @@ title="Log in - Bitbucket"
 /admin%20/avatars
 ```
 
-![](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202205241429345.png)
+![](./images/202205241429345.png)

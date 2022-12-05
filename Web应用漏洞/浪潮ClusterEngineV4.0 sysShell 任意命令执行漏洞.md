@@ -24,7 +24,7 @@ title="TSCEV4.0"
 
 
 
-![](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202091851299.png)
+![](./images/202202091851299.png)
 
 
 
@@ -47,7 +47,7 @@ op=doPlease&node=cu01&command=cat /etc/passwd
 
 
 
-![](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202091852805.png)
+![](./images/202202091852805.png)
 
 
 
@@ -55,7 +55,7 @@ op=doPlease&node=cu01&command=cat /etc/passwd
 
 
 
-![](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202091852553.png)
+![](./images/202202091852553.png)
 
 
 
@@ -138,7 +138,7 @@ if __name__ == '__main__':
 
 
 
-![](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202091852927.png)
+![](./images/202202091852927.png)
 
 
 

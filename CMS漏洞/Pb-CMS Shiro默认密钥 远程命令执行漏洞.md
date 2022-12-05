@@ -20,7 +20,7 @@ Pd-CMS
 
 主页面
 
-![image-20220518155442570](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202205181554764.png)
+![image-20220518155442570](./images/202205181554764.png)
 
 默认密钥
 
@@ -28,4 +28,4 @@ Pd-CMS
 3AvVhmFLUs0KTA3Kprsdag==
 ```
 
-![image-20220518155454512](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202205181554589.png)
+![image-20220518155454512](./images/202205181554589.png)

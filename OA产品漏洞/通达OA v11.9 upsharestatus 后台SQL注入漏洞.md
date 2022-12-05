@@ -18,7 +18,7 @@ https://cdndown.tongda2000.com/oa/2019/TDOA11.9.exe
 
 双击安装
 
-![image-20220209112211968](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202091122432.png)
+![image-20220209112211968](./images/202202091122432.png)
 
 ## 漏洞复现
 
@@ -49,13 +49,13 @@ public function actionUpsharestatus()
 	}
 ```
 
-![image-20220209112228111](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202091122220.png)
+![image-20220209112228111](./images/202202091122220.png)
 
 其中 **updateAll()** 函数并没有使用防止 SQL注入的 **sql_injection()** 来防止注入
 
 **webroot/inc/conn.php**
 
-![image-20220209112245130](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202091122281.png)
+![image-20220209112245130](./images/202202091122281.png)
 
 所以这里就出现了 id 参数存在注入的情况，请求包如下
 
@@ -92,8 +92,8 @@ uid=15&status=1&id=1;select sleep(4)
 
 例如这里使用官网的测试账户 uid 遍历出为 15
 
-![image-20220209112303802](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202091123903.png)
+![image-20220209112303802](./images/202202091123903.png)
 
 如果uid错误则不会出现时间延迟，将请求包放入 Sqlmap跑一下
 
-![image-20220209112326082](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202091123191.png)
+![image-20220209112326082](./images/202202091123191.png)

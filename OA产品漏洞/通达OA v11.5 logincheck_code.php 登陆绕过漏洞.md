@@ -20,7 +20,7 @@ app="TDXK-通达OA"
 
 登陆页面
 
-![image-20220520153945050](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202205201539126.png)
+![image-20220520153945050](./images/202205201539126.png)
 
 发送第一个请求包
 
@@ -31,7 +31,7 @@ User-Agent: Go-http-client/1.1
 Accept-Encoding: gzip
 ```
 
-![image-20220520153955791](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202205201539839.png)
+![image-20220520153955791](./images/202205201539839.png)
 
 再发送第二个恶意请求
 
@@ -46,8 +46,8 @@ Accept-Encoding: gzip
 CODEUID=%7BD384F12E-A758-F44F-8A37-20E2568306A7%7D&UID=1
 ```
 
-![image-20220520154005687](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202205201540724.png)
+![image-20220520154005687](./images/202205201540724.png)
 
 获取cookie后访问管理员页面 `/general/index.php`
 
-![image-20220520154020588](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202205201540662.png)
+![image-20220520154020588](./images/202205201540662.png)

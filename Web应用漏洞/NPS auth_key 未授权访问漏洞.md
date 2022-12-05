@@ -20,11 +20,11 @@ body="serializeArray()" && body="/login/verify"
 
 登录页面
 
-![image-20220824141041017](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202208241410172.png)
+![image-20220824141041017](./images/202208241410172.png)
 
 在 web/controllers/base.go 文件中
 
-![image-20220824141203374](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202208241412535.png)
+![image-20220824141203374](./images/202208241412535.png)
 
 ```
 md5Key := s.getEscapeString("auth_key")
@@ -43,7 +43,7 @@ if !(md5Key != "" && (math.Abs(float64(timeNowUnix-int64(timestamp))) <= 20) && 
 
 这里需要的参数为 配置文件 nps.conf 中的 auth_key 与 timestamp 的md5 形式进行认证，但在默认的配置文件中，auth_key 默认被注释，所以只需要可以获取到的参数 timestamp 就可以登录目标
 
-![image-20220824141300327](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202208241413464.png)
+![image-20220824141300327](./images/202208241413464.png)
 
 ```
 import time
@@ -64,4 +64,4 @@ POST /client/list
 search=&order=asc&offset=0&limit=10&auth_key=8c98b1bdedbc569c4e61eeaeb11ce772&timestamp=1659838908
 ```
 
-![image-20220824141850731](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202208241418775.png)
+![image-20220824141850731](./images/202208241418775.png)

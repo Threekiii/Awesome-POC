@@ -26,6 +26,6 @@ http://xxx.xxx.xxx.xxx/audit/gui_detail_view.php?token=1&id=%5C&uid=%2Cchr(97))%
 
 
 
-![](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202101931947.png)
+![](./images/202202101931947.png)
 
 ## 

@@ -20,11 +20,11 @@ title="Crawlab"
 
 登录页面
 
-![](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202205241444454.png)
+![](./images/202205241444454.png)
 
 首先查看路由位置 main.go 文件
 
-![](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202205241444511.png)
+![](./images/202205241444511.png)
 
 ```
 anonymousGrou 中为匿名可调用方法
@@ -33,7 +33,7 @@ authGroup	  中为认证可调用方法
 
 可以看到 Putuser方法为添加用户，但存在匿名调用
 
-![](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202205241444706.png)
+![](./images/202205241444706.png)
 
 根据字段生成添加用户的请求
 
@@ -56,6 +56,6 @@ Connection: close
 {"username":"testppp","password":"testppp","role":"admin","email":"testppp@qq.com"}
 ```
 
-![](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202205241444367.png)
+![](./images/202205241444367.png)
 
-![](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202205241444319.png)
+![](./images/202205241444319.png)

@@ -20,7 +20,7 @@ app="华天动力-OA8000"
 
 产品页面
 
-![img](https://typora-1308934770.cos.ap-beijing.myqcloud.com/1628496676017-abce1043-e1a9-4142-9481-555f1bf0821c.png)
+![img](./images/1628496676017-abce1043-e1a9-4142-9481-555f1bf0821c.png)
 
 发送请求包验证漏洞
 
@@ -43,4 +43,4 @@ Cache-Control: max-age=0
 </buffalo-call>
 ```
 
-![img](https://typora-1308934770.cos.ap-beijing.myqcloud.com/1628496737082-cede14dc-71ae-4ec3-83da-e0707e4f8f4f.png)
+![img](./images/1628496737082-cede14dc-71ae-4ec3-83da-e0707e4f8f4f.png)

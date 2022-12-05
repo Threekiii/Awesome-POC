@@ -20,7 +20,7 @@ app="DG8045-Home-Gateway-DG8045"
 
 登录页面
 
-![image-20220519181753641](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202205191817718.png)
+![image-20220519181753641](./images/202205191817718.png)
 
 验证POC
 
@@ -28,6 +28,6 @@ app="DG8045-Home-Gateway-DG8045"
 /api/system/deviceinfo
 ```
 
-![image-20220519181803482](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202205191818539.png)
+![image-20220519181803482](./images/202205191818539.png)
 
 SerialNumber 后8位即为初始密码

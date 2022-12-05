@@ -18,7 +18,7 @@ title="ID_VC_Welcome"
 
 ## 漏洞复现
 
-![image-20220209124210343](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202091242446.png)
+![image-20220209124210343](./images/202202091242446.png)
 
 使用POC访问漏洞点
 
@@ -28,7 +28,7 @@ title="ID_VC_Welcome"
 http://xxx.xxx.xxx.xxx/eam/vib?id=C:\ProgramData\VMware\vCenterServer\cfg\vmware-vpx\vcdb.properties
 ```
 
-![image-20220209124225730](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202091242777.png)
+![image-20220209124225730](./images/202202091242777.png)
 
 - Linux主机
 
@@ -36,7 +36,7 @@ http://xxx.xxx.xxx.xxx/eam/vib?id=C:\ProgramData\VMware\vCenterServer\cfg\vmware
 https://xxx.xxx.xxx.xxx/eam/vib?id=/etc/passwd
 ```
 
-![image-20220209124241987](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202091242060.png)
+![image-20220209124241987](./images/202202091242060.png)
 
 ## 漏洞POC
 
@@ -84,4 +84,4 @@ if __name__ == '__main__':
     POC_1(target_url)
 ```
 
-![image-20220209124258448](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202091242558.png)
+![image-20220209124258448](./images/202202091242558.png)

@@ -20,7 +20,7 @@ title="云时空社会化商业ERP"
 
 登录页面
 
-![image-20220525102459840](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202205251024908.png)
+![image-20220525102459840](./images/202205251024908.png)
 
 默认密钥为
 
@@ -28,5 +28,5 @@ title="云时空社会化商业ERP"
 kPH+bIxk5D2deZiIxcaaaA==
 ```
 
-![image-20220525102542474](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202205251025549.png)
+![image-20220525102542474](./images/202205251025549.png)
 

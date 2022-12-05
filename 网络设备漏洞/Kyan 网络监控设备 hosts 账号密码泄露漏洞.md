@@ -20,7 +20,7 @@ title="platform - Login"
 
 登录页面如下
 
-![](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202140926162.png)
+![](./images/202202140926162.png)
 
 POC
 
@@ -28,7 +28,7 @@ POC
 http://xxx.xxx.xxx.xxx/hosts
 ```
 
-![](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202140927595.png)
+![](./images/202202140927595.png)
 
 成功获得账号密码
 

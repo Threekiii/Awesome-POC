@@ -20,7 +20,7 @@ app="WeiPHP"
 
 登陆页面
 
-![img](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202162318466.png)
+![img](./images/202202162318466.png)
 
 验证POC
 

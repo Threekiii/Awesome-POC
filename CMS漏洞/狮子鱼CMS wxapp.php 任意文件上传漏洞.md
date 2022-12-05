@@ -20,7 +20,7 @@
 
 登录页面如下
 
-![](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202170927506.png)
+![](./images/202202170927506.png)
 
 发送请求包上传PHP文件
 
@@ -46,8 +46,8 @@ Content-Type: http://peiqi-wiki-poc.oss-cn-beijing.aliyuncs.com/vuln/gif
 ------WebKitFormBoundary8UaANmWAgM4BqBSs--
 ```
 
-![](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202170927684.png)
+![](./images/202202170927684.png)
 
 
 
-![](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202170927948.png)
+![](./images/202202170927948.png)

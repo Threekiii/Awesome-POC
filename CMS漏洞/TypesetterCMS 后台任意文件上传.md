@@ -14,7 +14,7 @@ Typesetter CMS 5-5.1
 
 按如下步骤复现
 
-![](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202170930270.gif)
+![](./images/202202170930270.gif)
 
 ## 参考文章
 

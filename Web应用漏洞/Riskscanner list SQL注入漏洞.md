@@ -22,7 +22,7 @@ title="Riskscanner"
 
 
 
-![](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202101940023.png)
+![](./images/202202101940023.png)
 
 
 
@@ -42,7 +42,7 @@ Content-Type: application/json;charset=UTF-8
 
 
 
-![](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202101940005.png)
+![](./images/202202101940005.png)
 
 
 
@@ -50,4 +50,4 @@ Content-Type: application/json;charset=UTF-8
 
 
 
-![](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202101940424.png)
+![](./images/202202101940424.png)

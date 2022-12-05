@@ -20,7 +20,7 @@ app="TDXK-通达OA"
 
 登陆页面
 
-![image-20220520154058320](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202205201540406.png)
+![image-20220520154058320](./images/202205201540406.png)
 
 发送请求包触发漏洞
 
@@ -50,4 +50,4 @@ Content-Disposition: form-data; name="SORT_ID"
 ------------GFioQpMK0vv2--
 ```
 
-![image-20220520154111741](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202205201541795.png)
+![image-20220520154111741](./images/202205201541795.png)

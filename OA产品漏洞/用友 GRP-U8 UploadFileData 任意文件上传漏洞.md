@@ -20,7 +20,7 @@ app="用友-GRP-U8"
 
 登录页面
 
-![image-20220824142321531](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202208241423596.png)
+![image-20220824142321531](./images/202208241423596.png)
 
 验证POC
 
@@ -42,7 +42,7 @@ Content-Disposition: form-data; name="myFile";filename="test.jpg"
 ------WebKitFormBoundary92pUawKc--
 ```
 
-![image-20220824142335805](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202208241423854.png)
+![image-20220824142335805](./images/202208241423854.png)
 
 访问写入的文件
 
@@ -50,4 +50,4 @@ Content-Disposition: form-data; name="myFile";filename="test.jpg"
 /R9iPortal/debugg.jsp
 ```
 
-![image-20220824142350845](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202208241423890.png)
+![image-20220824142350845](./images/202208241423890.png)

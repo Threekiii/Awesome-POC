@@ -22,7 +22,7 @@ app="天融信-TopApp-LB-负载均衡系统"
 
 
 
-![](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202091919361.png)
+![](./images/202202091919361.png)
 
 
 
@@ -30,4 +30,4 @@ app="天融信-TopApp-LB-负载均衡系统"
 
 
 
-![](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202091919022.png)
+![](./images/202202091919022.png)

@@ -20,19 +20,19 @@ app="信呼协同办公系统"
 
 登录页面
 
-![image-20220520133147020](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202205201331106.png)
+![image-20220520133147020](./images/202205201331106.png)
 
 其中默认存在几个用户存在弱口令 123456
 
-![image-20220520133200310](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202205201332409.png)
+![image-20220520133200310](./images/202205201332409.png)
 
 存在漏洞的文件为 `webmain/system/beifen/beifenAction.php`
 
-![image-20220520133212813](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202205201332896.png)
+![image-20220520133212813](./images/202205201332896.png)
 
 查看 `getfilerows()` 方法，在 `include/chajian/fileChajian.php`
 
-![image-20220520133224646](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202205201332744.png)
+![image-20220520133224646](./images/202205201332744.png)
 
 该方法遍历目录下的文件名并输出，登录后，发送请求包
 
@@ -42,4 +42,4 @@ POST /index.php?a=getdatssss&m=beifen&d=system&ajaxbool=true
 folder=../../
 ```
 
-![image-20220520133237936](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202205201332997.png)
+![image-20220520133237936](./images/202205201332997.png)

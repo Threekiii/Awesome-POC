@@ -30,8 +30,8 @@ User-Agentt: zerodiumsystem('id');
 
 
 
-![](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202091309632.png)
+![](./images/202202091309632.png)
 
 反弹shell
 
-![](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202091310034.png)
+![](./images/202202091310034.png)

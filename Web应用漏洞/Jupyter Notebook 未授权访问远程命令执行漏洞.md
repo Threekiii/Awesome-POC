@@ -28,18 +28,18 @@ docker-compose up -d
 
 运行后，访问`http://your-ip:8888`将看到Jupyter Notebook的Web管理界面，并没有要求填写密码。
 
-![image-20220224195831711](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202241958784.png)
+![image-20220224195831711](./images/202202241958784.png)
 
 ## 漏洞复现
 
 访问目标, 点击new→Terminal即可创建一个控制台，可以直接执行任意命令：
 
-![image-20220224195857801](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202241958870.png)
+![image-20220224195857801](./images/202202241958870.png)
 
 执行命令并反弹shell：
 
-![image-20220224200055046](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202242000102.png)
+![image-20220224200055046](./images/202202242000102.png)
 
 监听2333端口，成功接收反弹shell：
 
-![image-20220224200143472](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202242001536.png)
+![image-20220224200143472](./images/202202242001536.png)

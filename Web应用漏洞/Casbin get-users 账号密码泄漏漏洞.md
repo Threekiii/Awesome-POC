@@ -20,7 +20,7 @@ title="Casdoor"
 
 登录页面
 
-![image-20220524143206718](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202205241432780.png)
+![image-20220524143206718](./images/202205241432780.png)
 
 验证POC
 
@@ -28,4 +28,4 @@ title="Casdoor"
 /api/get-users?p=123&pageSize=123
 ```
 
-![image-20220524143215583](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202205241432624.png)
+![image-20220524143215583](./images/202205241432624.png)

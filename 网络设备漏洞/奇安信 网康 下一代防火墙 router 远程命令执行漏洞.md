@@ -20,7 +20,7 @@ app="网康科技-下一代防火墙"
 
 登录页面如下
 
-![](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202162229920.png)
+![](./images/202202162229920.png)
 
 发送如下请求包
 
@@ -46,5 +46,5 @@ Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/w
 http://xxx.xxx.xxx.xxxx/test_cmd.txt
 ```
 
-![](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202162229568.png)
+![](./images/202202162229568.png)
 

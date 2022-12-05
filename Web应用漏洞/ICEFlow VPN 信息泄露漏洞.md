@@ -31,7 +31,7 @@ VPN日志    http://url/log/vpn.log
 防火墙日志	http://url/log/firewall.log
 ```
 
-![](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202101850471.png)
+![](./images/202202101850471.png)
 
 
 

@@ -20,7 +20,7 @@ app="IceWarp-公司产品"
 
 登录页面如下
 
-![](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202101850566.png)
+![](./images/202202101850566.png)
 
 
 
@@ -38,4 +38,4 @@ _dlg[captcha][target]=system(\'ipconfig\')\
 
 
 
-![](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202101851258.png)
+![](./images/202202101851258.png)

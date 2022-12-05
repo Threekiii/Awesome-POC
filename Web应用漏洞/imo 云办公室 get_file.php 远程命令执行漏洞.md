@@ -20,7 +20,7 @@ app="iMO-云办公室"
 
 登录页面
 
-![image-20220524171455819](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202205241720834.png)
+![image-20220524171455819](./images/202205241720834.png)
 
 漏洞文件 get_file.php
 
@@ -45,4 +45,4 @@ echo json_encode($ret);
 /file/NDisk/get_file.php?cid=1&nid=;pwd;
 ```
 
-![image-20220524172138053](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202205241721104.png)
+![image-20220524172138053](./images/202205241721104.png)

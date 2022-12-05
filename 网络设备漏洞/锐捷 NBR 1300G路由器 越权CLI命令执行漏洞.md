@@ -20,11 +20,11 @@ title="锐捷网络 --NBR路由器--登录界面"
 
 登录页面如下
 
-![](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202110924487.png)
+![](./images/202202110924487.png)
 
 查看流量发现 CLI命令流量
 
-![](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202110924114.png)
+![](./images/202202110924114.png)
 
 请求包为
 
@@ -52,7 +52,7 @@ command=show version&strurl=exec%04&mode=%02PRIV_EXEC&signname=Red-Giant.
 
 登录后发送请求包，执行CLI命令 **(show webmaster user)** 查看用户配置账号密码
 
-![](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202110924928.png)
+![](./images/202202110924928.png)
 
 成功获取所有用户的账号密码
 
@@ -113,4 +113,4 @@ if __name__ == '__main__':
     POC_1(target_url)
 ```
 
-![](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202110925172.png)
+![](./images/202202110925172.png)

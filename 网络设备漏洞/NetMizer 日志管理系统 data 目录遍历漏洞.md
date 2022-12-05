@@ -20,7 +20,7 @@ title="NetMizer 日志管理系统"
 
 登录页面
 
-![image-20220519175506872](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202205191757812.png)
+![image-20220519175506872](./images/202205191757812.png)
 
 验证POC
 
@@ -28,4 +28,4 @@ title="NetMizer 日志管理系统"
 /data
 ```
 
-![image-20220519175728991](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202205191757072.png)
+![image-20220519175728991](./images/202205191757072.png)

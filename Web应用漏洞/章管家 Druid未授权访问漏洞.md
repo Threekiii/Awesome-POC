@@ -20,7 +20,7 @@
 
 登录页面
 
-![](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202091905857.png)
+![](./images/202202091905857.png)
 
 
 
@@ -28,4 +28,4 @@
 
 
 
-![](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202091905148.png)
+![](./images/202202091905148.png)

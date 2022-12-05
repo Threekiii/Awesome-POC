@@ -59,6 +59,6 @@ app="致远互联-OA"
 
 回显Session则存在漏洞
 
-![image-20220520153805805](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202205201538850.png)
+![image-20220520153805805](./images/202205201538850.png)
 
 通过替换 Session即可登陆系统

@@ -20,7 +20,7 @@ title="CMA客诉管理系统手机端"
 
 登录页面
 
-![](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202205241430645.png)
+![](./images/202205241430645.png)
 
 发送请求包上传文件
 
@@ -47,8 +47,8 @@ Content-Type: application/octet-stream
 ------WebKitFormBoundarymXf9pBIUlDVOYtnZ--
 ```
 
-![](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202205241430324.png)
+![](./images/202205241430324.png)
 
 发送后回显路径，使用冰蝎连接
 
-![](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202205241430125.png)
+![](./images/202205241430125.png)

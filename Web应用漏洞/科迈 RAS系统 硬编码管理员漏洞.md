@@ -18,9 +18,9 @@ app="科迈-RAS系统"
 
 ## 漏洞复现
 
-![](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202091840562.png)
+![](./images/202202091840562.png)
 
-![](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202091840042.png)
+![](./images/202202091840042.png)
 
 
 

@@ -48,7 +48,7 @@ cd /opt/jumpserver-installer-v2.6.1
 
 
 
-![](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202101943889.png)
+![](./images/202202101943889.png)
 
 
 
@@ -56,19 +56,19 @@ cd /opt/jumpserver-installer-v2.6.1
 
 
 
-![](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202101943769.png)
+![](./images/202202101943769.png)
 
 
 
 **用户管理 --> 用户列表**
 
-![](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202101943018.png)
+![](./images/202202101943018.png)
 
 **资产管理 --> 资产列表**
 
 
 
-![](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202101943864.png)
+![](./images/202202101943864.png)
 
 
 
@@ -76,7 +76,7 @@ cd /opt/jumpserver-installer-v2.6.1
 
 
 
-![](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202101943085.png)
+![](./images/202202101943085.png)
 
 
 
@@ -165,7 +165,7 @@ class CeleryLogWebsocket(JsonWebsocketConsumer):
 
 
 
-![](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202101943143.png)
+![](./images/202202101943143.png)
 
 
 
@@ -173,7 +173,7 @@ class CeleryLogWebsocket(JsonWebsocketConsumer):
 
 
 
-![](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202101944092.png)
+![](./images/202202101944092.png)
 
 
 
@@ -181,7 +181,7 @@ class CeleryLogWebsocket(JsonWebsocketConsumer):
 
 
 
-![](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202101944673.png)
+![](./images/202202101944673.png)
 
 
 
@@ -193,7 +193,7 @@ class CeleryLogWebsocket(JsonWebsocketConsumer):
 
 
 
-![](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202101944023.png)
+![](./images/202202101944023.png)
 
 
 
@@ -204,7 +204,7 @@ cat gunicorn.log | grep /api/v1/perms/asset-permissions/user/validate/?
 
 
 
-![](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202101944593.png)
+![](./images/202202101944593.png)
 
 
 
@@ -220,7 +220,7 @@ user_id=efede3f4-8659-4daa-8e95-9a841dbe82a8
 
 
 
-![](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202101945874.png)
+![](./images/202202101945874.png)
 
 
 
@@ -228,7 +228,7 @@ user_id=efede3f4-8659-4daa-8e95-9a841dbe82a8
 
 
 
-![](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202101945185.png)
+![](./images/202202101945185.png)
 
 
 
@@ -236,7 +236,7 @@ user_id=efede3f4-8659-4daa-8e95-9a841dbe82a8
 
 
 
-![](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202101945990.png)
+![](./images/202202101945990.png)
 
 
 
@@ -244,7 +244,7 @@ user_id=efede3f4-8659-4daa-8e95-9a841dbe82a8
 
 
 
-![](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202101945914.png)
+![](./images/202202101945914.png)
 
 
 
@@ -252,7 +252,7 @@ user_id=efede3f4-8659-4daa-8e95-9a841dbe82a8
 
 
 
-![](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202101945570.png)
+![](./images/202202101945570.png)
 
 
 
@@ -260,7 +260,7 @@ user_id=efede3f4-8659-4daa-8e95-9a841dbe82a8
 
 
 
-![](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202101945740.png)
+![](./images/202202101945740.png)
 
 
 
@@ -268,7 +268,7 @@ user_id=efede3f4-8659-4daa-8e95-9a841dbe82a8
 
 
 
-![](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202101945777.png)
+![](./images/202202101945777.png)
 
 
 
@@ -414,6 +414,6 @@ if __name__ == '__main__':
     POC_2(target_url, user, asset, system_user)
 ```
 
-![](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202101945982.png)
+![](./images/202202101945982.png)
 
-![](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202101946161.png)
+![](./images/202202101946161.png)

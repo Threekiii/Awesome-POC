@@ -22,7 +22,7 @@ app="TamronOS-IPTV系统"
 
 
 
-![](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202101926621.png)
+![](./images/202202101926621.png)
 
 
 
@@ -36,4 +36,4 @@ app="TamronOS-IPTV系统"
 
 
 
-![](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202101927800.png)
+![](./images/202202101927800.png)

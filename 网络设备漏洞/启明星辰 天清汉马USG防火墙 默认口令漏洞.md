@@ -22,15 +22,15 @@ title="天清汉马USG防火墙"
 
 
 
-![](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202162254777.png)
+![](./images/202202162254777.png)
 
 ```plain
 账号：useradmin
 密码：venus.user
 ```
 
-![](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202162255446.png)
+![](./images/202202162255446.png)
 
 成功登录
 
-![](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202162255311.png)
+![](./images/202202162255311.png)

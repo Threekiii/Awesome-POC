@@ -20,7 +20,7 @@ app="weiphp"
 
 登陆页面标识
 
-![img](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202162318569.png)
+![img](./images/202202162318569.png)
 
 发送请求包上传文件
 
@@ -42,8 +42,8 @@ phpinfo();
 --------------------------e37a54d7d5380c9f--
 ```
 
-![img](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202162318518.png)
+![img](./images/202202162318518.png)
 
 获取目录后访问回显的 path
 
-![img](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202162318407.png)
+![img](./images/202202162318407.png)

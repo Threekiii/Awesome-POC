@@ -108,7 +108,7 @@ require_once (dirname(__FILE__)."\\common\\HTTPrequest_SCpost.php");
 
 
 
-![](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202091834810.png)
+![](./images/202202091834810.png)
 
 
 
@@ -142,7 +142,7 @@ url=IiB8fCBpcGNvbmZpZyB8fA%3D%3D&fileName=xxx
 
 
 
-![](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202091834882.png)
+![](./images/202202091834882.png)
 
 
 
@@ -193,4 +193,4 @@ if __name__ == '__main__':
 
 
 
-![](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202091834679.png)
+![](./images/202202091834679.png)

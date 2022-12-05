@@ -22,7 +22,7 @@ title="网页防篡改系统"
 
 
 
-![image-20220209200743358](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202092007654.png)
+![image-20220209200743358](./images/202202092007654.png)
 
 
 
@@ -36,10 +36,10 @@ http://xxx.xxx.xxx.xxx/API/
 
 
 
-![image-20220209200809080](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202092008160.png)
+![image-20220209200809080](./images/202202092008160.png)
 
 部分 API请求 不需要登录即可访问获取信息，例如 **/user/list**
 
 
 
-![image-20220209200829973](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202092008053.png)
+![image-20220209200829973](./images/202202092008053.png)

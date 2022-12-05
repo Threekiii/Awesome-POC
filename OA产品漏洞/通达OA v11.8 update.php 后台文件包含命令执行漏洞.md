@@ -65,7 +65,7 @@ if ($PHOTO_NAME0 != "") {
 }
 ```
 
-![image-20220209111844985](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202091118195.png)
+![image-20220209111844985](./images/202202091118195.png)
 
 在这里参数 **$USER_ID** 是可控的，并且无过滤危险符号就拼接进去了，那我们传入 **../../../** 我们就可以任意文件上传了
 
@@ -108,21 +108,21 @@ Content-Disposition: form-data; name="submit"
 
 这里我们简单知道了上传方式，那我们就通过 **.user.ini文件** 包含恶意文件
 
-![image-20220209111908637](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202091119726.png)
+![image-20220209111908637](./images/202202091119726.png)
 
 现在已经成功上传了恶意文件
 
 访问 http://xxx.xxx.xxx.xxx/general/reportshop/workshop/report/attachment-remark/form.inc.php?peiqi=ipconfig 文件包含命令执行
 
-![image-20220209111927060](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202091119206.png)
+![image-20220209111927060](./images/202202091119206.png)
 
 在 v11.6中 上传的位置并没有限定所以可以上传在方便访问的目录(不需要登录)
 
 而 v11.8中则有目录名的限制需要目录带有 webroot 和 attachment
 
-![image-20220209112005410](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202091120519.png)
+![image-20220209112005410](./images/202202091120519.png)
 
-![image-20220209112022434](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202091120543.png)
+![image-20220209112022434](./images/202202091120543.png)
 
 ## 漏洞POC
 
@@ -230,7 +230,7 @@ if __name__ == '__main__':
     POC_1(target_url, Cookie)
 ```
 
-![image-20220209112046258](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202091120453.png)
+![image-20220209112046258](./images/202202091120453.png)
 
 v11.8及以下可连接蚁剑生成的webshell控制,且生成后不需要管理员Cookie即可连接
 
@@ -336,5 +336,5 @@ if __name__ == '__main__':
     POC_1(target_url, Cookie)
 ```
 
-![image-20220209112120203](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202091121379.png)
+![image-20220209112120203](./images/202202091121379.png)
 

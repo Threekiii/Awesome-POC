@@ -20,7 +20,7 @@ app="MTS转码服务器"
 
 登录页面
 
-![image-20220525145422524](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202205251454625.png)
+![image-20220525145422524](./images/202205251454625.png)
 
 验证POC
 
@@ -28,4 +28,4 @@ app="MTS转码服务器"
 /../../../../../../../../etc/passwd
 ```
 
-![](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202205251454380.png)
+![](./images/202205251454380.png)

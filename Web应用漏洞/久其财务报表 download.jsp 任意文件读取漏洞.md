@@ -22,7 +22,7 @@ body="/netrep/"
 
 
 
-![](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202101905343.png)
+![](./images/202202101905343.png)
 
 
 
@@ -44,4 +44,4 @@ jpgfilepath=c:\windows\win.ini
 
 
 
-![](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202101905484.png)
+![](./images/202202101905484.png)

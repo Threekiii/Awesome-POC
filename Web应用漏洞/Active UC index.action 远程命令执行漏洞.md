@@ -20,7 +20,7 @@ title="网动统一通信平台(Active UC)"
 
 登录页面如下
 
-![](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202101923695.png)
+![](./images/202202101923695.png)
 
 
 
@@ -47,4 +47,4 @@ xxxxxxx
 -----------------------------18012721719170
 ```
 
-![](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202101923511.png)
+![](./images/202202101923511.png)

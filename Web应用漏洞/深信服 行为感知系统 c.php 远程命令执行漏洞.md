@@ -22,7 +22,7 @@ body="isHighPerformance : !!SFIsHighPerformance,"
 
 
 
-![](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202091914752.png)
+![](./images/202202091914752.png)
 
 
 
@@ -36,4 +36,4 @@ body="isHighPerformance : !!SFIsHighPerformance,"
 
 
 
-![](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202091914059.png)
+![](./images/202202091914059.png)

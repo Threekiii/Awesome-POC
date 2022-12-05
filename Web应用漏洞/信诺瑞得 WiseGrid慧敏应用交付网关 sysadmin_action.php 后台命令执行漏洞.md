@@ -20,7 +20,7 @@ app="WiseGrid慧敏应用交付网关"
 
 登录页面
 
-![image-20220525143430650](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202205251434774.png)
+![image-20220525143430650](./images/202205251434774.png)
 
 默认口令
 
@@ -52,6 +52,6 @@ X-Remote-Addr: 127.0.0.1
 Connection: close
 ```
 
-![](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202205251433134.png)
+![](./images/202205251433134.png)
 
-![]()![2](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202205251434769.png)
+![]()![2](./images/202205251434769.png)

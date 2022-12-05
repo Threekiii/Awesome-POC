@@ -22,7 +22,7 @@ https://cdndown.tongda2000.com/oa/2019/TDOA11.4.exe
 
 双击安装即可
 
-![image-20220209105714403](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202091057824.png)
+![image-20220209105714403](./images/202202091057824.png)
 
 
 
@@ -37,7 +37,7 @@ root@kali:~/桌面# python3 1.py -v 11 -u http://xx.xxx.xxx.xxx
 
 成功获得Cookie,添加Cookie访问 [**http://xxx.xxx.xxx.xxx/general/index.php?isIE=0&modify_pwd=0**](http://xxx.xxx.xxx.xxx/general/index.php?isIE=0&modify_pwd=0)即可
 
-![image-20220209105731535](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202091057599.png)
+![image-20220209105731535](./images/202202091057599.png)
 
 ## 漏洞POC
 

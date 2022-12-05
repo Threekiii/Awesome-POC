@@ -20,7 +20,7 @@ app="ShopXO企业级B2C电商系统提供商"
 
 商城主页如下
 
-![](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202170858707.png)
+![](./images/202202170858707.png)
 
 发送漏洞请求包
 
@@ -37,4 +37,4 @@ Upgrade-Insecure-Requests: 1
 
 其中 **/url/xxxx** 中的 base64 解码后为 **/etc/passwd**
 
-![](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202170859076.png)
+![](./images/202202170859076.png)

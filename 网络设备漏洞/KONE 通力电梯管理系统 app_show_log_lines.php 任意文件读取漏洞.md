@@ -20,7 +20,7 @@ KONE 通力电梯管理系统
 
 主页面
 
-![image-20220519184439370](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202205191844461.png)
+![image-20220519184439370](./images/202205191844461.png)
 
 发送POST请求包
 
@@ -28,4 +28,4 @@ KONE 通力电梯管理系统
 fileselection=/etc/passwd
 ```
 
-![image-20220519184600379](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202205191846469.png)
+![image-20220519184600379](./images/202205191846469.png)

@@ -20,13 +20,13 @@ title="Hue - 欢迎使用 Hue"
 
 登录页面如下
 
-![hue-1](https://typora-1308934770.cos.ap-beijing.myqcloud.com/hue-1.png)
+![hue-1](./images/hue-1.png)
 
 
 
 上传并编辑文件为执行的命令
 
-![hue-2](https://typora-1308934770.cos.ap-beijing.myqcloud.com/hue-2.png)
+![hue-2](./images/hue-2.png)
 
 
 
@@ -34,4 +34,4 @@ title="Hue - 欢迎使用 Hue"
 
 
 
-![hue-3](https://typora-1308934770.cos.ap-beijing.myqcloud.com/hue-3.png)
+![hue-3](./images/hue-3.png)

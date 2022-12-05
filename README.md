@@ -608,3 +608,7 @@
 本项目收集漏洞均源于互联网：
 
 - Peiqi：https://github.com/PeiQi0/PeiQi-WIKI-Book
+
+## 0x03 更新日志
+
+- 2022.12.05 图片本地化

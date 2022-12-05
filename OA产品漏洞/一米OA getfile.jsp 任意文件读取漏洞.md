@@ -20,7 +20,7 @@ app="一米OA"
 
 产品页面
 
-![image-20220520132327152](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202205201323308.png)
+![image-20220520132327152](./images/202205201323308.png)
 
 出现漏洞的文件
 
@@ -130,4 +130,4 @@ String filePath = Global.getRealPath() + "/" + noticefilepath + "/" + filename;
 /public/getfile.jsp?user=1&prop=activex&filename=../public/getfile&extname=jsp 
 ```
 
-![image-20220520132344272](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202205201323352.png)
+![image-20220520132344272](./images/202205201323352.png)

@@ -16,7 +16,7 @@
 
 
 
-![](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202091917573.png)
+![](./images/202202091917573.png)
 
 
 
@@ -24,7 +24,7 @@
 
 
 
-![](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202091917218.png)
+![](./images/202202091917218.png)
 
 
 
@@ -32,13 +32,13 @@
 
 
 
-![](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202091917102.png)
+![](./images/202202091917102.png)
 
 
 
 本地来看一下这个`54530`端口对应的进程是什么：
 
-![](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202091917296.png)
+![](./images/202202091917296.png)
 
 
 
@@ -46,7 +46,7 @@
 
 
 
-![](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202091917851.png)
+![](./images/202202091917851.png)
 
 
 
@@ -102,7 +102,7 @@ python -m SimpleHTTPServer
 
 
 
-![](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202091917373.png)
+![](./images/202202091917373.png)
 
 首先我们已经验证了自己的猜想，更新地址是自己可控的，客户端确实会向我们指定的服务端发送请求，但由于出现了错误我们不知道客户端访问了哪个文件，也不知道访问文件之后做了什么动作。
 
@@ -133,7 +133,7 @@ httpd.serve_forever()
 
 
 
-![](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202091918528.png)
+![](./images/202202091918528.png)
 
 
 
@@ -198,7 +198,7 @@ https://127.0.0.1:54530/ECAgent/?op=UpdateControls&arg1=BEFORELOGIN&callback=EA_
 
 
 
-![](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202091918246.png)
+![](./images/202202091918246.png)
 
 
 
@@ -225,7 +225,7 @@ Exploit很简单，当用户打开某个页面时访问那三个本地请求即�
 
 
 
-![](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202091918424.png)
+![](./images/202202091918424.png)
 
 
 

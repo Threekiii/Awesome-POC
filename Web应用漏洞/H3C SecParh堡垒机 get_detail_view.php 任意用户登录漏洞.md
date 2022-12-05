@@ -22,7 +22,7 @@ app="H3C-SecPath-运维审计系统" && body="2018"
 
 登录页面如下
 
-![1](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202091826937.png)
+![1](./images/202202091826937.png)
 
 
 
@@ -34,7 +34,7 @@ POC验证的Url为
 
 
 
-![2](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202091826692.png)
+![2](./images/202202091826692.png)
 
 成功获取admin权限
 

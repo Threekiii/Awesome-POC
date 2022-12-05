@@ -20,7 +20,7 @@ title="视频编码设备接入网关"
 
 登陆页面
 
-![image-20220519174129368](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202205191741462.png)
+![image-20220519174129368](./images/202205191741462.png)
 
 POC
 
@@ -28,4 +28,4 @@ POC
 /data/login.php::$DATA
 ```
 
-![image-20220519174235421](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202205191742487.png)
+![image-20220519174235421](./images/202205191742487.png)

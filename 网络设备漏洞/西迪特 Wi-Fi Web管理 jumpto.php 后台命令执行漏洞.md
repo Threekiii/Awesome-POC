@@ -20,7 +20,7 @@ title=="Wi-Fi Web管理"
 
 登录页面
 
-![image-20220519183944313](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202205191841065.png)
+![image-20220519183944313](./images/202205191841065.png)
 
 通过越权漏洞获取权限，添加Cookie
 
@@ -30,4 +30,4 @@ Cookie: timestamp=0; cooLogin=1; cooUser=admin
 
 进入后台后，诊断功能点存在命令拼接执行漏洞
 
-![image-20220519184158173](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202205191841279.png)
+![image-20220519184158173](./images/202205191841279.png)

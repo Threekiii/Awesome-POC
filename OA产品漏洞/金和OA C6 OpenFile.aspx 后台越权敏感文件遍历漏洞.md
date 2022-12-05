@@ -22,21 +22,21 @@ app="Jinher-OA"
 
 登录后点击信息交流，发起协同页面
 
-![1](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202090137424.png)
+![1](./images/202202090137424.png)
 
 上传附件并上传发送给目标
 
 - 这里登录权限为管理员，我们自己发给自己就好，前文只是展现漏洞挖掘思路过程
 
-![2](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202090137965.png)
+![2](./images/202202090137965.png)
 
 成功收到上传的附件
 
-![3](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202090138862.png)
+![3](./images/202202090138862.png)
 
 点击查看时抓包，发现一个带有文件ID的请求包
 
-![4](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202090138285.png)
+![4](./images/202202090138285.png)
 
 返回了几个参数
 
@@ -53,7 +53,7 @@ var MD = '';
 
 其中我们注意到 strFilePath 为文件的存储地址，我们更改 id参数为另一个值，且测试后发现 name文件名参数无关紧要
 
-![5](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202090138702.png)
+![5](./images/202202090138702.png)
 
 更改ID后发送请求包发现获得另一个文件的信息
 
@@ -63,13 +63,13 @@ var MD = '';
 http://xxx.xxx.xxx.xxx/C6/control/OpenFile.aspx?id=1200&name=&type=pdf
 ```
 
-![6](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202090138950.png)
+![6](./images/202202090138950.png)
 
 这里更换一个普通用户测试是否可行，尝试遍历 id
 
-![7](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202090138469.png)
+![7](./images/202202090138469.png)
 
-![8](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202090139653.png)
+![8](./images/202202090139653.png)
 
 存在 **strFilePath参数** 则是存在文件，为空则是文件已经不存在
 
@@ -77,7 +77,7 @@ http://xxx.xxx.xxx.xxx/C6/control/OpenFile.aspx?id=1200&name=&type=pdf
 
 **FileID 与 FileIDCode**
 
-![9](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202090139235.png)
+![9](./images/202202090139235.png)
 
 于是只需要通过刚刚的ID遍历，获取两个关键参数就能下载其他人发送的敏感文件，且只需要普通用户权限
 
@@ -142,4 +142,4 @@ if __name__ == '__main__':
     POC_1(target_url, file_id, cookie)
 ```
 
-![10](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202090139356.png)
+![10](./images/202202090139356.png)

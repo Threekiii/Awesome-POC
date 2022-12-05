@@ -26,11 +26,11 @@ app="泛微-协同办公OA"
 
 请求包为
 
-![image-20220209103936690](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202091039784.png)
+![image-20220209103936690](./images/202202091039784.png)
 
 使用POC文件上传
 
-![image-20220209103951582](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202091039689.png)
+![image-20220209103951582](./images/202202091039689.png)
 
 ## 漏洞POC
 

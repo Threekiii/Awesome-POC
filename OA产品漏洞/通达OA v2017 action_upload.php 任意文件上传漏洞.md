@@ -18,7 +18,7 @@ app="TDXK-通达OA"
 
 访问获取版本信息
 
-![img](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202091053148.png)
+![img](./images/202202091053148.png)
 
 发送请求包上传任意文件
 
@@ -59,8 +59,8 @@ submit
 -----------------------------55719851240137822763221368724--
 ```
 
-![img](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202091053293.png)
+![img](./images/202202091053293.png)
 
 再访问上传的文件 
 
-![img](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202091053249.png)
+![img](./images/202202091053249.png)

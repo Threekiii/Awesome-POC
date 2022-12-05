@@ -49,7 +49,7 @@ Accept-Encoding: gzip
 var={"body":{"file":"file:///etc/passwd"}}
 ```
 
-![1](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202090128987.png)
+![1](./images/202202090128987.png)
 
 ## 漏洞POC
 
@@ -100,4 +100,4 @@ if __name__ == '__main__':
     POC_1(target_url)
 ```
 
-![2](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202090129010.png)
+![2](./images/202202090129010.png)

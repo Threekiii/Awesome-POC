@@ -20,4 +20,4 @@ title="Ruijie" && "云课堂主机"
 
 访问 http://xxx.xxx.xxx.xxx/pool 造成目录遍历
 
-![](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202110919267.png)
+![](./images/202202110919267.png)

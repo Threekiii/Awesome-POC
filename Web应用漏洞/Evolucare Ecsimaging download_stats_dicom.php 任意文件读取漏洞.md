@@ -20,7 +20,7 @@ body="ECSimaging"
 
 登录页面
 
-![](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202205241445840.png)
+![](./images/202205241445840.png)
 
 验证POC
 
@@ -28,4 +28,4 @@ body="ECSimaging"
 /download_stats_dicom.php?fullpath=/etc/passwd&filename=/etc/passwd
 ```
 
-![](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202205241445607.png)
+![](./images/202205241445607.png)

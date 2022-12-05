@@ -20,11 +20,11 @@ DedeCMS v5.81 beta 内测版
 
 产品页面
 
-![image-20220518145134124](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202205181451208.png)
+![image-20220518145134124](./images/202205181451208.png)
 
 查看文件 `include/common.func.php` 的 ShowMsg方法
 
-![image-20220518145203093](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202205181452163.png)
+![image-20220518145203093](./images/202205181452163.png)
 
 ```
 function ShowMsg($msg, $gourl, $onlymsg = 0, $limittime = 0)
@@ -123,11 +123,11 @@ function ShowMsg($msg, $gourl, $onlymsg = 0, $limittime = 0)
  */
 ```
 
-![image-20220518145232032](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202205181452079.png)
+![image-20220518145232032](./images/202205181452079.png)
 
 这里注意到 当 $gourl 变量为 -1 时调用 ShowMsg方法, 则请求参数 Referer 为用户可控参数
 
-![image-20220518145245750](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202205181452841.png)
+![image-20220518145245750](./images/202205181452841.png)
 
 向下看，可以发现可控的变量传入两个方法
 
@@ -139,7 +139,7 @@ $tpl->Display();
 
 追踪方法来到 `include/dedetemplate.class.php` 文件
 
-![image-20220518145306926](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202205181453003.png)
+![image-20220518145306926](./images/202205181453003.png)
 
 ParseTemplate() 则是模版渲染的方法，再往下看
 
@@ -155,7 +155,7 @@ public function Display()
 
 追踪一下 `WriteCache()` 方法
 
-![image-20220518145323275](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202205181453362.png)
+![image-20220518145323275](./images/202205181453362.png)
 
 看 GetResult() 方法 和 CheckDisableFunctions() 方法
 
@@ -204,7 +204,7 @@ public function Display()
 
 此时我们就可以通过控制 Referer请求头，来控制模版的渲染，绕过 CheckDisabledFunctions)方法的过滤 造成远程命令执行
 
-![](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202205181453931.png)
+![](./images/202205181453931.png)
 
 通过正则找到受影响且无需身份认证的文件，来进行命令执行
 
@@ -221,11 +221,11 @@ public function Display()
 ........
 ```
 
-![image-20220518145405375](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202205181454424.png)
+![image-20220518145405375](./images/202205181454424.png)
 
 这里利用没有过滤的双引号绕过 disables 禁止的函数
 
-![image-20220518145425771](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202205181454853.png)
+![image-20220518145425771](./images/202205181454853.png)
 
 漏洞请求包
 

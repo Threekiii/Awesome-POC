@@ -20,7 +20,7 @@ title=电池能量管理系统 BEMS
 
 登陆页面
 
-![img](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202101906850.png)
+![img](./images/202202101906850.png)
 
 验证POC
 
@@ -28,4 +28,4 @@ title=电池能量管理系统 BEMS
 /api/downloads?fileName=../../../../../../../../etc/shadow
 ```
 
-![img](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202101906628.png)
+![img](./images/202202101906628.png)

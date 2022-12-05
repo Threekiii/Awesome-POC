@@ -30,4 +30,4 @@ ezEIP 4.1.0
 WHIR_USERINFOR=whir_mem_member_pid=1;
 ```
 
-![](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202162312106.png)
+![](./images/202202162312106.png)

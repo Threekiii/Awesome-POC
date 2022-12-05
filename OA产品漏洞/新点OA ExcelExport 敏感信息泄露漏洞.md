@@ -26,6 +26,6 @@ app="新点OA"
 
 将会下载人员列表文件
 
-![xindian](https://typora-1308934770.cos.ap-beijing.myqcloud.com/xindian.png)
+![xindian](./images/xindian.png)
 
 通过获取的登录名登陆后台(默认密码11111)

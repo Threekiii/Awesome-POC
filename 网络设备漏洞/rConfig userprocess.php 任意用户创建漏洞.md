@@ -319,11 +319,11 @@ Content-Disposition: form-data; name="editid"
 --b1467349fcce4aa0ae8d44439f4e06bc--
 ```
 
-![](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202162241827.png)
+![](./images/202202162241827.png)
 
 成功创建用户 testtest，以管理员身份登录后台
 
-![](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202162242368.png)
+![](./images/202202162242368.png)
 
 ## 漏洞POC
 
@@ -390,4 +390,4 @@ if __name__ == '__main__':
     POC_1(target_url)
 ```
 
-![](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202162242409.png)
+![](./images/202202162242409.png)

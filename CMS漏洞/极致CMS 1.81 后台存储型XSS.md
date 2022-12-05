@@ -18,19 +18,19 @@ icon_hash="1657387632"
 
 ## 漏洞复现
 
-网站主页![img](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202170914080.png)
+网站主页![img](./images/202202170914080.png)
 
 登录管理员添加模块
 
-![](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202170915540.png)
+![](./images/202202170915540.png)
 
 注册用户
 
-![](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202170915958.png)
+![](./images/202202170915958.png)
 
 点击发布文章
 
-![](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202170915367.png)
+![](./images/202202170915367.png)
 
 在文章标题处插入xss payload
 
@@ -38,5 +38,5 @@ icon_hash="1657387632"
 
 当管理员访问时XSS成功
 
-![](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202170915879.png)
+![](./images/202202170915879.png)
 

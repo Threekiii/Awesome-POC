@@ -24,4 +24,4 @@ app="TDXK-通达OA"
 /general/mytable/intel_view/video_file.php?MEDIA_DIR=../../../inc/&MEDIA_NAME=oa_config.php	
 ```
 
-![image-20220715110910861](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202207151109936.png)
+![image-20220715110910861](./images/202207151109936.png)

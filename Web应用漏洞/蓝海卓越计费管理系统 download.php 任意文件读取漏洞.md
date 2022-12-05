@@ -22,7 +22,7 @@ title=="蓝海卓越计费管理系统"
 
 
 
-![](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202101852354.png)
+![](./images/202202101852354.png)
 
 
 
@@ -50,6 +50,6 @@ Connection: close
 
 
 
-![](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202101852942.png)
+![](./images/202202101852942.png)
 
 ## 

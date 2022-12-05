@@ -20,11 +20,11 @@
 
 登录页面
 
-![image-20220525103602413](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202205251036461.png)
+![image-20220525103602413](./images/202205251036461.png)
 
 默认口令 amdin/admin, 服务器更新界面上传PHP文件
 
-![image-20220525103740928](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202205251037014.png)
+![image-20220525103740928](./images/202205251037014.png)
 
 访问页面
 

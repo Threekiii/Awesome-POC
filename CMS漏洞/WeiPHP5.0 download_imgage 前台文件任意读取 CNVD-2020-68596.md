@@ -22,13 +22,13 @@ app="WeiPHP"
 
 参考官方手册创建网站即可
 
-![image-20220518155931404](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202205181559468.png)
+![image-20220518155931404](./images/202205181559468.png)
 
 漏洞函数文件:`application\material\controller\Material.php`
 
 漏洞函数:`_download_imgage`
 
-![image-20220518160008264](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202205181600401.png)
+![image-20220518160008264](./images/202205181600401.png)
 
 ```
 public function _download_imgage($media_id, $picUrl = '', $dd = null)
@@ -125,7 +125,7 @@ $content = wp_file_get_contents($picUrl);
 
 函数文件位置 `application\common.php`
 
-![image-20220518160112407](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202205181601465.png)
+![image-20220518160112407](./images/202205181601465.png)
 
 可以看到这里没有对我们的参数进行过滤，只做了一个有关超时的操作, 回到函数继续向下分析
 
@@ -147,19 +147,19 @@ $res = file_put_contents($picPath, $content);
 /public/index.php/material/Material/_download_imgage?media_id=1&picUrl=./../config/database.php
 ```
 
-![image-20220518160132259](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202205181601329.png)
+![image-20220518160132259](./images/202205181601329.png)
 
 查看目录`/public/uploads/picture/`，并用记事本打开写入的jpg文件
 
-![image-20220518160149362](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202205181601445.png)
+![image-20220518160149362](./images/202205181601445.png)
 
 得到数据库配置文件的信息，既然这个变量可控，我们也可以通过这个方法下载木马文件，再通过解析漏洞或者文件包含等其他漏洞来getshell
 
-![image-20220518160204626](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202205181602698.png)
+![image-20220518160204626](./images/202205181602698.png)
 
 在当前条件下并不知道文件名是什么，所以回到代码中继续寻找可以获取文件名的办法
 
-![image-20220518160225049](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202205181602112.png)
+![image-20220518160225049](./images/202205181602112.png)
 
 ```
 if ($res) {
@@ -180,7 +180,7 @@ if ($res) {
 
 函数位置:`application\home\model\Picture.php`
 
-![image-20220518160239897](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202205181602963.png)
+![image-20220518160239897](./images/202205181602963.png)
 
 ```
 function addFile($file)
@@ -212,11 +212,11 @@ $id = $this->insertGetId($data);
 
 我们查看一下数据库的这个数据表，可以发现之前所上传的数据全部缓存在这个表里了
 
-![image-20220518160254667](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202205181602824.png)
+![image-20220518160254667](./images/202205181602824.png)
 
 我们现在则需要找到不需要登录的地方来获得这些数据，所以可以全局去查找调用了这个 Picture 表的地方
 
-![image-20220518160312578](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202205181603655.png)
+![image-20220518160312578](./images/202205181603655.png)
 
 找到一处可以利用的地方
 
@@ -247,12 +247,12 @@ function get_wpid($wpid = '')
 
 查看 WPID 的定义，文件位置在`config\weiphp_define.php`
 
-![image-20220518160335575](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202205181603854.png)
+![image-20220518160335575](./images/202205181603854.png)
 
 定义值默认为 1，所以这里调用则可以获得数据库中Pictrue表的内容，间接的知道了文件内容以及文件名
 
 访问地址: http://webphp/public/index.php/home/file/user_pids
 
-![image-20220518160401674](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202205181604752.png)
+![image-20220518160401674](./images/202205181604752.png)
 
 可以看到文件名，根据url地址访问选择下载即可

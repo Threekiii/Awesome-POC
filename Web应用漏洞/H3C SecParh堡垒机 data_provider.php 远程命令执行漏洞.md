@@ -20,7 +20,7 @@ app="H3C-SecPath-运维审计系统" && body="2018"
 
 登录页面如下
 
-![1](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202091828935.png)
+![1](./images/202202091828935.png)
 
 
 
@@ -32,7 +32,7 @@ app="H3C-SecPath-运维审计系统" && body="2018"
 
 
 
-![2](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202091828626.png)
+![2](./images/202202091828626.png)
 
 
 
@@ -42,4 +42,4 @@ app="H3C-SecPath-运维审计系统" && body="2018"
 
 
 
-![3](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202091828206.png)
+![3](./images/202202091828206.png)

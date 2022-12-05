@@ -68,23 +68,23 @@ if ($_SESSION['LOGIN_USER_ID'] == '' || $_SESSION['LOGIN_UID'] == '') {
 $sql = 'SELECT SID FROM user_online WHERE UID = \'' . $uid . '\' and CLIENT = \'' . $P_VER . '\'';
 ```
 
-![image-20220209110301234](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202091103308.png)
+![image-20220209110301234](./images/202202091103308.png)
 
 简单阅读PHP源码可以知道 此SQL语句会查询用户是否在线，如在线返回此用户 Session ID
 
-![image-20220209110315136](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202091103236.png)
+![image-20220209110315136](./images/202202091103236.png)
 
 将返回的 Set-Cookie 中的Cookie参数值使用于登录Cookie
 
 访问目标后台 http://xxx.xxx.xxx.xxx/general/
 
-![image-20220209110344202](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202091103301.png)
+![image-20220209110344202](./images/202202091103301.png)
 
 当目标离线时则访问漏洞页面则会出现如下图
 
 遍历uid也可以获取其他用户权限，可能权限较低
 
-![image-20220209110407741](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202091104808.png)
+![image-20220209110407741](./images/202202091104808.png)
 
 通过此思路可以持续发包监控此页面来获取在线用户的Cookie
 
@@ -138,7 +138,7 @@ if __name__ == '__main__':
         time.sleep(5)
 ```
 
-![image-20220209110424915](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202091104066.png)
+![image-20220209110424915](./images/202202091104066.png)
 
 于 2021-3-11 添加进一步利用POC
 
@@ -264,5 +264,5 @@ if __name__ == '__main__':
         time.sleep(5)
 ```
 
-![image-20220209110452574](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202091104695.png)
+![image-20220209110452574](./images/202202091104695.png)
 

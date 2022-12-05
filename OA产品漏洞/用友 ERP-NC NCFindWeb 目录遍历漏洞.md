@@ -24,8 +24,8 @@ POC为
 /NCFindWeb?service=IPreAlertConfigService&filename=
 ```
 
-![yongyou-8-1](https://typora-1308934770.cos.ap-beijing.myqcloud.com/yongyou-8-1.png)
+![yongyou-8-1](./images/yongyou-8-1.png)
 
 查看 ncwslogin.jsp 文件
 
-![yongyou-8-2](https://typora-1308934770.cos.ap-beijing.myqcloud.com/yongyou-8-2.png)
+![yongyou-8-2](./images/yongyou-8-2.png)

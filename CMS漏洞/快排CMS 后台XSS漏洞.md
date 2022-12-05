@@ -18,12 +18,12 @@ https://gitee.com/qingzhanwang/kpcms
 
 漏洞出现在登录后台的网站编辑的位置，由于没有对输出的字符进行过滤，导致XSS
 
-![](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202170922990.png)
+![](./images/202202170922990.png)
 
 主页版权处嵌入XSS代码
 
-![](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202170922232.png)
+![](./images/202202170922232.png)
 
 
 
-![](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202170923548.png)
+![](./images/202202170923548.png)

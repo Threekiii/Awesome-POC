@@ -20,7 +20,7 @@ app="TELEPORT堡垒机"
 
 登录页面
 
-![image-20220824134958109](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202208241349427.png)
+![image-20220824134958109](./images/202208241349427.png)
 
 验证POC， captcha参数为验证码
 
@@ -30,8 +30,8 @@ POST /auth/do-login
 args={"type":2,"username":"admin","password":null,"captcha":"ykex","oath":"","remember":false}
 ```
 
-![image-20220824135439227](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202208241354271.png)
+![image-20220824135439227](./images/202208241354271.png)
 
 code 返回 0 即为成功，再访问 /dashboard 获取管理员权限
 
-![image-20220824135449199](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202208241354243.png)
+![image-20220824135449199](./images/202208241354243.png)

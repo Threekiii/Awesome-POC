@@ -18,4 +18,4 @@ Windows正式版6.8
 
 
 
-![img](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202091838946.png)
+![img](./images/202202091838946.png)

@@ -20,7 +20,7 @@ body="yyoa" && app="致远互联-OA"
 
 登录页面
 
-![image-20220520152551136](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202205201525328.png)
+![image-20220520152551136](./images/202205201525328.png)
 
 验证POC
 
@@ -28,4 +28,4 @@ body="yyoa" && app="致远互联-OA"
 	/yyoa/ext/trafaxserver/SystemManage/config.jsp
 ```
 
-![image-20220520152601778](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202205201526835.png)
+![image-20220520152601778](./images/202205201526835.png)

@@ -20,7 +20,7 @@ app="Ruijie-EG易网关"
 
 查看源码发现phpinfo文件
 
-![](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202110927256.png)
+![](./images/202202110927256.png)
 
 访问 url
 
@@ -28,5 +28,5 @@ app="Ruijie-EG易网关"
 /tool/view/phpinfo.view.php
 ```
 
-![](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202110927015.png)
+![](./images/202202110927015.png)
 

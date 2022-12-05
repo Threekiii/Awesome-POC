@@ -20,11 +20,11 @@ title="Gerapy"
 
 登录页面
 
-![image-20220524145252413](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202205241452469.png)
+![image-20220524145252413](./images/202205241452469.png)
 
 出现漏洞的文件为 `gerapy/server/core/views.py`
 
-![](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202205241453657.png)
+![](./images/202205241453657.png)
 
 ```
 @api_view(['POST'])
@@ -65,4 +65,4 @@ Connection: close
 "label":"passwd"}
 ```
 
-![](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202205241453910.png)
+![](./images/202205241453910.png)

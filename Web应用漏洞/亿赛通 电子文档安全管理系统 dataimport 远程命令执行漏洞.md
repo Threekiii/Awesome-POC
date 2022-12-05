@@ -22,7 +22,7 @@ title="电子文档安全管理系统"
 
 
 
-![](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202091906952.png)
+![](./images/202202091906952.png)
 
 
 
@@ -40,13 +40,13 @@ title="电子文档安全管理系统"
 
 
 
-![](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202091906483.png)
+![](./images/202202091906483.png)
 
 
 
 使用POC执行whoami
 
-![](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202091906902.png)
+![](./images/202202091906902.png)
 
 
 

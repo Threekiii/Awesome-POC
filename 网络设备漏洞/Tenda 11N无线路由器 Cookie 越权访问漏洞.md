@@ -20,7 +20,7 @@ app="TENDA-11N无线路由器"
 
 登录页面
 
-![image-20220519180949727](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202205191809768.png)
+![image-20220519180949727](./images/202205191809768.png)
 
 添加Cookie, 访问 index.asp 进入后台
 
@@ -28,4 +28,4 @@ app="TENDA-11N无线路由器"
 admin:language=cn
 ```
 
-![image-20220519181248549](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202205191812628.png)
+![image-20220519181248549](./images/202205191812628.png)

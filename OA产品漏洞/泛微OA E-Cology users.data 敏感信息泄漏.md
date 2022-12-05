@@ -20,7 +20,7 @@ app="泛微-协同商务系统"
 
 登录页面
 
-![image-20220520134158756](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202205201341810.png)
+![image-20220520134158756](./images/202205201341810.png)
 
 验证POC
 
@@ -28,6 +28,6 @@ app="泛微-协同商务系统"
 /messager/users.data
 ```
 
-![image-20220520134209598](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202205201342693.png)
+![image-20220520134209598](./images/202205201342693.png)
 
 base64 GBK解码

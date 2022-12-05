@@ -20,16 +20,16 @@ icon_hash="1657387632"
 
 登陆后台查看插件处，有一个后台编辑的插件
 
-![](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202170920402.jpg)
+![](./images/202202170920402.jpg)
 
 安装之后设置密码并使用
 
 - 如果已经设有密码，重新安装插件即可解决密码未知问题
 
-![](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202170920491.jpg)
+![](./images/202202170920491.jpg)
 
 修改为php代码
 
-![](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202170920842.jpg)
+![](./images/202202170920842.jpg)
 
 成功执行php代码的命令

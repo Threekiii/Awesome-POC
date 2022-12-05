@@ -19,43 +19,43 @@ https://github.com/wso2/product-is/releases/download/v5.6.0-rc3/wso2is-5.6.0-rc3
 
 根据官方描述，漏洞造成的原因主要是 shindig Web 应用程序的 UI 小工具的加载功能, [WSO2-2019-0598](https://docs.wso2.com/display/Security/Security+Advisory+WSO2-2019-0598)
 
-![](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202205241706233.png)
+![](./images/202205241706233.png)
 
 下载源码启动环境，在IDEA中调试
 
-![](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202205241706823.png)
+![](./images/202205241706823.png)
 
-![](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202205241707257.png)
+![](./images/202205241707257.png)
 
 根据官方描述，在全局搜索 shindig 相关代码
 
-![](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202205241707162.png)
+![](./images/202205241707162.png)
 
 打下断点，看一下访问 `/shindig/gadgets/js` 路径时代码的调用流程
 
-![](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202205241707337.png)
+![](./images/202205241707337.png)
 
 可以看到当访问此路径时，调用了对应的 Servlet 下的 doGet方法 来处理`(org.apache.shindig.gadgets.servlet.JsServlet.doGet(JsServlet.java:86)`
 
-![](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202205241707039.png)
+![](./images/202205241707039.png)
 
 我们可以在文件 `conf/shindig/web.xml 找到对应的调用方法`
 
-![](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202205241707053.png)
+![](./images/202205241707053.png)
 
 看到这我们注意到 `org.apache.shindig.gadgets.servlet.MakeRequestServlet` 似乎与 Jira未授权SSRF漏洞(CVE-2019-8451) 中存在的漏洞点十分的相似
 
-![](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202205241707509.png)
+![](./images/202205241707509.png)
 
 但断点调试过程中，却发现这个点是利用失败的
 
-![](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202205241707755.png)
+![](./images/202205241707755.png)
 
-![](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202205241708844.png)
+![](./images/202205241708844.png)
 
 只好去看一下其他的Servele , 最后我们注意到 ProxyServlet
 
-![](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202205241708016.png)
+![](./images/202205241708016.png)
 
 发送请求包，打断点看一下处理流程
 
@@ -132,11 +132,11 @@ private void processRequest(HttpServletRequest request, HttpServletResponse serv
 
 向下跟进到`org.apache.shindig.gadgets.servlet.ProxyHandler`
 
-![](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202205241708606.png)
+![](./images/202205241708606.png)
 
 `org.apache.shindig.gadgets.servlet.ProxyHandler.fatch`
 
-![](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202205241709066.png)
+![](./images/202205241709066.png)
 
 接着向下看到 org.apache.shindig.gadgets.servlet.ProxyHandler 下的 `buildHttpRequest` 方法创建Http请求， 而目标就是我们刚刚传入的Url参数
 
@@ -161,12 +161,12 @@ private void processRequest(HttpServletRequest request, HttpServletResponse serv
     }
 ```
 
-![](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202205241709229.png)
+![](./images/202205241709229.png)
 
-![](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202205241709438.png)
+![](./images/202205241709438.png)
 
 最后回显至页面中, 造成存在回显的SSRF
 
-![](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202205241709588.png)
+![](./images/202205241709588.png)
 
-![](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202205241709610.png)
+![](./images/202205241709610.png)

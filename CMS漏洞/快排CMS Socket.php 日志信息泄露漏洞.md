@@ -24,12 +24,12 @@ https://gitee.com/qingzhanwang/kpcms
 runtime/log/202104/06.log
 ```
 
-![](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202170921409.png)
+![](./images/202202170921409.png)
 
 其中可以看到泄露了管理员的Cookie信息和其他敏感信息
 
 并且文件命名为 **年+月/日期.log**
 
-![](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202170921851.png)
+![](./images/202202170921851.png)
 
 这里关注后台的日志文件中的 admin.php页面的cookie就可以获得管理员权限

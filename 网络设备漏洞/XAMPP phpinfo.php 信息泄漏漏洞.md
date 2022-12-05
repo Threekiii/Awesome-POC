@@ -20,8 +20,8 @@ XAMPP
 
 登录页面
 
-![img](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202162238289.png)
+![img](./images/202202162238289.png)
 
 访问页面 **/dashboard/phpinfo.php** 
 
-![img](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202162238311.png)
+![img](./images/202202162238311.png)

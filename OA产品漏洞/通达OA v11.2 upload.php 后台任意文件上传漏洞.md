@@ -22,19 +22,19 @@
 
 登录后点击 **菜单 -> 系统管理 -> 附件管理**
 
-![image-20220209105402262](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202091054355.png)
+![image-20220209105402262](./images/202202091054355.png)
 
 点击添加附录存储管理添加如下(存储目录为 webroot 目录，默认为 **D:/MYOA/webroot/**)
 
-![image-20220209105417083](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202091054194.png)
+![image-20220209105417083](./images/202202091054194.png)
 
 点击 **组织 -> 系统管理员 -> 上传附件**
 
-![image-20220209105436655](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202091054718.png)
+![image-20220209105436655](./images/202202091054718.png)
 
 抓包使用 windows 的绕过方法 **shell.php -> shell.php.**
 
-![image-20220209105510484](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202091055562.png)
+![image-20220209105510484](./images/202202091055562.png)
 
 2012 为目录
 
@@ -42,8 +42,8 @@
 
 最后的shell名字为 1717872192.shell.php
 
-![image-20220209105530593](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202091055671.png)
+![image-20220209105530593](./images/202202091055671.png)
 
 访问木马文件
 
-![image-20220209105545405](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202091055475.png)
+![image-20220209105545405](./images/202202091055475.png)

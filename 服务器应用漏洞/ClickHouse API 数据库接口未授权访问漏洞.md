@@ -20,14 +20,14 @@ ClickHouse
 
 登录页面
 
-![img](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202091258079.png)
+![img](./images/202202091258079.png)
 
 执行SQL语句
 
-![img](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202091258245.png)
+![img](./images/202202091258245.png)
 
 ```php
 /?query=SELECT%20*%20FROM%20system.query_thread_log%20LIMIT%201%20FORMAT%20Vertical
 ```
 
-![img](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202091258274.png)
+![img](./images/202202091258274.png)

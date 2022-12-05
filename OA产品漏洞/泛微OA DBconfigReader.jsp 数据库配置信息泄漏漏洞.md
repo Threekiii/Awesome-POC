@@ -18,7 +18,7 @@
 
 根据源码可以得到DES密钥为 1z2x3c4v5b6n（也有1z2x3c4v的,可以按此规律来爆破）
 
-![image-20220209103714654](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202091037951.png)
+![image-20220209103714654](./images/202202091037951.png)
 
 
 

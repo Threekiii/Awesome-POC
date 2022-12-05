@@ -30,7 +30,7 @@ http://xxx.xxx.xxx.xxx/?r=dashboard/default/login
 
 
 
-![](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202091853548.png)
+![](./images/202202091853548.png)
 
 
 
@@ -38,7 +38,7 @@ http://xxx.xxx.xxx.xxx/?r=dashboard/default/login
 
 
 
-![](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202091853668.png)
+![](./images/202202091853668.png)
 
 
 
@@ -52,4 +52,4 @@ backuptype=all&custom_enabled=1&method=shell&sizelimit=2048&extendins=0&sqlcompa
 
 
 
-![](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202091854875.png)
+![](./images/202202091854875.png)

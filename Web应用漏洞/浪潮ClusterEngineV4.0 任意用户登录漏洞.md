@@ -24,7 +24,7 @@ title="TSCEV4.0"
 
 
 
-![](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202091850344.png)
+![](./images/202202091850344.png)
 
 
 
@@ -41,4 +41,4 @@ PASS:  任意
 
 
 
-![](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202091850228.png)
+![](./images/202202091850228.png)

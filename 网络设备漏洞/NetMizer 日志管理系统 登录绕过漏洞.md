@@ -20,12 +20,12 @@ title="NetMizer 日志管理系统"
 
 登录页面
 
-![img](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202162257795.png)
+![img](./images/202202162257795.png)
 
 访问页面 main.html 并抓取请求包, 使用Burp Drop掉下面对请求包
 
-![img](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202162257627.png)
+![img](./images/202202162257627.png)
 
 Drop后停止抓包，成功进入后台
 
-![img](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202162257550.png)
+![img](./images/202202162257550.png)

@@ -24,10 +24,10 @@ app="新软科技-极通EWEBS"
 
 
 
-![](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202101938494.png)
+![](./images/202202101938494.png)
 
 访问 testweb.php
 
 
 
-![](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202101939393.png)
+![](./images/202202101939393.png)

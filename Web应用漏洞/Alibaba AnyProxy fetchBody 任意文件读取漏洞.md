@@ -20,7 +20,7 @@ Alibaba AnyProxy < 4.0.10
 
 页面如下
 
-![](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202102008909.png)
+![](./images/202202102008909.png)
 
 
 
@@ -32,5 +32,5 @@ Alibaba AnyProxy < 4.0.10
 
 
 
-![](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202102008683.png)
+![](./images/202202102008683.png)
 

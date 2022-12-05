@@ -22,7 +22,7 @@ app="TamronOS-IPTV系统"
 
 
 
-![](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202101926166.png)
+![](./images/202202101926166.png)
 
 
 
@@ -36,7 +36,7 @@ app="TamronOS-IPTV系统"
 
 
 
-![](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202101926524.png)
+![](./images/202202101926524.png)
 
 
 
@@ -47,4 +47,4 @@ pass: 123456
 
 
 
-![](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202101926288.png)
+![](./images/202202101926288.png)

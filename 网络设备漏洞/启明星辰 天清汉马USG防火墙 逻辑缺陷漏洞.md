@@ -20,8 +20,8 @@ title="天清汉马USG防火墙"
 
 登录后台后管理界面点击下面的图标
 
-![](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202162255701.png)
+![](./images/202202162255701.png)
 
 更改权限为任意用户,刷新后得到用户权限
 
-![](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202162255073.png)
+![](./images/202202162255073.png)

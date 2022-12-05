@@ -20,9 +20,9 @@ D-Link AC管理系统
 
 默认口令为 admin:admin
 
-![](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202162228466.png)
+![](./images/202202162228466.png)
 
-![](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202162228570.png)
+![](./images/202202162228570.png)
 
 
 

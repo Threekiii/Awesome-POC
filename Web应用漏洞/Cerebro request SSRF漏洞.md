@@ -20,7 +20,7 @@ app="Cerebro"
 
 主页面
 
-![image-20220524143249335](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202205241432380.png)
+![image-20220524143249335](./images/202205241432380.png)
 
 发送请求包
 
@@ -30,4 +30,4 @@ POST /rest/request
 {"method":"GET","data":"","path":"robots.txt","host":"https://www.baidu.com"}
 ```
 
-![](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202205241433022.png)
+![](./images/202205241433022.png)

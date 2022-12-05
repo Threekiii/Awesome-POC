@@ -22,7 +22,7 @@
 
 
 
-![](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202101855808.png)
+![](./images/202202101855808.png)
 
 
 
@@ -36,4 +36,4 @@ http://xxx.xxx.xxx.xxx/Home
 
 
 
-![](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202101855833.png)
+![](./images/202202101855833.png)

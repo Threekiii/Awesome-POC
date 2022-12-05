@@ -20,4 +20,4 @@ html_hash:"636e5c0d28c6b7401ce36eed34c461ca"
 
 访问 info.asp 页面 获取泄漏信息
 
-![img](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202162250206.png)
+![img](./images/202202162250206.png)

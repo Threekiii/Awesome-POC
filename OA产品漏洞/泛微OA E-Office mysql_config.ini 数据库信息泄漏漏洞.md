@@ -20,7 +20,7 @@ app="泛微-EOffice"
 
 产品页面
 
-![img](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202091048925.png)
+![img](./images/202202091048925.png)
 
 验证POC
 
@@ -28,4 +28,4 @@ app="泛微-EOffice"
 /mysql_config.ini
 ```
 
-![img](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202091048869.png)
+![img](./images/202202091048869.png)

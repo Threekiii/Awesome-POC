@@ -16,8 +16,8 @@ Apache ActiveMQ 默认开启了 8186 控制台
 
 访问目标: http://xxx.xxx.xxx.xxx:8161/admin
 
-![6fdafa69-51e4-4215-aa0d-0c912e47ba6c](https://typora-1308934770.cos.ap-beijing.myqcloud.com/6fdafa69-51e4-4215-aa0d-0c912e47ba6c.png)
+![6fdafa69-51e4-4215-aa0d-0c912e47ba6c](./images/6fdafa69-51e4-4215-aa0d-0c912e47ba6c.png)
 
 使用默认口令 admin:admin
 
-![7dc4d568-31b4-494e-8c32-3a465830ff3c](https://typora-1308934770.cos.ap-beijing.myqcloud.com/7dc4d568-31b4-494e-8c32-3a465830ff3c.png)
+![7dc4d568-31b4-494e-8c32-3a465830ff3c](./images/7dc4d568-31b4-494e-8c32-3a465830ff3c.png)

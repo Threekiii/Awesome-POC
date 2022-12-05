@@ -18,7 +18,7 @@ Spring Cloud Function
 
 搭建后访问
 
-![image-20220519160206177](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202205191602220.png)
+![image-20220519160206177](./images/202205191602220.png)
 
 发送POC
 
@@ -31,4 +31,4 @@ Content-Length: 1
 
 接收到请求
 
-![image-20220519160240168](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202205191602216.png)
+![image-20220519160240168](./images/202205191602216.png)

@@ -164,7 +164,7 @@ Accept-Encoding: gzip
 notdelay=true&command=id
 ```
 
-![](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202110929756.png)
+![](./images/202202110929756.png)
 
 ## 漏洞POC
 
@@ -255,4 +255,4 @@ if __name__ == '__main__':
 
 
 
-![](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202110929316.png)
+![](./images/202202110929316.png)

@@ -20,10 +20,10 @@ icon_hash="960250052"
 
 含有漏洞的页面如下
 
-![image-20220209122046358](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202091220423.png)
+![image-20220209122046358](./images/202202091220423.png)
 
 
 
 点击 创建一个匿名用户在用户页面执行命令即可
 
-![image-20220209122110291](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202091221386.png)
+![image-20220209122110291](./images/202202091221386.png)
