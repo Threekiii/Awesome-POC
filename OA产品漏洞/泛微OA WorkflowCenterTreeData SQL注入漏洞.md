@@ -4,7 +4,7 @@
 
 2019年10月10日CNVD发布了泛微e-cology OA系统存在SQL注入漏洞。该漏洞是由于OA系统的WorkflowCenterTreeData接口中涉及Oracle数据库的SQL语句缺乏安全检查措施所导致的，任意攻击者都可借SQL语句拼接时机注入恶意payload，造成SQL注入攻击。
 
-## 影响版本
+## 漏洞影响
 
 ```
 使用Oracle数据库的泛微服务

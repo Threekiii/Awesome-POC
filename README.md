@@ -6,17 +6,23 @@
 
 - CMS漏洞
 
+  * Anchor CMS 0.12.7 跨站请求伪造 CVE-2020-23342
   * AspCMS commentList.asp SQL注入漏洞
+  * BloofoxCMS 0.5.2.1 存储型XSS
   * BSPHP index.php 未授权访问 信息泄露漏洞
   * CmsEasy crossall_act.php SQL注入漏洞
   * CmsEasy language_admin.php 后台命令执行漏洞
   * CmsEasy update_admin.php 后台任意文件上传漏洞
   * CxCMS Resource.ashx 任意文件读取漏洞
   * DedeCMS common.func.php 远程命令执行漏洞
+  * Discuz 3.4 最新版后台getshell
   * Discuz!X 3.4 admincp_setting.php 后台SQL注入漏洞
   * DocCMS keyword SQL注入漏洞
   * emlog widgets.php 后台SQL注入漏洞
   * ezEIP 4.1.0 信息泄露漏洞
+  * Fuel CMS 1.4.1 远程代码执行漏洞
+  * Joomla 目录遍历及远程代码执行漏洞 CVE-2021-23132
+  * JunAms内容管理系统文件上传漏洞 CNVD-2020-24741
   * Ke361 AuthManagerController.class.php 后台SQL注入漏洞
   * Ke361 DistrictController.class.php 后台SQL注入漏洞 CNVD-2021-25002
   * Ke361 GoodsController.class.php SSRF漏洞
@@ -25,6 +31,7 @@
   * OKLite 1.2.25 后台插件安装 任意文件上传
   * OKLite 1.2.25 后台模块导入 任意文件上传 CVE-2019-16131
   * OKLite 1.2.25 后台风格模块 任意文件删除 CVE-2019-16132
+  * OneBlog 开源博客管理系统 远程命令执行漏洞
   * OpenSNS Application ShareController.class.php 远程命令执行漏洞
   * OpenSNS AuthorizeController.class.php 后台远程命令执行漏洞
   * OpenSNS ChinaCityController.class.php SQL注入漏洞
@@ -37,6 +44,7 @@
   * PbootCMS search SQL注入漏洞
   * ShopXO download 任意文件读取漏洞 CNVD-2021-15822
   * TypesetterCMS 后台任意文件上传
+  * UCMS 文件上传漏洞 CVE-2020-25483
   * WeiPHP3.0 session_id 任意文件上传漏洞
   * WeiPHP5.0 bind_follow SQL注入漏洞
   * WeiPHP5.0 download_imgage 前台文件任意读取 CNVD-2020-68596
@@ -94,9 +102,11 @@
   * 泛微OA E-Cology getSqlData SQL注入漏洞
   * 泛微OA E-Cology HrmCareerApplyPerView.jsp SQL注入漏洞
   * 泛微OA E-Cology jqueryFileTree.jsp 目录遍历漏洞
+  * 泛微OA E-cology KtreeUploadAction 任意文件上传
   * 泛微OA E-Cology LoginSSO.jsp SQL注入漏洞 CNVD-2021-33202
   * 泛微OA E-Cology users.data 敏感信息泄漏
   * 泛微OA E-Cology VerifyQuickLogin.jsp 任意管理员登录漏洞
+  * 泛微OA E-cology WorkflowServiceXml RCE
   * 泛微OA E-Office group_xml.php SQL注入漏洞
   * 泛微OA E-Office mysql_config.ini 数据库信息泄漏漏洞
   * 泛微OA E-Office OfficeServer.php 任意文件上传漏洞
@@ -110,15 +120,14 @@
   * 泛微OA uploadOperation.jsp 任意文件上传
   * 泛微OA weaver.common.Ctrl 任意文件上传漏洞
   * 泛微OA WorkflowCenterTreeData SQL注入漏洞
-  * 泛微OA WorkflowServiceXml RCE
   * 用友 ERP-NC NCFindWeb 目录遍历漏洞
   * 用友 FE协作办公平台 templateOfTaohong_manager.jsp 目录遍历漏洞
   * 用友 GRP-U8 Proxy SQL注入 CNNVD-201610-923
   * 用友 GRP-U8 UploadFileData 任意文件上传漏洞
   * 用友 NC bsh.servlet.BshServlet 远程命令执行漏洞
+  * 用友 NC FileReceiveServlet 反序列化RCE漏洞
   * 用友 NC NCFindWeb 任意文件读取漏洞
   * 用友 NC XbrlPersistenceServlet反序列化
-  * 用友 NC 反序列化RCE漏洞
   * 用友 NCCloud FS文件管理SQL注入
   * 用友 U8 OA getSessionList.jsp 敏感信息泄漏漏洞
   * 用友 U8 OA test.jsp SQL注入漏洞
@@ -172,7 +181,11 @@
   * 360天擎 gettablessize 数据库信息泄露漏洞
   * 360天擎 rptsvcsyncpoint 前台SQL注入
   * Active UC index.action 远程命令执行漏洞
+  * Adminer-SSRF漏洞 CVE-2021-21311
   * Adobe ColdFusion upload.cfm 任意文件上传漏洞 CVE-2018-15961
+  * Adobe ColdFusion 远程代码执行漏洞 CVE-2021-21087
+  * Afterlogic Aurora & WebMail Pro 任意文件读取 CVE-2021-26294
+  * Afterlogic Aurora & WebMail Pro 文件上传漏洞 CVE-2021-26293
   * Alibaba AnyProxy fetchBody 任意文件读取漏洞
   * Alibaba Canal config 云密钥信息泄露漏洞
   * Alibaba Nacos 未授权访问漏洞
@@ -189,10 +202,12 @@
   * AVCON6 系统管理平台 download.action 任意文件下载漏洞
   * AVCON6 系统管理平台 org_execl_download.action 任意文件下载漏洞
   * AVEVA InTouch安全网关 AccessAnywhere 任意文件读取漏洞 CVE-2022-23854
+  * Cacti SQL 注入漏洞 CVE-2020-14295
   * Casbin get-users 账号密码泄漏漏洞
   * Cerebro request SSRF漏洞
   * Citrix XenMobile 任意文件读取 CVE-2020-8209
   * CMA客诉管理系统 upFile.ashx 任意文件上传漏洞
+  * Coremail 路径遍历与文件上传漏洞
   * Coremail 配置信息泄露漏洞
   * Crawlab file 任意文件读取漏洞
   * Crawlab users 任意用户添加漏洞
@@ -212,6 +227,7 @@
   * Gerapy read 后台任意文件读取漏洞
   * GitLab Graphql邮箱信息泄露漏洞 CVE-2020-26413
   * GitLab SSRF漏洞 CVE-2021-22214
+  * GitLab 任意文件读取导致RCE CVE-2020-10977
   * GLPI htmLawedTest.php 远程命令执行漏洞 CVE-2022-35914
   * Grafana mysql 后台任意文件读取漏洞 CVE-2019-19499
   * Grafana plugins 任意文件读取漏洞 CVE-2021-43798
@@ -246,11 +262,14 @@
   * Node-RED ui_base 任意文件读取漏洞
   * NPS auth_key 未授权访问漏洞
   * OneBlog 小于v2.2.1 远程命令执行漏洞
+  * phpMyAdmin后台SQL注入 CVE-2020-26935
   * Riskscanner list SQL注入漏洞
   * Roxy-Wi options.py 远程命令执行漏洞 CVE-2022-31137
   * Seo-Panel 4.8.0 反射型XSS漏洞 CVE-2021-3002
+  * ShopXO 任意文件读取漏洞 CNVD-2021-15822
   * ShowDoc AdminUpdateController.class.php 任意文件上传漏洞 CVE-2021-36440
   * ShowDoc PageController.class.php 任意文件上传漏洞
+  * ShowDoc 前台文件上传漏洞
   * SonarQube search_projects 项目信息泄露漏洞
   * SonarQube values 信息泄露漏洞 CVE-2020-27986
   * SpiderFlow save 远程命令执行漏洞
@@ -290,6 +309,7 @@
   * 会捷通云视讯 登录绕过漏洞
   * 信诺瑞得 WiseGrid慧敏应用交付网关 sysadmin_action.php 后台命令执行漏洞
   * 吉拉科技 LVS精益价值管理系统 Business 目录遍历漏洞
+  * 员工管理系统 Employee Management System 1.0 身份验证绕过
   * 和信创天云桌面系统 远程命令执行 RCE漏洞
   * 图创软件 图书馆站群管理系统 任意文件读取漏洞
   * 天融信 DLP 未授权访问漏洞
@@ -339,6 +359,7 @@
   * 若依管理系统 后台任意文件读取 CNVD-2021-01931
   * 蓝海卓越计费管理系统 debug.php 远程命令执行漏洞
   * 蓝海卓越计费管理系统 download.php 任意文件读取漏洞
+  * 金山 V8 V9 终端安全系统 文件上传漏洞
   * 金山 V8 终端安全系统 downfile.php 任意文件读取漏洞
   * 金山 V8 终端安全系统 get_file_content.php 任意文件读取漏洞
   * 金山 V8 终端安全系统 pdf_maker.php 命令执行漏洞
@@ -346,6 +367,7 @@
   * 银澎云计算 好视通视频会议系统 任意文件下载 CNVD-2020-62437
   * 银达汇智 智慧综合管理平台 FileDownLoad.aspx 任意文件读取漏洞
   * 阿尔法科技 虚拟仿真实验室 未授权访问漏洞
+  * 阿里巴巴otter manager分布式数据库同步系统信息泄漏 CNVD-2021-16592
   * 零视科技 H5S视频平台 GetUserInfo 信息泄漏漏洞 CNVD-2020-67113
   * 章管家 Druid未授权访问漏洞
   * 飞视美 视频会议系统 Struts2 远程命令执行漏洞
@@ -362,6 +384,7 @@
   * Apache CouchDB epmd 远程命令执行漏洞 CVE-2022-24706
   * Apache Druid LoadData 任意文件读取漏洞 CVE-2021-36749
   * Apache Druid 远程代码执行漏洞 CVE-2021-25646
+  * Apache Druid 远程代码执行漏洞 CVE-2021-26919
   * Apache Flink 小于1.9.1远程代码执行 CVE-2020-17518
   * Apache Flink 目录遍历漏洞 CVE-2020-17519
   * Apache HTTPd 换行解析漏洞 CVE-2017-15715
@@ -372,6 +395,8 @@
   * Apache Kylin DiagnosisController.java 命令注入漏洞 CVE-2020-13925
   * Apache Log4j2 JNDI 远程命令执行漏洞 CVE-2021-44228
   * Apache Mod_jk 访问控制权限绕过 CVE-2018-11759
+  * Apache NiFi Api 远程代码执行 RCE
+  * Apache OF Biz RMI Bypass RCE CVE 2021 29200
   * Apache OFBiz RMI反序列化漏洞 CVE-2021-26295
   * Apache ShenYu dashboardUser 账号密码泄漏漏洞 CVE-2021-37580
   * Apache Shiro 小于1.2.4反序列化漏洞 CVE-2016-4437
@@ -380,9 +405,10 @@
   * Apache Solr Log4j组件 远程命令执行漏洞
   * Apache Solr RCE 未授权上传漏洞 CVE-2020-13957
   * Apache Solr RCE 远程命令执行漏洞 CVE-2017-12629
+  * Apache Solr Replication Handler SSRF CVE 2021 27905
+  * Apache Solr stream.url 任意文件读取漏洞
   * Apache Solr Velocity模板远程执行 CVE-2019-17558
   * Apache Solr XXE 漏洞 CVE-2017-12629
-  * Apache Solr 任意文件读取漏洞
   * Apache Solr 远程执行漏洞 CVE-2019-0193
   * Apache Spark create 未授权访问漏洞
   * Apache Spark doAs 远程命令执行漏洞 CVE-2022-33891
@@ -393,6 +419,7 @@
   * Apache Tomcat WebSocket 拒绝服务漏洞 CVE-2020-13935
   * Apache Tomcat 信息泄露漏洞 CVE-2021-24122
   * Apache Tomcat 远程代码执行漏洞 CVE-2017-12615
+  * Apache Velocity 远程代码执行 CVE-2020-13936
   * Apache Zeppelin 未授权任意命令执行漏洞
   * Apache ZooKeeper 未授权访问漏洞 CVE-2014-085漏洞描述
   * GoCD plugin 任意文件读取漏洞 CVE-2021-43287
@@ -412,8 +439,17 @@
   * Weblogic XMLDecoder 远程代码执行漏洞 CVE-2017-10271
   * Weblogic 反序列化远程代码执行漏洞 CVE-2019-2725
   * Zabbix SAML身份绕过漏洞 CVE-2022-23131
+- 其他漏洞
+
+  * 微信客户端 远程命令执行漏洞
 - 开发框架漏洞
 
+  * Apache OFBiz 反序列化 CVE-2021-30128
+  * Apache OfBiz 服务器端模板注入 SSTI
+  * Apache OfBiz 远程代码执行 RCE
+  * FastAdmin 远程代码执行漏洞
+  * Jackson Databind SSRF RCE CVE 2020 36179 36182
+  * Jackson-databind远程代码执行 CVE-2019-12384
   * jQuery XSS漏洞 CVE-2020-11022 11023
   * Laravel .env 配置文件泄露 CVE-2017-16894
   * Laravel Filemanager插件 download 任意文件读取漏洞 CVE-2022-40734
@@ -423,6 +459,8 @@
   * Rails Accept 任意文件读取漏洞 CVE-2019-5418
   * Rails sprockets 任意文件读取漏洞 CVE-2018-3760
   * Spring Cloud Function SPEL 远程命令执行漏洞
+  * XStream SSRF 反序列化漏洞 CVE-2020-26258
+  * XStream 任意文件删除 反序列化漏洞 CVE-2020-26259
 - 开发语言漏洞
 
   * GO TLS握手 崩溃漏洞 CVE-2021-34558
@@ -442,12 +480,15 @@
 - 服务器应用漏洞
 
   * ClickHouse API 数据库接口未授权访问漏洞
+  * Consul Docker images 空密码登录漏洞 CVE-2020-29564
   * Elasticsearch 未授权访问
   * Franklin Fueling Systems tsaupload.cgi 任意文件读取漏洞 CVE-2021-46417
   * Git for Visual Studio远程执行代码漏洞 CVE-2021-21300
   * Git-LFS 远程命令执行漏洞 CVE-2020-27955
+  * Microsoft Exchange Server 远程执行代码漏洞 CVE-2020-17083
   * Microsoft Exchange SSRF漏洞 CVE-2021-26885
-  * Microsoft Exchange 远程命令执行 CVE-2021-27065 26857 26858 27065
+  * Microsoft Exchange 信息泄露漏洞 CVE-2020-17143
+  * Microsoft Exchange 远程命令执行 CVE-2021-27065 26857 26858
   * MinIO SSRF漏洞 CVE-2021-21287
   * NVIDIA GPU显示驱动程序 信息泄露 CVE-2021-1056
   * OpenSSH 命令注入漏洞 CVE-2020-15778
@@ -455,6 +496,8 @@
   * QEMU 虚拟机逃逸漏洞 CVE-2020-14364
   * Redis Lua 沙箱绕过 远程命令执行 CVE-2022-0543
   * Redis 小于5.0.5 主从复制 RCE
+  * SaltStack Minion 命令注入漏洞 CVE-2021-31607
+  * Saltstack 未授权RCE漏洞 CVE-2021-25281~25283
   * SaltStack 未授权访问命令执行漏洞 CVE-2020-16846 25592
   * Saltstack 远程命令执行漏洞 CVE-2020-11651 11652
   * VMware vCenter 任意文件读取漏洞
@@ -475,6 +518,7 @@
   * Amcrest IP Camera Web Sha1Account1 账号密码泄漏漏洞 CVE-2017-8229
   * Arcadyan固件 cgi_i_filter.js 配置信息泄漏漏洞 CVE-2021-20092
   * Arcadyan固件 image 路径遍历漏洞 CVE-2021-20090
+  * C-Lodop打印机任意文件读取漏洞
   * Cisco ASA设备 任意文件读取漏洞 CVE-2020-3452
   * Cisco ASA设备任意文件删除漏洞 CVE-2020-3187
   * Cisco HyperFlex HX storfs-asup 远程命令执行漏洞 CVE-2021-1497
@@ -482,10 +526,13 @@
   * Citrix 远程命令执行漏洞 CVE-2019-19781
   * Crestron aj.html 账号密码泄漏漏洞 CVE-2022-23178
   * D-Link AC管理系统 默认账号密码
-  * D-LINK DAP-2020 webproc 任意文件读取漏洞 CVE-2021-27250
+  * D-Link DAP-2020 webproc 任意文件读取漏洞 CVE-2021-27250
   * D-Link DAR-8000 importhtml.php 远程命令执行漏洞
   * D-Link DCS系列监控 账号密码信息泄露漏洞 CVE-2020-25078
-  * D-Link Dir-645 getcfg.php 账号密码泄露漏洞 CVE-2019-17506
+  * D-Link DIR-645 getcfg.php 账号密码泄露漏洞 CVE-2019-17506
+  * D-Link DIR-802 命令注入漏洞 CVE-2021-29379
+  * D-Link DIR-841 命令注入漏洞 CVE-2021-28143
+  * D-Link DIR-846 命令注入漏洞 CVE-2020-27600
   * D-Link DSL-28881A FTP配置错误 CVE-2020-24578
   * D-Link DSL-28881A 信息泄露 CVE-2020-24577
   * D-Link DSL-28881A 未授权访问 CVE-2020-24579
@@ -509,9 +556,11 @@
   * HIKVISION 联网网关 downdb.php 任意文件读取漏洞
   * Huawei DG8045 deviceinfo 信息泄漏漏洞
   * Huawei HG659 lib 任意文件读取漏洞
+  * iKuai 后台任意文件读取漏洞
   * iKuai 流控路由 SQL注入漏洞
   * Intelbras Wireless 未授权与密码泄露 CVE-2021-3017
   * JCG JHR-N835R 后台命令执行漏洞
+  * JumpServer 远程命令执行漏洞
   * KEDACOM数字系统接入网关 任意文件读取漏洞
   * KONE 通力电梯管理系统 app_show_log_lines.php 任意文件读取漏洞
   * Kyan 网络监控设备 hosts 账号密码泄露漏洞
@@ -536,8 +585,11 @@
   * Teleport堡垒机 get-file 后台任意文件读取漏洞
   * Tenda 11N无线路由器 Cookie 越权访问漏洞
   * Tenda W15E企业级路由器 RouterCfm.cfg 配置文件泄漏漏洞
+  * TG8 防火墙 RCE及密码泄漏漏洞
   * TOTOLink 多个设备 download.cgi 远程命令执行漏洞 CVE-2022-25084
+  * TP-Link AC1750 预认证远程代码执行漏洞 CVE-2021-27246
   * TP-Link SR20 远程命令执行
+  * TP-Link TL-WR841N 远程代码执行漏洞 CVE-2020-35576
   * TVT数码科技 NVMS-1000 路径遍历漏洞
   * Wayos AC集中管理系统默认弱口令 CNVD-2021-00876
   * Wayos 防火墙 后台命令执行漏洞
@@ -555,9 +607,10 @@
   * 华夏创新 LotWan广域网优化系统 check_instance_state.php 远程命令执行漏洞
   * 华夏创新 LotWan广域网优化系统 static_arp_del.php SQL注入漏洞
   * 华夏创新 LotWan广域网优化系统 static_arp.php 远程命令执行漏洞
+  * 华硕 GT-AC2900 身份验证绕过 CVE-2021-32030
   * 博华网龙防火墙 cmd.php 远程命令执行漏洞
   * 博华网龙防火墙 users.xml 未授权访问
-  * 启明星辰 天清汉马USG防火墙 逻辑缺陷漏洞
+  * 启明星辰 天清汉马USG防火墙 逻辑缺陷漏洞 CNVD-2021-12793
   * 启明星辰 天清汉马USG防火墙 默认口令漏洞
   * 大华 城市安防监控系统平台管理 attachment_downloadByUrlAtt.action 任意文件下载漏洞
   * 奇安信 网康 NS-ASG安全网关 cert_download.php 任意文件读取漏洞
@@ -580,11 +633,14 @@
   * 百卓 Patflow showuser.php 后台SQL注入漏洞
   * 百卓 Smart importhtml.php 远程命令执行漏洞
   * 皓峰防火墙 setdomain.php 越权访问漏洞
+  * 碧海威 L7多款产品 后台命令执行漏洞
   * 磊科 NI360路由器 认证绕过漏洞
   * 网康 NS-ASG安全网关 cert_download.php 任意文件读取漏洞
   * 网康 下一代防火墙 router 远程命令执行漏洞
   * 网御 Leadsec ACM管理平台 importhtml.php 远程命令执行漏洞
   * 网神 下一代极速防火墙 pki_file_download 任意文件读取漏洞
+  * 腾达 路由器 AC11 堆栈缓冲区溢出 CVE-2021-31758
+  * 腾达 路由器 D151D31未经身份验证的配置下载
   * 蜂网互联 企业级路由器v4.31 密码泄露漏洞 CVE-2019-16313
   * 西迪特 Wi-Fi Web管理 Cookie 越权访问漏洞
   * 西迪特 Wi-Fi Web管理 jumpto.php 后台命令执行漏洞
@@ -598,7 +654,7 @@
   * 锐捷 NBR 1300G路由器 越权CLI命令执行漏洞
   * 锐捷 NBR路由器 远程命令执行漏洞 CNVD-2021-09650
   * 锐捷 RG-UAC 账号密码信息泄露 CNVD-2021-14536
-  * 锐捷 Smartweb管理系统 密码信息泄露漏洞
+  * 锐捷 Smartweb管理系统 密码信息泄露漏洞 CNVD-2021-17369
   * 锐捷 SSL VPN 越权访问漏洞
   * 锐捷 云课堂主机 pool 目录遍历漏洞
   * 飞鱼星 企业级智能上网行为管理系统 权限绕过信息泄露漏洞

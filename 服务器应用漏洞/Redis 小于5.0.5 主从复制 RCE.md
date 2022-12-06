@@ -6,7 +6,7 @@
 
 [Pavel Toporkov的分享](https://2018.zeronights.ru/wp-content/uploads/materials/15-redis-post-exploitation.pdf)
 
-## 影响版本
+## 漏洞影响
 
 ```
 Redis <= 5.0.5

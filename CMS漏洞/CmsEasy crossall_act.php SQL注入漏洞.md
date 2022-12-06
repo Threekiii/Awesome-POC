@@ -4,7 +4,7 @@
 
 CmsEasy 存在SQL注入漏洞，通过文件 service.php 加密SQL语句执行即可执行任意SQL命令
 
-## 影响版本
+## 漏洞影响
 
 ```
 CmsEasy V7.7.5_20210919
