@@ -287,6 +287,7 @@
   * Webmin password_change.cgi 远程命令执行漏洞 CVE-2019-15107
   * Webmin rpc.cgi 后台远程命令执行漏洞 CVE-2019-15642
   * Webmin update.cgi 后台远程命令执行漏洞 CVE-2022-0824
+  * Webmin 多个高危漏洞 CVE-2021-31760~62
   * WiseGiga NAS down_data.php 任意文件下载漏洞
   * WiseGiga NAS group.php 远程命令执行漏洞
   * WSO2 fileupload 任意文件上传漏洞 CVE-2022-29464
@@ -434,6 +435,7 @@
   * PayaraMicro microprofile-config.properties 信息泄漏漏洞 CVE-2021-41381
   * Weblogic LDAP 远程代码执行漏洞 CVE-2021-2109
   * WebLogic Local File Inclusion 本地文件包含漏洞 CVE-2022-21371
+  * Weblogic Server远程代码执行漏洞 CVE-2020-14756
   * Weblogic SSRF漏洞 CVE-2014-4210
   * WebLogic T3 反序列化漏洞 CVE-2016-3510
   * Weblogic XMLDecoder 远程代码执行漏洞 CVE-2017-10271
@@ -500,16 +502,23 @@
   * Saltstack 未授权RCE漏洞 CVE-2021-25281~25283
   * SaltStack 未授权访问命令执行漏洞 CVE-2020-16846 25592
   * Saltstack 远程命令执行漏洞 CVE-2020-11651 11652
+  * VMware vCenter Server 服务器端请求伪造漏洞 CVE-2021-21973
+  * VMware vCenter Server 远程代码执行漏洞 CVE-2021-21972
   * VMware vCenter 任意文件读取漏洞
+  * VMware View Planner 未授权RCE CVE-2021-21978
   * VMware vRealize Operations Manager SSRF漏洞 CVE-2021-21975
   * VMware Workspace ONE Access SSTI漏洞 CVE-2022-22954
   * VoIPmonitor 远程命令执行漏洞 CVE-2021-30461
+  * Wazuh Manager 代码执行漏洞 CVE-2021-26814
   * Windows Chrome 远程命令执行漏洞
   * WordPress 3DPrint Lite 3dprint-lite-functions.php 任意文件上传漏洞
   * WordPress All-in-One Video Gallery video.php 任意文件读取漏洞 CVE-2022-2633
   * WordPress Duplicator duplicator.php 任意文件读取漏洞 CVE-2020-11738
+  * WordPress Elementor Page Builder Plus 身份验证绕过 CVE-2021-24175
+  * WordPress File Manager＜6.9 RCE CVE-2020-25213
   * WordPress Redux Framework class-redux-helpers.php 敏感信息泄漏漏洞 CVE-2021-38314
   * WordPress Simple File List ee-downloader.php 任意文件读取漏洞 CVE-2022-1119
+  * WordPress SuperForms 4.9 任意文件上传到远程代码执行
   * WordPress WP_Query SQL 注入漏洞 CVE-2022-21661
   * 向日葵 check 远程命令执行漏洞 CNVD-2022-10270
 - 网络设备漏洞

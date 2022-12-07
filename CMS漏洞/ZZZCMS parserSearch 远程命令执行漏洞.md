@@ -4,6 +4,11 @@
 
 ZZZCMS parserSearch 存在模板注入导致远程命令执行漏洞
 
+参考链接：
+
+- https://srcincite.io/advisories/src-2021-0015/
+- https://nvd.nist.gov/vuln/detail/CVE-2021-32605
+
 ## 漏洞影响 
 
 ```
