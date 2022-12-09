@@ -6,6 +6,8 @@
 
 - CMS漏洞
 
+  * 74cms v4.2.1 v4.2.129 后台getshell漏洞
+  * 74cms v5.0.1 后台跨站请求伪造漏洞 CVE-2019-11374
   * Anchor CMS 0.12.7 跨站请求伪造 CVE-2020-23342
   * AspCMS commentList.asp SQL注入漏洞
   * BloofoxCMS 0.5.2.1 存储型XSS
@@ -380,6 +382,7 @@
 
   * ACME Mini_httpd 任意文件读取漏洞 CVE-2018-18778
   * Apache ActiveMQ Console控制台默认弱口令
+  * Apache ActiveMQ 信息泄漏漏洞 CVE-2017-15709
   * Apache ActiveMQ 反序列化漏洞 CVE-2015-5254
   * Apache Cocoon XML注入 CVE-2020-11991
   * Apache CouchDB epmd 远程命令执行漏洞 CVE-2022-24706
