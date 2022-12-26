@@ -495,6 +495,7 @@
   * Microsoft Exchange 信息泄露漏洞 CVE-2020-17143
   * Microsoft Exchange 远程命令执行 CVE-2021-27065 26857 26858
   * MinIO SSRF漏洞 CVE-2021-21287
+  * MySQL UDF提权
   * NVIDIA GPU显示驱动程序 信息泄露 CVE-2021-1056
   * OpenSSH 命令注入漏洞 CVE-2020-15778
   * OpenSSL 心脏滴血漏洞 CVE-2014-0160
