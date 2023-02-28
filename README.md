@@ -201,6 +201,7 @@
   * Atlassian Jira groupuserpicker 用户信息枚举漏洞 CVE-2019-8449
   * Atlassian Jira makeRequest SSRF漏洞 CVE-2019-8451
   * Atlassian Jira ViewUserHover.jspa 用户信息泄露漏洞 CVE-2020-14181
+  * Atlassian Questions For Confluence 身份认证绕过漏洞 CVE-2022-26138
   * AVCON6 系统管理平台 download.action 任意文件下载漏洞
   * AVCON6 系统管理平台 org_execl_download.action 任意文件下载漏洞
   * AVEVA InTouch安全网关 AccessAnywhere 任意文件读取漏洞 CVE-2022-23854
@@ -444,6 +445,9 @@
   * Weblogic XMLDecoder 远程代码执行漏洞 CVE-2017-10271
   * Weblogic 反序列化远程代码执行漏洞 CVE-2019-2725
   * Zabbix SAML身份绕过漏洞 CVE-2022-23131
+- 云安全漏洞
+
+  * K8s API Server未授权命令执行
 - 其他漏洞
 
   * 微信客户端 远程命令执行漏洞
@@ -506,6 +510,7 @@
   * Saltstack 未授权RCE漏洞 CVE-2021-25281~25283
   * SaltStack 未授权访问命令执行漏洞 CVE-2020-16846 25592
   * Saltstack 远程命令执行漏洞 CVE-2020-11651 11652
+  * VMware Spring Security 身份认证绕过漏洞 CVE-2022-22978
   * VMware vCenter Server 服务器端请求伪造漏洞 CVE-2021-21973
   * VMware vCenter Server 远程代码执行漏洞 CVE-2021-21972
   * VMware vCenter 任意文件读取漏洞
