@@ -1,4 +1,4 @@
-# Jenkins script 远程命令执行漏洞
+# Jenkins script 未授权远程命令执行漏洞
 
 ## 漏洞描述
 
