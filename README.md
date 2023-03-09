@@ -273,6 +273,7 @@
   * ShowDoc AdminUpdateController.class.php 任意文件上传漏洞 CVE-2021-36440
   * ShowDoc PageController.class.php 任意文件上传漏洞
   * ShowDoc 前台文件上传漏洞
+  * SolarView Compact 命令注入漏洞 CVE-2022-40881
   * SonarQube search_projects 项目信息泄露漏洞
   * SonarQube values 信息泄露漏洞 CVE-2020-27986
   * SpiderFlow save 远程命令执行漏洞
@@ -431,7 +432,7 @@
   * JBoss 4.x JBossMQ JMS 反序列化漏洞 CVE-2017-7504
   * Jenkins checkScript 远程命令执行漏洞 CVE-2018-1000861
   * Jenkins CI 远程代码执行漏洞 CVE-2017-1000353
-  * Jenkins script 远程命令执行漏洞
+  * Jenkins script 未授权远程命令执行漏洞
   * Jenkins XStream 反序列化漏洞 CVE-2016-0792
   * Jenkins 远程代码执行漏洞 CVE-2015-8103
   * muhttpd 任意文件读取漏洞 CVE-2022-31793
@@ -494,6 +495,7 @@
   * Franklin Fueling Systems tsaupload.cgi 任意文件读取漏洞 CVE-2021-46417
   * Git for Visual Studio远程执行代码漏洞 CVE-2021-21300
   * Git-LFS 远程命令执行漏洞 CVE-2020-27955
+  * Hashicorp Consul Service API远程命令执行漏洞
   * Microsoft Exchange Server 远程执行代码漏洞 CVE-2020-17083
   * Microsoft Exchange SSRF漏洞 CVE-2021-26885
   * Microsoft Exchange 信息泄露漏洞 CVE-2020-17143
