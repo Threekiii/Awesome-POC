@@ -75,6 +75,7 @@
 - OA产品漏洞
 
   * O2OA invoke 后台远程命令执行漏洞 CNVD-2020-18740
+  * O2OA open 后台任意文件读取漏洞
   * 一米OA getfile.jsp 任意文件读取漏洞
   * 万户OA DocumentEdit.jsp SQL注入漏洞
   * 万户OA download_ftp.jsp 任意文件下载漏洞
@@ -248,6 +249,7 @@
   * JD-FreeFuck 后台命令执行漏洞
   * Jellyfin RemoteImageController.cs SSRF漏洞 CVE-2021-29490
   * Jellyfin 任意文件读取漏洞 CVE-2021-21402
+  * Joomla application 未授权访问漏洞 CVE-2023-23752
   * JumpServer 未授权接口 远程命令执行漏洞
   * Jupyter Notebook 未授权访问远程命令执行漏洞
   * kkFileView getCorsFile 任意文件读取漏洞 CVE-2021-43734
@@ -329,6 +331,7 @@
   * 宝塔 phpmyadmin未授权访问漏洞
   * 思福迪堡垒机 任意用户登录漏洞
   * 思迪数据 Home 登录绕过漏洞
+  * 拓尔思 MAS testCommandExecutor.jsp 远程命令执行漏洞
   * 昆石网络 VOS3000虚拟运营支撑系统 %c0%ae%c0%ae 任意文件读取漏洞
   * 智慧校园管理系统 前台任意文件上传漏洞
   * 极通EWEBS casmain.xgi 任意文件读取漏洞
@@ -357,6 +360,7 @@
   * 科达 网络键盘控制台 任意文件读取漏洞
   * 科迈 RAS系统 硬编码管理员漏洞
   * 紫光档案管理系统 editPass.html SQL注入漏洞 CNVD-2021-41638
+  * 紫光档案管理系统 upload.html 后台文件上传漏洞
   * 绿盟 BAS日志数据安全性分析系统 accountmanage 未授权访问漏洞
   * 绿盟 UTS综合威胁探针 信息泄露登陆绕过漏洞
   * 网御星云 web防护系统 信息泄露漏洞
@@ -593,6 +597,8 @@
   * NetMizer 日志管理系统 cmd.php 远程命令执行漏洞
   * NetMizer 日志管理系统 data 目录遍历漏洞
   * NetMizer 日志管理系统 登录绕过漏洞
+  * Panabit iXCache date_config 后台命令执行漏洞
+  * Panabit Panalog sy_addmount.php 远程命令执行漏洞
   * rConfig ajaxArchiveFiles.php 后台远程命令执行漏洞
   * rConfig ajaxEditTemplate.php 后台远程命令执行漏洞
   * rConfig useradmin.inc.php 信息泄露漏洞
@@ -656,15 +662,20 @@
   * 碧海威 L7多款产品 后台命令执行漏洞
   * 磊科 NI360路由器 认证绕过漏洞
   * 网康 NS-ASG安全网关 cert_download.php 任意文件读取漏洞
+  * 网康 NS-ASG安全网关 index.php 远程命令执行漏洞
+  * 网康 下一代防火墙 HeartBeat.php 远程命令执行漏洞
   * 网康 下一代防火墙 router 远程命令执行漏洞
   * 网御 Leadsec ACM管理平台 importhtml.php 远程命令执行漏洞
+  * 网神 SecIPS 3600 debug_info_export 任意文件下载漏洞
   * 网神 下一代极速防火墙 pki_file_download 任意文件读取漏洞
+  * 联软安界 UniSDP 软件定义边界系统 commondRetSt 命令执行漏洞
   * 腾达 路由器 AC11 堆栈缓冲区溢出 CVE-2021-31758
   * 腾达 路由器 D151D31未经身份验证的配置下载
   * 蜂网互联 企业级路由器v4.31 密码泄露漏洞 CVE-2019-16313
   * 西迪特 Wi-Fi Web管理 Cookie 越权访问漏洞
   * 西迪特 Wi-Fi Web管理 jumpto.php 后台命令执行漏洞
   * 迈普 ISG1000安全网关 任意文件下载漏洞
+  * 金山 VGM防毒墙 downFile.php 任意文件读取漏洞
   * 锐捷 EG易网关 branch_passw.php 远程命令执行
   * 锐捷 EG易网关 cli.php 远程命令执行漏洞
   * 锐捷 EG易网关 download.php 任意文件读取漏洞
