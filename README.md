@@ -448,6 +448,7 @@
   * Weblogic SSRF漏洞 CVE-2014-4210
   * WebLogic T3 反序列化漏洞 CVE-2016-3510
   * Weblogic XMLDecoder 远程代码执行漏洞 CVE-2017-10271
+  * Weblogic 二次反序列化漏洞 CVE-2021-2394
   * Weblogic 反序列化远程代码执行漏洞 CVE-2019-2725
   * Zabbix SAML身份绕过漏洞 CVE-2022-23131
 - 云安全漏洞
@@ -455,6 +456,7 @@
   * K8s API Server未授权命令执行
 - 其他漏洞
 
+  * Microsoft Word 远程代码执行漏洞 CVE-2023-21716
   * 微信客户端 远程命令执行漏洞
 - 开发框架漏洞
 
@@ -491,10 +493,12 @@
   * Windows SMB远程代码执行漏洞 CVE-2020-0796
   * Windows Win32k 内核提权漏洞 CVE-2022-21882
   * Windows Win32k 本地提权漏洞 CVE-2021-1732
+  * Windows远程桌面服务漏洞 CVE-2019-0708
 - 服务器应用漏洞
 
   * ClickHouse API 数据库接口未授权访问漏洞
   * Consul Docker images 空密码登录漏洞 CVE-2020-29564
+  * ElasticSearch Groovy 沙盒绕过 & 代码执行漏洞 CVE-2015-1427
   * Elasticsearch 未授权访问
   * Franklin Fueling Systems tsaupload.cgi 任意文件读取漏洞 CVE-2021-46417
   * Git for Visual Studio远程执行代码漏洞 CVE-2021-21300
