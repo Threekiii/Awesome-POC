@@ -121,6 +121,7 @@
   * 泛微OA ln.FileDownload 任意文件读取漏洞
   * 泛微OA sysinterfacecodeEdit.jsp 任意文件上传漏洞
   * 泛微OA uploadOperation.jsp 任意文件上传
+  * 泛微OA v9 E-Cology browser.jsp SQL注入漏洞
   * 泛微OA weaver.common.Ctrl 任意文件上传漏洞
   * 泛微OA WorkflowCenterTreeData SQL注入漏洞
   * 用友 ERP-NC NCFindWeb 目录遍历漏洞
@@ -191,7 +192,9 @@
   * Afterlogic Aurora & WebMail Pro 文件上传漏洞 CVE-2021-26293
   * Alibaba AnyProxy fetchBody 任意文件读取漏洞
   * Alibaba Canal config 云密钥信息泄露漏洞
+  * Alibaba Nacos secret.key默认密钥 未授权访问漏洞
   * Alibaba Nacos 未授权访问漏洞
+  * Alibaba otter manager分布式数据库同步系统信息泄漏 CNVD-2021-16592
   * Appspace jsonprequest SSRF漏洞 CVE-2021-27670
   * Atlassian Bitbucket archive 远程命令执行漏洞 CVE-2022-36804
   * Atlassian Bitbucket 登录绕过漏洞
@@ -219,6 +222,8 @@
   * Dogtag PKI XML实体注入漏洞 CVE-2022-2414
   * Dolibarr edit.php 远程命令执行漏洞 CVE-2022-40871
   * E-message 越权访问漏洞
+  * EasyImage down.php 任意文件读取漏洞
+  * EasyImage manager.php 后台任意文件上传漏洞
   * eGroupWare spellchecker.php 远程命令执行漏洞
   * Evolucare Ecsimaging download_stats_dicom.php 任意文件读取漏洞
   * Evolucare Ecsimaging new_movie.php 远程命令执行漏洞
@@ -233,6 +238,8 @@
   * GitLab SSRF漏洞 CVE-2021-22214
   * GitLab 任意文件读取导致RCE CVE-2020-10977
   * GLPI htmLawedTest.php 远程命令执行漏洞 CVE-2022-35914
+  * Go-fastdfs GetClientIp 未授权访问漏洞
+  * Go-fastdfs upload 任意文件上传漏洞 CVE-2023-1800
   * Grafana mysql 后台任意文件读取漏洞 CVE-2019-19499
   * Grafana plugins 任意文件读取漏洞 CVE-2021-43798
   * H3C IMC dynamiccontent.properties.xhtm 远程命令执行
@@ -259,6 +266,7 @@
   * MessageSolution 邮件归档系统EEA 信息泄露漏洞 CNVD-2021-10543
   * Metabase geojson 任意文件读取漏洞 CVE-2021-41277
   * MKdocs 任意文件读取漏洞 CVE-2021-40978
+  * MLflow get-artifact 任意文件读取漏洞 CVE-2023-1177
   * Nexus Repository Manger change-password 低权限修改管理员密码漏洞 CVE-2020-11444
   * Nexus Repository Manger extdirect 后台远程命令执行 CVE-2020-10204
   * Nexus Repository Manger extdirect 远程命令执行 CVE-2019-7238
@@ -350,6 +358,7 @@
   * 深信服 应用交付管理系统 sys_user.conf 账号密码泄漏漏洞
   * 深信服 日志中心 c.php 远程命令执行漏洞
   * 深信服 行为感知系统 c.php 远程命令执行漏洞
+  * 瑞友 应用虚拟化系统 GetBSAppUrl SQL注入漏洞
   * 用友 畅捷通T+ DownloadProxy.aspx 任意文件读取漏洞
   * 用友 畅捷通T+ RecoverPassword.aspx 管理员密码修改漏洞
   * 用友 畅捷通T+ Upload.aspx 任意文件上传漏洞
@@ -376,7 +385,6 @@
   * 银澎云计算 好视通视频会议系统 任意文件下载 CNVD-2020-62437
   * 银达汇智 智慧综合管理平台 FileDownLoad.aspx 任意文件读取漏洞
   * 阿尔法科技 虚拟仿真实验室 未授权访问漏洞
-  * 阿里巴巴otter manager分布式数据库同步系统信息泄漏 CNVD-2021-16592
   * 零视科技 H5S视频平台 GetUserInfo 信息泄漏漏洞 CNVD-2020-67113
   * 章管家 Druid未授权访问漏洞
   * 飞视美 视频会议系统 Struts2 远程命令执行漏洞
@@ -509,6 +517,7 @@
   * Microsoft Exchange 信息泄露漏洞 CVE-2020-17143
   * Microsoft Exchange 远程命令执行 CVE-2021-27065 26857 26858
   * MinIO SSRF漏洞 CVE-2021-21287
+  * MinIO verify 敏感信息泄漏漏洞 CVE-2023-28432
   * MySQL UDF提权
   * NVIDIA GPU显示驱动程序 信息泄露 CVE-2021-1056
   * OpenSSH 命令注入漏洞 CVE-2020-15778
@@ -654,6 +663,7 @@
   * 小米 路由器 extdisks 任意文件读取漏洞 CVE-2019-18371
   * 悦泰节能 智能数据网关 resources 任意文件读取漏洞
   * 惠尔顿 e地通 config.xml 信息泄漏漏洞
+  * 才茂通信 网关 formping 远程命令执行漏洞
   * 朗视 TG400 GSM 网关目录遍历 CVE-2021-27328
   * 浙江宇视科技 网络视频录像机 ISC LogReport.php 远程命令执行漏洞
   * 烽火 HG6245D info.asp 信息泄露漏洞
