@@ -265,6 +265,8 @@
   * LimeSurvey LimeSurveyFileManager.php 后台任意文件读取漏洞 CVE-2020-11455
   * MessageSolution 邮件归档系统EEA 信息泄露漏洞 CNVD-2021-10543
   * Metabase geojson 任意文件读取漏洞 CVE-2021-41277
+  * MeterSphere customMethod 远程命令执行漏洞
+  * Metersphere file 任意文件读取漏洞 CVE-2023-25573
   * MKdocs 任意文件读取漏洞 CVE-2021-40978
   * MLflow get-artifact 任意文件读取漏洞 CVE-2023-1177
   * Nexus Repository Manger change-password 低权限修改管理员密码漏洞 CVE-2020-11444
@@ -276,6 +278,7 @@
   * NPS auth_key 未授权访问漏洞
   * OneBlog 小于v2.2.1 远程命令执行漏洞
   * phpMyAdmin后台SQL注入 CVE-2020-26935
+  * PowerJob list 信息泄漏漏洞 CVE-2023-29923
   * Riskscanner list SQL注入漏洞
   * Roxy-Wi options.py 远程命令执行漏洞 CVE-2022-31137
   * Seo-Panel 4.8.0 反射型XSS漏洞 CVE-2021-3002
