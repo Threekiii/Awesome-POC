@@ -254,6 +254,7 @@
   * imo 云办公室 get_file.php 远程命令执行漏洞
   * imo 云办公室 Imo_DownLoadUI.php 任意文件下载漏洞
   * JD-FreeFuck 后台命令执行漏洞
+  * JeecgBoot 企业级低代码平台 qurestSql SQL注入漏洞 CVE-2023-1454
   * Jellyfin RemoteImageController.cs SSRF漏洞 CVE-2021-29490
   * Jellyfin 任意文件读取漏洞 CVE-2021-21402
   * Joomla application 未授权访问漏洞 CVE-2023-23752
@@ -261,6 +262,7 @@
   * Jupyter Notebook 未授权访问远程命令执行漏洞
   * kkFileView getCorsFile 任意文件读取漏洞 CVE-2021-43734
   * Konga 普通用户越权获取管理员权限漏洞
+  * KubePi LoginLogsSearch 未授权访问漏洞 CVE-2023-22478
   * Lanproxy 目录遍历漏洞 CVE-2021-3019
   * LimeSurvey LimeSurveyFileManager.php 后台任意文件读取漏洞 CVE-2020-11455
   * MessageSolution 邮件归档系统EEA 信息泄露漏洞 CNVD-2021-10543
@@ -435,6 +437,7 @@
   * Apache Spark doAs 远程命令执行漏洞 CVE-2022-33891
   * Apache Spark unTarUsingTar 命令注入漏洞 SPARK-38631
   * Apache Struts2 S2-062 远程代码执行漏洞 CVE-2021-31805
+  * Apache Superset SECRET_KEY 未授权访问漏洞 CVE-2023-27524
   * Apache Tomcat AJP 文件包含漏洞 CVE-2020-1938
   * Apache Tomcat RCE Via JSP Upload Bypass
   * Apache Tomcat WebSocket 拒绝服务漏洞 CVE-2020-13935
