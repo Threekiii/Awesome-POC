@@ -280,6 +280,7 @@
   * NPS auth_key 未授权访问漏洞
   * OneBlog 小于v2.2.1 远程命令执行漏洞
   * phpMyAdmin后台SQL注入 CVE-2020-26935
+  * PHPStudy 后台管理页面 one click RCE
   * PowerJob list 信息泄漏漏洞 CVE-2023-29923
   * Riskscanner list SQL注入漏洞
   * Roxy-Wi options.py 远程命令执行漏洞 CVE-2022-31137
@@ -495,6 +496,7 @@
 
   * GO TLS握手 崩溃漏洞 CVE-2021-34558
   * PHP zerodium后门漏洞
+  * Python pip install RCE 漏洞 CVE-2013-1629
 - 操作系统漏洞
 
   * Linux DirtyPipe权限提升漏洞 CVE-2022-0847
