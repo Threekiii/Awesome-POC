@@ -6,11 +6,15 @@
 
 ## 漏洞影响
 
-- 蓝凌OA
+```
+蓝凌OA
+```
 
 ## FOFA
 
-- app="Landray-OA系统"
+```
+app="Landray-OA系统"
+```
 
 ## 漏洞复现
 

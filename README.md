@@ -1,6 +1,6 @@
 # Awesome-POC
 
-##### **【免责声明】本仓库所涉及的技术、思路和工具仅供安全技术研究，任何人不得将其用于非授权渗透测试，不得将其用于非法用途和盈利，否则后果自行承担。**
+##### **【免责声明】本项目所涉及的技术、思路和工具仅供学习，任何人不得将其用于非法用途和盈利，不得将其用于非授权渗透测试，否则后果自行承担，与本项目无关。使用本项目前请先阅读 [法律法规](https://github.com/Threekiii/Awesome-Laws)。**
 
 ## 0x01 项目导航
 
@@ -44,6 +44,7 @@
   * PbootCMS domain SQL注入漏洞
   * PbootCMS ext_price SQL注入漏洞
   * PbootCMS search SQL注入漏洞
+  * PbootCMS V3.1.2 正则绕过 RCE 漏洞
   * ShopXO download 任意文件读取漏洞 CNVD-2021-15822
   * TypesetterCMS 后台任意文件上传
   * UCMS 文件上传漏洞 CVE-2020-25483
@@ -71,6 +72,7 @@
   * 禅道 11.6 api-getModel-editor-save-filePath 任意文件写入漏洞
   * 禅道 12.4.2 CSRF漏洞 CNVD-2020-68552
   * 禅道 12.4.2 后台任意文件上传漏洞 CNVD-C-2020-121325
+  * 禅道 V16.5 SQL 注入 CNVD-2022-42853
   * 齐博CMS V7 job.php 任意文件读取漏洞
 - OA产品漏洞
 
@@ -135,6 +137,7 @@
   * 用友 NCCloud FS文件管理SQL注入
   * 用友 U8 OA getSessionList.jsp 敏感信息泄漏漏洞
   * 用友 U8 OA test.jsp SQL注入漏洞
+  * 用友时空 KSOA V9.0 文件上传漏洞
   * 红帆OA ioFileExport.aspx 任意文件读取漏洞
   * 致翔OA msglog.aspx SQL注入漏洞
   * 致远OA A6 config.jsp 敏感信息泄漏漏洞
@@ -505,6 +508,7 @@
   * Linux openvswitch权限提升漏洞 CVE-2022-2639
   * Linux Polkit权限提升漏洞 CVE-2021-4034
   * Linux sudo权限提升漏洞 CVE-2021-3156
+  * Linux sudo权限提升漏洞 CVE-2023-22809
   * Windows CryptoAPI欺骗漏洞 CVE-2020-0601
   * Windows SMB远程代码执行漏洞 CVE-2020-0796
   * Windows Win32k 内核提权漏洞 CVE-2022-21882
@@ -512,6 +516,7 @@
   * Windows远程桌面服务漏洞 CVE-2019-0708
 - 服务器应用漏洞
 
+  * Apache RocketMQ RCE 漏洞 CVE-2023-33246
   * ClickHouse API 数据库接口未授权访问漏洞
   * Consul Docker images 空密码登录漏洞 CVE-2020-29564
   * ElasticSearch Groovy 沙盒绕过 & 代码执行漏洞 CVE-2015-1427
@@ -592,6 +597,7 @@
   * FLIR-AX8 res.php 后台命令执行漏洞
   * Fortinet FortiOS admin 远程命令执行漏洞 CVE-2022-40684
   * H3C SecPath下一代防火墙 任意文件下载漏洞
+  * H3C 企业路由器（ER、ERG2、GR系列）任意用户登录漏洞
   * HIKVISION DSIDSIPC 等设备 远程命令执行漏洞 CVE-2021-36260
   * HIKVISION 流媒体管理服务器 user.xml 账号密码泄漏漏洞
   * HIKVISION 流媒体管理服务器 后台任意文件读取漏洞 CNVD-2021-14544
@@ -663,6 +669,7 @@
   * 奇安信 网康 NS-ASG安全网关 cert_download.php 任意文件读取漏洞
   * 奇安信 网康 下一代防火墙 router 远程命令执行漏洞
   * 安恒 明御WEB应用防火墙 report.php 任意用户登录漏洞
+  * 安恒 明御安全网关 命令执行 任意文件读取漏洞
   * 宏电 H8922 Telnet后门漏洞 CVE-2021-28149
   * 宏电 H8922 后台任意文件读取漏洞 CVE-2021-28152
   * 宏电 H8922 后台命令执行漏洞 CVE-2021-28150
