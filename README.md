@@ -4,6 +4,13 @@
 
 ## 0x01 项目导航
 
+- CHECKLIST
+
+  * Apache Log4j2 漏洞 Check List
+  * Apache Solr 漏洞 Check List
+  * Fastjson 漏洞 Check List
+  * Nacos 漏洞 Check List
+  * Spring Boot 漏洞 Check List
 - CMS漏洞
 
   * 74cms v4.2.1 v4.2.129 后台getshell漏洞
@@ -348,7 +355,7 @@
   * 宝塔 phpmyadmin未授权访问漏洞
   * 思福迪堡垒机 任意用户登录漏洞
   * 思迪数据 Home 登录绕过漏洞
-  * 拓尔思 MAS testCommandExecutor.jsp 远程命令执行漏洞
+  * 拓尔思 TRS testCommandExecutor.jsp 远程命令执行漏洞
   * 昆石网络 VOS3000虚拟运营支撑系统 %c0%ae%c0%ae 任意文件读取漏洞
   * 智慧校园管理系统 前台任意文件上传漏洞
   * 极通EWEBS casmain.xgi 任意文件读取漏洞

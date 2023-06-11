@@ -1,19 +1,19 @@
-# 拓尔思 MAS testCommandExecutor.jsp 远程命令执行漏洞
+# 拓尔思 TRS testCommandExecutor.jsp 远程命令执行漏洞
 
 ## 漏洞描述
 
-拓尔思 MAS testCommandExecutor.jsp测试文件存在远程命令执行漏洞，当网站运维者未删除测试文件时，攻击者通过漏洞可以获取服务器权限
+拓尔思 TRS testCommandExecutor.jsp测试文件存在远程命令执行漏洞，当网站运维者未删除测试文件时，攻击者通过漏洞可以获取服务器权限
 
 ## 漏洞影响
 
 ```
-拓尔思-MAS
+拓尔思-TRS
 ```
 
 ## FOFA
 
 ```
-"MAS媒资管理系统登录页面"
+"TRS媒资管理系统登录页面"
 ```
 
 ## 漏洞复现
