@@ -4,13 +4,6 @@
 
 ## 0x01 项目导航
 
-- CHECKLIST
-
-  * Apache Log4j2 漏洞 Check List
-  * Apache Solr 漏洞 Check List
-  * Fastjson 漏洞 Check List
-  * Nacos 漏洞 Check List
-  * Spring Boot 漏洞 Check List
 - CMS漏洞
 
   * 74cms v4.2.1 v4.2.129 后台getshell漏洞
