@@ -19,6 +19,7 @@
   * DedeCMS common.func.php 远程命令执行漏洞
   * Discuz 3.4 最新版后台getshell
   * Discuz!X 3.4 admincp_setting.php 后台SQL注入漏洞
+  * Discuz!X3.4 后台修改UCenter配置getshell漏洞
   * DocCMS keyword SQL注入漏洞
   * emlog widgets.php 后台SQL注入漏洞
   * ezEIP 4.1.0 信息泄露漏洞
@@ -207,6 +208,8 @@
   * Atlassian Jira com.atlassian.jira 敏感信息泄漏 CVE-2019-8442
   * Atlassian Jira groupuserpicker 用户信息枚举漏洞 CVE-2019-8449
   * Atlassian Jira makeRequest SSRF漏洞 CVE-2019-8451
+  * Atlassian Jira Mobile Plugin SSRF漏洞 CVE-2022-26135
+  * Atlassian Jira Server 及 Data Center 信息泄露漏洞 CVE-2020-14179
   * Atlassian Jira ViewUserHover.jspa 用户信息泄露漏洞 CVE-2020-14181
   * Atlassian Questions For Confluence 身份认证绕过漏洞 CVE-2022-26138
   * AVCON6 系统管理平台 download.action 任意文件下载漏洞
@@ -279,6 +282,7 @@
   * Nexus Repository Manger extdirect 远程命令执行 CVE-2019-7238
   * Nexus Repository Manger group 后台远程命令执行 CVE-2020-10199
   * nginxWebUI cmdOver 后台命令执行漏洞
+  * nginxWebUI runCmd 远程命令执行漏洞
   * Node-RED ui_base 任意文件读取漏洞
   * NPS auth_key 未授权访问漏洞
   * OneBlog 小于v2.2.1 远程命令执行漏洞
@@ -345,6 +349,7 @@
   * 安天 高级可持续威胁安全检测系统 越权访问漏洞
   * 安徽阳光心健 心理测量平台 目录遍历漏洞 CNVD-2021-01929
   * 安美数字 酒店宽带运营系统 server_ping.php 远程命令执行漏洞
+  * 宏景 HCM codesettree SQL注入漏洞 CNVD-2023-0874
   * 宝塔 phpmyadmin未授权访问漏洞
   * 思福迪堡垒机 任意用户登录漏洞
   * 思迪数据 Home 登录绕过漏洞
@@ -369,6 +374,7 @@
   * 深信服 行为感知系统 c.php 远程命令执行漏洞
   * 瑞友 应用虚拟化系统 GetBSAppUrl SQL注入漏洞
   * 用友 畅捷通T+ DownloadProxy.aspx 任意文件读取漏洞
+  * 用友 畅捷通T+ GetStoreWarehouseByStore 远程命令执行漏洞
   * 用友 畅捷通T+ RecoverPassword.aspx 管理员密码修改漏洞
   * 用友 畅捷通T+ Upload.aspx 任意文件上传漏洞
   * 用友 畅捷通远程通 GNRemote.dll SQL注入漏洞
@@ -395,6 +401,7 @@
   * 银达汇智 智慧综合管理平台 FileDownLoad.aspx 任意文件读取漏洞
   * 阿尔法科技 虚拟仿真实验室 未授权访问漏洞
   * 零视科技 H5S视频平台 GetUserInfo 信息泄漏漏洞 CNVD-2020-67113
+  * 霆智科技 VA虚拟应用平台 任意文件读取漏洞
   * 章管家 Druid未授权访问漏洞
   * 飞视美 视频会议系统 Struts2 远程命令执行漏洞
   * 魅课 OM视频会议系统 proxy.php 文件包含漏洞
@@ -407,6 +414,7 @@
   * Apache ActiveMQ Console控制台默认弱口令
   * Apache ActiveMQ 信息泄漏漏洞 CVE-2017-15709
   * Apache ActiveMQ 反序列化漏洞 CVE-2015-5254
+  * Apache Axis 远程代码执行漏洞 CVE-2019-0227
   * Apache Cocoon XML注入 CVE-2020-11991
   * Apache CouchDB epmd 远程命令执行漏洞 CVE-2022-24706
   * Apache Druid LoadData 任意文件读取漏洞 CVE-2021-36749
@@ -498,6 +506,7 @@
 - 开发语言漏洞
 
   * GO TLS握手 崩溃漏洞 CVE-2021-34558
+  * JDWP调试接口 RCE 漏洞
   * PHP zerodium后门漏洞
   * Python pip install RCE 漏洞 CVE-2013-1629
 - 操作系统漏洞
@@ -543,6 +552,7 @@
   * SaltStack 未授权访问命令执行漏洞 CVE-2020-16846 25592
   * Saltstack 远程命令执行漏洞 CVE-2020-11651 11652
   * VMware Spring Security 身份认证绕过漏洞 CVE-2022-22978
+  * VMware vCenter Server 任意文件上传漏洞 CVE-2021-22005
   * VMware vCenter Server 服务器端请求伪造漏洞 CVE-2021-21973
   * VMware vCenter Server 远程代码执行漏洞 CVE-2021-21972
   * VMware vCenter 任意文件读取漏洞
@@ -599,6 +609,8 @@
   * H3C SecPath下一代防火墙 任意文件下载漏洞
   * H3C 企业路由器（ER、ERG2、GR系列）任意用户登录漏洞
   * HIKVISION DSIDSIPC 等设备 远程命令执行漏洞 CVE-2021-36260
+  * HIKVISION iVMS-8700综合安防管理平台 download 任意文件下载漏洞
+  * HIKVISION iVMS-8700综合安防管理平台 upload.action 任意文件上传漏洞
   * HIKVISION 流媒体管理服务器 user.xml 账号密码泄漏漏洞
   * HIKVISION 流媒体管理服务器 后台任意文件读取漏洞 CNVD-2021-14544
   * HIKVISION 视频编码设备接入网关 $DATA 任意文件读取
@@ -666,6 +678,7 @@
   * 启明星辰 天清汉马USG防火墙 逻辑缺陷漏洞 CNVD-2021-12793
   * 启明星辰 天清汉马USG防火墙 默认口令漏洞
   * 大华 城市安防监控系统平台管理 attachment_downloadByUrlAtt.action 任意文件下载漏洞
+  * 大华 智慧园区综合管理平台 user_save.action 任意文件上传漏洞
   * 奇安信 网康 NS-ASG安全网关 cert_download.php 任意文件读取漏洞
   * 奇安信 网康 下一代防火墙 router 远程命令执行漏洞
   * 安恒 明御WEB应用防火墙 report.php 任意用户登录漏洞

