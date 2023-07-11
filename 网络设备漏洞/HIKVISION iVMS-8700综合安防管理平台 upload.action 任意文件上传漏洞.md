@@ -18,7 +18,7 @@ icon_hash="-911494769"
 
 登录页面
 
-![image-20230704111156427](D:\TMP_FILE\awesome-poc\iot\images\image-20230704111156427.png)
+![image-20230704111156427](./images/image-20230704111156427.png)
 
 发送请求包上传文件
 
@@ -46,10 +46,10 @@ Content-Type: image/jpeg
 
 上传路径
 
-![image-20230704111213114](D:\TMP_FILE\awesome-poc\iot\images\image-20230704111213114.png)
+![image-20230704111213114](./images/image-20230704111213114.png)
 
 ```
 /eps/upload/769badc8ef5944da804a4ca3c8ecafb0.jsp
 ```
 
-![image-20230704111225074](D:\TMP_FILE\awesome-poc\iot\images\image-20230704111225074.png)
+![image-20230704111225074](./images/image-20230704111225074.png)

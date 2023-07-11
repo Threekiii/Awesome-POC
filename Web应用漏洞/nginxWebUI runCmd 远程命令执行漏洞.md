@@ -18,7 +18,7 @@ title="nginxwebui"
 
 登录页面
 
-![image-20230704113502611](D:\TMP_FILE\awesome-poc\webapp\images\image-20230704113502611.png)
+![image-20230704113502611](./images/image-20230704113502611.png)
 
 验证请求包
 
@@ -26,4 +26,4 @@ title="nginxwebui"
 /AdminPage/conf/runCmd?cmd=id
 ```
 
-![image-20230704113520591](D:\TMP_FILE\awesome-poc\webapp\images\image-20230704113520591.png)
+![image-20230704113520591](./images/image-20230704113520591.png)

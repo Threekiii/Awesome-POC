@@ -18,7 +18,7 @@ app="畅捷通-TPlus"
 
 登录页面
 
-![image-20230704111641427](D:\TMP_FILE\awesome-poc\webapp\images\image-20230704111641427.png)
+![image-20230704111641427](./images/image-20230704111641427.png)
 
 验证POC
 
@@ -47,10 +47,10 @@ Accept-Encoding: gzip
 }
 ```
 
-![image-20230704111653392](D:\TMP_FILE\awesome-poc\webapp\images\image-20230704111653392.png)
+![image-20230704111653392](./images/image-20230704111653392.png)
 
 ```
 /tplus/xxx.txt
 ```
 
-![image-20230704111706616](D:\TMP_FILE\awesome-poc\webapp\images\image-20230704111706616.png)
+![image-20230704111706616](./images/image-20230704111706616.png)

