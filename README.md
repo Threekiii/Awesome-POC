@@ -4,6 +4,8 @@
 
 ## 0x01 项目导航
 
+  * 微信小程序反编译
+  * 蜜罐技术研究与识别
 - CMS漏洞
 
   * 74cms v4.2.1 v4.2.129 后台getshell漏洞
@@ -204,6 +206,7 @@
   * Atlassian Bitbucket 登录绕过漏洞
   * Atlassian Confluence doenterpagevariables.action 远程命令执行漏洞 CVE-2021-26084
   * Atlassian Confluence preview SSTI模版注入漏洞 CVE-2019-3396
+  * Atlassian Confluence 敏感信息泄露 CVE-2021-26085
   * Atlassian Jira cfx 任意文件读取漏洞 CVE-2021-26086
   * Atlassian Jira com.atlassian.jira 敏感信息泄漏 CVE-2019-8442
   * Atlassian Jira groupuserpicker 用户信息枚举漏洞 CVE-2019-8449
@@ -211,6 +214,7 @@
   * Atlassian Jira Mobile Plugin SSRF漏洞 CVE-2022-26135
   * Atlassian Jira Server 及 Data Center 信息泄露漏洞 CVE-2020-14179
   * Atlassian Jira ViewUserHover.jspa 用户信息泄露漏洞 CVE-2020-14181
+  * Atlassian Jira 敏感信息泄露 CVE-2021-26086
   * Atlassian Questions For Confluence 身份认证绕过漏洞 CVE-2022-26138
   * AVCON6 系统管理平台 download.action 任意文件下载漏洞
   * AVCON6 系统管理平台 org_execl_download.action 任意文件下载漏洞
@@ -480,6 +484,7 @@
 - 云安全漏洞
 
   * K8s API Server未授权命令执行
+  * K8s etcd未授权访问
 - 其他漏洞
 
   * Microsoft Word 远程代码执行漏洞 CVE-2023-21716
@@ -500,6 +505,7 @@
   * PHPUnit eval-stdin.php 远程命令执行漏洞 CVE-2017-9841
   * Rails Accept 任意文件读取漏洞 CVE-2019-5418
   * Rails sprockets 任意文件读取漏洞 CVE-2018-3760
+  * Spring Cloud Config 目录遍历漏洞 CVE-2019-3799
   * Spring Cloud Function SPEL 远程命令执行漏洞
   * XStream SSRF 反序列化漏洞 CVE-2020-26258
   * XStream 任意文件删除 反序列化漏洞 CVE-2020-26259
