@@ -438,6 +438,7 @@
   * Apache OF Biz RMI Bypass RCE CVE 2021 29200
   * Apache OFBiz RMI反序列化漏洞 CVE-2021-26295
   * Apache ShenYu dashboardUser 账号密码泄漏漏洞 CVE-2021-37580
+  * Apache Shiro  1.6.0 身份认证绕过漏洞 CVE-2020-13933
   * Apache Shiro 小于1.2.4反序列化漏洞 CVE-2016-4437
   * Apache SkyWalking graphql SQL注入漏洞 CVE-2020-9483
   * Apache Solr JMX服务 RCE CVE-2019-12409
