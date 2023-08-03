@@ -33,8 +33,6 @@ method 为 editrParam。 对 fdParemNames 的内容进行了判空。如果不�
 
 将传入进来的 string 字符进行替换。将其载入字节数组缓冲区，在传递给 objectXmlDecoder。 在 objectXmlDecoder 中。就更明显了。典型的 xmlDecoder 反序列化。 整体流程只对 FdParameters 的内容进行了一些内容替换。 导致 xmlDecoder 反序列化漏洞。
 
-
-
 其中存在利用 custom.jsp 文件导致前台的命令执行以及文件上传，发送请求执行命令
 
 ```

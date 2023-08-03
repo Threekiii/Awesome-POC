@@ -4,6 +4,7 @@
 
 ## 0x01 项目导航
 
+  * HW 高危漏洞（2021-2023）
   * 微信小程序反编译
   * 蜜罐技术研究与识别
 - CMS漏洞
@@ -76,11 +77,13 @@
   * 禅道 12.4.2 CSRF漏洞 CNVD-2020-68552
   * 禅道 12.4.2 后台任意文件上传漏洞 CNVD-C-2020-121325
   * 禅道 V16.5 SQL 注入 CNVD-2022-42853
+  * 禅道 项目管理系统远程命令执行漏洞 CNVD-2023-02709
   * 齐博CMS V7 job.php 任意文件读取漏洞
 - OA产品漏洞
 
   * O2OA invoke 后台远程命令执行漏洞 CNVD-2020-18740
   * O2OA open 后台任意文件读取漏洞
+  * Untitled
   * 一米OA getfile.jsp 任意文件读取漏洞
   * 万户OA DocumentEdit.jsp SQL注入漏洞
   * 万户OA download_ftp.jsp 任意文件下载漏洞
@@ -112,6 +115,7 @@
   * 泛微OA E-Cology jqueryFileTree.jsp 目录遍历漏洞
   * 泛微OA E-cology KtreeUploadAction 任意文件上传
   * 泛微OA E-Cology LoginSSO.jsp SQL注入漏洞 CNVD-2021-33202
+  * 泛微OA E-Cology ofsLogin.jsp 前台任意用户登录漏洞
   * 泛微OA E-Cology users.data 敏感信息泄漏
   * 泛微OA E-Cology VerifyQuickLogin.jsp 任意管理员登录漏洞
   * 泛微OA E-cology WorkflowServiceXml RCE
@@ -134,6 +138,7 @@
   * 用友 GRP-U8 Proxy SQL注入 CNNVD-201610-923
   * 用友 GRP-U8 UploadFileData 任意文件上传漏洞
   * 用友 NC bsh.servlet.BshServlet 远程命令执行漏洞
+  * 用友 NC Cloud 远程代码执行漏洞 CNVD-C-2023-76801
   * 用友 NC FileReceiveServlet 反序列化RCE漏洞
   * 用友 NC NCFindWeb 任意文件读取漏洞
   * 用友 NC XbrlPersistenceServlet反序列化
@@ -200,9 +205,12 @@
   * Alibaba Canal config 云密钥信息泄露漏洞
   * Alibaba Nacos secret.key默认密钥 未授权访问漏洞
   * Alibaba Nacos 未授权访问漏洞
+  * Alibaba Nacos 集群 Raft 反序列化漏洞 CNVD-2023-45001
   * Alibaba otter manager分布式数据库同步系统信息泄漏 CNVD-2021-16592
+  * Apache Airflow 远程代码执行漏洞 CVE-2022-40127
   * Appspace jsonprequest SSRF漏洞 CVE-2021-27670
   * Atlassian Bitbucket archive 远程命令执行漏洞 CVE-2022-36804
+  * Atlassian Bitbucket Data Center 远程代码执行漏洞 CVE-2022-26133
   * Atlassian Bitbucket 登录绕过漏洞
   * Atlassian Confluence doenterpagevariables.action 远程命令执行漏洞 CVE-2021-26084
   * Atlassian Confluence preview SSTI模版注入漏洞 CVE-2019-3396
@@ -300,6 +308,8 @@
   * ShowDoc AdminUpdateController.class.php 任意文件上传漏洞 CVE-2021-36440
   * ShowDoc PageController.class.php 任意文件上传漏洞
   * ShowDoc 前台文件上传漏洞
+  * Smartbi 登录绕过漏洞
+  * Smartbi 远程命令执行漏洞
   * SolarView Compact 命令注入漏洞 CVE-2022-40881
   * SonarQube search_projects 项目信息泄露漏洞
   * SonarQube values 信息泄露漏洞 CVE-2020-27986
@@ -377,6 +387,8 @@
   * 深信服 日志中心 c.php 远程命令执行漏洞
   * 深信服 行为感知系统 c.php 远程命令执行漏洞
   * 瑞友 应用虚拟化系统 GetBSAppUrl SQL注入漏洞
+  * 瑞友天翼应用虚拟化系统 AgentBoard.XGI 远程代码执行漏洞
+  * 用友 畅捷通 T+ 前台远程命令执行漏洞 QVD-2023-13615
   * 用友 畅捷通T+ DownloadProxy.aspx 任意文件读取漏洞
   * 用友 畅捷通T+ GetStoreWarehouseByStore 远程命令执行漏洞
   * 用友 畅捷通T+ RecoverPassword.aspx 管理员密码修改漏洞
@@ -401,6 +413,7 @@
   * 金山 V8 终端安全系统 get_file_content.php 任意文件读取漏洞
   * 金山 V8 终端安全系统 pdf_maker.php 命令执行漏洞
   * 金笛 短信中间件Web版 log 后台任意文件下载漏洞 CNVD-2021-57336
+  * 金蝶 K3Cloud BinaryFormatter 反序列化漏洞
   * 银澎云计算 好视通视频会议系统 任意文件下载 CNVD-2020-62437
   * 银达汇智 智慧综合管理平台 FileDownLoad.aspx 任意文件读取漏洞
   * 阿尔法科技 虚拟仿真实验室 未授权访问漏洞
@@ -424,6 +437,7 @@
   * Apache Druid LoadData 任意文件读取漏洞 CVE-2021-36749
   * Apache Druid 远程代码执行漏洞 CVE-2021-25646
   * Apache Druid 远程代码执行漏洞 CVE-2021-26919
+  * Apache Druid 远程代码执行漏洞 QVD-2023-9629
   * Apache Flink 小于1.9.1远程代码执行 CVE-2020-17518
   * Apache Flink 目录遍历漏洞 CVE-2020-17519
   * Apache HTTPd 换行解析漏洞 CVE-2017-15715
@@ -438,7 +452,7 @@
   * Apache OF Biz RMI Bypass RCE CVE 2021 29200
   * Apache OFBiz RMI反序列化漏洞 CVE-2021-26295
   * Apache ShenYu dashboardUser 账号密码泄漏漏洞 CVE-2021-37580
-  * Apache Shiro  1.6.0 身份认证绕过漏洞 CVE-2020-13933
+  * Apache Shiro 1.6.0 身份认证绕过漏洞 CVE-2020-13933
   * Apache Shiro 小于1.2.4反序列化漏洞 CVE-2016-4437
   * Apache SkyWalking graphql SQL注入漏洞 CVE-2020-9483
   * Apache Solr JMX服务 RCE CVE-2019-12409
@@ -449,6 +463,7 @@
   * Apache Solr stream.url 任意文件读取漏洞
   * Apache Solr Velocity模板远程执行 CVE-2019-17558
   * Apache Solr XXE 漏洞 CVE-2017-12629
+  * Apache Solr 代码执行漏洞 CNVD-2023-27598
   * Apache Solr 远程执行漏洞 CVE-2019-0193
   * Apache Spark create 未授权访问漏洞
   * Apache Spark doAs 远程命令执行漏洞 CVE-2022-33891
@@ -488,14 +503,18 @@
   * K8s etcd未授权访问
 - 其他漏洞
 
+  * Foxit PDF Reader 及 Editor 任意代码执行漏洞 CVE-2023-27363
+  * Microsoft Outlook 权限提升漏洞 CVE-2023-23397
   * Microsoft Word 远程代码执行漏洞 CVE-2023-21716
   * 微信客户端 远程命令执行漏洞
 - 开发框架漏洞
 
+  * Apache Commons Text 远程代码执行漏洞 CVE-2022-42889
   * Apache OFBiz 反序列化 CVE-2021-30128
   * Apache OfBiz 服务器端模板注入 SSTI
   * Apache OfBiz 远程代码执行 RCE
   * FastAdmin 远程代码执行漏洞
+  * Fastjson 远程代码执行漏洞 CVE-2022-25845
   * Jackson Databind SSRF RCE CVE 2020 36179 36182
   * Jackson-databind远程代码执行 CVE-2019-12384
   * jQuery XSS漏洞 CVE-2020-11022 11023
@@ -508,6 +527,8 @@
   * Rails sprockets 任意文件读取漏洞 CVE-2018-3760
   * Spring Cloud Config 目录遍历漏洞 CVE-2019-3799
   * Spring Cloud Function SPEL 远程命令执行漏洞
+  * Spring Framework 安全绕过漏洞 CVE-2023-20860
+  * ThinkPHP 命令执行漏洞 CNVD-2022-86535
   * XStream SSRF 反序列化漏洞 CVE-2020-26258
   * XStream 任意文件删除 反序列化漏洞 CVE-2020-26259
 - 开发语言漏洞
@@ -533,6 +554,7 @@
 - 服务器应用漏洞
 
   * Apache RocketMQ RCE 漏洞 CVE-2023-33246
+  * Apache RocketMQ 远程代码执行漏洞 CVE-2023-37582
   * ClickHouse API 数据库接口未授权访问漏洞
   * Consul Docker images 空密码登录漏洞 CVE-2020-29564
   * ElasticSearch Groovy 沙盒绕过 & 代码执行漏洞 CVE-2015-1427
