@@ -18,7 +18,7 @@ Selea Selea Targa IP OCR-ANPR Camera Targa 750
 Selea Selea Targa IP OCR-ANPR Camera Targa 704 ILB
 ```
 
-## FOFA
+## 网络测绘
 
 ```
 "selea_httpd"

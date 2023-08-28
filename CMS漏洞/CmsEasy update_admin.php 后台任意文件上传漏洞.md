@@ -10,7 +10,7 @@ CmsEasy 后台存在任意文件上传漏洞，通过文件 service.php 加密Ur
 CmsEasy V7.7.5_20210919
 ```
 
-## FOFA
+## 网络测绘
 
 ```
 body="cmseasyedit"

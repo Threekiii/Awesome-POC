@@ -10,7 +10,7 @@ CmsEasy 后台存在命令执行漏洞，通过文件 language_admin.php 对部�
 CmsEasy V7.7.5_20210919
 ```
 
-## FOFA
+## 网络测绘
 
 ```
 body="cmseasyedit"

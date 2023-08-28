@@ -20,7 +20,7 @@ Weiphp <= 5.0
 
 
 
-## FOFA
+## 网络测绘
 
 app="WeiPHP"
 

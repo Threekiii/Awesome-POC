@@ -10,7 +10,7 @@ XXL-JOB 任务调度中心攻击者可以在后台可以通过写入shell命令�
 XXL-JOB
 ```
 
-## FOFA
+## 网络测绘
 
 ```
 app="XXL-JOB" || title="任务调度中心"

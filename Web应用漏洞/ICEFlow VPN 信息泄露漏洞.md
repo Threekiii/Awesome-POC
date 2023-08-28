@@ -10,7 +10,7 @@ ICEFlow VPN 存在信息泄露漏洞，攻击者可以查看日志中的敏感�
 ICEFlow VPN
 ```
 
-## FOFA
+## 网络测绘
 
 ```
 title="ICEFLOW VPN Router"

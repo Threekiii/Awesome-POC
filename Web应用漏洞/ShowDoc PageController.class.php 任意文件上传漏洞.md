@@ -10,7 +10,7 @@ ShowDoc 存在任意文件上传漏洞，攻击者通过构造特殊的数据包
 ShowDoc < V2.8.3
 ```
 
-## FOFA
+## 网络测绘
 
 ```
 app="ShowDoc"

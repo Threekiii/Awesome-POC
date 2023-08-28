@@ -15,7 +15,7 @@ Apache Solr 存在任意文件读取漏洞，攻击者可以在未授权的情�
 Apache Solr <= 8.8.1
 ```
 
-## FOFA
+## 网络测绘
 
 ```
 title="Solr Admin"

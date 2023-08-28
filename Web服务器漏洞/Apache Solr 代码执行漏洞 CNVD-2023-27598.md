@@ -10,7 +10,7 @@ Solr 以 Solrcloud 模式启动且可出网时，未经身份验证的远程攻�
 8.10.0 <= Apache Solr < 9.2.0
 ```
 
-## FOFA
+## 网络测绘
 
 ```
 app="APACHE-Solr"

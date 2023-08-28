@@ -10,7 +10,7 @@ OneBlog 小于v2.2.1 由于使用含有漏洞版本的Apache Shiro和默认的�
 OneBlog <= v2.2.1
 ```
 
-## FOFA
+## 网络测绘
 
 ```
 app="OneBlog开源博客后台管理系统"

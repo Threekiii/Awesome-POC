@@ -10,7 +10,7 @@ AVCON6 系统管理平台 download.action 存在任意文件下载漏洞，攻�
 AVCON6 系统管理平台
 ```
 
-## FOFA
+## 网络测绘
 
 ```
 app="AVCON-6"

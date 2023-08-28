@@ -10,7 +10,7 @@ HIKVISION 综合安防管理平台 applyCT 存在低版本Fastjson远程命令�
 HIKVISION 综合安防管理平台
 ```
 
-## FOFA
+## 网络测绘
 
 ```
 app="HIKVISION-综合安防管理平台"

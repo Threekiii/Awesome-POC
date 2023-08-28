@@ -10,7 +10,7 @@ E-message 存在越权访问漏洞，由于配置页面没有做权限设定，�
 E-message
 ```
 
-## FOFA
+## 网络测绘
 
 ```
 title="emessage 设置: 数据库设置 - 标准连接"

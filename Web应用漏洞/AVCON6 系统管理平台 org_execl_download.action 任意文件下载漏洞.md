@@ -10,7 +10,7 @@ AVCON6 系统管理平台 org_execl_download.action存在任意文件下载漏�
 AVCON6 系统管理平台
 ```
 
-## FOFA
+## 网络测绘
 
 ```
 app="AVCON-6"

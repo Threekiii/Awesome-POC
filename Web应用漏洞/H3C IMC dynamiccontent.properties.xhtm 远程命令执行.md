@@ -10,7 +10,7 @@ H3C IMC dynamiccontent.properties.xhtm 存在远程命令执行，攻击者通�
 H3C IMC
 ```
 
-## FOFA
+## 网络测绘
 
 ```
 "/imc/login.jsf" && body="/imc/javax.faces.resource/images/login_help.png.jsf?ln=primefaces-imc-new-webui"

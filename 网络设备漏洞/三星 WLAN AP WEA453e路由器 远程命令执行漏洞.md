@@ -10,7 +10,7 @@
 三星 WLAN AP WEA453e路由器
 ```
 
-## FOFA
+## 网络测绘
 
 ```
 title=="Samsung WLAN AP"

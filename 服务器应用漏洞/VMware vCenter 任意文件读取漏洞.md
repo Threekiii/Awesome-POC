@@ -10,7 +10,7 @@ VMware vCenter特定版本存在任意文件读取漏洞，攻击者通过构造
 VMware vCenter Server 6.5.0a- f 版本
 ```
 
-## FOFA
+## 网络测绘
 
 ```
 title="ID_VC_Welcome"

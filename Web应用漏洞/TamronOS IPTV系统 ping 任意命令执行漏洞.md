@@ -10,7 +10,7 @@ TamronOS IPTV系统 api/ping 存在任意命令执行漏洞，攻击者通过漏
 TamronOS IPTV系统
 ```
 
-## FOFA
+## 网络测绘
 
 ```
 app="TamronOS-IPTV系统"

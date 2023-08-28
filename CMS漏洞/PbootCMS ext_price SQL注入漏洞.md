@@ -10,7 +10,7 @@ PbootCMS 存在SQL注入漏洞。通过漏洞可获取数据库敏感信息
 PbootCMS < 1.2.1
 ```
 
-## FOFA
+## 网络测绘
 
 ```
 app="PBOOTCMS"

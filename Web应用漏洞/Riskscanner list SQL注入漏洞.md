@@ -10,7 +10,7 @@ Riskscanner list接口存在SQL注入漏洞，通过漏洞可获取服务器权�
 Riskscanner
 ```
 
-## FOFA
+## 网络测绘
 
 ```
 title="Riskscanner"

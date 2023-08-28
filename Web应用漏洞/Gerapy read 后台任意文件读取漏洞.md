@@ -10,7 +10,7 @@ Gerapy gerapy/server/core/views.py 中的 project_file_read 方法存在任意�
 Gerapy <= 0.9.6
 ```
 
-## FOFA
+## 网络测绘
 
 ```
 title="Gerapy"

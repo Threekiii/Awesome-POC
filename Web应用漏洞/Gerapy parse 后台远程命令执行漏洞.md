@@ -10,7 +10,7 @@ Gerapy gerapy/server/core/views.py 中的方法存在任意命令执行，攻击
 Gerapy <= 0.9.7
 ```
 
-## FOFA
+## 网络测绘
 
 ```
 title="Gerapy"

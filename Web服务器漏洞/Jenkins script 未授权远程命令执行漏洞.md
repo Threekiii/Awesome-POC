@@ -10,7 +10,7 @@ Jenkins 登录后访问 /script 页面，其中存在命令执行漏洞，当存
 Jenkins
 ```
 
-## FOFA
+## 网络测绘
 
 ```
 app="Jenkins"

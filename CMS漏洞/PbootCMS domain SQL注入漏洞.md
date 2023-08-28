@@ -10,7 +10,7 @@ PbootCMS 搜索模块存在SQL注入漏洞。通过漏洞可获取数据库敏�
 PbootCMS <= 3.0.5
 ```
 
-## FOFA
+## 网络测绘
 
 ```
 app="PBOOTCMS"

@@ -10,7 +10,7 @@ NPS auth_key 存在未授权访问漏洞，当 nps.conf 中的 auth_key 未配�
 NPS
 ```
 
-## FOFA
+## 网络测绘
 
 ```
 body="serializeArray()" && body="/login/verify"

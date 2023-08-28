@@ -10,7 +10,7 @@ Wayos 防火墙 后台存在命令执行漏洞，通过命令注入可以执行�
 Wayos 防火墙
 ```
 
-## FOFA
+## 网络测绘
 
 ```
 body="Get_Verify_Info(hex_md5(user_string)."

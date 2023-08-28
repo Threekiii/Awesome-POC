@@ -10,7 +10,7 @@
 中科网威 下一代防火墙控制系统
 ```
 
-## FOFA
+## 网络测绘
 
 ```
 body="Get_Verify_Info(hex_md5(user_string)."

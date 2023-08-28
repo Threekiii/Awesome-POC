@@ -10,7 +10,7 @@ Tenda 11N无线路由器由于只验证Cookie，导致任意用户伪造Cookie�
 Tenda 11N无线路由器
 ```
 
-## FOFA
+## 网络测绘
 
 ```
 app="TENDA-11N无线路由器"

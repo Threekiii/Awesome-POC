@@ -10,7 +10,7 @@ FLIR-AX8 download.php文件过滤不全 存在任意文件下载漏洞
 FLIR-AX8
 ```
 
-## FOFA
+## 网络测绘
 
 ```
 app="FLIR-FLIR-AX8"

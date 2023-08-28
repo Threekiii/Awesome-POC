@@ -12,7 +12,7 @@ WiseGiga NAS group.php文件存在远程命令执行漏洞，攻击者通过发�
 WiseGiga NAS
 ```
 
-## FOFA
+## 网络测绘
 
 ```
 app="WISEGIGA-NAS"

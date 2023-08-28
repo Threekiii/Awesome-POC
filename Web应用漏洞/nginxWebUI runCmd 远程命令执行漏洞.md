@@ -8,7 +8,7 @@ nginxWebUI runCmd 接口存在远程命令执行漏洞，攻击者通过漏洞�
 
 nginxWebUI
 
-## FOFA
+## 网络测绘
 
 ```
 title="nginxwebui"

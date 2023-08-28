@@ -10,7 +10,7 @@ rConfig useradmin.inc.php 存在信息泄露漏洞，通过访问文件获取用
 rConfig
 ```
 
-## FOFA
+## 网络测绘
 
 ```
 app="rConfig"

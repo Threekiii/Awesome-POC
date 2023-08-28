@@ -10,7 +10,7 @@
 瑞友应用虚拟化系统 7.0.2.1
 ```
 
-## FOFA
+## 网络测绘
 
 ```
 "CASMain.XGI?cmd=GetDirApp" && title=="瑞友应用虚拟化系统"

@@ -10,7 +10,7 @@ Coremail 某个接口存在配置信息泄露漏洞，其中存在端口，配�
 Coremail 配置信息泄露漏洞
 ```
 
-## FOFA
+## 网络测绘
 
 ```
 app="Coremail邮件系统"

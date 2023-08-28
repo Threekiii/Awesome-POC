@@ -10,7 +10,7 @@ Teleport堡垒机 get-file接口存在后台任意文件读取漏洞，攻击者
 Teleport Version <= 20220817
 ```
 
-## FOFA
+## 网络测绘
 
 ```
 app="TELEPORT堡垒机"

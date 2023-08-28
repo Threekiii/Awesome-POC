@@ -13,7 +13,7 @@ JumpServer < v2.4.5
 JumpServer = v1.5.9
 ```
 
-## FOFA
+## 网络测绘
 
 ```
 app="FIT2CLOUD-JumpServer-堡垒机"

@@ -10,7 +10,7 @@ Panabit Panalog sy_addmount.php过滤不足，导致远程命令执行漏洞
 Panabit Panalog
 ```
 
-## FOFA
+## 网络测绘
 
 ```
 body="Maintain/cloud_index.php"

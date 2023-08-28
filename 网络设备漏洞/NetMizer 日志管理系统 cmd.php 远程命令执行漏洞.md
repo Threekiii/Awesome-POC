@@ -10,7 +10,7 @@ NetMizer 日志管理系统 cmd.php中存在远程命令执行漏洞，攻击者
 NetMizer 日志管理系统
 ```
 
-## FOFA
+## 网络测绘
 
 ```
 title="NetMizer 日志管理系统"

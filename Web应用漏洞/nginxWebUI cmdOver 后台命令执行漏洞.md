@@ -10,7 +10,7 @@ nginxWebUI 后台存在命令执行漏洞，攻击者登录后台后可以执行
 nginxWebUI
 ```
 
-## FOFA
+## 网络测绘
 
 ```
 title="nginxwebui"

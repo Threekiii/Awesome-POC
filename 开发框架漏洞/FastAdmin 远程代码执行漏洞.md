@@ -9,7 +9,7 @@ FastAdmin是一款基于ThinkPHP和Bootstrap的极速后台开发框架。FastAd
 - https://mp.weixin.qq.com/s/otrH75ZjCHBQbRB7g5DdWg
 - https://nosec.org/home/detail/4713.html
 
-## FOFA
+## 网络测绘
 
 ```
 app="FASTADMIN-框架" || body="\"uploadurl\":\"ajax\/upload\"" || body="api.fastadmin.net" || body="\"fastadmin\":{\"usercenter\":true" || body="content=\"FastAdmin\"" || body="cdnurl\":\"\",\"version"|| icon_hash="-1036943727"

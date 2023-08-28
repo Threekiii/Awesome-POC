@@ -10,7 +10,7 @@ IBOS 后台数据库模块 存在任意文件上传漏洞，攻击者进入后�
 IBOS < 4.5.5
 ```
 
-## FOFA
+## 网络测绘
 
 ```
 body="IBOS" && body="login-panel"

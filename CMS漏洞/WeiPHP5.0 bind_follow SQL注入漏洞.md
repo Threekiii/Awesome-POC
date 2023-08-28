@@ -10,7 +10,7 @@ Weiphp5.0 所有使用了 wp_where() 函数并且参数可控的SQL查询均受�
 Weiphp5.0
 ```
 
-## FOFA
+## 网络测绘
 
 ```
 app="WeiPHP"

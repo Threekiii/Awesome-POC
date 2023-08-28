@@ -10,7 +10,7 @@ H3C SecPath 下一代防火墙  存在功能点导致任意文件下载漏洞，
 H3C SecPath
 ```
 
-## FOFA
+## 网络测绘
 
 ```
 title="Web user login"

@@ -12,7 +12,7 @@ H3C SecParh堡垒机 get_detail_view.php 存在任意用户登录漏洞
 H3C SecParh堡垒机
 ```
 
-## FOFA
+## 网络测绘
 
 ```
 app="H3C-SecPath-运维审计系统" && body="2018"

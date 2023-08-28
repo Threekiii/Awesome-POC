@@ -10,7 +10,7 @@ XAMPP存在信息泄露漏洞，/dashboard/phpinfo.php 访问权限控制不严�
 XAMPP
 ```
 
-## FOFA
+## 网络测绘
 
 ```
 "Welcome to XAMPP"

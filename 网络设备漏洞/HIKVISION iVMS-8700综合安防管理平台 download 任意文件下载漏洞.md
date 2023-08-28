@@ -8,7 +8,7 @@ HIKVISION iVMS-8700综合安防管理平台存在任意文件读取漏洞，攻�
 
 HIKVISION iVMS-8700综合安防管理平台
 
-## FOFA
+## 网络测绘
 
 ```
 icon_hash="-911494769"

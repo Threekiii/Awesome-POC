@@ -7,7 +7,7 @@
 * https://github.com/nahi/httpclient/issues/242
 * https://www.exploit-db.com/exploits/49487
 
-## FOFA
+## 网络测绘
 
 ```
 "Fuel CMS"

@@ -10,7 +10,7 @@ OpenSNS CurlModel.class.php文件中curl方法存在SSRF漏洞，通过漏洞攻
 OpenSNS
 ```
 
-## FOFA
+## 网络测绘
 
 ```
 icon_hash="1167011145"

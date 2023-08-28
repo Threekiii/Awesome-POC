@@ -10,7 +10,7 @@ emlog widgets.php文件在登录后通过构造特殊语句导致SQL注入，获
 emlog 6.0
 ```
 
-## FOFA
+## 网络测绘
 
 ```
 app="EMLOG"

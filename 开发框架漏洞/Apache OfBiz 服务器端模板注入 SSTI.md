@@ -14,7 +14,7 @@ Apache OfBiz 17.12.01容易受到服务器端模板注入（SSTI）的影响，�
 Apache OfBiz 17.12.01
 ```
 
-## FOFA
+## 网络测绘
 
 ```
 app="Apache_OFBiz"

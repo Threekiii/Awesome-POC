@@ -4,7 +4,7 @@
 
 用友时空 KSOA 是用友网络科技股份有限公司建立在 SOA 理念指导下研发的新一代产品，其中 com.sksoft.bill.ImageUpload 存在前台文件上传漏洞，攻击者可以在不登陆的情况下上传恶意 Webshell，控制系统权限。
 
-## FOFA
+## 网络测绘
 
 ```
 app="用友-时空KSOA"

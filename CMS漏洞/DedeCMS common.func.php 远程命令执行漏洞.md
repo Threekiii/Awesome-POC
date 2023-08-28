@@ -10,7 +10,7 @@ DocCMS flink.php 文件存远程命令执行漏洞，攻击者通过漏洞可以
 DedeCMS v5.81 beta 内测版
 ```
 
-## FOFA
+## 网络测绘
 
 ```
 "DedeCMS_V5.8.1"

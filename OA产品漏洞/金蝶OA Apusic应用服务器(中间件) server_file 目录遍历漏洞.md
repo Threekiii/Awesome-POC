@@ -10,7 +10,7 @@
 金蝶OA 9.0 Apusic应用服务器(中间件)
 ```
 
-## FOFA
+## 网络测绘
 
 ```
 app="Apusic-公司产品" && title=="欢迎使用Apusic应用服务器"

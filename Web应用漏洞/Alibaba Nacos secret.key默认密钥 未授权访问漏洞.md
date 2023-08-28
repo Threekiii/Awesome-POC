@@ -10,7 +10,7 @@ Alibaba Nacos 使用了固定的secret.key默认密钥，导致攻击者可以�
 Alibaba Nacos <= 2.2.0
 ```
 
-## FOFA
+## 网络测绘
 
 ```
 app="NACOS"

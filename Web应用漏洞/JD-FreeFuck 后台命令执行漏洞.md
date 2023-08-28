@@ -12,7 +12,7 @@ JD-FreeFuck 存在后台命令执行漏洞，由于传参执行命令时没有�
 JD-FreeFuck
 ```
 
-## FOFA
+## 网络测绘
 
 ```
 title="京东薅羊毛控制面板"

@@ -10,7 +10,7 @@ CxCMS 存在任意文件读取，由于 /Sys/Handler/Resource.ashx 页面 _FileP
 CxCMS
 ```
 
-## FOFA
+## 网络测绘
 
 ```
 "Powered by CxCms"

@@ -10,7 +10,7 @@ D-Link DSR-250N 存在万能密码漏洞，攻击者通过漏洞可以获取后�
 D-Link DSR-250N
 ```
 
-## FOFA
+## 网络测绘
 
 ```
 app="D_Link-DSR-250N"

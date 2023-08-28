@@ -10,7 +10,7 @@ Ruijie SSL VPN 存在越权访问漏洞，攻击者在已知用户名的情况�
 Ruijie SSL VPN
 ```
 
-## FOFA
+## 网络测绘
 
 ```
 icon_hash="884334722" || title="Ruijie SSL VPN"

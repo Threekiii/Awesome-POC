@@ -10,7 +10,7 @@
 西迪特 Wi-Fi Web管理
 ```
 
-## FOFA
+## 网络测绘
 
 ```
 title=="Wi-Fi Web管理"

@@ -12,7 +12,7 @@
 BloofoxCMS 0.5.1.0 -.5.2.1
 ```
 
-## FOFA
+## 网络测绘
 
 ```
 app="BloofoxCMS"

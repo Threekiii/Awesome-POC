@@ -10,7 +10,7 @@ Evolucare Ecsimaging download_stats_dicom.php 存在文件读取漏洞,攻击者
 EVOLUCARE Evolucare Ecsimaging 6.21.5
 ```
 
-## FOFA
+## 网络测绘
 
 ```
 body="ECSimaging"

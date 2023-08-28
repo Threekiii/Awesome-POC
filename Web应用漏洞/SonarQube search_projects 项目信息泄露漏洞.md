@@ -10,7 +10,7 @@ SonarQube 某接口存在信息泄露漏洞，可以通过工具下载源码
 SonarQube
 ```
 
-## FOFA
+## 网络测绘
 
 ```
 app="sonarQube-代码管理"

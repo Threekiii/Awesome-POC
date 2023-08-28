@@ -10,7 +10,7 @@ Wayos 防火墙存在账号密码泄露漏洞，攻击者通过前端可以查�
 Wayos 防火墙
 ```
 
-## FOFA
+## 网络测绘
 
 ```
 body="Get_Verify_Info(hex_md5(user_string)."

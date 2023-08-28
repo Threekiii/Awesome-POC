@@ -10,7 +10,7 @@ Alibaba AnyProxy 低版本存在任意文件读取，通过漏洞，攻击者可
 Alibaba AnyProxy < 4.0.10
 ```
 
-## FOFA
+## 网络测绘
 
 ```
 "anyproxy"

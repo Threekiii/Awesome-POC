@@ -10,7 +10,7 @@ FLIR-AX8 res.php 文件存在后台命令执行漏洞，攻击者通过默认口
 FLIR-AX8
 ```
 
-## FOFA
+## 网络测绘
 
 ```
 app="FLIR-FLIR-AX8"

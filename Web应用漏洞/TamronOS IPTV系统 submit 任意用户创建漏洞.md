@@ -10,7 +10,7 @@ TamronOS IPTV系统 /api/manager/submit 存在任意用户创建漏洞，攻击�
 TamronOS IPTV系统
 ```
 
-## FOFA
+## 网络测绘
 
 ```
 app="TamronOS-IPTV系统"

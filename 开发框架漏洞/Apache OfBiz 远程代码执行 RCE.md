@@ -8,7 +8,7 @@ Apache OfBiz 17.12.01容易受到服务器端模板注入（SSTI）的影响，�
 
 - https://securitylab.github.com/advisories/GHSL-2020-066-apache_ofbiz
 
-## FOFA
+## 网络测绘
 
 ```
 app="Apache_OFBiz"

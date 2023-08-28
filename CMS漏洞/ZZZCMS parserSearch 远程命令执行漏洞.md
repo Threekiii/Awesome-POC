@@ -15,7 +15,7 @@ ZZZCMS parserSearch 存在模板注入导致远程命令执行漏洞
 ZZZCMS
 ```
 
-## FOFA
+## 网络测绘
 
 ```
 app="zzzcms"

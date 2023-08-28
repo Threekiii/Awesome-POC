@@ -83,7 +83,6 @@
 
   * O2OA invoke 后台远程命令执行漏洞 CNVD-2020-18740
   * O2OA open 后台任意文件读取漏洞
-  * Untitled
   * 一米OA getfile.jsp 任意文件读取漏洞
   * 万户OA DocumentEdit.jsp SQL注入漏洞
   * 万户OA download_ftp.jsp 任意文件下载漏洞
@@ -102,6 +101,7 @@
   * 启莱OA treelist.aspx SQL注入漏洞
   * 帆软报表 2012 SSRF漏洞
   * 帆软报表 2012 信息泄露漏洞
+  * 帆软报表 channel 远程命令执行漏洞
   * 帆软报表 V8 任意文件读取漏洞 CNVD-2018-04757
   * 帆软报表 V9 任意文件覆盖文件上传
   * 新点OA ExcelExport 敏感信息泄露漏洞
@@ -124,6 +124,7 @@
   * 泛微OA E-Office OfficeServer.php 任意文件上传漏洞
   * 泛微OA E-Office officeserver.php 任意文件读取漏洞
   * 泛微OA E-Office UploadFile.php 任意文件上传漏洞 CNVD-2021-49104
+  * 泛微OA E-Office uploadify 任意文件上传漏洞
   * 泛微OA E-Office UserSelect 未授权访问漏洞
   * 泛微OA E-Weaver SignatureDownLoad 任意文件读取漏洞
   * 泛微OA getdata.jsp SQL注入漏洞
@@ -143,6 +144,8 @@
   * 用友 NC NCFindWeb 任意文件读取漏洞
   * 用友 NC XbrlPersistenceServlet反序列化
   * 用友 NCCloud FS文件管理SQL注入
+  * 用友 U8 CRM客户关系管理系统 getemaildata.php 任意文件上传漏洞
+  * 用友 U8 CRM客户关系管理系统 getemaildata.php 任意文件读取漏洞
   * 用友 U8 OA getSessionList.jsp 敏感信息泄漏漏洞
   * 用友 U8 OA test.jsp SQL注入漏洞
   * 用友时空 KSOA V9.0 文件上传漏洞
@@ -158,6 +161,7 @@
   * 致远OA A8 status.jsp 信息泄露漏洞
   * 致远OA ajax.do 任意文件上传 CNVD-2021-01627
   * 致远OA getSessionList.jsp Session泄漏漏洞
+  * 致远OA M1Server userTokenService 远程命令执行漏洞
   * 致远OA webmail.do 任意文件下载 CNVD-2020-62422
   * 致远OA wpsAssistServlet 任意文件上传漏洞
   * 致远OA 帆软组件 ReportServer 目录遍历漏洞
@@ -189,6 +193,7 @@
   * 金和OA C6 OpenFile.aspx 后台越权敏感文件遍历漏洞
   * 金蝶OA Apusic应用服务器(中间件) server_file 目录遍历漏洞
   * 金蝶OA server_file 目录遍历漏洞
+  * 金蝶OA 云星空 CommonFileServer 任意文件读取漏洞
 - Web应用漏洞
 
   * 1039家校通 万能密码绕过 CNVD-2020-31494
@@ -280,11 +285,15 @@
   * Jupyter Notebook 未授权访问远程命令执行漏洞
   * kkFileView getCorsFile 任意文件读取漏洞 CVE-2021-43734
   * Konga 普通用户越权获取管理员权限漏洞
+  * KubeOperator kubeconfig 未授权访问漏洞 CVE-2023-22480
+  * KubePi JwtSigKey 登陆绕过漏洞 CVE-2023-22463
   * KubePi LoginLogsSearch 未授权访问漏洞 CVE-2023-22478
   * Lanproxy 目录遍历漏洞 CVE-2021-3019
   * LimeSurvey LimeSurveyFileManager.php 后台任意文件读取漏洞 CVE-2020-11455
+  * LiveBOS ShowImage.do 任意文件读取漏洞
   * MessageSolution 邮件归档系统EEA 信息泄露漏洞 CNVD-2021-10543
   * Metabase geojson 任意文件读取漏洞 CVE-2021-41277
+  * Metabase validate 远程命令执行漏洞 CVE-2023-38646
   * MeterSphere customMethod 远程命令执行漏洞
   * Metersphere file 任意文件读取漏洞 CVE-2023-25573
   * MKdocs 任意文件读取漏洞 CVE-2021-40978
@@ -297,6 +306,7 @@
   * nginxWebUI runCmd 远程命令执行漏洞
   * Node-RED ui_base 任意文件读取漏洞
   * NPS auth_key 未授权访问漏洞
+  * OfficeWeb365 SaveDraw 任意文件上传漏洞
   * OneBlog 小于v2.2.1 远程命令执行漏洞
   * phpMyAdmin后台SQL注入 CVE-2020-26935
   * PHPStudy 后台管理页面 one click RCE
@@ -344,7 +354,10 @@
   * 云时空 社会化商业ERP系统 Shiro框架 远程命令执行漏洞
   * 云时空 社会化商业ERP系统 validateLoginName SQL注入漏洞
   * 亿赛通 电子文档安全管理系统 dataimport 远程命令执行漏洞
+  * 亿赛通 电子文档安全管理系统 UploadFileFromClientServiceForClient 任意文件上传漏洞
   * 亿邮电子邮件系统 moni_detail.do 远程命令执行漏洞
+  * 任我行 CRM SmsDataList SQL注入漏洞
+  * 企望制造 ERP comboxstore.action 远程命令执行漏洞
   * 众望网络 微议管理系统 后台updatefile.html 任意文件上传漏洞
   * 会捷通云视讯 fileDownload 任意文件读取漏洞
   * 会捷通云视讯 list 目录文件泄露漏洞
@@ -365,10 +378,14 @@
   * 安美数字 酒店宽带运营系统 server_ping.php 远程命令执行漏洞
   * 宏景 HCM codesettree SQL注入漏洞 CNVD-2023-0874
   * 宝塔 phpmyadmin未授权访问漏洞
+  * 广联达 Linkworks GetIMDictionary SQL注入漏洞
+  * 广联达 Linkworks msgbroadcastuploadfile.aspx 后台文件上传漏洞
   * 思福迪堡垒机 任意用户登录漏洞
   * 思迪数据 Home 登录绕过漏洞
   * 拓尔思 TRS testCommandExecutor.jsp 远程命令执行漏洞
+  * 新开普 前置服务管理平台 service.action 远程命令执行漏洞
   * 昆石网络 VOS3000虚拟运营支撑系统 %c0%ae%c0%ae 任意文件读取漏洞
+  * 明源云 ERP系统 接口管家 ApiUpdate.ashx 任意文件上传漏洞
   * 智慧校园管理系统 前台任意文件上传漏洞
   * 极通EWEBS casmain.xgi 任意文件读取漏洞
   * 极通EWEBS testweb.php 敏感信息泄露漏洞
@@ -379,8 +396,10 @@
   * 浪潮ClusterEngineV4.0 sysShell 任意命令执行漏洞
   * 浪潮ClusterEngineV4.0 任意用户登录漏洞
   * 浪潮ClusterEngineV4.0 远程命令执行漏洞 CVE-2020-21224
+  * 深信服 DC数据中心管理系统 sangforindex XML实体注入漏洞
   * 深信服 EDR c.php 远程命令执行漏洞 CNVD-2020-46552
   * 深信服 EDR 后台任意用户登陆漏洞
+  * 深信服 SG上网优化管理系统 catjs.php 任意文件读取漏洞
   * 深信服 SSL VPN 客户端远程文件下载
   * 深信服 应用交付报表系统 download.php 任意文件读取漏洞
   * 深信服 应用交付管理系统 sys_user.conf 账号密码泄漏漏洞
@@ -416,10 +435,12 @@
   * 金蝶 K3Cloud BinaryFormatter 反序列化漏洞
   * 银澎云计算 好视通视频会议系统 任意文件下载 CNVD-2020-62437
   * 银达汇智 智慧综合管理平台 FileDownLoad.aspx 任意文件读取漏洞
+  * 银达汇智 智慧综合管理平台 FileUp.aspx 任意文件上传漏洞
   * 阿尔法科技 虚拟仿真实验室 未授权访问漏洞
   * 零视科技 H5S视频平台 GetUserInfo 信息泄漏漏洞 CNVD-2020-67113
   * 霆智科技 VA虚拟应用平台 任意文件读取漏洞
   * 章管家 Druid未授权访问漏洞
+  * 飞企互联 FE业务协作平台 ShowImageServlet 任意文件读取漏洞
   * 飞视美 视频会议系统 Struts2 远程命令执行漏洞
   * 魅课 OM视频会议系统 proxy.php 文件包含漏洞
   * 默安 幻阵蜜罐未授权访问 RCE
@@ -506,7 +527,9 @@
   * Foxit PDF Reader 及 Editor 任意代码执行漏洞 CVE-2023-27363
   * Microsoft Outlook 权限提升漏洞 CVE-2023-23397
   * Microsoft Word 远程代码执行漏洞 CVE-2023-21716
+  * Ueditor编辑器漏洞总结
   * 微信客户端 远程命令执行漏洞
+  * 腾讯 企业微信 agentinfo 信息泄漏漏洞
 - 开发框架漏洞
 
   * Apache Commons Text 远程代码执行漏洞 CVE-2022-42889
@@ -704,13 +727,18 @@
   * 华硕 GT-AC2900 身份验证绕过 CVE-2021-32030
   * 博华网龙防火墙 cmd.php 远程命令执行漏洞
   * 博华网龙防火墙 users.xml 未授权访问
+  * 启明星辰 4A统一安全管控平台 getMaster.do 信息泄漏漏洞
   * 启明星辰 天清汉马USG防火墙 逻辑缺陷漏洞 CNVD-2021-12793
   * 启明星辰 天清汉马USG防火墙 默认口令漏洞
   * 大华 城市安防监控系统平台管理 attachment_downloadByUrlAtt.action 任意文件下载漏洞
+  * 大华 智慧园区综合管理平台 getFaceCapture SQL注入漏洞
+  * 大华 智慧园区综合管理平台 user_getUserInfoByUserName.action 账号密码泄漏漏洞
   * 大华 智慧园区综合管理平台 user_save.action 任意文件上传漏洞
+  * 大华 智慧园区综合管理平台 video 任意文件上传漏洞
   * 奇安信 网康 NS-ASG安全网关 cert_download.php 任意文件读取漏洞
   * 奇安信 网康 下一代防火墙 router 远程命令执行漏洞
   * 安恒 明御WEB应用防火墙 report.php 任意用户登录漏洞
+  * 安恒 明御安全网关 aaa_portal_auth_local_submit 远程命令执行漏洞
   * 安恒 明御安全网关 命令执行 任意文件读取漏洞
   * 宏电 H8922 Telnet后门漏洞 CVE-2021-28149
   * 宏电 H8922 后台任意文件读取漏洞 CVE-2021-28152
@@ -747,6 +775,7 @@
   * 西迪特 Wi-Fi Web管理 jumpto.php 后台命令执行漏洞
   * 迈普 ISG1000安全网关 任意文件下载漏洞
   * 金山 VGM防毒墙 downFile.php 任意文件读取漏洞
+  * 锐捷 BCR商业无线云网关 后台命令执行漏洞
   * 锐捷 EG易网关 branch_passw.php 远程命令执行
   * 锐捷 EG易网关 cli.php 远程命令执行漏洞
   * 锐捷 EG易网关 download.php 任意文件读取漏洞

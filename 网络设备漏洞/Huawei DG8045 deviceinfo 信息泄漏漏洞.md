@@ -10,7 +10,7 @@ Huawei DG8045 deviceinfo api接口存在信息泄漏漏洞，攻击者通过泄�
 Huawei DG8045
 ```
 
-## FOFA
+## 网络测绘
 
 ```
 app="DG8045-Home-Gateway-DG8045"

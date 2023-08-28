@@ -10,7 +10,7 @@ Cerebro是使用Scala、Play Framework、AngularJS和Bootstrap构建的开源的
 Cerebro
 ```
 
-## FOFA
+## 网络测绘
 
 ```
 app="Cerebro"

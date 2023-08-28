@@ -10,7 +10,7 @@ Apache NiFi是Apache Software Foundation的一个软件项目，旨在使软件�
 - https://github.com/imjdl/Apache-NiFi-Api-RCE
 - https://forum.ywhack.com/thread-114763-1-3.html
 
-## FOFA
+## 网络测绘
 
 ```
 "nifi" && title=="NiFi"

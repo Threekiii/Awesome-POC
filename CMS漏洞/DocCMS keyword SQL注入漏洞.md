@@ -10,7 +10,7 @@ DocCMS keyword参数存在 SQL注入漏洞，攻击者通过漏洞可以获取�
 DocCMS
 ```
 
-## FOFA
+## 网络测绘
 
 ```
 app="Doccms"

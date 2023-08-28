@@ -10,7 +10,7 @@ Huawei HG659 lib 存在任意文件读取漏洞，攻击者通过漏洞可以读
 Huawei HG659
 ```
 
-## FOFA
+## 网络测绘
 
 ```
 app="HUAWEI-Home-Gateway-HG659"

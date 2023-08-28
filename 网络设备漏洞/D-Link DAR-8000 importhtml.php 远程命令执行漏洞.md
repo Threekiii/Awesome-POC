@@ -10,7 +10,7 @@ D-Link DAR-8000 importhtml.php文件存在SQL注入导致 远程命令执行漏�
 D-Link DAR-8000
 ```
 
-## FOFA
+## 网络测绘
 
 ```
 body="mask.style.visibility"

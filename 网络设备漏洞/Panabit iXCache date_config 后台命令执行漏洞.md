@@ -10,7 +10,7 @@ Panabit iXCache date_config模块存在命令拼接，导致可执行任意命�
 Panabit iXCache
 ```
 
-## FOFA
+## 网络测绘
 
 ```
 title="iXCache"

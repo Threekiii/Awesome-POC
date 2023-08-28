@@ -10,7 +10,7 @@
 用友 畅捷通远程通
 ```
 
-## FOFA
+## 网络测绘
 
 ```
 body="远程通CHANJET_Remote"

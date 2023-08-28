@@ -10,7 +10,7 @@ NetMizer 日志管理系统存在登录绕过漏洞，通过限制某个请求�
 NetMizer 日志管理系统
 ```
 
-## FOFA
+## 网络测绘
 
 ```
 title="NetMizer 日志管理系统"

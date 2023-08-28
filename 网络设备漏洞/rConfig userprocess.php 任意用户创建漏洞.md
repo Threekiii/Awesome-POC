@@ -10,7 +10,7 @@ rConfig userprocess.php 存在任意用户创建漏洞，发送特定的请求�
 rConfig
 ```
 
-## FOFA
+## 网络测绘
 
 ```
 app="rConfig"

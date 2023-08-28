@@ -10,7 +10,7 @@ WeiPHP3.0 session_id 存在任意文件上传漏洞，攻击者通过漏洞可�
 WeiPHP3.0
 ```
 
-## FOFA
+## 网络测绘
 
 ```
 app="weiphp"

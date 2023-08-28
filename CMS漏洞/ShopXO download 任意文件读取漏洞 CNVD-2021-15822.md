@@ -10,7 +10,7 @@ ShopXO是一套开源的企业级开源电子商务系统。ShopXO存在任意�
 ShopXO
 ```
 
-## FOFA
+## 网络测绘
 
 ```
 app="ShopXO企业级B2C电商系统提供商"

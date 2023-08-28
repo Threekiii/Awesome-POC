@@ -10,7 +10,7 @@ CmsEasy 存在SQL注入漏洞，通过文件 service.php 加密SQL语句执行�
 CmsEasy V7.7.5_20210919
 ```
 
-## FOFA
+## 网络测绘
 
 ```
 body="cmseasyedit"

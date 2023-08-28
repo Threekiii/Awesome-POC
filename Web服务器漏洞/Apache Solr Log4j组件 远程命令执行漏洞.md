@@ -10,7 +10,7 @@ Apache Solr Log4j组件 远程命令执行漏洞，详情略
 Apache Solr
 ```
 
-## FOFA
+## 网络测绘
 
 ```
 app="APACHE-Solr"

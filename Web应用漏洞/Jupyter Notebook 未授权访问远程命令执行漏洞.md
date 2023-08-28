@@ -12,7 +12,7 @@ Jupyter Notebook（此前被称为 IPython notebook）是一个交互式笔记�
 Jupyter Notebook
 ```
 
-## FOFA
+## 网络测绘
 
 ```
 app="Jupyter-Notebook" && body="Terminal"

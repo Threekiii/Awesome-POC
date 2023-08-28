@@ -10,7 +10,7 @@ OpenSNS AuthorizeController.class.php文件 ssoCallback() 函数存在命令执�
 OpenSNS
 ```
 
-## FOFA
+## 网络测绘
 
 ```
 icon_hash="1167011145"

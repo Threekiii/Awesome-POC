@@ -9,7 +9,7 @@ Alibaba otter manager分布式数据库同步系统是基于数据库增量日�
 * https://www.cnvd.org.cn/flaw/show/CNVD-2021-16592
 * https://forum.ywhack.com/thread-115309-1-8.html
 
-## FOFA
+## 网络测绘
 
 ```
 title="Otter Manager"

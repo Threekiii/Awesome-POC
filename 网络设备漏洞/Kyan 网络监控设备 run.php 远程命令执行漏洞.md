@@ -10,7 +10,7 @@ Kyan 网络监控设备 run.php可在身份验证的情况下执行任意命令,
 Kyan
 ```
 
-## FOFA
+## 网络测绘
 
 ```
 title="platform - Login"

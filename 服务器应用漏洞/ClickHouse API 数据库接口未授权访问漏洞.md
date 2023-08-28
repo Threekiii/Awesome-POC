@@ -10,7 +10,7 @@ ClickHouse API 数据库接口存在未授权访问漏洞，攻击者通过漏�
 ClickHouse
 ```
 
-## FOFA
+## 网络测绘
 
 ```
 "ClickHouse" && body="ok"

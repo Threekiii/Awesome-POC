@@ -10,7 +10,7 @@ QiboCMS V7版本/do/job.php页面URL参数过滤不严，导致可以下载系�
 齐博CMS V7
 ```
 
-## FOFA
+## 网络测绘
 
 ```
 app="齐博软件-v7"

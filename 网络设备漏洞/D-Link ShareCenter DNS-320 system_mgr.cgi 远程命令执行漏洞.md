@@ -10,7 +10,7 @@ D-Link ShareCenter DNS-320 system_mgr.cgi 存在远程命令执行，攻击者�
 D-Link ShareCenter DNS-320
 ```
 
-## FOFA
+## 网络测绘
 
 ```
 app="D_Link-DNS-ShareCenter"

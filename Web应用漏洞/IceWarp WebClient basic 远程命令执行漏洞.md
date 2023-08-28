@@ -10,7 +10,7 @@ IceWarp WebClient 存在远程命令执行漏洞，攻击者构造特殊的请�
 IceWarp WebClient
 ```
 
-## FOFA
+## 网络测绘
 
 ```
 app="IceWarp-公司产品"

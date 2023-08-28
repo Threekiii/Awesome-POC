@@ -10,7 +10,7 @@ Teleport堡垒机存在任意用户登录漏洞，攻击者通过构造特殊的
 Teleport Version <= 20220817
 ```
 
-## FOFA
+## 网络测绘
 
 ```
 app="TELEPORT堡垒机"
