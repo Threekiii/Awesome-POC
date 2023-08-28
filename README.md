@@ -49,6 +49,7 @@
   * PbootCMS ext_price SQL注入漏洞
   * PbootCMS search SQL注入漏洞
   * PbootCMS V3.1.2 正则绕过 RCE 漏洞
+  * PigCMS action_flashUpload 任意文件上传漏洞
   * ShopXO download 任意文件读取漏洞 CNVD-2021-15822
   * TypesetterCMS 后台任意文件上传
   * UCMS 文件上传漏洞 CVE-2020-25483
@@ -139,6 +140,7 @@
   * 用友 GRP-U8 Proxy SQL注入 CNNVD-201610-923
   * 用友 GRP-U8 UploadFileData 任意文件上传漏洞
   * 用友 NC bsh.servlet.BshServlet 远程命令执行漏洞
+  * 用友 NC Cloud jsinvoke 任意文件上传漏洞
   * 用友 NC Cloud 远程代码执行漏洞 CNVD-C-2023-76801
   * 用友 NC FileReceiveServlet 反序列化RCE漏洞
   * 用友 NC NCFindWeb 任意文件读取漏洞
@@ -148,6 +150,7 @@
   * 用友 U8 CRM客户关系管理系统 getemaildata.php 任意文件读取漏洞
   * 用友 U8 OA getSessionList.jsp 敏感信息泄漏漏洞
   * 用友 U8 OA test.jsp SQL注入漏洞
+  * 用友 移动管理系统 uploadApk.do 任意文件上传漏洞
   * 用友时空 KSOA V9.0 文件上传漏洞
   * 红帆OA ioFileExport.aspx 任意文件读取漏洞
   * 致翔OA msglog.aspx SQL注入漏洞
@@ -198,6 +201,7 @@
 
   * 1039家校通 万能密码绕过 CNVD-2020-31494
   * 1039家校通 后台任意文件上传漏洞
+  * 1Panel loadfile 后台文件读取漏洞
   * 360天擎 gettablessize 数据库信息泄露漏洞
   * 360天擎 rptsvcsyncpoint 前台SQL注入
   * Active UC index.action 远程命令执行漏洞
@@ -392,6 +396,7 @@
   * 杭州法源软件 公证实务教学软件 SQL注入漏洞
   * 杭州法源软件 法律知识数据库系统 后台XSS漏洞
   * 汇文 图书馆书目检索系统 config.properties 信息泄漏漏洞
+  * 汉得SRM tomcat.jsp 登陆绕过漏洞
   * 汉王人脸考勤管理系统 Check SQL注入漏洞
   * 浪潮ClusterEngineV4.0 sysShell 任意命令执行漏洞
   * 浪潮ClusterEngineV4.0 任意用户登录漏洞
@@ -402,6 +407,7 @@
   * 深信服 SG上网优化管理系统 catjs.php 任意文件读取漏洞
   * 深信服 SSL VPN 客户端远程文件下载
   * 深信服 应用交付报表系统 download.php 任意文件读取漏洞
+  * 深信服 应用交付管理系统 login 远程命令执行漏洞
   * 深信服 应用交付管理系统 sys_user.conf 账号密码泄漏漏洞
   * 深信服 日志中心 c.php 远程命令执行漏洞
   * 深信服 行为感知系统 c.php 远程命令执行漏洞
@@ -421,16 +427,22 @@
   * 紫光档案管理系统 editPass.html SQL注入漏洞 CNVD-2021-41638
   * 紫光档案管理系统 upload.html 后台文件上传漏洞
   * 绿盟 BAS日志数据安全性分析系统 accountmanage 未授权访问漏洞
+  * 绿盟 NF下一代防火墙 任意文件上传漏洞
+  * 绿盟 SAS堡垒机 Exec 远程命令执行漏洞
+  * 绿盟 SAS堡垒机 GetFile 任意文件读取漏洞
+  * 绿盟 SAS堡垒机 local_user.php 任意用户登录漏洞
   * 绿盟 UTS综合威胁探针 信息泄露登陆绕过漏洞
   * 网御星云 web防护系统 信息泄露漏洞
   * 若依管理系统 Druid未授权访问
   * 若依管理系统 后台任意文件读取 CNVD-2021-01931
   * 蓝海卓越计费管理系统 debug.php 远程命令执行漏洞
   * 蓝海卓越计费管理系统 download.php 任意文件读取漏洞
+  * 辰信领创 辰信景云终端安全管理系统 login SQL注入漏洞
   * 金山 V8 V9 终端安全系统 文件上传漏洞
   * 金山 V8 终端安全系统 downfile.php 任意文件读取漏洞
   * 金山 V8 终端安全系统 get_file_content.php 任意文件读取漏洞
   * 金山 V8 终端安全系统 pdf_maker.php 命令执行漏洞
+  * 金盘 微信管理平台 getsysteminfo 未授权访问漏洞
   * 金笛 短信中间件Web版 log 后台任意文件下载漏洞 CNVD-2021-57336
   * 金蝶 K3Cloud BinaryFormatter 反序列化漏洞
   * 银澎云计算 好视通视频会议系统 任意文件下载 CNVD-2020-62437
@@ -668,6 +680,9 @@
   * HIKVISION 视频编码设备接入网关 $DATA 任意文件读取
   * HIKVISION 视频编码设备接入网关 showFile.php 任意文件下载漏洞
   * HIKVISION 综合安防管理平台 applyCT Fastjson远程命令执行漏洞
+  * HIKVISION 综合安防管理平台 env 信息泄漏漏洞
+  * HIKVISION 综合安防管理平台 files 任意文件上传漏洞
+  * HIKVISION 综合安防管理平台 report 任意文件上传漏洞
   * HIKVISION 联网网关 downdb.php 任意文件读取漏洞
   * Huawei DG8045 deviceinfo 信息泄漏漏洞
   * Huawei HG659 lib 任意文件读取漏洞
@@ -684,6 +699,7 @@
   * Kyan 网络监控设备 run.php 远程命令执行漏洞
   * Kyan 网络监控设备 time.php 远程命令执行漏洞
   * MagicFlow 防火墙网关 main.xp 任意文件读取漏洞
+  * Milesight VPN server.js 任意文件读取漏洞
   * MSA 互联网管理网关 msa 任意文件下载漏洞
   * NetMizer 日志管理系统 cmd.php 远程命令执行漏洞
   * NetMizer 日志管理系统 data 目录遍历漏洞
@@ -740,6 +756,7 @@
   * 安恒 明御WEB应用防火墙 report.php 任意用户登录漏洞
   * 安恒 明御安全网关 aaa_portal_auth_local_submit 远程命令执行漏洞
   * 安恒 明御安全网关 命令执行 任意文件读取漏洞
+  * 安恒 明御运维审计与风险控制系统 xmlrpc.sock 任意用户添加漏洞
   * 宏电 H8922 Telnet后门漏洞 CVE-2021-28149
   * 宏电 H8922 后台任意文件读取漏洞 CVE-2021-28152
   * 宏电 H8922 后台命令执行漏洞 CVE-2021-28150
@@ -764,7 +781,9 @@
   * 网康 NS-ASG安全网关 index.php 远程命令执行漏洞
   * 网康 下一代防火墙 HeartBeat.php 远程命令执行漏洞
   * 网康 下一代防火墙 router 远程命令执行漏洞
+  * 网御 ACM上网行为管理系统 bottomframe.cgi SQL注入漏洞
   * 网御 Leadsec ACM管理平台 importhtml.php 远程命令执行漏洞
+  * 网神 SecGate 3600 防火墙 obj_app_upfile 任意文件上传漏洞
   * 网神 SecIPS 3600 debug_info_export 任意文件下载漏洞
   * 网神 下一代极速防火墙 pki_file_download 任意文件读取漏洞
   * 联软安界 UniSDP 软件定义边界系统 commondRetSt 命令执行漏洞
@@ -783,6 +802,7 @@
   * 锐捷 EG易网关 管理员账号密码泄露漏洞
   * 锐捷 ISG 账号密码泄露漏洞
   * 锐捷 NBR 1300G路由器 越权CLI命令执行漏洞
+  * 锐捷 NBR 路由器 fileupload.php 任意文件上传漏洞
   * 锐捷 NBR路由器 远程命令执行漏洞 CNVD-2021-09650
   * 锐捷 RG-UAC 账号密码信息泄露 CNVD-2021-14536
   * 锐捷 Smartweb管理系统 密码信息泄露漏洞 CNVD-2021-17369
