@@ -2,6 +2,8 @@
 
 更新时间：2023.06
 
+##### **【免责声明】本项目所涉及的技术、思路和工具仅供学习，任何人不得将其用于非法用途和盈利，不得将其用于非授权渗透测试，否则后果自行承担，与本项目无关。使用本项目前请先阅读 [法律法规](https://github.com/Threekiii/Awesome-Laws)。**
+
 &#x2705; 表示漏洞文档已收录 [Vulnerability-Wiki]( https://github.com/Threekiii/Vulnerability-Wiki) 漏洞库，仅收录2022/2023年部分安全设备，全部 iot 漏洞列表见 [README.md](https://github.com/Threekiii/Vulnerability-Wiki/blob/master/docs-base/docs/iot/README.md)。参考阅读：[ffffffff0x/SecDevice-Exploits](https://github.com/ffffffff0x/1earn/blob/master/1earn/Security/RedTeam/%E5%AE%89%E9%98%B2%E8%AE%BE%E5%A4%87/SecDevice-Exploits.md#%E9%BD%90%E6%B2%BB%E5%A0%A1%E5%9E%92%E6%9C%BA)
 
 ## 一、身份与访问控制
