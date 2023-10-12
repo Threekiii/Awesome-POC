@@ -6,6 +6,7 @@
 
 - CHECKLIST
 
+  * Nacos 漏洞 Checklist
   * SmartBi 漏洞 Checklist
   * 安全设备漏洞 Checklist
 - CMS漏洞
@@ -81,23 +82,6 @@
   * 禅道 V16.5 SQL 注入 CNVD-2022-42853
   * 禅道 项目管理系统远程命令执行漏洞 CNVD-2023-02709
   * 齐博CMS V7 job.php 任意文件读取漏洞
-- MYCHECKLIST
-
-  * Apache Log4j2 漏洞 Checklist
-  * Apache Solr 漏洞 Checklist
-  * Fastjson 漏洞 Checklist
-  * HW 高危漏洞（2021-2023）
-  * Nacos 漏洞 Checklist
-  * SmartBi 漏洞 Checklist
-  * Spring Boot 漏洞 Checklist
-  * Tomcat 漏洞 Checklist
-  * VMware vCenter 漏洞 Checklist
-  * Zabbix 漏洞 Checklist
-  * 云安全漏洞 Checklist
-  * 信息收集 Checklist
-  * 安全设备漏洞 Checklist
-  * 端口安全 Checklist
-  * 蜜罐技术研究与识别
 - OA产品漏洞
 
   * O2OA invoke 后台远程命令执行漏洞 CNVD-2020-18740
