@@ -466,6 +466,7 @@
   * Apache ActiveMQ Console控制台默认弱口令
   * Apache ActiveMQ 信息泄漏漏洞 CVE-2017-15709
   * Apache ActiveMQ 反序列化漏洞 CVE-2015-5254
+  * Apache ActiveMQ远程代码执行
   * Apache Axis 远程代码执行漏洞 CVE-2019-0227
   * Apache Cocoon XML注入 CVE-2020-11991
   * Apache CouchDB epmd 远程命令执行漏洞 CVE-2022-24706

