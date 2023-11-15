@@ -225,6 +225,7 @@
   * Atlassian Bitbucket 登录绕过漏洞
   * Atlassian Confluence doenterpagevariables.action 远程命令执行漏洞 CVE-2021-26084
   * Atlassian Confluence preview SSTI模版注入漏洞 CVE-2019-3396
+  * Atlassian Confluence server-info.action 登陆绕过漏洞 CVE-2023-22515
   * Atlassian Confluence 敏感信息泄露 CVE-2021-26085
   * Atlassian Jira cfx 任意文件读取漏洞 CVE-2021-26086
   * Atlassian Jira com.atlassian.jira 敏感信息泄漏 CVE-2019-8442
@@ -240,8 +241,10 @@
   * AVEVA InTouch安全网关 AccessAnywhere 任意文件读取漏洞 CVE-2022-23854
   * Cacti SQL 注入漏洞 CVE-2020-14295
   * Casbin get-users 账号密码泄漏漏洞
+  * Casdoor static 任意文件读取漏洞
   * Cerebro request SSRF漏洞
   * Citrix XenMobile 任意文件读取 CVE-2020-8209
+  * CloudPanel makefile 任意文件上传漏洞 CVE-2023-35885
   * CMA客诉管理系统 upFile.ashx 任意文件上传漏洞
   * Coremail 路径遍历与文件上传漏洞
   * Coremail 配置信息泄露漏洞
@@ -253,6 +256,7 @@
   * E-message 越权访问漏洞
   * EasyImage down.php 任意文件读取漏洞
   * EasyImage manager.php 后台任意文件上传漏洞
+  * EduSoho 教培系统 app_dev.php 任意读取漏洞
   * eGroupWare spellchecker.php 远程命令执行漏洞
   * Evolucare Ecsimaging download_stats_dicom.php 任意文件读取漏洞
   * Evolucare Ecsimaging new_movie.php 远程命令执行漏洞
@@ -317,6 +321,7 @@
   * phpMyAdmin后台SQL注入 CVE-2020-26935
   * PHPStudy 后台管理页面 one click RCE
   * PowerJob list 信息泄漏漏洞 CVE-2023-29923
+  * Richmail 企业邮箱 noCookiesMail 登陆绕过漏洞
   * Riskscanner list SQL注入漏洞
   * Roxy-Wi options.py 远程命令执行漏洞 CVE-2022-31137
   * Seo-Panel 4.8.0 反射型XSS漏洞 CVE-2021-3002
@@ -324,7 +329,7 @@
   * ShowDoc AdminUpdateController.class.php 任意文件上传漏洞 CVE-2021-36440
   * ShowDoc PageController.class.php 任意文件上传漏洞
   * ShowDoc 前台文件上传漏洞
-  * Smartbi 登录绕过漏洞
+  * Smartbi RMIServlet 登陆绕过漏洞
   * Smartbi 远程命令执行漏洞
   * SolarView Compact 命令注入漏洞 CVE-2022-40881
   * SonarQube search_projects 项目信息泄露漏洞
@@ -363,6 +368,7 @@
   * 亿赛通 电子文档安全管理系统 UploadFileFromClientServiceForClient 任意文件上传漏洞
   * 亿邮电子邮件系统 moni_detail.do 远程命令执行漏洞
   * 任我行 CRM SmsDataList SQL注入漏洞
+  * 任我行 管家婆 订货易在线商城 SelectImage.aspx 任意文件上传漏洞
   * 企望制造 ERP comboxstore.action 远程命令执行漏洞
   * 众望网络 微议管理系统 后台updatefile.html 任意文件上传漏洞
   * 会捷通云视讯 fileDownload 任意文件读取漏洞
@@ -406,6 +412,8 @@
   * 深信服 DC数据中心管理系统 sangforindex XML实体注入漏洞
   * 深信服 EDR c.php 远程命令执行漏洞 CNVD-2020-46552
   * 深信服 EDR 后台任意用户登陆漏洞
+  * 深信服 NGAF下一代防火墙 loadfile.php 任意文件读取漏洞
+  * 深信服 NGAF下一代防火墙 login.cgi 远程命令执行漏洞
   * 深信服 SG上网优化管理系统 catjs.php 任意文件读取漏洞
   * 深信服 SSL VPN 客户端远程文件下载
   * 深信服 应用交付报表系统 download.php 任意文件读取漏洞
@@ -450,6 +458,8 @@
   * 银澎云计算 好视通视频会议系统 任意文件下载 CNVD-2020-62437
   * 银达汇智 智慧综合管理平台 FileDownLoad.aspx 任意文件读取漏洞
   * 银达汇智 智慧综合管理平台 FileUp.aspx 任意文件上传漏洞
+  * 锐起云 resetPwd 登陆绕过漏洞
+  * 锐起云 xiazai 任意文件读取漏洞
   * 阿尔法科技 虚拟仿真实验室 未授权访问漏洞
   * 零视科技 H5S视频平台 GetUserInfo 信息泄漏漏洞 CNVD-2020-67113
   * 霆智科技 VA虚拟应用平台 任意文件读取漏洞

