@@ -148,6 +148,7 @@
   * 用友 NC NCFindWeb 任意文件读取漏洞
   * 用友 NC XbrlPersistenceServlet反序列化
   * 用友 NCCloud FS文件管理SQL注入
+  * 用友 U8 cloud upload.jsp 任意文件上传漏洞
   * 用友 U8 CRM客户关系管理系统 getemaildata.php 任意文件上传漏洞
   * 用友 U8 CRM客户关系管理系统 getemaildata.php 任意文件读取漏洞
   * 用友 U8 OA getSessionList.jsp 敏感信息泄漏漏洞
@@ -170,6 +171,7 @@
   * 致远OA webmail.do 任意文件下载 CNVD-2020-62422
   * 致远OA wpsAssistServlet 任意文件上传漏洞
   * 致远OA 帆软组件 ReportServer 目录遍历漏洞
+  * 蓝凌EIS 智慧协同平台 api.aspx 任意文件上传漏洞
   * 蓝凌OA admin.do JNDI远程命令执行
   * 蓝凌OA custom.jsp 任意文件读取漏洞
   * 蓝凌OA kmImeetingRes.do 后台SQL注入漏洞 CNVD-2021-01363
@@ -197,8 +199,10 @@
   * 金和OA C6 download.jsp 任意文件读取漏洞
   * 金和OA C6 OpenFile.aspx 后台越权敏感文件遍历漏洞
   * 金蝶OA Apusic应用服务器(中间件) server_file 目录遍历漏洞
+  * 金蝶OA EAS系统 uploadLogo.action 任意文件上传漏洞
   * 金蝶OA server_file 目录遍历漏洞
   * 金蝶OA 云星空 CommonFileServer 任意文件读取漏洞
+  * 金蝶OA 云星空 ScpSupRegHandler 任意文件上传漏洞
 - Web应用漏洞
 
   * 1039家校通 万能密码绕过 CNVD-2020-31494
@@ -712,6 +716,7 @@
   * Kyan 网络监控设备 run.php 远程命令执行漏洞
   * Kyan 网络监控设备 time.php 远程命令执行漏洞
   * MagicFlow 防火墙网关 main.xp 任意文件读取漏洞
+  * Milesight Router httpd.log 信息泄漏漏洞 CVE-2023-4714
   * Milesight VPN server.js 任意文件读取漏洞
   * MSA 互联网管理网关 msa 任意文件下载漏洞
   * NetMizer 日志管理系统 cmd.php 远程命令执行漏洞
@@ -759,6 +764,7 @@
   * 启明星辰 4A统一安全管控平台 getMaster.do 信息泄漏漏洞
   * 启明星辰 天清汉马USG防火墙 逻辑缺陷漏洞 CNVD-2021-12793
   * 启明星辰 天清汉马USG防火墙 默认口令漏洞
+  * 大华 ICC智能物联综合管理平台 readPic 任意文件读取漏洞
   * 大华 城市安防监控系统平台管理 attachment_downloadByUrlAtt.action 任意文件下载漏洞
   * 大华 智慧园区综合管理平台 getFaceCapture SQL注入漏洞
   * 大华 智慧园区综合管理平台 user_getUserInfoByUserName.action 账号密码泄漏漏洞
@@ -776,6 +782,7 @@
   * 宏电 H8922 后台管理员信息泄露漏洞 CVE-2021-28151
   * 小米 路由器 c_upload 远程命令执行漏洞 CVE-2019-18370
   * 小米 路由器 extdisks 任意文件读取漏洞 CVE-2019-18371
+  * 思福迪 运维安全管理系统 test_qrcode_b 远程命令执行漏洞
   * 悦泰节能 智能数据网关 resources 任意文件读取漏洞
   * 惠尔顿 e地通 config.xml 信息泄漏漏洞
   * 才茂通信 网关 formping 远程命令执行漏洞
@@ -785,6 +792,7 @@
   * 电信 中兴ZXHN F450A网关 默认管理员账号密码漏洞
   * 电信 天翼网关F460 web_shell_cmd.gch 远程命令执行漏洞
   * 电信 网关配置管理系统 login.php SQL注入漏洞
+  * 百为通达 智能流控路由器 open 远程命令执行漏洞
   * 百卓 Patflow showuser.php 后台SQL注入漏洞
   * 百卓 Smart importhtml.php 远程命令执行漏洞
   * 皓峰防火墙 setdomain.php 越权访问漏洞
@@ -821,6 +829,7 @@
   * 锐捷 Smartweb管理系统 密码信息泄露漏洞 CNVD-2021-17369
   * 锐捷 SSL VPN 越权访问漏洞
   * 锐捷 云课堂主机 pool 目录遍历漏洞
+  * 锐捷 校园网自助服务系统 login_judge.jsf 任意文件读取漏洞
   * 飞鱼星 企业级智能上网行为管理系统 权限绕过信息泄露漏洞
   * 飞鱼星 家用智能路由 cookie.cgi 权限绕过
 ## 0x02 声明

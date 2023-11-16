@@ -15,7 +15,7 @@ UEditor 是由百度「FEX前端研发团队」开发的所见即所得富文本
 file 目录文件读取：
 
 ```
-http://www.xxxx.comhttps://14.23.155.17 /net/controller.ashx?action=listfile
+http://www.xxxx.com/net/controller.ashx?action=listfile
 ```
 
 image 目录文件读取：
