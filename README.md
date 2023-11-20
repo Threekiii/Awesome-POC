@@ -664,6 +664,7 @@
   * Cisco ASA设备任意文件删除漏洞 CVE-2020-3187
   * Cisco HyperFlex HX storfs-asup 远程命令执行漏洞 CVE-2021-1497
   * Cisco HyperFlex HX upload 任意文件上传漏洞 CVE-2021-1499
+  * Citrix NetScaler ADC & Gateway 信息泄露漏洞 CVE-2023-4966
   * Citrix 远程命令执行漏洞 CVE-2019-19781
   * Crestron aj.html 账号密码泄漏漏洞 CVE-2022-23178
   * D-Link AC管理系统 默认账号密码
