@@ -98,6 +98,7 @@
   * 万户OA smartUpload.jsp 任意文件上传漏洞
   * 万户OA TeleConferenceService XXE注入漏洞
   * 信呼OA beifenAction.php 后台目录遍历漏洞
+  * 信呼OA qcloudCosAction.php 任意文件上传漏洞
   * 华天动力OA 8000版 workFlowService SQL注入漏洞
   * 启莱OA CloseMsg.aspx SQL注入漏洞
   * 启莱OA messageurl.aspx SQL注入漏洞
@@ -561,6 +562,7 @@
   * 腾讯 企业微信 agentinfo 信息泄漏漏洞
 - 开发框架漏洞
 
+  * Apache Commons Configuration 远程命令执行漏洞 CVE-2022-33980
   * Apache Commons Text 远程代码执行漏洞 CVE-2022-42889
   * Apache OFBiz 反序列化 CVE-2021-30128
   * Apache OfBiz 服务器端模板注入 SSTI
