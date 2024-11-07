@@ -727,6 +727,9 @@
   * VMware vCenter Server 任意文件读取漏洞
   * VMware vCenter Server 服务器端请求伪造漏洞 CVE-2021-21973
   * VMware vCenter Server 远程代码执行漏洞 CVE-2021-21972
+- 人工智能漏洞
+
+  * Ollama 目录遍历致代码执行漏洞 CVE-2024-37032
 - 其他漏洞
 
   * DNS域传送漏洞
