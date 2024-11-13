@@ -445,7 +445,10 @@
   * WSO2 fileupload 任意文件上传漏洞 CVE-2022-29464
   * WSO2 proxy SSRF漏洞 WSO2-2019-0598
   * XXL-JOB executor 未授权访问漏洞
-  * XXL-JOB 任务调度中心 后台任意命令执行漏洞
+  * XXL-JOB SSRF 漏洞泄露 Token 导致 RCE CVE-2022-43183
+  * XXL-JOB 后台任意命令执行漏洞
+  * XXL-JOB 垂直越权漏洞 CVE-2022-36157
+  * XXL-JOB 默认 accessToken 身份绕过漏洞
   * YApi NoSQL注入导致远程命令执行漏洞
   * YApi 接口管理平台 后台命令执行漏洞
   * 七牛云 logkit log_path 任意文件读取漏洞
