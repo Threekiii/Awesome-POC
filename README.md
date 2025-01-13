@@ -296,6 +296,7 @@
   * CMA客诉管理系统 upFile.ashx 任意文件上传漏洞
   * Coremail 路径遍历与文件上传漏洞
   * Coremail 配置信息泄露漏洞
+  * CraftCMS register_argc_argv 远程代码执行漏洞 CVE-2024-56145
   * Crawlab file 任意文件读取漏洞
   * Crawlab users 任意用户添加漏洞
   * Dapr Dashboard configurations 未授权访问漏洞 CVE-2022-38817
