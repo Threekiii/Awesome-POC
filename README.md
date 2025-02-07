@@ -644,7 +644,9 @@
   * AppWeb认证绕过漏洞 CVE-2018-8715
   * Consul Docker images 空密码登录漏洞 CVE-2020-29564
   * Consul Service API远程命令执行漏洞
+  * GeoServer JAI-EXT 导致远程代码注入漏洞 CVE-2022-24816 CVE-2023-35042
   * GeoServer OGC Filter SQL注入漏洞 CVE-2023-25157
+  * GeoServer TestWfsPost 接口未授权 SSRF 漏洞 CVE-2021-40822
   * GeoServer 属性名表达式前台代码执行漏洞 CVE-2024-36401
   * GoAhead Server 环境变量注入 CVE-2021-42342
   * GoAhead Server 远程命令执行漏洞 CVE-2017-17562
@@ -870,6 +872,7 @@
   * Apache Druid 远程代码执行漏洞 CVE-2021-25646
   * Apache Druid 远程代码执行漏洞 CVE-2021-26919
   * Apache Druid 远程代码执行漏洞 QVD-2023-9629
+  * Apache HugeGraph 远程代码执行漏洞 CVE-2024-27348
   * ClickHouse API 数据库接口未授权访问漏洞
   * ElasticSearch Groovy 沙盒绕过 & 代码执行漏洞 CVE-2015-1427
   * Elasticsearch 未授权访问
