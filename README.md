@@ -111,6 +111,10 @@
   * 禅道 V16.5 SQL 注入 CNVD-2022-42853
   * 禅道 项目管理系统远程命令执行漏洞 CNVD-2023-02709
   * 齐博CMS V7 job.php 任意文件读取漏洞
+- MYPOC
+
+  * Cacti 任意文件创建致远程代码执行漏洞 CVE-2025-24367
+  * Cacti 多行 SNMP 响应验证致代码执行漏洞 CVE-2025-22604
 - OA产品漏洞
 
   * O2OA invoke 后台远程命令执行漏洞 CNVD-2020-18740
@@ -586,9 +590,8 @@
   * Apache Log4j2 lookup JNDI 注入漏洞 CVE-2021-44228
   * Apache Mod_jk 访问控制权限绕过 CVE-2018-11759
   * Apache NiFi Api 远程代码执行 RCE
-  * Apache RocketMQ RCE 漏洞 CVE-2023-33246
-  * Apache RocketMQ 远程代码执行漏洞 CVE-2023-37582
-  * Apache RocketMQ 远程命令执行漏洞 CVE-2023-33246
+  * Apache RocketMQ Broker 远程命令执行漏洞 CVE-2023-33246
+  * Apache RocketMQ NameServer 任意文件写入漏洞 CVE-2023-37582
   * Apache ShenYu dashboardUser 账号密码泄漏漏洞 CVE-2021-37580
   * Apache Shiro 1.2.4 反序列化漏洞 CVE-2016-4437
   * Apache Shiro 1.6.0 身份认证绕过漏洞 CVE-2020-13933
