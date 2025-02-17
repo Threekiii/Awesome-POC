@@ -875,6 +875,7 @@
   * Apache Druid 远程代码执行漏洞 CVE-2021-25646
   * Apache Druid 远程代码执行漏洞 CVE-2021-26919
   * Apache Druid 远程代码执行漏洞 QVD-2023-9629
+  * Apache HugeGraph JWT Token 密钥硬编码漏洞 CVE-2024-43441
   * Apache HugeGraph 远程代码执行漏洞 CVE-2024-27348
   * ClickHouse API 数据库接口未授权访问漏洞
   * ElasticSearch Groovy 沙盒绕过 & 代码执行漏洞 CVE-2015-1427
