@@ -111,12 +111,9 @@
   * 禅道 V16.5 SQL 注入 CNVD-2022-42853
   * 禅道 项目管理系统远程命令执行漏洞 CNVD-2023-02709
   * 齐博CMS V7 job.php 任意文件读取漏洞
-- MYPOC
-
-  * Cacti 任意文件创建致远程代码执行漏洞 CVE-2025-24367
-  * Cacti 多行 SNMP 响应验证致代码执行漏洞 CVE-2025-22604
 - OA产品漏洞
 
+  * O2OA 9.0.3 版本 scriptingBlockedClasses 绕过导致远程代码执行
   * O2OA invoke 后台远程命令执行漏洞 CNVD-2020-18740
   * O2OA open 后台任意文件读取漏洞
   * 一米OA getfile.jsp 任意文件读取漏洞
