@@ -4,11 +4,6 @@
 
 ## 0x01 项目导航
 
-- CHECKLIST
-
-  * Nacos 漏洞 Checklist
-  * SmartBi 漏洞 Checklist
-  * 安全设备漏洞 Checklist
 - CMS漏洞
 
   * 74cms v4.2.1 v4.2.129 后台getshell漏洞
@@ -737,6 +732,9 @@
   * VMware vCenter Server 远程代码执行漏洞 CVE-2021-21972
 - 人工智能漏洞
 
+  * Huggingface Transformers Checkpoint 反序列化漏洞 CVE-2024-3568
+  * Ollama 文件存在性泄露漏洞 CVE-2024-39719
+  * Ollama 文件存在性泄露漏洞 CVE-2024-39722
   * Ollama 目录遍历致代码执行漏洞 CVE-2024-37032
 - 其他漏洞
 
