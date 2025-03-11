@@ -252,6 +252,7 @@
   * Apache Airflow 示例DAG中的命令注入 CVE-2020-11978
   * Apache Airflow 远程代码执行漏洞 CVE-2022-40127
   * Apache Airflow 默认密钥导致的权限绕过 CVE-2020-17526
+  * Apache HertzBeat SnakeYaml 反序列化远程代码执行漏洞 CVE-2024-42323
   * Apache Superset SECRET_KEY 未授权访问漏洞 CVE-2023-27524
   * Apache Unomi 远程表达式代码执行漏洞 CVE-2020-13942
   * Apache Zeppelin 未授权任意命令执行漏洞
@@ -308,6 +309,7 @@
   * F5 BIG-IP iControl REST身份认证绕过漏洞 CVE-2022-1388
   * F5 BIG-IP 远程代码执行漏洞 CVE-2020-5902
   * F5 BIG-IP 远程代码执行漏洞 CVE-2021-22986
+  * FFmpeg AVI 任意文件读取漏洞 CVE-2017-9993
   * FFmpeg 任意文件读取漏洞SSRF漏洞 CVE-2016-1897+CVE-2016-1898
   * Fhem FileLog_logWrapper 任意文件读取漏洞 CVE-2020-19360
   * Franklin Fueling Systems tsaupload.cgi 任意文件读取漏洞 CVE-2021-46417
@@ -359,6 +361,7 @@
   * JumpServer 未授权接口 远程命令执行漏洞
   * JumpServer 远程代码执行漏洞 CVE-2024-29201&CVE-2024-29202
   * Jupyter Notebook 未授权访问远程命令执行漏洞
+  * Kibana 7.6.2 upgrade-assistant-telemetry 原型污染导致远程代码执行 CVE-2020-7012
   * Kibana 原型链污染导致任意代码执行漏洞 CVE-2019-7609
   * Kibana 本地文件包含漏洞 CVE-2018-17246
   * kkFileView getCorsFile 任意文件读取漏洞 CVE-2021-43734

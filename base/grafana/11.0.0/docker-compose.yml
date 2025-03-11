@@ -1,0 +1,40 @@
+services:
+  mysql:
+    image: mysql:latest
+    restart: always
+    environment:
+      - MYSQL_ROOT_PASSWORD=rootpassword
+      - MYSQL_DATABASE=grafanadb
+      - MYSQL_USER=grafana
+      - MYSQL_PASSWORD=grafanapassword
+    volumes:
+      - ./mysql-data:/var/lib/mysql
+    ports:
+      - "3306:3306"
+    healthcheck:
+      test: ["CMD", "mysqladmin", "ping", "-h", "localhost"]
+      interval: 10s
+      timeout: 5s
+      retries: 3
+  
+  grafana:
+    build: .
+    ports:
+      - "3000:3000"
+    environment:
+      - GF_SECURITY_ADMIN_PASSWORD=AwesomePoc123!
+      - GF_DATABASE_TYPE=mysql
+      - GF_DATABASE_HOST=mysql:3306
+      - GF_DATABASE_USER=grafana
+      - GF_DATABASE_PASSWORD=grafanapassword
+      - GF_DATABASE_NAME=grafanadb
+    volumes:
+      - grafana-storage:/var/lib/grafana
+      - ./grafana.ini:/etc/grafana/grafana.ini
+
+    depends_on:
+        mysql:
+         condition: service_healthy  
+volumes:
+  grafana-storage:
+  mysql-storage:
