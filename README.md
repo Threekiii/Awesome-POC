@@ -690,6 +690,7 @@
   * SaltStack 水平权限绕过漏洞 CVE-2020-11651
   * Saltstack 远程命令执行漏洞 CVE-2020-11651 11652
   * Supervisord 远程命令执行漏洞 CVE-2017-11610
+  * Tomcat 远程代码执行漏洞 CVE-2025-24813
   * Tomcat8 弱口令+后台getshell漏洞
   * uWSGI PHP目录穿越漏洞 CVE-2018-7490
   * uWSGI 未授权访问漏洞
