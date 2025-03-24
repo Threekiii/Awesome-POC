@@ -665,6 +665,7 @@
   * Jetty 通用 Servlets 组件 ConcatServlet 信息泄露漏洞 CVE-2021-28169
   * Jmeter RMI 反序列化命令执行漏洞 CVE-2018-1297
   * muhttpd 任意文件读取漏洞 CVE-2022-31793
+  * Next.js 中间件鉴权绕过漏洞 CVE-2025-29927
   * Nginx 文件名逻辑漏洞 CVE-2013-4547
   * Nginx 解析漏洞
   * Nginx 配置错误漏洞
