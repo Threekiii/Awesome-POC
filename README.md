@@ -253,7 +253,8 @@
   * Apache Airflow 远程代码执行漏洞 CVE-2022-40127
   * Apache Airflow 默认密钥导致的权限绕过 CVE-2020-17526
   * Apache HertzBeat SnakeYaml 反序列化远程代码执行漏洞 CVE-2024-42323
-  * Apache Superset SECRET_KEY 未授权访问漏洞 CVE-2023-27524
+  * Apache Superset Python Pickle 反序列化导致远程代码执行 CVE-2023-37941
+  * Apache Superset 硬编码 JWT 密钥导致认证绕过漏洞 CVE-2023-27524
   * Apache Unomi 远程表达式代码执行漏洞 CVE-2020-13942
   * Apache Zeppelin 未授权任意命令执行漏洞
   * Appspace jsonprequest SSRF漏洞 CVE-2021-27670
@@ -281,8 +282,10 @@
   * Atlassian Questions For Confluence 身份认证绕过漏洞 CVE-2022-26138
   * AVCON6 系统管理平台 download.action 任意文件下载漏洞
   * AVCON6 系统管理平台 org_execl_download.action 任意文件下载漏洞
+  * Cacti graph_view.php SQL注入导致远程代码执行漏洞 CVE-2023-39361&CVE-2024-31459
+  * Cacti remote_agent.php 前台命令注入漏洞 CVE-2022-46169
+  * Cacti RRDTool 后台参数注入导致远程代码执行 CVE-2025-24367
   * Cacti SQL 注入漏洞 CVE-2020-14295
-  * Cacti 前台命令注入漏洞 CVE-2022-46169
   * CactiEZ weathermap 插件任意文件写入漏洞
   * Casbin get-users 账号密码泄漏漏洞
   * Casdoor static 任意文件读取漏洞
@@ -827,6 +830,8 @@
   * ThinkPHP5 5.0.22 5.1.29 远程代码执行漏洞
   * ThinkPHP5 5.0.23 远程代码执行漏洞
   * ThinkPHP5 SQL注入漏洞 && 敏感信息泄露
+  * Vite 开发服务器任意文件读取漏洞 CNVD-2022-44615
+  * Vite 开发服务器任意文件读取漏洞绕过 CVE-2025-30208
   * XStream SSRF 反序列化漏洞 CVE-2020-26258
   * XStream 任意文件删除 反序列化漏洞 CVE-2020-26259
   * XStream 反序列化命令执行漏洞 CVE-2021-21351
