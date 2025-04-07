@@ -1,0 +1,9 @@
+services:
+  zentao:
+    image: easysoft/zentao:18.0
+    ports:
+      - "8084:80"
+    environment:
+      - MYSQL_INTERNAL=true
+    volumes:
+      - /data/zentao:/data
