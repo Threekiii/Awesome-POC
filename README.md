@@ -17,6 +17,8 @@
   * CmsEasy crossall_act.php SQL注入漏洞
   * CmsEasy language_admin.php 后台命令执行漏洞
   * CmsEasy update_admin.php 后台任意文件上传漏洞
+  * CraftCMS register_argc_argv 远程代码执行漏洞 CVE-2024-56145
+  * CraftCMS 未授权远程代码执行漏洞 CVE-2023-41892
   * CxCMS Resource.ashx 任意文件读取漏洞
   * DedeCMS 5.7 file_manage_control.php 文件包含 RCE CVE-2023-2928
   * DedeCMS 5.7SP2 代码执行漏洞 CVE-2019-8933
@@ -84,7 +86,7 @@
   * WordPress SuperForms 4.9 任意文件上传到远程代码执行
   * WordPress WP_Query SQL 注入漏洞 CVE-2022-21661
   * YzmCMS Version 小于V5.8正式版 后台采集模块 SSRF漏洞
-  * ZZZCMS parserSearch 远程命令执行漏洞
+  * zzzcms v1.7.5 前台远程命令执行漏洞
   * 华宜互联 硬编码超级管理员漏洞
   * 原创先锋 后台管理平台 未授权访问漏洞
   * 发货100 M_id SQL注入漏洞 CNVD-2021-30193
@@ -98,14 +100,14 @@
   * 狮子鱼CMS ApigoodController.class.php SQL注入漏洞
   * 狮子鱼CMS image_upload.php 任意文件上传
   * 狮子鱼CMS wxapp.php 任意文件上传漏洞
+  * 齐博CMS V7 job.php 任意文件读取漏洞
+- MYPOC
+
   * 禅道 11.6 api-getModel-api-getMethod-filePath 任意文件读取漏洞
   * 禅道 11.6 api-getModel-api-sql-sql 后台SQL注入漏洞
   * 禅道 11.6 api-getModel-editor-save-filePath 任意文件写入漏洞
   * 禅道 12.4.2 CSRF漏洞 CNVD-2020-68552
   * 禅道 12.4.2 后台任意文件上传漏洞 CNVD-C-2020-121325
-  * 禅道 V16.5 SQL 注入 CNVD-2022-42853
-  * 禅道 项目管理系统远程命令执行漏洞 CNVD-2023-02709
-  * 齐博CMS V7 job.php 任意文件读取漏洞
 - OA产品漏洞
 
   * O2OA 9.0.3 版本 scriptingBlockedClasses 绕过导致远程代码执行
@@ -296,7 +298,6 @@
   * CMA客诉管理系统 upFile.ashx 任意文件上传漏洞
   * Coremail 路径遍历与文件上传漏洞
   * Coremail 配置信息泄露漏洞
-  * CraftCMS register_argc_argv 远程代码执行漏洞 CVE-2024-56145
   * Crawlab file 任意文件读取漏洞
   * Crawlab users 任意用户添加漏洞
   * Dapr Dashboard configurations 未授权访问漏洞 CVE-2022-38817
@@ -523,6 +524,10 @@
   * 用友 畅捷通远程通 GNRemote.dll SQL注入漏洞
   * 畅捷CRM get_usedspace.php SQL注入漏洞
   * 畅捷CRM 后台附件任意文件上传漏洞
+  * 禅道 misc-captcha-user.html 权限绕过&命令执行漏洞 CNVD-2023-02709
+  * 禅道 v16.5 前台 SQL 注入 CNVD-2022-42853
+  * 禅道 zahost-create.html 后台命令执行漏洞
+  * 禅道 zentaosid cookie 身份认证绕过漏洞
   * 科达 MTS转码服务器 任意文件读取漏洞
   * 科达 网络键盘控制台 任意文件读取漏洞
   * 科迈 RAS系统 硬编码管理员漏洞
