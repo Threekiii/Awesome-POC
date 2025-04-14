@@ -1,6 +1,11 @@
 # Awesome-POC
 
-##### **【免责声明】本项目所涉及的技术、思路和工具仅供学习，任何人不得将其用于非法用途和盈利，不得将其用于非授权渗透测试，否则后果自行承担，与本项目无关。使用本项目前请先阅读 [法律法规](https://github.com/Threekiii/Awesome-Laws)。**
+**❗【免责声明】本项目所涉及的技术、思路和工具仅供学习，任何人不得将其用于非法用途和盈利，不得将其用于非授权渗透测试，否则后果自行承担，与本项目无关。 使用本项目前请先阅读 [法律法规](https://github.com/Threekiii/Awesome-Laws)。**
+
+_Disclaimer: The technologies, concepts, and tools provided in this Git repository are intended for educational and research purposes only. Any use for illegal activities, unauthorized penetration testing, or commercial purposes is strictly prohibited. Please read the [Awesome-Lows](https://github.com/Threekiii/Awesome-Laws) before using this repository._
+
+
+📖 一个漏洞 PoC 知识库。_A knowledge base for vulnerability PoCs(Proof of Concept),  with 1k+ vulnerabilities._
 
 ## 0x01 项目导航
 
@@ -733,6 +738,7 @@
   * Docker daemon api 未授权访问漏洞 RCE
   * K8s API Server未授权命令执行
   * K8s etcd未授权访问
+  * Kubernetes Ingress-nginx admission 远程代码执行漏洞 CVE-2025-1974
   * MinIO SSRF 漏洞 CVE-2021-21287
   * Nacos secret.key 默认密钥 未授权访问漏洞
   * Nacos 未授权接口命令执行漏洞 CVE-2021-29442
