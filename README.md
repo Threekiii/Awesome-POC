@@ -4,8 +4,7 @@
 
 _Disclaimer: The technologies, concepts, and tools provided in this Git repository are intended for educational and research purposes only. Any use for illegal activities, unauthorized penetration testing, or commercial purposes is strictly prohibited. Please read the [Awesome-Lows](https://github.com/Threekiii/Awesome-Laws) before using this repository._
 
-
-📖 一个漏洞 PoC 知识库。_A knowledge base for vulnerability PoCs(Proof of Concept),  with 1k+ vulnerabilities._
+📖 一个漏洞 PoC 知识库。_A knowledge base for vulnerability PoCs(Proof of Concept), with 1k+ vulnerabilities._
 
 ## 0x01 项目导航
 
@@ -735,9 +734,10 @@ _Disclaimer: The technologies, concepts, and tools provided in this Git reposito
   * Zabbix Server trapper命令注入漏洞 CVE-2020-11800
 - 云安全漏洞
 
+  * Docker build 漏洞导致命令执行 CVE-2019-13139
   * Docker daemon api 未授权访问漏洞 RCE
-  * K8s API Server未授权命令执行
-  * K8s etcd未授权访问
+  * Kubernetes API Server 未授权命令执行
+  * Kubernetes etcd 未授权访问
   * Kubernetes Ingress-nginx admission 远程代码执行漏洞 CVE-2025-1974
   * MinIO SSRF 漏洞 CVE-2021-21287
   * Nacos secret.key 默认密钥 未授权访问漏洞
@@ -752,6 +752,7 @@ _Disclaimer: The technologies, concepts, and tools provided in this Git reposito
 - 人工智能漏洞
 
   * Huggingface Transformers Checkpoint 反序列化漏洞 CVE-2024-3568
+  * Langflow code API 未授权远程代码执行漏洞 CVE-2025-3248
   * Ollama 文件存在性泄露漏洞 CVE-2024-39719
   * Ollama 文件存在性泄露漏洞 CVE-2024-39722
   * Ollama 目录遍历致代码执行漏洞 CVE-2024-37032
@@ -897,7 +898,10 @@ _Disclaimer: The technologies, concepts, and tools provided in this Git reposito
   * ElasticSearch Groovy 沙盒绕过 & 代码执行漏洞 CVE-2015-1427
   * Elasticsearch 未授权访问
   * ElasticSearch 目录穿越漏洞 CVE-2015-3337
-  * H2 Database Console 未授权访问
+  * H2 Database Web Console 未授权 JDBC 攻击导致远程代码执行 CVE-2022-23221
+  * H2 Database Web Console 未授权 JNDI 注入 RCE 漏洞 CVE-2021-42392
+  * H2 Database Web Console 未授权访问
+  * H2 Database Web Console 认证远程代码执行漏洞 CVE-2018-10054
   * Hadoop YARN ResourceManager 未授权访问
   * InfluxDB JWT 认证绕过漏洞 CVE-2019-20933
   * InfluxDB 未授权访问漏洞
@@ -1114,8 +1118,9 @@ _Disclaimer: The technologies, concepts, and tools provided in this Git reposito
 
 本项目收集漏洞均源于互联网：
 
-- Peiqi：https://github.com/PeiQi0/PeiQi-WIKI-Book
-- Vulhub：https://github.com/vulhub/vulhub
+- https://github.com/PeiQi0/PeiQi-WIKI-Book
+- https://github.com/vulhub/vulhub
+- https://github.com/Metarget/metarget
 
 ## 0x03 更新日志
 

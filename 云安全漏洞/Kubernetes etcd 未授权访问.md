@@ -1,4 +1,4 @@
-# K8s etcd未授权访问
+# Kubernetes etcd 未授权访问
 
 ## 漏洞描述
 

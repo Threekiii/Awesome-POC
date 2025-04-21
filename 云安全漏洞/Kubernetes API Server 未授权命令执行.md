@@ -1,4 +1,4 @@
-# K8s API Server 未授权命令执行
+# Kubernetes API Server 未授权命令执行
 
 ## 漏洞描述
 
