@@ -1,0 +1,8 @@
+apiVersion: v1
+kind: Secret
+metadata:
+  name: k8s-node-proxy-token-secret
+  namespace: metarget
+  annotations:
+    kubernetes.io/service-account.name: k8s-node-proxy
+type: kubernetes.io/service-account-token

@@ -107,6 +107,7 @@ _Disclaimer: The technologies, concepts, and tools provided in this Git reposito
   * 齐博CMS V7 job.php 任意文件读取漏洞
 - MYPOC
 
+  * （todo）Apache Tapestry 未授权远程命令执行漏洞 CVE-2021-27850
   * 禅道 11.6 api-getModel-api-getMethod-filePath 任意文件读取漏洞
   * 禅道 11.6 api-getModel-api-sql-sql 后台SQL注入漏洞
   * 禅道 11.6 api-getModel-editor-save-filePath 任意文件写入漏洞
@@ -736,9 +737,15 @@ _Disclaimer: The technologies, concepts, and tools provided in this Git reposito
 
   * Docker build 漏洞导致命令执行 CVE-2019-13139
   * Docker daemon api 未授权访问漏洞 RCE
+  * Kubernetes + Ubuntu 18.04 漏洞环境搭建
   * Kubernetes API Server 未授权命令执行
   * Kubernetes etcd 未授权访问
   * Kubernetes Ingress-nginx admission 远程代码执行漏洞 CVE-2025-1974
+  * Kubernetes privileged 特权容器导致容器逃逸
+  * Kubernetes 利用 nodes proxy 子资源进行权限提升
+  * Kubernetes 部署 Shadow API Server
+  * Kubernetes 部署后门 CronJob
+  * Kubernetes 部署后门 Daemonset
   * MinIO SSRF 漏洞 CVE-2021-21287
   * Nacos secret.key 默认密钥 未授权访问漏洞
   * Nacos 未授权接口命令执行漏洞 CVE-2021-29442
@@ -751,6 +758,7 @@ _Disclaimer: The technologies, concepts, and tools provided in this Git reposito
   * VMware vCenter Server 远程代码执行漏洞 CVE-2021-21972
 - 人工智能漏洞
 
+  * browser-use WebUI pickle 反序列化漏洞
   * Huggingface Transformers Checkpoint 反序列化漏洞 CVE-2024-3568
   * Langflow code API 未授权远程代码执行漏洞 CVE-2025-3248
   * Ollama 文件存在性泄露漏洞 CVE-2024-39719
@@ -759,6 +767,7 @@ _Disclaimer: The technologies, concepts, and tools provided in this Git reposito
 - 其他漏洞
 
   * DNS域传送漏洞
+  * Erlang OTP SSH未授权远程代码执行漏洞 CVE-2025-32433
   * Foxit PDF Reader 及 Editor 任意代码执行漏洞 CVE-2023-27363
   * Git for Visual Studio远程执行代码漏洞 CVE-2021-21300
   * Git-LFS 远程命令执行漏洞 CVE-2020-27955
@@ -862,6 +871,8 @@ _Disclaimer: The technologies, concepts, and tools provided in this Git reposito
   * PHP 环境 XML外部实体注入漏洞（XXE）
   * PHP-FPM Fastcgi 未授权访问漏洞
   * PHP-FPM 远程代码执行漏洞 CVE-2019-11043
+  * Python Gradio 任意文件读取漏洞 CVE-2024-1561
+  * Python Gradio 目录穿越漏洞 CVE-2023-51449
   * Python PIL 远程命令执行漏洞 CVE-2017-8291
   * Python PIL 远程命令执行漏洞 CVE-2018-16509
   * Python pip install RCE 漏洞 CVE-2013-1629
