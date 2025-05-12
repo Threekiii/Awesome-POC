@@ -433,6 +433,7 @@ _Disclaimer: The technologies, concepts, and tools provided in this Git reposito
   * SonarQube search_projects 项目信息泄露漏洞
   * SonarQube values 信息泄露漏洞 CVE-2020-27986
   * SpiderFlow save 远程命令执行漏洞
+  * Splunk Enterprise Windows 平台 messaging 目录遍历漏洞 CVE-2024-36991
   * TamronOS IPTV系统 ping 任意命令执行漏洞
   * TamronOS IPTV系统 submit 任意用户创建漏洞
   * TerraMaster TOS createRaid 远程命令执行漏洞 CVE-2022-24989
