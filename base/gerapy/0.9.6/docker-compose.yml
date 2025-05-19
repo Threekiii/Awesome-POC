@@ -1,0 +1,16 @@
+version: "3.9"
+
+services:
+
+  gerapy:
+    image: germey/gerapy:0.9.6
+    build: .
+    container_name: gerapy
+    restart: always
+    volumes:
+      - gerapy:/home/gerapy
+    ports:
+      - 8000:8000
+
+volumes:
+  gerapy:

@@ -322,9 +322,8 @@ _Disclaimer: The technologies, concepts, and tools provided in this Git reposito
   * FFmpeg 任意文件读取漏洞SSRF漏洞 CVE-2016-1897+CVE-2016-1898
   * Fhem FileLog_logWrapper 任意文件读取漏洞 CVE-2020-19360
   * Franklin Fueling Systems tsaupload.cgi 任意文件读取漏洞 CVE-2021-46417
-  * Gerapy clone 后台远程命令执行漏洞 CVE-2021-32849
-  * Gerapy parse 后台远程命令执行漏洞
-  * Gerapy read 后台任意文件读取漏洞
+  * Gerapy project_clone & project_parse 后台远程命令执行漏洞 CVE-2021-32849
+  * Gerapy project_file_read 后台任意文件读取漏洞
   * GhostScript 沙箱绕过（命令执行）漏洞 CVE-2018-16509
   * GhostScript 沙箱绕过（命令执行）漏洞 CVE-2018-19475
   * GhostScript 沙箱绕过（命令执行）漏洞 CVE-2019-6116
@@ -764,6 +763,7 @@ _Disclaimer: The technologies, concepts, and tools provided in this Git reposito
   * Langflow code API 未授权远程代码执行漏洞 CVE-2025-3248
   * Ollama 文件存在性泄露漏洞 CVE-2024-39719
   * Ollama 文件存在性泄露漏洞 CVE-2024-39722
+  * Ollama 未授权访问漏洞 CNVD-2025-04094
   * Ollama 目录遍历致代码执行漏洞 CVE-2024-37032
 - 其他漏洞
 
@@ -906,6 +906,7 @@ _Disclaimer: The technologies, concepts, and tools provided in this Git reposito
   * Apache Druid 远程代码执行漏洞 QVD-2023-9629
   * Apache HugeGraph JWT Token 密钥硬编码漏洞 CVE-2024-43441
   * Apache HugeGraph 远程代码执行漏洞 CVE-2024-27348
+  * Apache IoTDB UDF 远程代码执行漏洞 CVE-2024-24780
   * ClickHouse API 数据库接口未授权访问漏洞
   * ElasticSearch Groovy 沙盒绕过 & 代码执行漏洞 CVE-2015-1427
   * Elasticsearch 未授权访问
