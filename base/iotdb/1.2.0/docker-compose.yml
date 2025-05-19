@@ -1,0 +1,8 @@
+services:
+  iotdb:
+    image: apache/iotdb:1.2.0-standalone
+    container_name: iotdb
+    ports:
+      - "6667:6667"
+      - "31999:31999"
+      - "8181:8181"
