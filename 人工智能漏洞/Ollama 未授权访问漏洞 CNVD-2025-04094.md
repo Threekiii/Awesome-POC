@@ -42,13 +42,13 @@ docker compose up -d
 
 环境启动后，访问 `http://your-ip:11434/`，此时 Ollma 0.3.14 已经成功运行。
 
-![](Public/Awesome-POC/人工智能漏洞/images/Ollama%20未授权访问漏洞%20CNVD-2025-04094/image-20250516155842825.png)
+![](images/Ollama%20未授权访问漏洞%20CNVD-2025-04094/image-20250516155842825.png)
 
 ## 漏洞复现
 
 Ollama 公开了多个执行各种操作的 [API endpoints](https://github.com/ollama/ollama/blob/main/docs/api.md)：
 
-![](images/Ollama%20目录遍历致代码执行漏洞%20CVE-2024-37032/image-20241107094826037.png)
+![](images/Ollama%20未授权访问漏洞%20CNVD-2025-04094/image-20241107094826037.png)
 
  通过 `/api/tags` 列出所有模型：
 
@@ -56,7 +56,7 @@ Ollama 公开了多个执行各种操作的 [API endpoints](https://github.com/
 http://your-ip:11434/api/tags
 ```
 
-![](Public/Awesome-POC/人工智能漏洞/images/Ollama%20未授权访问漏洞%20CNVD-2025-04094/image-20250516160108475.png)
+![](images/Ollama%20未授权访问漏洞%20CNVD-2025-04094/image-20250516160108475.png)
 
 ## 漏洞修复
 

