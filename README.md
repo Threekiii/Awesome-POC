@@ -105,14 +105,6 @@ _Disclaimer: The technologies, concepts, and tools provided in this Git reposito
   * 狮子鱼CMS image_upload.php 任意文件上传
   * 狮子鱼CMS wxapp.php 任意文件上传漏洞
   * 齐博CMS V7 job.php 任意文件读取漏洞
-- MYPOC
-
-  * （todo）Apache Tapestry 未授权远程命令执行漏洞 CVE-2021-27850
-  * 禅道 11.6 api-getModel-api-getMethod-filePath 任意文件读取漏洞
-  * 禅道 11.6 api-getModel-api-sql-sql 后台SQL注入漏洞
-  * 禅道 11.6 api-getModel-editor-save-filePath 任意文件写入漏洞
-  * 禅道 12.4.2 CSRF漏洞 CNVD-2020-68552
-  * 禅道 12.4.2 后台任意文件上传漏洞 CNVD-C-2020-121325
 - OA产品漏洞
 
   * O2OA 9.0.3 版本 scriptingBlockedClasses 绕过导致远程代码执行
@@ -735,7 +727,9 @@ _Disclaimer: The technologies, concepts, and tools provided in this Git reposito
   * Zabbix Server trapper命令注入漏洞 CVE-2020-11800
 - 云安全漏洞
 
+  * Containerd 漏洞导致容器逃逸 CVE-2020-15257
   * Docker build 漏洞导致命令执行 CVE-2019-13139
+  * Docker copy 漏洞导致容器逃逸 CVE-2019-14271
   * Docker daemon api 未授权访问漏洞 RCE
   * Kubernetes + Ubuntu 18.04 漏洞环境搭建
   * Kubernetes API Server 未授权命令执行
@@ -756,6 +750,9 @@ _Disclaimer: The technologies, concepts, and tools provided in this Git reposito
   * VMware vCenter Server 任意文件读取漏洞
   * VMware vCenter Server 服务器端请求伪造漏洞 CVE-2021-21973
   * VMware vCenter Server 远程代码执行漏洞 CVE-2021-21972
+  * 挂载 docker.sock 导致容器逃逸
+  * 挂载 log 目录导致容器逃逸
+  * 挂载宿主机 procfs 系统导致容器逃逸
 - 人工智能漏洞
 
   * browser-use WebUI pickle 反序列化漏洞
