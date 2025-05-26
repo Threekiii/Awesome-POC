@@ -29,6 +29,9 @@ set -e
 echo "🔧 卸载旧版本 Docker（如果有）..."
 sudo apt remove -y docker docker-engine docker.io containerd runc || true
 
+echo "🔓 解除版本锁定 (如果有)..."
+sudo apt-mark unhold docker-ce docker-ce-cli containerd.io || true
+
 echo "🧹 删除错误的 Docker 源..."
 sudo rm -f /etc/apt/sources.list.d/docker.list || true
 sudo sed -i '/download.docker.com/d' /etc/apt/sources.list

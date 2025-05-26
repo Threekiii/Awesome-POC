@@ -32,12 +32,6 @@ kubectl apply -f k8s_metarget_namespace.yaml
 kubectl apply -f k8s_backdoor_cronjob.yaml
 ```
 
-或直接通过 metarget 启动漏洞环境：
-
-```shell
-./metarget cnv install k8s_backdoor_cronjob
-```
-
 执行完成后，K8s 集群内 `metarget` 命名空间下将会创建一个名为 `k8s-backdoor-cronjob` 的 pod：
 
 ```
