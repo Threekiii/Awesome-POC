@@ -740,6 +740,7 @@ _Disclaimer: The technologies, concepts, and tools provided in this Git reposito
   * Kubernetes 部署 Shadow API Server
   * Kubernetes 部署后门 CronJob
   * Kubernetes 部署后门 Daemonset
+  * Linux 内核 cgroup v1 逻辑错误导致容器逃逸 CVE-2022-0492
   * MinIO SSRF 漏洞 CVE-2021-21287
   * Nacos secret.key 默认密钥 未授权访问漏洞
   * Nacos 未授权接口命令执行漏洞 CVE-2021-29442
@@ -753,6 +754,7 @@ _Disclaimer: The technologies, concepts, and tools provided in this Git reposito
   * 挂载 docker.sock 导致容器逃逸
   * 挂载 log 目录导致容器逃逸
   * 挂载宿主机 procfs 系统导致容器逃逸
+  * 挂载重写 cgroup devices.allow 导致容器逃逸
 - 人工智能漏洞
 
   * browser-use WebUI pickle 反序列化漏洞
