@@ -583,6 +583,7 @@ _Disclaimer: The technologies, concepts, and tools provided in this Git reposito
   * Apache HTTPd 路径穿越漏洞 CVE-2021-41773
   * Apache HTTPd 路径穿越漏洞 CVE-2021-42013
   * Apache Kafka Clients LDAP注入漏洞 CVE-2023-25194
+  * Apache Kafka Clients 任意文件读取与SSRF 漏洞 CVE-2025-27817
   * Apache Kylin config 未授权配置泄露 CVE-2020-13937
   * Apache Kylin CubeService.java 命令注入漏洞 CVE-2020-1956
   * Apache Kylin DiagnosisController.java 命令注入漏洞 CVE-2020-13925
@@ -792,6 +793,7 @@ _Disclaimer: The technologies, concepts, and tools provided in this Git reposito
 
   * Apache Commons Configuration 远程命令执行漏洞 CVE-2022-33980
   * Apache Commons Text 远程代码执行漏洞 CVE-2022-42889
+  * Apache Dubbo Hessian 反序列化漏洞 CVE-2020-1948
   * Apache Dubbo Java反序列化漏洞 CVE-2019-17564
   * Apache Flink 小于1.9.1远程代码执行 CVE-2020-17518
   * Apache Flink 目录遍历漏洞 CVE-2020-17519
