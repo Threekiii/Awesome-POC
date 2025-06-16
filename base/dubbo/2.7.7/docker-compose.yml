@@ -1,0 +1,9 @@
+version: "3"
+
+services:
+  api:
+    build: .
+    image: dsolab/dubbo:cve-2020-1948
+    container_name: cve-2020-1948
+    ports:
+      - "12345:12345"
