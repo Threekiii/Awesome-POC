@@ -894,6 +894,7 @@ _Disclaimer: The technologies, concepts, and tools provided in this Git reposito
   * Windows SMB 远程代码执行漏洞 CVE-2020-0796
   * Windows Win32k 内核提权漏洞 CVE-2022-21882
   * Windows Win32k 本地提权漏洞 CVE-2021-1732
+  * Windows 文件资源管理器欺骗漏洞 CVE-2025-24071
   * Windows 远程桌面服务漏洞 CVE-2019-0708
 - 数据库漏洞
 
