@@ -656,7 +656,7 @@ _Disclaimer: The technologies, concepts, and tools provided in this Git reposito
   * GoAhead Server 远程命令执行漏洞 CVE-2017-17562
   * GoCD plugin 任意文件读取漏洞 CVE-2021-43287
   * JBoss 4.x JBossMQ JMS 反序列化漏洞 CVE-2017-7504
-  * JBoss 5.x6.x 反序列化漏洞 CVE-2017-12149
+  * JBoss 5.x 6.x 反序列化漏洞 CVE-2017-12149
   * JBoss JMXInvokerServlet 反序列化漏洞 CVE-2015-7501
   * Jenkins checkScript 远程命令执行漏洞 CVE-2018-1000861
   * Jenkins CLI 接口任意文件读取漏洞 CVE-2024-23897
@@ -793,6 +793,7 @@ _Disclaimer: The technologies, concepts, and tools provided in this Git reposito
 
   * Apache Commons Configuration 远程命令执行漏洞 CVE-2022-33980
   * Apache Commons Text 远程代码执行漏洞 CVE-2022-42889
+  * Apache CXF Aegis DataBinding 服务端请求伪造漏洞 CVE-2024-28752
   * Apache Dubbo Hessian 反序列化漏洞 CVE-2020-1948
   * Apache Dubbo Java反序列化漏洞 CVE-2019-17564
   * Apache Flink 小于1.9.1远程代码执行 CVE-2020-17518
