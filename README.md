@@ -233,6 +233,7 @@ _Disclaimer: The technologies, concepts, and tools provided in this Git reposito
   * 1039家校通 万能密码绕过 CNVD-2020-31494
   * 1039家校通 后台任意文件上传漏洞
   * 1Panel loadfile 后台文件读取漏洞
+  * 1Panel 控制面板 SQL 注入漏洞 CVE-2024-39907
   * 360天擎 gettablessize 数据库信息泄露漏洞
   * 360天擎 rptsvcsyncpoint 前台SQL注入
   * Active UC index.action 远程命令执行漏洞
@@ -875,6 +876,7 @@ _Disclaimer: The technologies, concepts, and tools provided in this Git reposito
   * PHP 环境 XML外部实体注入漏洞（XXE）
   * PHP-FPM Fastcgi 未授权访问漏洞
   * PHP-FPM 远程代码执行漏洞 CVE-2019-11043
+  * Python aiohttp 目录遍历漏洞 CVE-2024-23334
   * Python Gradio 任意文件读取漏洞 CVE-2024-1561
   * Python Gradio 目录穿越漏洞 CVE-2023-51449
   * Python PIL 远程命令执行漏洞 CVE-2017-8291
