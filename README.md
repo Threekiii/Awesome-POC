@@ -404,6 +404,7 @@ _Disclaimer: The technologies, concepts, and tools provided in this Git reposito
   * PDF.js 任意 JavaScript 代码执行 CVE-2024-4367
   * pgAdmin ≤ 6.16 无授权远程命令执行漏洞 CVE-2022-4223
   * pgAdmin ≤ 7.6 后台远程命令执行漏洞 CVE-2023-5002
+  * pgAdmin4＜9.2 后台远程代码执行漏洞 CVE-2025-2945
   * phpMyAdmin后台SQL注入 CVE-2020-26935
   * PHPStudy 后台管理页面 one click RCE
   * PowerJob list 信息泄漏漏洞 CVE-2023-29923
