@@ -763,6 +763,7 @@ _Disclaimer: The technologies, concepts, and tools provided in this Git reposito
 
   * browser-use WebUI pickle 反序列化漏洞
   * Huggingface Transformers Checkpoint 反序列化漏洞 CVE-2024-3568
+  * Label Studio 任意文件读取漏洞 CVE-2025-25295
   * Langflow code API 未授权远程代码执行漏洞 CVE-2025-3248
   * Ollama 文件存在性泄露漏洞 CVE-2024-39719
   * Ollama 文件存在性泄露漏洞 CVE-2024-39722
@@ -997,6 +998,7 @@ _Disclaimer: The technologies, concepts, and tools provided in this Git reposito
   * Intelbras Wireless 未授权与密码泄露 CVE-2021-3017
   * JCG JHR-N835R 后台命令执行漏洞
   * JumpServer 远程命令执行漏洞
+  * JumpServer 连接令牌泄漏漏洞 CVE-2025-62712
   * JumpServer 随机数种子泄露导致账户劫持漏洞 CVE-2023-42820
   * KEDACOM 数字系统接入网关 任意文件读取漏洞
   * KONE 通力电梯管理系统 app_show_log_lines.php 任意文件读取漏洞
