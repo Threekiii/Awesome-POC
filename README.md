@@ -638,12 +638,12 @@ _Disclaimer: The technologies, concepts, and tools provided in this Git reposito
   * Apache Struts2 S2-061 远程代码执行漏洞 CVE-2020-17530
   * Apache Struts2 S2-062 远程代码执行漏洞 CVE-2021-31805
   * Apache Tomcat AJP 文件包含漏洞 CVE-2020-1938
-  * Apache Tomcat PUT方法任意写文件漏洞 CVE-2017-12615
-  * Apache Tomcat RCE Via JSP Upload Bypass
+  * Apache Tomcat PUT 方法任意写文件漏洞 CVE-2017-12615
+  * Apache Tomcat RCE Via JSP Upload Bypass CVE 2017 12617
   * Apache Tomcat WebSocket 拒绝服务漏洞 CVE-2020-13935
   * Apache Tomcat 信息泄露漏洞 CVE-2021-24122
-  * Apache Tomcat 远程代码执行漏洞 CVE-2017-12615
-  * Apache Tomcat8 弱口令+后台getshell漏洞
+  * Apache Tomcat 远程代码执行漏洞 CVE-2025-24813
+  * Apache Tomcat8 弱口令 + 后台 getshell 漏洞
   * Apache Velocity 远程代码执行 CVE-2020-13936
   * Apache ZooKeeper 未授权访问漏洞 CVE-2014-085
   * Apereo CAS 4.1 反序列化命令执行漏洞
@@ -687,6 +687,7 @@ _Disclaimer: The technologies, concepts, and tools provided in this Git reposito
   * OpenSSL 心脏滴血漏洞 CVE-2014-0160
   * PayaraMicro microprofile-config.properties 信息泄漏漏洞 CVE-2021-41381
   * QEMU 虚拟机逃逸漏洞 CVE-2020-14364
+  * React Server Components Flight 协议反序列化代码执行 CVE-2025-55182
   * Rsync 未授权访问漏洞
   * Ruby NetFTP 模块命令注入漏洞 CVE-2017-17405
   * Ruby On Rails 路径穿越与任意文件读取漏洞 CVE-2019-5418
@@ -699,8 +700,6 @@ _Disclaimer: The technologies, concepts, and tools provided in this Git reposito
   * SaltStack 水平权限绕过漏洞 CVE-2020-11651
   * Saltstack 远程命令执行漏洞 CVE-2020-11651 11652
   * Supervisord 远程命令执行漏洞 CVE-2017-11610
-  * Tomcat 远程代码执行漏洞 CVE-2025-24813
-  * Tomcat8 弱口令+后台getshell漏洞
   * uWSGI PHP目录穿越漏洞 CVE-2018-7490
   * uWSGI 未授权访问漏洞
   * V2board 1.6.1 提权漏洞
