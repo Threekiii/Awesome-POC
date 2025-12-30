@@ -1,23 +1,23 @@
-# Apache Tomcat8 弱口令+后台getshell漏洞
+# Apache Tomcat8 弱口令 + 后台 getshell 漏洞
 
 ## 漏洞描述
 
-Tomcat支持在后台部署war文件，可以直接将webshell部署到web目录下。其中，欲访问后台，需要对应用户有相应权限。
+Tomcat 支持在后台部署 war 文件，可以直接将 webshell 部署到 web 目录下。其中，欲访问后台，需要对应用户有相应权限。
 
-Tomcat7+权限分为：
+Tomcat7+ 权限分为：
 
 - manager（后台管理）
-  - manager-gui 拥有html页面权限
-  - manager-status 拥有查看status的权限
-  - manager-script 拥有text接口的权限，和status权限
-  - manager-jmx 拥有jmx权限，和status权限
+  - manager-gui 拥有 html 页面权限
+  - manager-status 拥有查看 status 的权限
+  - manager-script 拥有 text 接口的权限，和 status 权限
+  - manager-jmx 拥有 jmx 权限，和 status 权限
 - host-manager（虚拟主机管理）
-  - admin-gui 拥有html页面权限
-  - admin-script 拥有text接口权限
+  - admin-gui 拥有 html 页面权限
+  - admin-script 拥有 text 接口权限
 
 这些权限的究竟有什么作用，详情阅读 http://tomcat.apache.org/tomcat-8.5-doc/manager-howto.html
 
-在`conf/tomcat-users.xml`文件中配置用户的权限：
+在 `conf/tomcat-users.xml` 文件中配置用户的权限：
 
 ```
 <?xml version="1.0" encoding="UTF-8"?>
@@ -37,37 +37,37 @@ Tomcat7+权限分为：
 </tomcat-users>
 ```
 
-可见，用户tomcat拥有上述所有权限，密码是`tomcat`。
+可见，用户 tomcat 拥有上述所有权限，密码是 `tomcat`。
 
-正常安装的情况下，tomcat8中默认没有任何用户，且manager页面只允许本地IP访问。只有管理员手工修改了这些属性的情况下，才可以进行攻击。
+正常安装的情况下，tomcat8 中默认没有任何用户，且 manager 页面只允许本地 IP 访问。只有管理员手工修改了这些属性的情况下，才可以进行攻击。
 
 ## 漏洞影响
 
-Tomcat版本：8.0
+Tomcat 版本：8.0
 
 ## 环境搭建
 
-Vulhub无需编译，直接启动整个环境：
+Vulhub 无需编译，直接启动整个环境：
 
 ```
 docker-compose up -d
 ```
 
-访问`http://your-ip:8080/`即可访问Apache Tomcat/8.0.43页面。
+访问 `http://your-ip:8080/` 即可访问 Apache Tomcat/8.0.43 页面。
 
 ## 漏洞复现
 
-### metasploit爆破tomcat弱口令
+### metasploit 爆破 tomcat 弱口令
 
-访问`http://your-ip:8080/`，点击Manager App：
+访问 `http://your-ip:8080/`，点击 Manager App：
 
 ![image-20220412133434883](images/image-20220412133434883.png)
 
-跳转tomcat管理页面`http://your-ip:8080/manager/html`，提示输入用户名和密码：
+跳转 tomcat 管理页面 `http://your-ip:8080/manager/html`，提示输入用户名和密码：
 
 ![image-20220412133846764](images/image-20220412133846764.png)
 
-在kali中使用metasploit对tomcat用户名和密码进行爆破：
+在 kali 中使用 metasploit 对 tomcat 用户名和密码进行爆破：
 
 ```
 ┌──(root kali)-[/home/kali]
@@ -89,15 +89,15 @@ RHOSTS => <your-ip>
 msf6 auxiliary(scanner/http/tomcat_mgr_login) > run
 ```
 
-爆破成功，用户名密码为`tomcat:tomcat`：
+爆破成功，用户名密码为 `tomcat:tomcat`：
 
 ![image-20220412135451368](images/image-20220412135451368.png)
 
-输入弱密码`tomcat:tomcat`，即可访问后台。
+输入弱密码 `tomcat:tomcat`，即可访问后台。
 
-### 制作war包并上传
+### 制作 war 包并上传
 
-首先制作war包`project.war`：
+首先制作 war 包 `project.war`：
 
 ```
 E:\Behinder3\server>jar -cvf project.war shell.jsp
@@ -105,7 +105,7 @@ E:\Behinder3\server>jar -cvf project.war shell.jsp
 正在添加: shell.jsp(输入 = 612) (输出 = 449)(压缩了 26%)
 ```
 
-上传war包：
+上传 war 包：
 
 ![image-20220412135536050](images/image-20220412135536050.png)
 
@@ -113,7 +113,6 @@ E:\Behinder3\server>jar -cvf project.war shell.jsp
 
 ![image-20220412140450360](images/image-20220412140450360.png)
 
-冰蝎3成功连接`http://your-ip:8080/project/shell.jsp`：
+冰蝎 3 成功连接 `http://your-ip:8080/project/shell.jsp`：
 
 ![image-20220412143831721](images/image-20220412143831721.png)
-
