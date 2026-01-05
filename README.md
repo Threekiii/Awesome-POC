@@ -1,5 +1,17 @@
 # Awesome-POC
 
+<p align="left">
+  <a href="https://github.com/Threekiii/Awesome-POC">
+    <img src="https://badgen.net/github/stars/Threekiii/Awesome-POC?color=yellow&icon=github" alt="stars">
+  </a>
+  <a href="https://github.com/Threekiii/Awesome-POC">
+    <img src="https://badgen.net/github/forks/Threekiii/Awesome-POC?color=blue&icon=github" alt="forks">
+  </a>
+  <a href="https://github.com/Threekiii/Awesome-POC">
+    <img src="https://badgen.net/github/last-commit/Threekiii/Awesome-POC?color=green" alt="last-commit">
+  </a>
+</p>
+
 **❗【免责声明】本项目所涉及的技术、思路和工具仅供学习，任何人不得将其用于非法用途和盈利，不得将其用于非授权渗透测试，否则后果自行承担，与本项目无关。 使用本项目前请先阅读 [法律法规](https://github.com/Threekiii/Awesome-Laws)。**
 
 _Disclaimer: The technologies, concepts, and tools provided in this Git repository are intended for educational and research purposes only. Any use for illegal activities, unauthorized penetration testing, or commercial purposes is strictly prohibited. Please read the [Awesome-Laws](https://github.com/Threekiii/Awesome-Laws) before using this repository._
@@ -21,6 +33,7 @@ _Disclaimer: The technologies, concepts, and tools provided in this Git reposito
   * CmsEasy crossall_act.php SQL注入漏洞
   * CmsEasy language_admin.php 后台命令执行漏洞
   * CmsEasy update_admin.php 后台任意文件上传漏洞
+  * Craft CMS generate-transform 反序列化代码执行漏洞 CVE-2025-32432
   * CraftCMS register_argc_argv 远程代码执行漏洞 CVE-2024-56145
   * CraftCMS 未授权远程代码执行漏洞 CVE-2023-41892
   * CxCMS Resource.ashx 任意文件读取漏洞
@@ -404,6 +417,7 @@ _Disclaimer: The technologies, concepts, and tools provided in this Git reposito
   * PDF.js 任意 JavaScript 代码执行 CVE-2024-4367
   * pgAdmin ≤ 6.16 无授权远程命令执行漏洞 CVE-2022-4223
   * pgAdmin ≤ 7.6 后台远程命令执行漏洞 CVE-2023-5002
+  * pgAdmin4 ≤ 9.10 后台 Restore 工具命令注入漏洞 CVE-2025-13780
   * pgAdmin4＜9.2 后台远程代码执行漏洞 CVE-2025-2945
   * phpMyAdmin后台SQL注入 CVE-2020-26935
   * PHPStudy 后台管理页面 one click RCE
@@ -1147,3 +1161,6 @@ _Disclaimer: The technologies, concepts, and tools provided in this Git reposito
 
 - 2023.04.01 重构目录，合并 [Vulhub-Reproduce](https://github.com/Threekiii/Vulhub-Reproduce) 与本仓库
 - 2022.12.05 图片本地化
+
+
+![Stargazers over time](https://starchart.cc/Threekiii/Awesome-POC.svg?background=%23FFFFFF&axis=%23333333&line=%23009307)
