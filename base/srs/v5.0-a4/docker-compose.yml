@@ -1,0 +1,7 @@
+services:
+  srs-api-stub:
+    build: .
+    container_name: srs-api-stub
+    ports:
+      - "8085:8085"
+    restart: always

@@ -401,6 +401,8 @@ _Disclaimer: The technologies, concepts, and tools provided in this Git reposito
   * MLflow get-artifact 任意文件读取漏洞 CVE-2023-1177
   * Mojarra JSF ViewState 反序列化漏洞
   * mongo-express 远程代码执行漏洞 CVE-2019-10758
+  * n8n Pyodide 沙箱逃逸导致远程代码执行漏洞 CVE-2025-68668
+  * n8n 表达式沙箱逃逸导致远程代码执行漏洞 CVE-2025-68613
   * Nexus Repository Manager 3 extdirect 远程命令执行漏洞 CVE-2019-7238
   * Nexus Repository Manager 3 extdirect 远程命令执行漏洞 CVE-2020-10204
   * Nexus Repository Manager 3 group 远程命令执行漏洞 CVE-2020-10199
@@ -713,6 +715,7 @@ _Disclaimer: The technologies, concepts, and tools provided in this Git reposito
   * SaltStack 未授权访问命令执行漏洞 CVE-2020-16846 25592
   * SaltStack 水平权限绕过漏洞 CVE-2020-11651
   * Saltstack 远程命令执行漏洞 CVE-2020-11651 11652
+  * SRS api-server 服务器命令执行漏洞 CVE-2023-34105
   * Supervisord 远程命令执行漏洞 CVE-2017-11610
   * uWSGI PHP目录穿越漏洞 CVE-2018-7490
   * uWSGI 未授权访问漏洞
@@ -939,6 +942,7 @@ _Disclaimer: The technologies, concepts, and tools provided in this Git reposito
   * Hadoop YARN ResourceManager 未授权访问
   * InfluxDB JWT 认证绕过漏洞 CVE-2019-20933
   * InfluxDB 未授权访问漏洞
+  * MongoDB Zlib 压缩协议堆内存信息泄露漏洞 CVE-2025-14847
   * MySQL UDF 提权漏洞
   * MySQL 身份认证绕过漏洞 CVE-2012-2122
   * Neo4j Shell Server 反序列化漏洞 CVE-2021-34371
