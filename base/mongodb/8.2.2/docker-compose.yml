@@ -1,0 +1,18 @@
+services:
+  mongodb-vulnerable:
+    image: mongo:8.2.2
+    container_name: mongobleed-target
+    ports:
+      - "27017:27017"
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: admin
+      MONGO_INITDB_ROOT_PASSWORD: SuperSecret123!
+      MONGO_INITDB_DATABASE: secretdb
+    volumes:
+      - ./init/init-mongo.js:/docker-entrypoint-initdb.d/init-mongo.js:ro
+      - mongodb_data:/data/db
+    command: ["mongod", "--networkMessageCompressors", "zlib", "--bind_ip_all"]
+    restart: unless-stopped
+
+volumes:
+  mongodb_data:
