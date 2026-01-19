@@ -40,7 +40,7 @@ volumes:
 docker compose up -d
 ```
 
-环境启动后，访问 `http://your-ip:11434/`，此时 Ollma 0.3.14 已经成功运行。
+环境启动后，访问 `http://your-ip:11434/`，此时 Ollama 0.3.14 已经成功运行。
 
 ![](images/Ollama%20未授权访问漏洞%20CNVD-2025-04094/image-20250516155842825.png)
 
