@@ -1,0 +1,20 @@
+services:
+  langflow:
+    image: langflowai/langflow:1.6.9
+    expose:
+      - "7860"
+    env_file:
+      - .env
+    restart: unless-stopped
+
+  nginx:
+    image: nginx:latest
+    ports:
+      - "443:443"
+    volumes:
+      - ./nginx.conf:/etc/nginx/nginx.conf:ro
+      - ./ssl:/etc/nginx/ssl:ro
+    depends_on:
+      - langflow
+    restart: unless-stopped
+
