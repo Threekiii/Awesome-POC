@@ -1,0 +1,5 @@
+services:
+  struts2:
+    build: .
+    ports:
+      - "8080:8080"
