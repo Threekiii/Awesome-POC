@@ -1,0 +1,25 @@
+networks:
+  ssrf-net:
+    driver: bridge
+    ipam:
+      config:
+        - subnet: 172.18.0.0/16
+
+services:
+  langflow:
+    build: ./langflow
+    container_name: langflow
+    ports:
+      - "7860:7860"
+    networks:
+      ssrf-net:
+        ipv4_address: 172.18.0.2
+
+  internal-api:
+    build: ./internal-api
+    container_name: internal-api
+    expose:
+      - "8000"
+    networks:
+      ssrf-net:
+        ipv4_address: 172.18.0.3
