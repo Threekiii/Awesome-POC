@@ -266,7 +266,6 @@ _Disclaimer: The technologies, concepts, and tools provided in this Git reposito
   * Apache Airflow 远程代码执行漏洞 CVE-2022-40127
   * Apache Airflow 默认密钥导致的权限绕过 CVE-2020-17526
   * Apache HertzBeat SnakeYaml 反序列化远程代码执行漏洞 CVE-2024-42323
-  * Apache Struts S2-069 XML 外部实体注入漏洞 CVE-2025-68493
   * Apache Superset Python Pickle 反序列化导致远程代码执行 CVE-2023-37941
   * Apache Superset 硬编码 JWT 密钥导致认证绕过漏洞 CVE-2023-27524
   * Apache Unomi 远程表达式代码执行漏洞 CVE-2020-13942
@@ -635,6 +634,7 @@ _Disclaimer: The technologies, concepts, and tools provided in this Git reposito
   * Apache SSI 远程命令执行漏洞
   * Apache Struts S2-066 远程代码执行漏洞 CVE-2023-50164
   * Apache Struts S2-067 远程代码执行漏洞 CVE-2024-53677
+  * Apache Struts S2-069 XML 外部实体注入漏洞 CVE-2025-68493
   * Apache Struts2 S2-001 远程代码执行漏洞
   * Apache Struts2 S2-005 远程代码执行漏洞
   * Apache Struts2 S2-007 远程代码执行漏洞
@@ -783,6 +783,7 @@ _Disclaimer: The technologies, concepts, and tools provided in this Git reposito
   * Label Studio 任意文件读取漏洞 CVE-2025-25295
   * Langflow ≤ 1.6.9 CORS 配置错误导致令牌劫持和远程命令执行漏洞 CVE-2025-34291
   * Langflow code API 未授权远程代码执行漏洞 CVE-2025-3248
+  * Langflow 服务器端请求伪造漏洞 CVE-2025-68477
   * Ollama extractFromZipFile 目录穿越漏洞 CVE-2024-45436
   * Ollama 文件存在性泄露漏洞 CVE-2024-39719
   * Ollama 文件存在性泄露漏洞 CVE-2024-39722
