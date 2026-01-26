@@ -855,6 +855,7 @@ _Disclaimer: The technologies, concepts, and tools provided in this Git reposito
   * Laravel Filemanager插件 download 任意文件读取漏洞 CVE-2022-40734
   * Laravel Ignition 2.5.1 代码执行漏洞 CVE-2021-3129
   * Laravel 小于 8.4.2 Debug模式 _ignition 远程代码执行漏洞 CVE-2021-3129
+  * Livewire 组件属性 hydrate 远程代码执行漏洞 CVE-2025-54068
   * MotionEye 视频监控组件 list 信息泄漏洞 CVE-2022-25568
   * PHPUnit eval-stdin.php 远程命令执行漏洞 CVE-2017-9841
   * Rails Accept 任意文件读取漏洞 CVE-2019-5418
@@ -907,6 +908,7 @@ _Disclaimer: The technologies, concepts, and tools provided in this Git reposito
   * Python unpickle 造成任意命令执行漏洞
 - 操作系统漏洞
 
+  * GNU InetUtils telnetd 参数注入认证绕过漏洞 CVE-2026-24061
   * Linux DirtyPipe 权限提升漏洞 CVE-2022-0847
   * Linux eBPF 权限提升漏洞 CVE-2022-23222
   * Linux kernel 权限提升漏洞 CVE-2021-3493
