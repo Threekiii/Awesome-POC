@@ -789,6 +789,7 @@ _Disclaimer: The technologies, concepts, and tools provided in this Git reposito
   * Ollama 文件存在性泄露漏洞 CVE-2024-39722
   * Ollama 未授权访问漏洞 CNVD-2025-04094
   * Ollama 目录遍历致代码执行漏洞 CVE-2024-37032
+  * OpenCode 远程代码执行漏洞 CVE-2026-22812
 - 其他漏洞
 
   * DNS域传送漏洞
