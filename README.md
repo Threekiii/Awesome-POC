@@ -784,6 +784,7 @@ _Disclaimer: The technologies, concepts, and tools provided in this Git reposito
   * Label Studio 任意文件读取漏洞 CVE-2025-25295
   * Langflow ≤ 1.6.9 CORS 配置错误导致令牌劫持和远程命令执行漏洞 CVE-2025-34291
   * Langflow code API 未授权远程代码执行漏洞 CVE-2025-3248
+  * Langflow CSV Agent 远程代码执行漏洞 CVE-2026-27966
   * Langflow 服务器端请求伪造漏洞 CVE-2025-68477
   * Ollama extractFromZipFile 目录穿越漏洞 CVE-2024-45436
   * Ollama 文件存在性泄露漏洞 CVE-2024-39719
