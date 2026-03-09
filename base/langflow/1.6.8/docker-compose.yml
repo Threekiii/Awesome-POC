@@ -1,0 +1,7 @@
+services:
+  langflow:
+    image: langflowai/langflow:1.6.8
+    container_name: langflow
+    ports:
+      - "7860:7860"
+    restart: unless-stopped
