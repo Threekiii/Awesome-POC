@@ -295,6 +295,7 @@ _Disclaimer: The technologies, concepts, and tools provided in this Git reposito
   * Atlassian Questions For Confluence 身份认证绕过漏洞 CVE-2022-26138
   * AVCON6 系统管理平台 download.action 任意文件下载漏洞
   * AVCON6 系统管理平台 org_execl_download.action 任意文件下载漏洞
+  * Budibase Webhook 查询参数认证绕过漏洞 CVE-2026-31816
   * Cacti graph_view.php SQL注入导致远程代码执行漏洞 CVE-2023-39361&CVE-2024-31459
   * Cacti remote_agent.php 前台命令注入漏洞 CVE-2022-46169
   * Cacti RRDTool 后台参数注入导致远程代码执行 CVE-2025-24367
@@ -304,6 +305,7 @@ _Disclaimer: The technologies, concepts, and tools provided in this Git reposito
   * Casdoor static 任意文件读取漏洞
   * Celery 4.0 Redis未授权访问+Pickle反序列化利用
   * Cerebro request SSRF漏洞
+  * Chartbrew MongoDB 数据集查询远程代码执行漏洞 CVE-2026-25887
   * Citrix XenMobile 任意文件读取 CVE-2020-8209
   * CloudPanel makefile 任意文件上传漏洞 CVE-2023-35885
   * CMA客诉管理系统 upFile.ashx 任意文件上传漏洞
@@ -402,6 +404,7 @@ _Disclaimer: The technologies, concepts, and tools provided in this Git reposito
   * MLflow get-artifact 任意文件读取漏洞 CVE-2023-1177
   * Mojarra JSF ViewState 反序列化漏洞
   * mongo-express 远程代码执行漏洞 CVE-2019-10758
+  * n8n Content-Type 混淆任意文件读取至 RCE 漏洞 CVE-2026-21858
   * n8n Pyodide 沙箱逃逸导致远程代码执行漏洞 CVE-2025-68668
   * n8n 表达式沙箱逃逸导致远程代码执行漏洞 CVE-2025-68613
   * Nexus Repository Manager 3 extdirect 远程命令执行漏洞 CVE-2019-7238
@@ -409,6 +412,7 @@ _Disclaimer: The technologies, concepts, and tools provided in this Git reposito
   * Nexus Repository Manager 3 group 远程命令执行漏洞 CVE-2020-10199
   * Nexus Repository Manager 3 未授权目录穿越漏洞 CVE-2024-4956
   * Nexus Repository Manger change-password 低权限修改管理员密码漏洞 CVE-2020-11444
+  * Nginx UI未授权备份下载与加密密钥泄露漏洞 CVE-2026-27944
   * nginxWebUI cmdOver 后台命令执行漏洞
   * nginxWebUI runCmd 远程命令执行漏洞
   * node-postgres 代码执行漏洞 CVE-2017-16082
@@ -417,6 +421,7 @@ _Disclaimer: The technologies, concepts, and tools provided in this Git reposito
   * ntopng权限绕过漏洞 CVE-2021-28073
   * OfficeWeb365 SaveDraw 任意文件上传漏洞
   * OneBlog 小于v2.2.1 远程命令执行漏洞
+  * ownCloud graphapi 信息泄露漏洞 CVE-2023-49103
   * PDF.js 任意 JavaScript 代码执行 CVE-2024-4367
   * pgAdmin ≤ 6.16 无授权远程命令执行漏洞 CVE-2022-4223
   * pgAdmin ≤ 7.6 后台远程命令执行漏洞 CVE-2023-5002
