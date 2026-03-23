@@ -309,6 +309,8 @@ _Disclaimer: The technologies, concepts, and tools provided in this Git reposito
   * Citrix XenMobile 任意文件读取 CVE-2020-8209
   * CloudPanel makefile 任意文件上传漏洞 CVE-2023-35885
   * CMA客诉管理系统 upFile.ashx 任意文件上传漏洞
+  * ComfyUI-Manager 远程代码执行漏洞 CVE-2025-67303
+  * ComfyUI-Manager 配置处理器 CRLF 注入漏洞 CVE-2026-22777
   * Coremail 路径遍历与文件上传漏洞
   * Coremail 配置信息泄露漏洞
   * Crawlab file 任意文件读取漏洞
@@ -373,7 +375,7 @@ _Disclaimer: The technologies, concepts, and tools provided in this Git reposito
   * Jellyfin RemoteImageController.cs SSRF漏洞 CVE-2021-29490
   * Jellyfin 任意文件读取漏洞 CVE-2021-21402
   * Jetbrains TeamCity 认证绕过导致远程命令执行漏洞 CVE-2023-42793
-  * JetBrains TeamCity 身份验证绕过漏洞  CVE-2024-27198
+  * JetBrains TeamCity 身份验证绕过漏洞 CVE-2024-27198
   * JimuReport FreeMarker 服务端模板注入命令执行 CVE-2023-4450
   * JumpServer 未授权接口 远程命令执行漏洞
   * JumpServer 远程代码执行漏洞 CVE-2024-29201&CVE-2024-29202
@@ -412,7 +414,7 @@ _Disclaimer: The technologies, concepts, and tools provided in this Git reposito
   * Nexus Repository Manager 3 group 远程命令执行漏洞 CVE-2020-10199
   * Nexus Repository Manager 3 未授权目录穿越漏洞 CVE-2024-4956
   * Nexus Repository Manger change-password 低权限修改管理员密码漏洞 CVE-2020-11444
-  * Nginx UI未授权备份下载与加密密钥泄露漏洞 CVE-2026-27944
+  * Nginx UI 未授权备份下载与加密密钥泄露漏洞 CVE-2026-27944
   * nginxWebUI cmdOver 后台命令执行漏洞
   * nginxWebUI runCmd 远程命令执行漏洞
   * node-postgres 代码执行漏洞 CVE-2017-16082
