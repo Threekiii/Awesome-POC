@@ -593,7 +593,9 @@ _Disclaimer: The technologies, concepts, and tools provided in this Git reposito
   * Adobe ColdFusion 文件读取漏洞 CVE-2010-2861
   * Adobe ColdFusion 本地文件包含漏洞 CVE-2023-26360
   * Apache ActiveMQ Console 控制台默认弱口令
+  * Apache ActiveMQ Jolokia API 未授权访问漏洞 CVE-2024-32114
   * Apache ActiveMQ Jolokia 后台远程代码执行漏洞 CVE-2022-41678
+  * Apache ActiveMQ Jolokia 远程代码执行漏洞 CVE-2026-34197
   * Apache ActiveMQ OpenWire 协议反序列化命令执行漏洞 CVE-2023-46604
   * Apache ActiveMQ 任意文件写入漏洞 CVE-2016-3088
   * Apache ActiveMQ 信息泄漏漏洞 CVE-2017-15709
